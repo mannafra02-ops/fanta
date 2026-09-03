@@ -2032,6 +2032,21 @@ html[data-theme="dark"] .sq-remove-team:hover{
 }
 
 .live-status{font-weight:700}.live-status[data-mode="live"]{color:#15803d}.live-status[data-mode="offline"]{color:#b45309}
+.seriea-live{margin:18px 0;padding:16px;border:1px solid var(--linea);border-radius:14px;background:var(--carta)}
+.seriea-live-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:12px}
+.seriea-live-title{font:700 20px/1.1 Oswald,sans-serif;text-transform:uppercase}
+.api-status{font-size:11px;color:var(--inchiostro-soft);text-align:right}
+.live-tabs{display:flex;gap:7px;overflow:auto;padding-bottom:3px;margin-bottom:12px}
+.live-tabs button{border:1px solid var(--linea);border-radius:999px;background:transparent;color:var(--inchiostro);padding:7px 11px;font-weight:700;white-space:nowrap}
+.live-tabs button.active{background:#2563eb;border-color:#2563eb;color:#fff}
+.live-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:9px}
+.live-card{border:1px solid var(--linea);border-radius:11px;padding:11px;background:rgba(148,163,184,.06)}
+.live-card-head{display:flex;justify-content:space-between;gap:8px;font-size:11px;color:var(--inchiostro-soft);margin-bottom:7px}
+.live-match{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;font-weight:800}
+.live-match span:last-child{text-align:right}.live-score{font-size:16px;color:#2563eb}
+.injury-player{font-weight:800}.injury-reason{font-size:12px;color:var(--inchiostro-soft);margin-top:4px}
+.lineup-team{margin-top:9px}.lineup-team b{display:block;margin-bottom:5px}.lineup-names{font-size:12px;line-height:1.45;color:var(--inchiostro-soft)}
+.live-empty{padding:16px;border:1px dashed var(--linea);border-radius:10px;text-align:center;color:var(--inchiostro-soft)}
 .bottom-nav{display:none}
 @media(max-width:820px){
   html{scroll-padding-top:12px;scroll-padding-bottom:92px}
@@ -2080,6 +2095,19 @@ html[data-theme="dark"] .sq-remove-team:hover{
   <b>Ruoli e nuovi arrivi:</b> Fantacalcio.it Classic, verifica mercato 01/09/2026 ore 00:38. Le quotazioni Q restano quelle del listone PDF allegato.
 </p>
 </header>
+
+<section class="seriea-live" id="seriea-live-section" aria-label="Dati Serie A live">
+  <div class="seriea-live-head">
+    <div><div class="seriea-live-title">Serie A Live</div><div style="font-size:12px;color:var(--inchiostro-soft)">Partite, formazioni e indisponibili da API-Football</div></div>
+    <div class="api-status" id="api-football-status">Configurazione API necessaria</div>
+  </div>
+  <div class="live-tabs" role="tablist">
+    <button type="button" class="active" data-live-tab="fixtures">Partite</button>
+    <button type="button" data-live-tab="lineups">Formazioni</button>
+    <button type="button" data-live-tab="injuries">Infortuni</button>
+  </div>
+  <div id="api-football-content" class="live-grid"><div class="live-empty">Aggiungi la chiave API nei Secrets di GitHub e avvia l’aggiornamento.</div></div>
+</section>
 
 <section class="tabellone" aria-label="La tua rosa" id="rosa-section">
   <div class="tab-head">
@@ -2590,9 +2618,6 @@ function aggiornaScalaBudget(){
   const f=BUDGET/BUDGET_BASE;
   RUOLI.forEach(r=>CONSIGLIATO[r]=Math.max(LIMITI[r],Math.round(CONSIGLIATO_BASE[r]*f)));
 }
-function fattoreBudget(){return BUDGET/BUDGET_BASE;}
-function scalaPrezzoBase(valore){return Math.max(1,Math.round(Number(valore||1)*fattoreBudget()));}
-function forbiceScalata(g){return `${scalaPrezzoBase(g.min)}–${scalaPrezzoBase(g.max)}`;}
 aggiornaScalaBudget();
 
 // Compatibilità: gli ID dei vecchi "fuori lista" partivano da 285.
@@ -2795,13 +2820,13 @@ function inflazione(){
   const per={P:[0,0],D:[0,0],C:[0,0],A:[0,0]};
   v.forEach(x=>{
     const g=G[x.id];
-    const midScala=g.mid*fattoreBudget();
+    const midScala=g.mid*(BUDGET/BUDGET_BASE);
     sp+=x.prezzo; sm+=midScala;
     per[g.r][0]+=x.prezzo; per[g.r][1]+=midScala;
   });
-  const K=220*fattoreBudget();                                  // frena il dato finché i venduti sono pochi
+  const K=220*(BUDGET/BUDGET_BASE);                                  // frena il dato finché i venduti sono pochi
   const glob=(sp+K)/(sm+K);
-  const Kr=80*fattoreBudget();
+  const Kr=80*(BUDGET/BUDGET_BASE);
   const out={glob,n:v.length,speso:sp};
   RUOLI.forEach(r=>out[r]=(per[r][0]+Kr*glob)/(per[r][1]+Kr));
   return out;
@@ -2859,7 +2884,7 @@ function valuta(g){
   if(VAL_CACHE.has(g.id)) return VAL_CACHE.get(g.id);
   const {io,infl,sc,quota,maxAvv}=CTX;
   // 1 + 2: quanto costerà verosimilmente adesso
-  let vm=(g.mid*fattoreBudget())*infl[g.r]*sc.fatt[g.r];
+  let vm=(g.mid*(BUDGET/BUDGET_BASE))*infl[g.r]*sc.fatt[g.r];
   // alternative rimaste di pari livello o superiore
   const alt=Math.max(0,CTX.alt[g.r][g.f]-(venduto(g.id)?0:1));
   if(alt<=2) vm*=1.10; else if(alt<=5) vm*=1.04;
@@ -3184,8 +3209,7 @@ function disegnaTabella(){
       </tr>`;
     }
     const v=valuta(g);
-    const baseScalata=Math.max(1,g.mid*fattoreBudget());
-    const d=Math.round((v.vm/baseScalata-1)*100);
+    const d=Math.round((v.vm/g.mid-1)*100);
     const freccia=d>2?`<span class="delta su">↑${d}%</span>`:d<-2?`<span class="delta giu">↓${Math.abs(d)}%</span>`:"";
     const badges=[
       v.alt<=2?'<span class="badge scorte">ultimi rimasti</span>':"",
@@ -3193,11 +3217,9 @@ function disegnaTabella(){
       (v.tetto>0&&v.tetto<v.vm*0.75)?'<span class="badge fuori">fuori portata</span>':"",
       CTX.io.liberiRuolo[g.r]<=0?'<span class="badge fuori">reparto pieno</span>':""
     ].join("");
-    const prezzoDestro=v.tetto>0?v.tetto:v.vm;
-    const etichettaPrezzo=v.tetto>0?"tetto consigliato":"stima mercato";
     return `
     <tr data-id="${g.id}" tabindex="0" role="button"
-        aria-label="${g.n}, ${g.s}, ${etichettaPrezzo} ${prezzoDestro} crediti">
+        aria-label="${g.n}, ${g.s}, tetto consigliato ${v.tetto} crediti">
       <td class="cel-ruolo"><span class="pallino ${g.r}">${g.r}</span></td>
       <td class="cel-giocatore">
         <div class="nome">${g.n}${starHtml(g)}</div>
@@ -3208,9 +3230,9 @@ function disegnaTabella(){
       <td class="cel-nota"><div class="nota">${g.no}</div></td>
       <td class="cel-tag">${g.t.map(t=>`<span class="tag ${t}" title="${NOMI_TAG[t]}">${t}</span>`).join("")}</td>
       <td class="prezzo">
-        <span class="tetto">${prezzoDestro}</span>
-        <span class="mercatoval">${v.tetto>0?`mercato ~${v.vm}`:"stima mercato"} ${freccia}</span>
-        <span class="mercatoval">base ${forbiceScalata(g)}${v.motivo?" · "+v.motivo:""}</span>
+        <span class="tetto">${v.tetto>0?v.tetto:"—"}</span>
+        <span class="mercatoval">mercato ~${v.vm} ${freccia}</span>
+        <span class="mercatoval">base ${g.min}–${g.max}${v.motivo?" · "+v.motivo:""}</span>
       </td>
     </tr>`;
   }).join("");
@@ -3393,11 +3415,11 @@ function apriAcquisto(id){
   candidatoId=id;
 
   document.getElementById("modal-nome").textContent=g.n;
-  document.getElementById("modal-meta").textContent=`${g.s} · ${FASCE[g.f]} · base ${forbiceScalata(g)} su ${BUDGET} crediti`;
+  document.getElementById("modal-meta").textContent=`${g.s} · ${FASCE[g.f]} · base ${g.min}–${g.max}`;
   teamInput.innerHTML=opzioniSquadre(acq?acq.team:0);
 
   const v=venduto(id)?null:valuta(g);
-  prezzoInput.value=acq?acq.prezzo:(v?(v.tetto>0?v.tetto:v.vm):scalaPrezzoBase(g.mid));
+  prezzoInput.value=acq?acq.prezzo:(v?v.tetto:g.mid);
 
   let tip;
   if(acq){
@@ -3633,33 +3655,22 @@ document.getElementById("n-squadre").addEventListener("change",e=>{
   TENSIONE0=tensioneIniziale();
   aggiorna();
 });
-function applicaBudgetDinamico(nuovo){
-  if(!Number.isFinite(nuovo)||nuovo<50||nuovo>10000||nuovo===BUDGET) return;
-  BUDGET=Math.trunc(nuovo);
-  mercato.budget=BUDGET;
-  aggiornaScalaBudget();
-  TENSIONE0=tensioneIniziale();
-  salvaMercato();
-  aggiorna();
-}
-const budgetLegaInput=document.getElementById("budget-lega");
-budgetLegaInput.addEventListener("input",e=>{
-  const nuovo=Math.trunc(Number(e.target.value));
-  applicaBudgetDinamico(nuovo);
-});
-budgetLegaInput.addEventListener("change",e=>{
+document.getElementById("budget-lega").addEventListener("change",e=>{
   let nuovo=Math.trunc(Number(e.target.value));
   if(!Number.isFinite(nuovo)) nuovo=BUDGET;
   nuovo=clamp(nuovo,50,10000);
   e.target.value=nuovo;
+  if(nuovo===BUDGET) return;
   const maxSpeso=Math.max(...statoLega().map(s=>s.speso));
   if(nuovo<maxSpeso && !confirm(`Almeno una squadra ha già speso più di ${nuovo} crediti. Impostare comunque questo budget?`)){
-    nuovo=Math.max(maxSpeso,50);
-    e.target.value=nuovo;
-    applicaBudgetDinamico(nuovo);
+    e.target.value=BUDGET;
     return;
   }
-  applicaBudgetDinamico(nuovo);
+  BUDGET=nuovo;
+  mercato.budget=nuovo;
+  aggiornaScalaBudget();
+  TENSIONE0=tensioneIniziale();
+  aggiorna();
 });
 
 document.getElementById("svuota-mercato").addEventListener("click",()=>{
@@ -3810,6 +3821,33 @@ if(mercatoLivePanel){
   refreshButton();
 })();
 
+</script>
+<script>
+/* Dati API-Football generati in modo sicuro da GitHub Actions. */
+(function(){
+  var box=document.getElementById("api-football-content");
+  var status=document.getElementById("api-football-status");
+  var current="fixtures", data=null;
+  function esc(v){return String(v==null?"":v).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+  function quando(v){try{return new Intl.DateTimeFormat("it-IT",{weekday:"short",day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit"}).format(new Date(v));}catch(e){return v||"";}}
+  function vuoto(t){box.innerHTML='<div class="live-empty">'+esc(t)+'</div>';}
+  function renderFixtures(){
+    var rows=(data.fixtures||[]).map(function(x){return '<article class="live-card"><div class="live-card-head"><span>'+esc(quando(x.date))+'</span><span>'+esc(x.status||x.round||"")+'</span></div><div class="live-match"><span>'+esc(x.home&&x.home.name)+'</span><span class="live-score">'+(x.goals&&x.goals.home!=null?esc(x.goals.home+"–"+x.goals.away):"vs")+'</span><span>'+esc(x.away&&x.away.name)+'</span></div></article>';}).join("");
+    box.innerHTML=rows||'<div class="live-empty">Nessuna partita disponibile.</div>';
+  }
+  function renderInjuries(){
+    var rows=(data.injuries||[]).map(function(x){return '<article class="live-card"><div class="live-card-head"><span>'+esc(x.team&&x.team.name)+'</span><span>'+esc(quando(x.fixture&&x.fixture.date))+'</span></div><div class="injury-player">'+esc(x.player&&x.player.name)+'</div><div class="injury-reason">'+esc([x.type,x.reason].filter(Boolean).join(" · ")||"Indisponibile")+'</div></article>';}).join("");
+    box.innerHTML=rows||'<div class="live-empty">Nessun indisponibile comunicato dall’API.</div>';
+  }
+  function renderLineups(){
+    var rows=(data.lineups||[]).map(function(x){var teams=(x.teams||[]).map(function(t){return '<div class="lineup-team"><b>'+esc(t.team&&t.team.name)+(t.formation?' · '+esc(t.formation):'')+'</b><div class="lineup-names">'+esc((t.startXI||[]).map(function(p){return p.name;}).join(", ")||"Non ancora comunicata")+'</div></div>';}).join("");return '<article class="live-card"><div class="live-card-head"><span>Formazione ufficiale</span><span>'+esc(quando(x.date))+'</span></div>'+teams+'</article>';}).join("");
+    box.innerHTML=rows||'<div class="live-empty">Le formazioni compaiono generalmente vicino all’inizio della partita.</div>';
+  }
+  function render(){if(!data)return;if(current==="injuries")renderInjuries();else if(current==="lineups")renderLineups();else renderFixtures();}
+  document.querySelectorAll("[data-live-tab]").forEach(function(b){b.addEventListener("click",function(){current=b.dataset.liveTab;document.querySelectorAll("[data-live-tab]").forEach(function(x){x.classList.toggle("active",x===b);});render();});});
+  var remote="https://raw.githubusercontent.com/mannafra02-ops/fanta/main/data/api-football.json?v="+Date.now();
+  fetch(remote,{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).catch(function(){return fetch("./data/api-football.json?v="+Date.now(),{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error();return r.json();});}).then(function(d){data=d;if(!d||!d.meta||!d.meta.configured){vuoto("API-Football non è ancora attiva: completa i passaggi nel README.");return;}status.textContent="Aggiornato "+quando(d.meta.updatedAt)+" · "+(d.meta.requestsUsed||0)+" richieste";render();}).catch(function(){vuoto("Dati API-Football non ancora disponibili.");});
+})();
 </script>
 <script>
 /* Navigazione indipendente: resta attiva anche se il modulo del listone non viene caricato. */
