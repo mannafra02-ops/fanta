@@ -1,0 +1,40 @@
+name: Aggiorna listone Fantacalcio
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-listone
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Configura Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Aggiorna ruoli Classic e quotazioni
+        run: node scripts/update-listone.mjs
+
+      - name: Pubblica solo se i dati sono cambiati
+        run: |
+          if git diff --quiet -- data/listone-live.json; then
+            echo "Nessun aggiornamento da pubblicare."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/listone-live.json
+          git commit -m "Aggiorna listone Fantacalcio"
+          git push
