@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "updatedAt": "2026-09-08T10:18:54.131Z",
+  "updatedAt": "2026-09-08T14:13:38.652Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni e FVM",
-  "activeCount": 593,
-  "totalCount": 593,
+  "activeCount": 594,
+  "totalCount": 594,
   "players": [
     {
       "officialId": "5585",
@@ -3720,7 +3720,7 @@
       "quotation": 5,
       "fvm": 17,
       "active": true,
-      "sourceOrder": 285,
+      "sourceOrder": 286,
       "slot": 285,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3733,7 +3733,7 @@
       "quotation": 5,
       "fvm": 18,
       "active": true,
-      "sourceOrder": 286,
+      "sourceOrder": 287,
       "slot": 286,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3746,7 +3746,7 @@
       "quotation": 5,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 287,
+      "sourceOrder": 288,
       "slot": 287,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3759,7 +3759,7 @@
       "quotation": 5,
       "fvm": 15,
       "active": true,
-      "sourceOrder": 288,
+      "sourceOrder": 289,
       "slot": 288,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3772,7 +3772,7 @@
       "quotation": 5,
       "fvm": 14,
       "active": true,
-      "sourceOrder": 289,
+      "sourceOrder": 290,
       "slot": 289,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3785,7 +3785,7 @@
       "quotation": 5,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 290,
+      "sourceOrder": 291,
       "slot": 290,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3798,7 +3798,7 @@
       "quotation": 5,
       "fvm": 14,
       "active": true,
-      "sourceOrder": 291,
+      "sourceOrder": 292,
       "slot": 291,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3811,7 +3811,7 @@
       "quotation": 5,
       "fvm": 13,
       "active": true,
-      "sourceOrder": 292,
+      "sourceOrder": 293,
       "slot": 292,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3824,7 +3824,7 @@
       "quotation": 5,
       "fvm": 13,
       "active": true,
-      "sourceOrder": 293,
+      "sourceOrder": 294,
       "slot": 293,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3837,7 +3837,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 294,
+      "sourceOrder": 295,
       "slot": 294,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3850,7 +3850,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 295,
+      "sourceOrder": 296,
       "slot": 295,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3863,7 +3863,7 @@
       "quotation": 5,
       "fvm": 13,
       "active": true,
-      "sourceOrder": 296,
+      "sourceOrder": 297,
       "slot": 296,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3876,7 +3876,7 @@
       "quotation": 5,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 297,
+      "sourceOrder": 298,
       "slot": 297,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3889,7 +3889,7 @@
       "quotation": 5,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 298,
+      "sourceOrder": 299,
       "slot": 298,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3902,7 +3902,7 @@
       "quotation": 5,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 299,
+      "sourceOrder": 300,
       "slot": 299,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3915,7 +3915,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 300,
+      "sourceOrder": 301,
       "slot": 300,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3928,7 +3928,7 @@
       "quotation": 5,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 301,
+      "sourceOrder": 302,
       "slot": 301,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3941,7 +3941,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 302,
+      "sourceOrder": 303,
       "slot": 302,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3954,7 +3954,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 303,
+      "sourceOrder": 304,
       "slot": 303,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3967,7 +3967,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 304,
+      "sourceOrder": 305,
       "slot": 304,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3980,7 +3980,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 305,
+      "sourceOrder": 306,
       "slot": 305,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -3993,7 +3993,7 @@
       "quotation": 5,
       "fvm": 25,
       "active": true,
-      "sourceOrder": 306,
+      "sourceOrder": 307,
       "slot": 306,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4006,7 +4006,7 @@
       "quotation": 5,
       "fvm": 13,
       "active": true,
-      "sourceOrder": 307,
+      "sourceOrder": 308,
       "slot": 307,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4019,7 +4019,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 308,
+      "sourceOrder": 309,
       "slot": 308,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4032,7 +4032,7 @@
       "quotation": 5,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 309,
+      "sourceOrder": 310,
       "slot": 309,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4045,7 +4045,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 310,
+      "sourceOrder": 311,
       "slot": 310,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4058,7 +4058,7 @@
       "quotation": 5,
       "fvm": 20,
       "active": true,
-      "sourceOrder": 311,
+      "sourceOrder": 312,
       "slot": 311,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4071,7 +4071,7 @@
       "quotation": 5,
       "fvm": 15,
       "active": true,
-      "sourceOrder": 312,
+      "sourceOrder": 313,
       "slot": 312,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4084,7 +4084,7 @@
       "quotation": 5,
       "fvm": 16,
       "active": true,
-      "sourceOrder": 313,
+      "sourceOrder": 314,
       "slot": 313,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4097,7 +4097,7 @@
       "quotation": 5,
       "fvm": 18,
       "active": true,
-      "sourceOrder": 314,
+      "sourceOrder": 315,
       "slot": 314,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4110,7 +4110,7 @@
       "quotation": 5,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 315,
+      "sourceOrder": 316,
       "slot": 315,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4123,7 +4123,7 @@
       "quotation": 5,
       "fvm": 14,
       "active": true,
-      "sourceOrder": 316,
+      "sourceOrder": 317,
       "slot": 316,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4136,7 +4136,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 317,
+      "sourceOrder": 318,
       "slot": 317,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4149,7 +4149,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 318,
+      "sourceOrder": 319,
       "slot": 318,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4162,7 +4162,7 @@
       "quotation": 5,
       "fvm": 25,
       "active": true,
-      "sourceOrder": 319,
+      "sourceOrder": 320,
       "slot": 319,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4175,7 +4175,7 @@
       "quotation": 5,
       "fvm": 13,
       "active": true,
-      "sourceOrder": 320,
+      "sourceOrder": 321,
       "slot": 320,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4188,7 +4188,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 321,
+      "sourceOrder": 322,
       "slot": 321,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4201,7 +4201,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 322,
+      "sourceOrder": 323,
       "slot": 322,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4214,7 +4214,7 @@
       "quotation": 5,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 323,
+      "sourceOrder": 324,
       "slot": 323,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4227,7 +4227,7 @@
       "quotation": 5,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 324,
+      "sourceOrder": 325,
       "slot": 324,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4240,7 +4240,7 @@
       "quotation": 5,
       "fvm": 15,
       "active": true,
-      "sourceOrder": 325,
+      "sourceOrder": 326,
       "slot": 325,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4253,7 +4253,7 @@
       "quotation": 5,
       "fvm": 17,
       "active": true,
-      "sourceOrder": 326,
+      "sourceOrder": 327,
       "slot": 326,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4266,7 +4266,7 @@
       "quotation": 5,
       "fvm": 14,
       "active": true,
-      "sourceOrder": 327,
+      "sourceOrder": 328,
       "slot": 327,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4279,7 +4279,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 328,
+      "sourceOrder": 329,
       "slot": 328,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4292,7 +4292,7 @@
       "quotation": 5,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 329,
+      "sourceOrder": 330,
       "slot": 329,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4305,7 +4305,7 @@
       "quotation": 4,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 330,
+      "sourceOrder": 331,
       "slot": 330,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4318,7 +4318,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 331,
+      "sourceOrder": 332,
       "slot": 331,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4331,7 +4331,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 332,
+      "sourceOrder": 333,
       "slot": 332,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4344,7 +4344,7 @@
       "quotation": 4,
       "fvm": 14,
       "active": true,
-      "sourceOrder": 333,
+      "sourceOrder": 334,
       "slot": 333,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4357,7 +4357,7 @@
       "quotation": 4,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 334,
+      "sourceOrder": 335,
       "slot": 334,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4370,7 +4370,7 @@
       "quotation": 4,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 335,
+      "sourceOrder": 336,
       "slot": 335,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4383,7 +4383,7 @@
       "quotation": 4,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 336,
+      "sourceOrder": 337,
       "slot": 336,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4396,7 +4396,7 @@
       "quotation": 4,
       "fvm": 9,
       "active": true,
-      "sourceOrder": 337,
+      "sourceOrder": 338,
       "slot": 337,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4409,7 +4409,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 338,
+      "sourceOrder": 339,
       "slot": 338,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4422,7 +4422,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 339,
+      "sourceOrder": 340,
       "slot": 339,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4435,7 +4435,7 @@
       "quotation": 4,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 340,
+      "sourceOrder": 341,
       "slot": 340,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4448,7 +4448,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 341,
+      "sourceOrder": 342,
       "slot": 341,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4461,7 +4461,7 @@
       "quotation": 4,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 342,
+      "sourceOrder": 343,
       "slot": 342,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4474,7 +4474,7 @@
       "quotation": 4,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 343,
+      "sourceOrder": 344,
       "slot": 343,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4487,7 +4487,7 @@
       "quotation": 4,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 344,
+      "sourceOrder": 345,
       "slot": 344,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4500,7 +4500,7 @@
       "quotation": 4,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 345,
+      "sourceOrder": 346,
       "slot": 345,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4513,7 +4513,7 @@
       "quotation": 4,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 346,
+      "sourceOrder": 347,
       "slot": 346,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4526,7 +4526,7 @@
       "quotation": 4,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 347,
+      "sourceOrder": 348,
       "slot": 347,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4539,7 +4539,7 @@
       "quotation": 4,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 348,
+      "sourceOrder": 349,
       "slot": 348,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4552,7 +4552,7 @@
       "quotation": 4,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 349,
+      "sourceOrder": 350,
       "slot": 349,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4565,7 +4565,7 @@
       "quotation": 4,
       "fvm": 9,
       "active": true,
-      "sourceOrder": 350,
+      "sourceOrder": 351,
       "slot": 350,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4578,7 +4578,7 @@
       "quotation": 4,
       "fvm": 15,
       "active": true,
-      "sourceOrder": 351,
+      "sourceOrder": 352,
       "slot": 351,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4591,7 +4591,7 @@
       "quotation": 4,
       "fvm": 13,
       "active": true,
-      "sourceOrder": 352,
+      "sourceOrder": 353,
       "slot": 352,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4604,7 +4604,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 353,
+      "sourceOrder": 354,
       "slot": 353,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4617,7 +4617,7 @@
       "quotation": 4,
       "fvm": 13,
       "active": true,
-      "sourceOrder": 354,
+      "sourceOrder": 355,
       "slot": 354,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4630,7 +4630,7 @@
       "quotation": 4,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 355,
+      "sourceOrder": 356,
       "slot": 355,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4643,7 +4643,7 @@
       "quotation": 4,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 356,
+      "sourceOrder": 357,
       "slot": 356,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4656,7 +4656,7 @@
       "quotation": 4,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 357,
+      "sourceOrder": 358,
       "slot": 357,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4669,7 +4669,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 358,
+      "sourceOrder": 359,
       "slot": 358,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4682,7 +4682,7 @@
       "quotation": 4,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 359,
+      "sourceOrder": 360,
       "slot": 359,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4695,7 +4695,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 360,
+      "sourceOrder": 361,
       "slot": 360,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4708,7 +4708,7 @@
       "quotation": 4,
       "fvm": 16,
       "active": true,
-      "sourceOrder": 361,
+      "sourceOrder": 362,
       "slot": 361,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4721,7 +4721,7 @@
       "quotation": 4,
       "fvm": 15,
       "active": true,
-      "sourceOrder": 362,
+      "sourceOrder": 363,
       "slot": 362,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4734,7 +4734,7 @@
       "quotation": 4,
       "fvm": 20,
       "active": true,
-      "sourceOrder": 363,
+      "sourceOrder": 364,
       "slot": 363,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4747,7 +4747,7 @@
       "quotation": 4,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 364,
+      "sourceOrder": 365,
       "slot": 364,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4760,7 +4760,7 @@
       "quotation": 4,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 365,
+      "sourceOrder": 366,
       "slot": 365,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4773,7 +4773,7 @@
       "quotation": 4,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 366,
+      "sourceOrder": 367,
       "slot": 366,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4786,7 +4786,7 @@
       "quotation": 4,
       "fvm": 14,
       "active": true,
-      "sourceOrder": 367,
+      "sourceOrder": 368,
       "slot": 367,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4799,7 +4799,7 @@
       "quotation": 4,
       "fvm": 9,
       "active": true,
-      "sourceOrder": 368,
+      "sourceOrder": 369,
       "slot": 368,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4812,7 +4812,7 @@
       "quotation": 4,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 369,
+      "sourceOrder": 370,
       "slot": 369,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4825,7 +4825,7 @@
       "quotation": 4,
       "fvm": 13,
       "active": true,
-      "sourceOrder": 370,
+      "sourceOrder": 371,
       "slot": 370,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4838,7 +4838,7 @@
       "quotation": 4,
       "fvm": 17,
       "active": true,
-      "sourceOrder": 371,
+      "sourceOrder": 372,
       "slot": 371,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4851,7 +4851,7 @@
       "quotation": 4,
       "fvm": 14,
       "active": true,
-      "sourceOrder": 372,
+      "sourceOrder": 373,
       "slot": 372,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4864,7 +4864,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 373,
+      "sourceOrder": 374,
       "slot": 373,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4877,7 +4877,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 374,
+      "sourceOrder": 375,
       "slot": 374,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4890,7 +4890,7 @@
       "quotation": 4,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 375,
+      "sourceOrder": 376,
       "slot": 375,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4903,7 +4903,7 @@
       "quotation": 4,
       "fvm": 6,
       "active": true,
-      "sourceOrder": 376,
+      "sourceOrder": 377,
       "slot": 376,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4916,7 +4916,7 @@
       "quotation": 4,
       "fvm": 14,
       "active": true,
-      "sourceOrder": 377,
+      "sourceOrder": 378,
       "slot": 377,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4929,7 +4929,7 @@
       "quotation": 4,
       "fvm": 13,
       "active": true,
-      "sourceOrder": 378,
+      "sourceOrder": 379,
       "slot": 378,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4942,7 +4942,7 @@
       "quotation": 4,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 379,
+      "sourceOrder": 380,
       "slot": 379,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4955,7 +4955,7 @@
       "quotation": 4,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 380,
+      "sourceOrder": 381,
       "slot": 380,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4968,7 +4968,7 @@
       "quotation": 4,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 381,
+      "sourceOrder": 382,
       "slot": 381,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4981,7 +4981,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 382,
+      "sourceOrder": 383,
       "slot": 382,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -4994,7 +4994,7 @@
       "quotation": 4,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 383,
+      "sourceOrder": 384,
       "slot": 383,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5007,7 +5007,7 @@
       "quotation": 4,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 384,
+      "sourceOrder": 385,
       "slot": 384,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5020,7 +5020,7 @@
       "quotation": 4,
       "fvm": 6,
       "active": true,
-      "sourceOrder": 385,
+      "sourceOrder": 386,
       "slot": 385,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5033,7 +5033,7 @@
       "quotation": 4,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 386,
+      "sourceOrder": 387,
       "slot": 386,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5046,7 +5046,7 @@
       "quotation": 4,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 387,
+      "sourceOrder": 388,
       "slot": 387,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5059,7 +5059,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 388,
+      "sourceOrder": 389,
       "slot": 388,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5072,7 +5072,7 @@
       "quotation": 4,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 389,
+      "sourceOrder": 390,
       "slot": 389,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5085,7 +5085,7 @@
       "quotation": 4,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 390,
+      "sourceOrder": 391,
       "slot": 390,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5098,7 +5098,7 @@
       "quotation": 4,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 391,
+      "sourceOrder": 392,
       "slot": 391,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5111,7 +5111,7 @@
       "quotation": 4,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 392,
+      "sourceOrder": 393,
       "slot": 392,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5124,7 +5124,7 @@
       "quotation": 4,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 393,
+      "sourceOrder": 394,
       "slot": 393,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5137,7 +5137,7 @@
       "quotation": 4,
       "fvm": 13,
       "active": true,
-      "sourceOrder": 394,
+      "sourceOrder": 395,
       "slot": 394,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5150,7 +5150,7 @@
       "quotation": 4,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 395,
+      "sourceOrder": 396,
       "slot": 395,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5163,7 +5163,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 396,
+      "sourceOrder": 397,
       "slot": 396,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5176,7 +5176,7 @@
       "quotation": 4,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 397,
+      "sourceOrder": 398,
       "slot": 397,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5189,7 +5189,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 398,
+      "sourceOrder": 399,
       "slot": 398,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5202,7 +5202,7 @@
       "quotation": 4,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 399,
+      "sourceOrder": 400,
       "slot": 399,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5215,7 +5215,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 400,
+      "sourceOrder": 401,
       "slot": 400,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5228,7 +5228,7 @@
       "quotation": 3,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 401,
+      "sourceOrder": 402,
       "slot": 401,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5241,7 +5241,7 @@
       "quotation": 3,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 402,
+      "sourceOrder": 403,
       "slot": 402,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5254,7 +5254,7 @@
       "quotation": 3,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 403,
+      "sourceOrder": 404,
       "slot": 403,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5267,7 +5267,7 @@
       "quotation": 3,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 404,
+      "sourceOrder": 405,
       "slot": 404,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5280,7 +5280,7 @@
       "quotation": 3,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 405,
+      "sourceOrder": 406,
       "slot": 405,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5293,7 +5293,7 @@
       "quotation": 3,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 406,
+      "sourceOrder": 407,
       "slot": 406,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5306,7 +5306,7 @@
       "quotation": 3,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 407,
+      "sourceOrder": 408,
       "slot": 407,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5319,7 +5319,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 408,
+      "sourceOrder": 409,
       "slot": 408,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5332,7 +5332,7 @@
       "quotation": 3,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 409,
+      "sourceOrder": 410,
       "slot": 409,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5345,7 +5345,7 @@
       "quotation": 3,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 410,
+      "sourceOrder": 411,
       "slot": 410,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5358,7 +5358,7 @@
       "quotation": 3,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 411,
+      "sourceOrder": 412,
       "slot": 411,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5371,7 +5371,7 @@
       "quotation": 3,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 412,
+      "sourceOrder": 413,
       "slot": 412,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5384,7 +5384,7 @@
       "quotation": 3,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 413,
+      "sourceOrder": 414,
       "slot": 413,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5397,7 +5397,7 @@
       "quotation": 3,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 414,
+      "sourceOrder": 415,
       "slot": 414,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5410,7 +5410,7 @@
       "quotation": 3,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 415,
+      "sourceOrder": 416,
       "slot": 415,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5423,7 +5423,7 @@
       "quotation": 3,
       "fvm": 13,
       "active": true,
-      "sourceOrder": 416,
+      "sourceOrder": 417,
       "slot": 416,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5436,7 +5436,7 @@
       "quotation": 3,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 417,
+      "sourceOrder": 418,
       "slot": 417,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5449,7 +5449,7 @@
       "quotation": 3,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 418,
+      "sourceOrder": 419,
       "slot": 418,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5462,7 +5462,7 @@
       "quotation": 3,
       "fvm": 14,
       "active": true,
-      "sourceOrder": 419,
+      "sourceOrder": 420,
       "slot": 419,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5475,7 +5475,7 @@
       "quotation": 3,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 420,
+      "sourceOrder": 421,
       "slot": 420,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5488,7 +5488,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 421,
+      "sourceOrder": 422,
       "slot": 421,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5501,7 +5501,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 422,
+      "sourceOrder": 423,
       "slot": 422,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5514,7 +5514,7 @@
       "quotation": 3,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 423,
+      "sourceOrder": 424,
       "slot": 423,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5527,7 +5527,7 @@
       "quotation": 3,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 424,
+      "sourceOrder": 425,
       "slot": 424,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5540,7 +5540,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 425,
+      "sourceOrder": 426,
       "slot": 425,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5553,7 +5553,7 @@
       "quotation": 3,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 426,
+      "sourceOrder": 427,
       "slot": 426,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5566,7 +5566,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 427,
+      "sourceOrder": 428,
       "slot": 427,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5579,7 +5579,7 @@
       "quotation": 3,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 428,
+      "sourceOrder": 429,
       "slot": 428,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5592,7 +5592,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 429,
+      "sourceOrder": 430,
       "slot": 429,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5605,7 +5605,7 @@
       "quotation": 3,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 430,
+      "sourceOrder": 431,
       "slot": 430,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5618,7 +5618,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 431,
+      "sourceOrder": 432,
       "slot": 431,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5631,7 +5631,7 @@
       "quotation": 3,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 432,
+      "sourceOrder": 433,
       "slot": 432,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5644,7 +5644,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 433,
+      "sourceOrder": 434,
       "slot": 433,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5657,7 +5657,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 434,
+      "sourceOrder": 435,
       "slot": 434,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5670,7 +5670,7 @@
       "quotation": 3,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 435,
+      "sourceOrder": 436,
       "slot": 435,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5683,7 +5683,7 @@
       "quotation": 3,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 436,
+      "sourceOrder": 437,
       "slot": 436,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5696,7 +5696,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 437,
+      "sourceOrder": 438,
       "slot": 437,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5709,7 +5709,7 @@
       "quotation": 3,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 438,
+      "sourceOrder": 439,
       "slot": 438,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5722,7 +5722,7 @@
       "quotation": 3,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 439,
+      "sourceOrder": 440,
       "slot": 439,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5735,7 +5735,7 @@
       "quotation": 3,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 440,
+      "sourceOrder": 441,
       "slot": 440,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5748,7 +5748,7 @@
       "quotation": 3,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 441,
+      "sourceOrder": 442,
       "slot": 441,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5761,7 +5761,7 @@
       "quotation": 2,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 442,
+      "sourceOrder": 443,
       "slot": 442,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5774,7 +5774,7 @@
       "quotation": 2,
       "fvm": 6,
       "active": true,
-      "sourceOrder": 443,
+      "sourceOrder": 444,
       "slot": 443,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5787,7 +5787,7 @@
       "quotation": 2,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 444,
+      "sourceOrder": 445,
       "slot": 444,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5800,7 +5800,7 @@
       "quotation": 2,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 445,
+      "sourceOrder": 446,
       "slot": 445,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5813,7 +5813,7 @@
       "quotation": 2,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 446,
+      "sourceOrder": 447,
       "slot": 446,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5826,7 +5826,7 @@
       "quotation": 2,
       "fvm": 6,
       "active": true,
-      "sourceOrder": 447,
+      "sourceOrder": 448,
       "slot": 447,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5839,7 +5839,7 @@
       "quotation": 2,
       "fvm": 6,
       "active": true,
-      "sourceOrder": 448,
+      "sourceOrder": 449,
       "slot": 448,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5852,7 +5852,7 @@
       "quotation": 2,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 449,
+      "sourceOrder": 450,
       "slot": 449,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5865,7 +5865,7 @@
       "quotation": 2,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 450,
+      "sourceOrder": 451,
       "slot": 450,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5878,7 +5878,7 @@
       "quotation": 2,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 451,
+      "sourceOrder": 452,
       "slot": 451,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5891,7 +5891,7 @@
       "quotation": 2,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 452,
+      "sourceOrder": 453,
       "slot": 452,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5904,7 +5904,7 @@
       "quotation": 2,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 453,
+      "sourceOrder": 454,
       "slot": 453,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5917,7 +5917,7 @@
       "quotation": 2,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 454,
+      "sourceOrder": 455,
       "slot": 454,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5930,7 +5930,7 @@
       "quotation": 2,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 455,
+      "sourceOrder": 456,
       "slot": 455,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5943,7 +5943,7 @@
       "quotation": 2,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 456,
+      "sourceOrder": 457,
       "slot": 456,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5956,7 +5956,7 @@
       "quotation": 2,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 457,
+      "sourceOrder": 458,
       "slot": 457,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5969,7 +5969,7 @@
       "quotation": 2,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 458,
+      "sourceOrder": 459,
       "slot": 458,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5982,7 +5982,7 @@
       "quotation": 2,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 459,
+      "sourceOrder": 460,
       "slot": 459,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -5995,7 +5995,7 @@
       "quotation": 2,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 460,
+      "sourceOrder": 461,
       "slot": 460,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6008,7 +6008,7 @@
       "quotation": 2,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 461,
+      "sourceOrder": 462,
       "slot": 461,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6021,7 +6021,7 @@
       "quotation": 2,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 462,
+      "sourceOrder": 463,
       "slot": 462,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6034,7 +6034,7 @@
       "quotation": 2,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 463,
+      "sourceOrder": 464,
       "slot": 463,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6047,7 +6047,7 @@
       "quotation": 2,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 464,
+      "sourceOrder": 465,
       "slot": 464,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6060,7 +6060,7 @@
       "quotation": 2,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 465,
+      "sourceOrder": 466,
       "slot": 465,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6073,7 +6073,7 @@
       "quotation": 2,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 466,
+      "sourceOrder": 467,
       "slot": 466,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6086,7 +6086,7 @@
       "quotation": 2,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 467,
+      "sourceOrder": 468,
       "slot": 467,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6099,7 +6099,7 @@
       "quotation": 2,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 468,
+      "sourceOrder": 469,
       "slot": 468,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6112,7 +6112,7 @@
       "quotation": 2,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 469,
+      "sourceOrder": 470,
       "slot": 469,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6125,7 +6125,7 @@
       "quotation": 2,
       "fvm": 2,
       "active": true,
-      "sourceOrder": 470,
+      "sourceOrder": 471,
       "slot": 470,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6138,7 +6138,7 @@
       "quotation": 2,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 471,
+      "sourceOrder": 472,
       "slot": 471,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6151,7 +6151,7 @@
       "quotation": 2,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 472,
+      "sourceOrder": 473,
       "slot": 472,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6164,7 +6164,7 @@
       "quotation": 2,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 473,
+      "sourceOrder": 474,
       "slot": 473,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6177,7 +6177,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 474,
+      "sourceOrder": 475,
       "slot": 474,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6190,7 +6190,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 475,
+      "sourceOrder": 476,
       "slot": 475,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6203,7 +6203,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 476,
+      "sourceOrder": 477,
       "slot": 476,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6216,7 +6216,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 477,
+      "sourceOrder": 478,
       "slot": 477,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6229,7 +6229,7 @@
       "quotation": 1,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 478,
+      "sourceOrder": 479,
       "slot": 478,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6242,7 +6242,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 479,
+      "sourceOrder": 480,
       "slot": 479,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6255,7 +6255,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 480,
+      "sourceOrder": 481,
       "slot": 480,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6268,7 +6268,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 481,
+      "sourceOrder": 482,
       "slot": 481,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6281,7 +6281,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 482,
+      "sourceOrder": 483,
       "slot": 482,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6294,7 +6294,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 483,
+      "sourceOrder": 484,
       "slot": 483,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6307,7 +6307,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 484,
+      "sourceOrder": 485,
       "slot": 484,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6320,7 +6320,7 @@
       "quotation": 1,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 485,
+      "sourceOrder": 486,
       "slot": 485,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6333,7 +6333,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 486,
+      "sourceOrder": 487,
       "slot": 486,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6346,7 +6346,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 487,
+      "sourceOrder": 488,
       "slot": 487,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6359,7 +6359,7 @@
       "quotation": 1,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 488,
+      "sourceOrder": 489,
       "slot": 488,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6372,7 +6372,7 @@
       "quotation": 1,
       "fvm": 11,
       "active": true,
-      "sourceOrder": 489,
+      "sourceOrder": 490,
       "slot": 489,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6385,7 +6385,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 490,
+      "sourceOrder": 491,
       "slot": 490,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6398,7 +6398,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 491,
+      "sourceOrder": 492,
       "slot": 491,
       "addedAt": "2026-09-08T10:18:54.130Z"
     },
@@ -6411,7 +6411,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 492,
+      "sourceOrder": 493,
       "slot": 492,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6424,7 +6424,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 493,
+      "sourceOrder": 494,
       "slot": 493,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6437,7 +6437,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 494,
+      "sourceOrder": 495,
       "slot": 494,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6450,7 +6450,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 495,
+      "sourceOrder": 496,
       "slot": 495,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6463,7 +6463,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 496,
+      "sourceOrder": 497,
       "slot": 496,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6476,7 +6476,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 497,
+      "sourceOrder": 498,
       "slot": 497,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6489,7 +6489,7 @@
       "quotation": 1,
       "fvm": 2,
       "active": true,
-      "sourceOrder": 498,
+      "sourceOrder": 499,
       "slot": 498,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6502,7 +6502,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 499,
+      "sourceOrder": 500,
       "slot": 499,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6515,7 +6515,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 500,
+      "sourceOrder": 501,
       "slot": 500,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6528,7 +6528,7 @@
       "quotation": 1,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 501,
+      "sourceOrder": 502,
       "slot": 501,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6541,7 +6541,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 502,
+      "sourceOrder": 503,
       "slot": 502,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6554,7 +6554,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 503,
+      "sourceOrder": 504,
       "slot": 503,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6567,7 +6567,7 @@
       "quotation": 1,
       "fvm": 2,
       "active": true,
-      "sourceOrder": 504,
+      "sourceOrder": 505,
       "slot": 504,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6580,7 +6580,7 @@
       "quotation": 1,
       "fvm": 2,
       "active": true,
-      "sourceOrder": 505,
+      "sourceOrder": 506,
       "slot": 505,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6593,7 +6593,7 @@
       "quotation": 1,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 506,
+      "sourceOrder": 507,
       "slot": 506,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6606,7 +6606,7 @@
       "quotation": 1,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 507,
+      "sourceOrder": 508,
       "slot": 507,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6619,7 +6619,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 508,
+      "sourceOrder": 509,
       "slot": 508,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6632,7 +6632,7 @@
       "quotation": 1,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 509,
+      "sourceOrder": 510,
       "slot": 509,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6645,7 +6645,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 510,
+      "sourceOrder": 511,
       "slot": 510,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6658,7 +6658,7 @@
       "quotation": 1,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 511,
+      "sourceOrder": 512,
       "slot": 511,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6671,7 +6671,7 @@
       "quotation": 1,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 512,
+      "sourceOrder": 513,
       "slot": 512,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6684,7 +6684,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 513,
+      "sourceOrder": 514,
       "slot": 513,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6697,7 +6697,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 514,
+      "sourceOrder": 515,
       "slot": 514,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6710,7 +6710,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 515,
+      "sourceOrder": 516,
       "slot": 515,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6723,7 +6723,7 @@
       "quotation": 1,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 516,
+      "sourceOrder": 517,
       "slot": 516,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6736,7 +6736,7 @@
       "quotation": 1,
       "fvm": 7,
       "active": true,
-      "sourceOrder": 517,
+      "sourceOrder": 518,
       "slot": 517,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6749,7 +6749,7 @@
       "quotation": 1,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 518,
+      "sourceOrder": 519,
       "slot": 518,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6762,7 +6762,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 519,
+      "sourceOrder": 520,
       "slot": 519,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6775,7 +6775,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 520,
+      "sourceOrder": 521,
       "slot": 520,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6788,7 +6788,7 @@
       "quotation": 1,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 521,
+      "sourceOrder": 522,
       "slot": 521,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6801,7 +6801,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 522,
+      "sourceOrder": 523,
       "slot": 522,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6814,7 +6814,7 @@
       "quotation": 1,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 523,
+      "sourceOrder": 524,
       "slot": 523,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6827,7 +6827,7 @@
       "quotation": 1,
       "fvm": 2,
       "active": true,
-      "sourceOrder": 524,
+      "sourceOrder": 525,
       "slot": 524,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6840,7 +6840,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 525,
+      "sourceOrder": 526,
       "slot": 525,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6853,7 +6853,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 526,
+      "sourceOrder": 527,
       "slot": 526,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6866,7 +6866,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 527,
+      "sourceOrder": 528,
       "slot": 527,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6879,7 +6879,7 @@
       "quotation": 1,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 528,
+      "sourceOrder": 529,
       "slot": 528,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6892,7 +6892,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 529,
+      "sourceOrder": 530,
       "slot": 529,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6905,7 +6905,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 530,
+      "sourceOrder": 531,
       "slot": 530,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6918,7 +6918,7 @@
       "quotation": 1,
       "fvm": 2,
       "active": true,
-      "sourceOrder": 531,
+      "sourceOrder": 532,
       "slot": 531,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6931,7 +6931,7 @@
       "quotation": 1,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 532,
+      "sourceOrder": 533,
       "slot": 532,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6944,7 +6944,7 @@
       "quotation": 1,
       "fvm": 6,
       "active": true,
-      "sourceOrder": 533,
+      "sourceOrder": 534,
       "slot": 533,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6957,7 +6957,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 534,
+      "sourceOrder": 535,
       "slot": 534,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6970,7 +6970,7 @@
       "quotation": 1,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 535,
+      "sourceOrder": 536,
       "slot": 535,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6983,7 +6983,7 @@
       "quotation": 1,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 536,
+      "sourceOrder": 537,
       "slot": 536,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -6996,7 +6996,7 @@
       "quotation": 1,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 537,
+      "sourceOrder": 538,
       "slot": 537,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7009,7 +7009,7 @@
       "quotation": 1,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 538,
+      "sourceOrder": 539,
       "slot": 538,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7022,7 +7022,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 539,
+      "sourceOrder": 540,
       "slot": 539,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7035,7 +7035,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 540,
+      "sourceOrder": 541,
       "slot": 540,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7048,7 +7048,7 @@
       "quotation": 1,
       "fvm": 8,
       "active": true,
-      "sourceOrder": 541,
+      "sourceOrder": 542,
       "slot": 541,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7061,7 +7061,7 @@
       "quotation": 1,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 542,
+      "sourceOrder": 543,
       "slot": 542,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7074,7 +7074,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 543,
+      "sourceOrder": 544,
       "slot": 543,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7087,7 +7087,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 544,
+      "sourceOrder": 545,
       "slot": 544,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7100,7 +7100,7 @@
       "quotation": 1,
       "fvm": 2,
       "active": true,
-      "sourceOrder": 545,
+      "sourceOrder": 546,
       "slot": 545,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7113,7 +7113,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 546,
+      "sourceOrder": 547,
       "slot": 546,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7126,7 +7126,7 @@
       "quotation": 1,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 547,
+      "sourceOrder": 548,
       "slot": 547,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7139,7 +7139,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 548,
+      "sourceOrder": 549,
       "slot": 548,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7152,7 +7152,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 549,
+      "sourceOrder": 550,
       "slot": 549,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7165,7 +7165,7 @@
       "quotation": 1,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 550,
+      "sourceOrder": 551,
       "slot": 550,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7178,7 +7178,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 551,
+      "sourceOrder": 552,
       "slot": 551,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7191,7 +7191,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 552,
+      "sourceOrder": 553,
       "slot": 552,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7204,7 +7204,7 @@
       "quotation": 1,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 553,
+      "sourceOrder": 554,
       "slot": 553,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7217,7 +7217,7 @@
       "quotation": 1,
       "fvm": 10,
       "active": true,
-      "sourceOrder": 554,
+      "sourceOrder": 555,
       "slot": 554,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7230,7 +7230,7 @@
       "quotation": 1,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 555,
+      "sourceOrder": 556,
       "slot": 555,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7243,7 +7243,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 556,
+      "sourceOrder": 557,
       "slot": 556,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7256,7 +7256,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 557,
+      "sourceOrder": 558,
       "slot": 557,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7269,7 +7269,7 @@
       "quotation": 1,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 558,
+      "sourceOrder": 559,
       "slot": 558,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7282,7 +7282,7 @@
       "quotation": 1,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 559,
+      "sourceOrder": 560,
       "slot": 559,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7295,7 +7295,7 @@
       "quotation": 1,
       "fvm": 6,
       "active": true,
-      "sourceOrder": 560,
+      "sourceOrder": 561,
       "slot": 560,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7308,7 +7308,7 @@
       "quotation": 1,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 561,
+      "sourceOrder": 562,
       "slot": 561,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7321,7 +7321,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 562,
+      "sourceOrder": 563,
       "slot": 562,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7334,7 +7334,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 563,
+      "sourceOrder": 564,
       "slot": 563,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7347,7 +7347,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 564,
+      "sourceOrder": 565,
       "slot": 564,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7360,7 +7360,7 @@
       "quotation": 1,
       "fvm": 3,
       "active": true,
-      "sourceOrder": 565,
+      "sourceOrder": 566,
       "slot": 565,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7373,7 +7373,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 566,
+      "sourceOrder": 567,
       "slot": 566,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7386,7 +7386,7 @@
       "quotation": 1,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 567,
+      "sourceOrder": 568,
       "slot": 567,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7399,7 +7399,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 568,
+      "sourceOrder": 569,
       "slot": 568,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7412,7 +7412,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 569,
+      "sourceOrder": 570,
       "slot": 569,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7425,7 +7425,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 570,
+      "sourceOrder": 571,
       "slot": 570,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7438,7 +7438,7 @@
       "quotation": 1,
       "fvm": 5,
       "active": true,
-      "sourceOrder": 571,
+      "sourceOrder": 572,
       "slot": 571,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7451,7 +7451,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 572,
+      "sourceOrder": 573,
       "slot": 572,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7464,7 +7464,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 573,
+      "sourceOrder": 574,
       "slot": 573,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7477,7 +7477,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 574,
+      "sourceOrder": 575,
       "slot": 574,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7490,7 +7490,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 575,
+      "sourceOrder": 576,
       "slot": 575,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7503,7 +7503,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 576,
+      "sourceOrder": 577,
       "slot": 576,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7516,7 +7516,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 577,
+      "sourceOrder": 578,
       "slot": 577,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7529,7 +7529,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 578,
+      "sourceOrder": 579,
       "slot": 578,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7542,7 +7542,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 579,
+      "sourceOrder": 580,
       "slot": 579,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7555,7 +7555,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 580,
+      "sourceOrder": 581,
       "slot": 580,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7568,7 +7568,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 581,
+      "sourceOrder": 582,
       "slot": 581,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7581,7 +7581,7 @@
       "quotation": 1,
       "fvm": 12,
       "active": true,
-      "sourceOrder": 582,
+      "sourceOrder": 583,
       "slot": 582,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7594,7 +7594,7 @@
       "quotation": 1,
       "fvm": 4,
       "active": true,
-      "sourceOrder": 583,
+      "sourceOrder": 584,
       "slot": 583,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7607,7 +7607,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 584,
+      "sourceOrder": 585,
       "slot": 584,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7620,7 +7620,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 585,
+      "sourceOrder": 586,
       "slot": 585,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7633,7 +7633,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 586,
+      "sourceOrder": 587,
       "slot": 586,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7646,7 +7646,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 587,
+      "sourceOrder": 588,
       "slot": 587,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7659,7 +7659,7 @@
       "quotation": 1,
       "fvm": 2,
       "active": true,
-      "sourceOrder": 588,
+      "sourceOrder": 589,
       "slot": 588,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7672,7 +7672,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 589,
+      "sourceOrder": 590,
       "slot": 589,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7685,7 +7685,7 @@
       "quotation": 1,
       "fvm": 2,
       "active": true,
-      "sourceOrder": 590,
+      "sourceOrder": 591,
       "slot": 590,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7698,7 +7698,7 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 591,
+      "sourceOrder": 592,
       "slot": 591,
       "addedAt": "2026-09-08T10:18:54.131Z"
     },
@@ -7711,9 +7711,22 @@
       "quotation": 1,
       "fvm": 1,
       "active": true,
-      "sourceOrder": 592,
+      "sourceOrder": 593,
       "slot": 592,
       "addedAt": "2026-09-08T10:18:54.131Z"
+    },
+    {
+      "officialId": "6319",
+      "name": "Leite",
+      "role": "D",
+      "teamCode": "LAZ",
+      "initialQuotation": 6,
+      "quotation": 6,
+      "fvm": 14,
+      "active": true,
+      "sourceOrder": 285,
+      "slot": 593,
+      "addedAt": "2026-09-08T14:13:38.650Z"
     }
   ]
 }
