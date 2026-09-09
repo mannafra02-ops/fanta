@@ -1058,6 +1058,12 @@ html[data-theme="dark"] .form-pick-match .match-mia{color:#fff}
   padding:0 14px 12px;
   background:var(--carta-scura)
 }
+.formazione-note #formazione-prob-status{
+  display:block;
+  margin-top:5px;
+  font:700 9px "Roboto Mono",monospace;
+  color:var(--inchiostro-soft);
+}
 .campo{
   position:relative;
   min-height:640px;
@@ -2083,6 +2089,22 @@ html[data-theme="dark"] .sq-remove-team:hover{
   font:600 8.5px "Roboto Mono",monospace;
   color:rgba(255,255,255,.72);
 }
+.form-player-prob{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:42px;
+  padding:1px 5px;
+  border:1px solid rgba(255,255,255,.34);
+  border-radius:999px;
+  font:800 8px "Roboto Mono",monospace;
+  color:#fff;
+  background:rgba(255,255,255,.12);
+}
+.form-player-prob.alta{background:#167647;border-color:#5fd49b}
+.form-player-prob.media{background:#9a5b08;border-color:#f0bd68}
+.form-player-prob.bassa{background:#9a3028;border-color:#f0a39d}
+.form-player-prob.nd{color:rgba(255,255,255,.75)}
 .form-player-trigger.empty .form-player-name{color:rgba(255,255,255,.82)}
 .form-picker-backdrop{
   position:fixed;
@@ -2143,7 +2165,7 @@ html[data-theme="dark"] .sq-remove-team:hover{
 .form-pick-row{
   width:100%;
   display:grid;
-  grid-template-columns:38px minmax(0,1fr);
+  grid-template-columns:38px minmax(0,1fr) auto;
   align-items:center;
   gap:10px;
   padding:12px 2px;
@@ -2185,12 +2207,31 @@ html[data-theme="dark"] .sq-remove-team:hover{
   font:650 10.5px "Roboto Mono",monospace;
   color:var(--inchiostro-soft);
 }
+.form-pick-prob{
+  min-width:55px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:1px;
+  font-family:"Roboto Mono",monospace;
+  color:var(--inchiostro-soft);
+}
+.form-pick-prob small{font-size:8px;letter-spacing:.08em}
+.form-pick-prob b{font-size:12px;color:var(--inchiostro)}
+.form-pick-prob.alta b{color:#167647}
+.form-pick-prob.media b{color:#9a5b08}
+.form-pick-prob.bassa b{color:#b4362d}
+.form-pick-empty .form-pick-main{grid-column:2/-1}
 .form-pick-empty .form-pick-role{background:#6b7280;color:#fff}
 body.form-picker-open{overflow:hidden}
 html[data-theme="dark"] .form-picker-sheet{background:#171a1f !important;color:#f3f4f6 !important}
 html[data-theme="dark"] .form-pick-row{color:#f3f4f6 !important;border-color:#343a43 !important}
 html[data-theme="dark"] .form-picker-head{border-color:#343a43 !important}
 html[data-theme="dark"] .form-picker-close{color:#f3f4f6 !important;border-color:#454c56 !important}
+html[data-theme="dark"] .form-pick-prob b{color:#f3f4f6}
+html[data-theme="dark"] .form-pick-prob.alta b{color:#65d9a0}
+html[data-theme="dark"] .form-pick-prob.media b{color:#f4c16e}
+html[data-theme="dark"] .form-pick-prob.bassa b{color:#f2a29c}
 html[data-theme="dark"] .form-pick-row:hover,
 html[data-theme="dark"] .form-pick-row:focus-visible{background:#202733 !important}
 html[data-theme="dark"] .form-pick-row.selected{background:#153223 !important}
@@ -2667,7 +2708,8 @@ html[data-theme="light"] .rosa-toggle [style]{
     </div>
   </div>
   <div class="formazione-note">
-    Tocca uno slot sul campo: vedrai i giocatori disponibili e la prossima avversaria di ciascuno. La formazione viene salvata automaticamente.
+    Tocca uno slot sul campo: vedrai i giocatori disponibili, la prossima avversaria e la probabilità ufficiale di titolarità per quella partita. La formazione viene salvata automaticamente.
+    <span id="formazione-prob-status"></span>
   </div>
 
   <div class="campo" id="campo">
@@ -3685,6 +3727,7 @@ function trovaSchedaListone(p,usati){
 function schedaDaListone(base,p){
   const range=base?{min:base.min,max:base.max}:rangeDaFvm(p.fvm);
   const stock=descrizioneUfficiale(p);
+  const titUff=p.startingProbability===null||p.startingProbability===undefined?null:Number(p.startingProbability);
   return {
     ...(base||{}),
     r:p.role,
@@ -3695,7 +3738,11 @@ function schedaDaListone(base,p){
     t:Array.isArray(base?.t)?base.t:[],
     no:notaEditorialeValida(base?.no)?base.no:`Scheda sincronizzata automaticamente. ${stock}`,
     q:Number(p.quotation),qi:Number(p.initialQuotation),fvm:Number(p.fvm),
-    stock,fcId:String(p.officialId),src:"Fantacalcio.it · aggiornamento automatico",
+    stock,fcId:String(p.officialId),fcTeamCode:String(p.teamCode||"").toUpperCase(),
+    titUff:Number.isFinite(titUff)?titUff:null,
+    titMatchId:p.probabilityMatchId?String(p.probabilityMatchId):null,
+    titMatchHash:p.probabilityMatchHash?String(p.probabilityMatchHash).toUpperCase():null,
+    src:"Fantacalcio.it · aggiornamento automatico",
     out:!p.active
   };
 }
@@ -3706,8 +3753,8 @@ function dataListoneIt(value){
 async function caricaListoneUfficiale(){
   const status=document.getElementById("listone-status");
   try{
-    const giorno=new Date().toISOString().slice(0,10);
-    const response=await fetch(`${LISTONE_LIVE_URL}?v=${giorno}`,{cache:"no-store"});
+    const ora=new Date().toISOString().slice(0,13);
+    const response=await fetch(`${LISTONE_LIVE_URL}?v=${ora}`,{cache:"no-store"});
     if(!response.ok) throw new Error(`HTTP ${response.status}`);
     const data=await response.json();
     if(!Array.isArray(data.players)||Number(data.activeCount)<450) throw new Error("dati incompleti");
@@ -3724,7 +3771,7 @@ async function caricaListoneUfficiale(){
     nonAbbinati.forEach(p=>G.push(schedaDaListone(null,p)));
 
     LISTONE_LIVE_META=data;
-    if(status) status.innerHTML=`<b>Listone automatico:</b> ${Number(data.activeCount)} giocatori · ruoli Classic, Q e FVM Fantacalcio.it · aggiornato ${dataListoneIt(data.updatedAt)}.`;
+    if(status) status.innerHTML=`<b>Listone automatico:</b> ${Number(data.activeCount)} giocatori · ruoli Classic, Q, FVM e probabilità di titolarità Fantacalcio.it · aggiornato ${dataListoneIt(data.updatedAt)}.`;
   }catch(error){
     if(status) status.innerHTML="<b>Listone:</b> aggiornamento online momentaneamente non disponibile; sto usando la copia incorporata.";
     console.warn("Listone live non disponibile",error);
@@ -4224,6 +4271,31 @@ function partitaGiocatoreHtml(match,mostraData=true){
   const fuori=`<span class="${match.mia==="fuori"?"match-mia":""}">${espnEsc(match.fuori)}</span>`;
   return `${casa} - ${fuori}${mostraData?` · ${espnEsc(match.quando)}`:""}`;
 }
+function probabilitaTitolaritaUfficiale(g,match=null){
+  const valore=g?.titUff;
+  if(!Number.isFinite(valore)||valore<0||valore>100) return null;
+
+  const aggiornamento=Date.parse(LISTONE_LIVE_META?.probabilityUpdatedAt||"");
+  if(!Number.isFinite(aggiornamento)||Date.now()-aggiornamento>12*24*60*60*1000) return null;
+
+  const hash=String(g.titMatchHash||"").toUpperCase();
+  if(!/^[A-Z]{3}-[A-Z]{3}$/.test(hash)) return null;
+  const squadre=hash.split("-");
+  if(g.fcTeamCode&&!squadre.includes(String(g.fcTeamCode).toUpperCase())) return null;
+  if(match&&hash!==`${match.casa}-${match.fuori}`) return null;
+  return Math.round(valore);
+}
+function classeTitolaritaUfficiale(valore){
+  return valore===null?"nd":valore>=75?"alta":valore>=50?"media":"bassa";
+}
+function etichettaTitolaritaUfficiale(g,match=null){
+  const valore=probabilitaTitolaritaUfficiale(g,match);
+  return valore===null?"n.d.":`${valore}%`;
+}
+function punteggioTitolaritaFormazione(g){
+  const valore=probabilitaTitolaritaUfficiale(g,prossimaPartitaSquadra(g?.s));
+  return valore===null?-1:valore;
+}
 function disegnaFormPicker(){
   const picker=document.getElementById("form-picker");
   const lista=document.getElementById("form-picker-list");
@@ -4234,21 +4306,23 @@ function disegnaFormPicker(){
   const candidati=rosa.filter(x=>{
     const g=G[x.id];
     return g&&!g.out&&g.r===ruolo&&(!usati.has(x.id)||x.id===selezionato);
-  }).sort((a,b)=>(Number(G[b.id].tit)||0)-(Number(G[a.id].tit)||0)||G[a.id].n.localeCompare(G[b.id].n,"it"));
+  }).sort((a,b)=>punteggioTitolaritaFormazione(G[b.id])-punteggioTitolaritaFormazione(G[a.id])||G[a.id].n.localeCompare(G[b.id].n,"it"));
   document.getElementById("form-picker-title").textContent=`Scegli ${NOMI_RUOLO_SINGOLARE[ruolo]||"giocatore"}`;
-  document.getElementById("form-picker-subtitle").textContent="Sotto ogni giocatore trovi la prossima partita della sua squadra.";
+  document.getElementById("form-picker-subtitle").textContent="Prossima partita e probabilità ufficiale Fantacalcio.it.";
   const vuoto=`<button class="form-pick-row form-pick-empty ${!Number.isInteger(selezionato)?"selected":""}" type="button" data-picker-player="">
     <span class="form-pick-role">×</span>
     <span class="form-pick-main"><span class="form-pick-name">Lascia lo slot vuoto</span><span class="form-pick-match">Nessun giocatore selezionato</span></span>
   </button>`;
   const righe=candidati.map(x=>{
     const g=G[x.id],match=prossimaPartitaSquadra(g.s);
+    const probabilita=probabilitaTitolaritaUfficiale(g,match);
     return `<button class="form-pick-row ${x.id===selezionato?"selected":""}" type="button" data-picker-player="${x.id}">
       <span class="form-pick-role ${g.r}">${g.r}</span>
       <span class="form-pick-main">
         <span class="form-pick-name">${espnEsc(g.n)}</span>
         <span class="form-pick-match">${partitaGiocatoreHtml(match)}</span>
       </span>
+      <span class="form-pick-prob ${classeTitolaritaUfficiale(probabilita)}" title="Probabilità ufficiale di titolarità per questa partita"><small>TIT</small><b>${probabilita===null?"n.d.":`${probabilita}%`}</b></span>
     </button>`;
   }).join("");
   lista.innerHTML=vuoto+(righe||'<div class="espn-empty">Nessun giocatore disponibile per questo ruolo.</div>');
@@ -4285,11 +4359,13 @@ function cardFormazione(r,i){
   if(val!==undefined&&val!==""&&!idValidoPerRuolo(val,r)){val="";delete formazione[key];}
   const g=val!==""&&val!==undefined?G[Number(val)]:null;
   const match=g?prossimaPartitaSquadra(g.s):null;
+  const probabilita=g?probabilitaTitolaritaUfficiale(g,match):null;
   return `<div class="player-card">
     <div class="maglia ${r}">${r}</div>
     <button class="form-player-trigger ${g?"":"empty"}" type="button" data-form-slot="${key}" data-role="${r}" aria-haspopup="dialog" aria-label="${g?`Cambia ${espnEsc(g.n)}`:`Aggiungi ${NOMI_RUOLO_SINGOLARE[r]||"giocatore"}`}">
       <span class="form-player-name">${g?espnEsc(g.n):"Aggiungi"}</span>
       <span class="form-player-match">${g?partitaGiocatoreHtml(match,false):"Tocca per scegliere"}</span>
+      ${g?`<span class="form-player-prob ${classeTitolaritaUfficiale(probabilita)}" title="Probabilità ufficiale di titolarità">TIT ${probabilita===null?"n.d.":`${probabilita}%`}</span>`:""}
     </button>
     <div class="slot-label">${r} ${i}</div>
   </div>`;
@@ -4330,12 +4406,14 @@ function disegnaPanchina(){
     const g=id!==""?G[Number(id)]:null;
     const ruolo=PANCHINA_RUOLI[i];
     const etichetta=i===0?"Portiere":`${ruolo} ${i-(ruolo==="D"?0:ruolo==="C"?2:4)}`;
+    const match=g?prossimaPartitaSquadra(g.s):null;
+    const probabilita=g?etichettaTitolaritaUfficiale(g,match):"";
     return `<div class="riserva-card">
       <div class="riserva-num"><b>${i+1}</b><span>${ruolo}</span></div>
       <select data-riserva="${i}" data-riserva-ruolo="${ruolo}" aria-label="Riserva ${i+1} ${ruolo}">
         ${opzioniPanchina(i,id)}
       </select>
-      <div class="riserva-info">${g?`${g.s} · ${g.pos||g.r}`:etichetta}</div>
+      <div class="riserva-info">${g?`${g.s} · ${g.pos||g.r} · TIT ${probabilita}`:etichetta}</div>
     </div>`;
   }).join("");
 }
@@ -4359,6 +4437,14 @@ function disegnaFormazione(){
   titolari.forEach(g=>conteggi[g.r]++);
   document.getElementById("formazione-riepilogo").innerHTML=RUOLI.map(r=>
     `<div><b>${conteggi[r]}/${schema[r]}</b>${NOMI_REPARTI[r]}</div>`).join("");
+  const statoProbabilita=document.getElementById("formazione-prob-status");
+  if(statoProbabilita){
+    const quanti=Number(LISTONE_LIVE_META?.probabilityPlayerCount)||0;
+    const giornata=Number(LISTONE_LIVE_META?.probabilityMatchday)||0;
+    statoProbabilita.textContent=quanti
+      ? `Fonte: Fantacalcio.it · giornata ${giornata} · ${quanti} giocatori · aggiornato ${dataListoneIt(LISTONE_LIVE_META.probabilityUpdatedAt)}`
+      : "Probabilità ufficiali momentaneamente non disponibili: viene mostrato n.d.";
+  }
   disegnaPanchina();
   salvaFormazione();
 }
@@ -4369,7 +4455,7 @@ function autoFormazione(){
   formazione={modulo:mod,panchina:vecchiaPanchina};
   for(const r of RUOLI){
     rosa.filter(x=>G[x.id]?.r===r)
-      .sort((a,b)=>(G[b.id].tit||0)-(G[a.id].tit||0)||G[b.id].mid-G[a.id].mid||
+      .sort((a,b)=>punteggioTitolaritaFormazione(G[b.id])-punteggioTitolaritaFormazione(G[a.id])||G[b.id].mid-G[a.id].mid||
         G[a.id].n.localeCompare(G[b.id].n,"it"))
       .slice(0,schema[r])
       .forEach((x,i)=>formazione[`${r}${i+1}`]=x.id);
@@ -4384,7 +4470,7 @@ function autoPanchina(){
   const usati=new Set(tit);
   formazione.panchina=PANCHINA_RUOLI.map(ruolo=>{
     const candidato=rosa.filter(x=>G[x.id]&&!G[x.id].out&&!usati.has(x.id)&&G[x.id].r===ruolo)
-      .sort((a,b)=>(G[b.id].tit||0)-(G[a.id].tit||0)||G[b.id].mid-G[a.id].mid||
+      .sort((a,b)=>punteggioTitolaritaFormazione(G[b.id])-punteggioTitolaritaFormazione(G[a.id])||G[b.id].mid-G[a.id].mid||
         G[a.id].n.localeCompare(G[b.id].n,"it"))[0];
     if(candidato){usati.add(candidato.id);return candidato.id;}
     return "";
