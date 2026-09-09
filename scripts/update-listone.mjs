@@ -5,7 +5,16 @@ import { dirname, resolve } from "node:path";
 
 const SOURCE_URL = "https://www.fantacalcio.it/quotazioni-fantacalcio";
 const PROBABILITIES_URL = "https://www.fantacalcio.it/probabili-formazioni-serie-a";
+const INJURIES_URL = "https://www.fantacalcio.it/infortunati-serie-a";
+const SUSPENSIONS_URL = "https://www.fantacalcio.it/serie-a/squalificati";
 const OUTPUT_FILE = resolve(process.argv[2] || "data/listone-live.json");
+
+const TEAM_CODE_BY_NAME = {
+  atalanta: "ATA", bologna: "BOL", cagliari: "CAG", como: "COM", fiorentina: "FIO",
+  frosinone: "FRO", genoa: "GEN", inter: "INT", juventus: "JUV", lazio: "LAZ",
+  lecce: "LEC", milan: "MIL", monza: "MON", napoli: "NAP", parma: "PAR",
+  roma: "ROM", sassuolo: "SAS", torino: "TOR", udinese: "UDI", venezia: "VEN"
+};
 
 function decodeHtml(value = "") {
   const named = {
@@ -24,6 +33,11 @@ function decodeHtml(value = "") {
 
 function cleanText(value = "") {
   return decodeHtml(value.replace(/<[^>]*>/g, " ")).replace(/\s+/g, " ").trim();
+}
+
+function normalizeKey(value = "") {
+  return cleanText(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase().replace(/[^a-z0-9]+/g, "");
 }
 
 function attr(html, name) {
@@ -105,6 +119,39 @@ function parseProbabilities(html) {
   return { matchday, matches, byId };
 }
 
+function parseUnavailable(html, type) {
+  const blocks = html.split(/(?=<div\b[^>]*id=["']team-\d+["'][^>]*class=["'][^"']*\bteam-card\b[^"']*["'][^>]*>)/i)
+    .filter(block => /^\s*<div\b[^>]*id=["']team-\d+["'][^>]*class=["'][^"']*\bteam-card\b/i.test(block));
+  const byKey = new Map();
+  const teams = new Set();
+
+  for (const block of blocks) {
+    const teamName = cleanText(block.match(/<span\b[^>]*class=["'][^"']*\bteam-name\b[^"']*["'][^>]*>([\s\S]*?)<\/span>/i)?.[1] || "");
+    const teamCode = TEAM_CODE_BY_NAME[normalizeKey(teamName)];
+    if (!teamCode) continue;
+    teams.add(teamCode);
+
+    let relevant = block;
+    if (type === "suspended") {
+      const start = block.search(/<strong\b[^>]*class=["'][^"']*\blabel-danger\b/i);
+      const end = block.search(/<strong\b[^>]*class=["'][^"']*\blabel-warn\b/i);
+      relevant = start >= 0 ? block.slice(start, end > start ? end : undefined) : "";
+    }
+
+    const items = relevant.match(/<li\b[^>]*>[\s\S]*?<strong\b[^>]*class=["'][^"']*\bitem-name\b[^"']*["'][^>]*>[\s\S]*?<\/li>/gi) || [];
+    for (const item of items) {
+      const name = cleanText(item.match(/<strong\b[^>]*class=["'][^"']*\bitem-name\b[^"']*["'][^>]*>([\s\S]*?)<\/strong>/i)?.[1] || "");
+      const note = cleanText(item.match(/<(?:p|div)\b[^>]*class=["'][^"']*\bitem-description\b[^"']*["'][^>]*>([\s\S]*?)<\/(?:p|div)>/i)?.[1] || "");
+      if (!name || normalizeKey(name) === "nessuno") continue;
+      const mentionedMatchday = Number(note.match(/(\d+)\s*[aª°]?\s*giornata/i)?.[1]) || null;
+      byKey.set(`${teamCode}|${normalizeKey(name)}`, { type, teamCode, name, note, mentionedMatchday });
+    }
+  }
+
+  if (teams.size < 18) throw new Error(`${type === "injured" ? "Infortunati" : "Squalificati"} incompleti: solo ${teams.size} squadre`);
+  return { byKey, teamCount: teams.size };
+}
+
 function validate(players) {
   const errors = [];
   if (players.length < 450) errors.push(`solo ${players.length} giocatori trovati`);
@@ -147,12 +194,16 @@ async function fetchHtml(url, label) {
   return response.text();
 }
 
-const [quotationsHtml, probabilitiesHtml] = await Promise.all([
+const [quotationsHtml, probabilitiesHtml, injuriesHtml, suspensionsHtml] = await Promise.all([
   fetchHtml(SOURCE_URL, "Fantacalcio.it quotazioni"),
-  fetchHtml(PROBABILITIES_URL, "Fantacalcio.it probabili formazioni")
+  fetchHtml(PROBABILITIES_URL, "Fantacalcio.it probabili formazioni"),
+  fetchHtml(INJURIES_URL, "Fantacalcio.it infortunati"),
+  fetchHtml(SUSPENSIONS_URL, "Fantacalcio.it squalificati")
 ]);
 const current = parsePlayers(quotationsHtml);
 const probabilities = parseProbabilities(probabilitiesHtml);
+const injuries = parseUnavailable(injuriesHtml, "injured");
+const suspensions = parseUnavailable(suspensionsHtml, "suspended");
 validate(current);
 
 const previousData = await previousPayload();
@@ -164,13 +215,23 @@ const currentIds = new Set(current.map(player => player.officialId));
 const players = current.map(player => {
   const old = previousById.get(player.officialId);
   const probability = probabilities.byId.get(player.officialId);
+  const availabilityKey = `${player.teamCode}|${normalizeKey(player.name)}`;
+  const suspended = suspensions.byKey.get(availabilityKey);
+  const validSuspension = suspended && (!suspended.mentionedMatchday || suspended.mentionedMatchday === probabilities.matchday)
+    ? suspended : null;
+  const unavailable = validSuspension || injuries.byKey.get(availabilityKey) || null;
+  const availabilityMatch = probabilities.matches.find(match => match.homeCode === player.teamCode || match.awayCode === player.teamCode);
   return {
     ...player,
     slot: Number.isInteger(old?.slot) ? old.slot : nextSlot++,
     addedAt: old?.addedAt || new Date().toISOString(),
     startingProbability: probability?.startingProbability ?? null,
     probabilityMatchId: probability?.probabilityMatchId ?? null,
-    probabilityMatchHash: probability?.probabilityMatchHash ?? null
+    probabilityMatchHash: probability?.probabilityMatchHash ?? null,
+    unavailability: unavailable?.type ?? null,
+    unavailabilityNote: unavailable?.note ?? null,
+    unavailabilityMatchday: unavailable ? probabilities.matchday : null,
+    unavailabilityMatchHash: unavailable ? (availabilityMatch?.matchHash ?? null) : null
   };
 });
 
@@ -182,7 +243,11 @@ for (const old of previous) {
       removedAt: old.removedAt || new Date().toISOString(),
       startingProbability: null,
       probabilityMatchId: null,
-      probabilityMatchHash: null
+      probabilityMatchHash: null,
+      unavailability: null,
+      unavailabilityNote: null,
+      unavailabilityMatchday: null,
+      unavailabilityMatchHash: null
     });
   }
 }
@@ -197,20 +262,30 @@ const probabilitiesUnchanged = previous.length > 0
   && previous.every((old, index) => old.startingProbability === players[index]?.startingProbability
     && old.probabilityMatchId === players[index]?.probabilityMatchId
     && old.probabilityMatchHash === players[index]?.probabilityMatchHash);
-const unchanged = playersUnchanged && probabilitiesUnchanged;
+const availabilityUnchanged = previous.length > 0 && previous.every((old, index) =>
+  old.unavailability === players[index]?.unavailability
+  && old.unavailabilityNote === players[index]?.unavailabilityNote
+  && old.unavailabilityMatchday === players[index]?.unavailabilityMatchday
+  && old.unavailabilityMatchHash === players[index]?.unavailabilityMatchHash);
+const unchanged = playersUnchanged && probabilitiesUnchanged && availabilityUnchanged;
 const now = new Date().toISOString();
 const payload = {
-  schema: 2,
+  schema: 3,
   updatedAt: unchanged
     ? previousData.updatedAt
     : now,
   source: SOURCE_URL,
-  sourceLabel: "Fantacalcio.it · ruoli Classic, quotazioni, FVM e probabilità di titolarità",
+  sourceLabel: "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   probabilitySource: PROBABILITIES_URL,
   probabilityUpdatedAt: probabilitiesUnchanged ? (previousData.probabilityUpdatedAt || previousData.updatedAt || now) : now,
   probabilityMatchday: probabilities.matchday,
   probabilityMatches,
   probabilityPlayerCount: players.filter(player => player.active && Number.isFinite(player.startingProbability)).length,
+  injurySource: INJURIES_URL,
+  suspensionSource: SUSPENSIONS_URL,
+  availabilityUpdatedAt: availabilityUnchanged ? (previousData.availabilityUpdatedAt || previousData.updatedAt || now) : now,
+  injuredCount: players.filter(player => player.active && player.unavailability === "injured").length,
+  suspendedCount: players.filter(player => player.active && player.unavailability === "suspended").length,
   activeCount,
   totalCount: players.length,
   players
@@ -218,4 +293,4 @@ const payload = {
 
 await mkdir(dirname(OUTPUT_FILE), { recursive: true });
 await writeFile(OUTPUT_FILE, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
-console.log(`Listone aggiornato: ${activeCount} attivi, ${players.length} record totali.`);
+console.log(`Listone aggiornato: ${activeCount} attivi, ${players.length} record totali, ${payload.injuredCount} infortunati, ${payload.suspendedCount} squalificati.`);
