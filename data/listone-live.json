@@ -1,10 +1,10 @@
 {
   "schema": 2,
-  "updatedAt": "2026-09-09T18:54:51.697Z",
+  "updatedAt": "2026-09-09T20:25:03.817Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM e probabilità di titolarità",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-09T18:54:51.697Z",
+  "probabilityUpdatedAt": "2026-09-09T20:25:03.817Z",
   "probabilityMatchday": 4,
   "probabilityMatches": [
     {
@@ -61,7 +61,7 @@
       "homeCode": "NAP",
       "awayCode": "BOL",
       "dateLabel": "domenica 13 settembre, 18:00",
-      "officialUpdatedLabel": "09/09/2026 - 20:50"
+      "officialUpdatedLabel": "09/09/2026 - 22:13"
     },
     {
       "matchId": "17992",
@@ -88,7 +88,7 @@
       "officialUpdatedLabel": "09/09/2026 - 19:30"
     }
   ],
-  "probabilityPlayerCount": 469,
+  "probabilityPlayerCount": 468,
   "activeCount": 594,
   "totalCount": 594,
   "players": [
@@ -168,7 +168,7 @@
       "sourceOrder": 4,
       "slot": 4,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 60,
       "probabilityMatchId": "17991",
       "probabilityMatchHash": "NAP-BOL"
     },
@@ -1624,9 +1624,9 @@
       "sourceOrder": 95,
       "slot": 95,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
-      "probabilityMatchId": "17991",
-      "probabilityMatchHash": "NAP-BOL"
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null
     },
     {
       "officialId": "7484",
@@ -2248,7 +2248,7 @@
       "sourceOrder": 134,
       "slot": 134,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 85,
       "probabilityMatchId": "17991",
       "probabilityMatchHash": "NAP-BOL"
     },
@@ -6008,7 +6008,7 @@
       "sourceOrder": 370,
       "slot": 369,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 5,
+      "startingProbability": 90,
       "probabilityMatchId": "17991",
       "probabilityMatchHash": "NAP-BOL"
     },
@@ -8648,7 +8648,7 @@
       "sourceOrder": 535,
       "slot": 534,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 1,
+      "startingProbability": 5,
       "probabilityMatchId": "17991",
       "probabilityMatchHash": "NAP-BOL"
     },
