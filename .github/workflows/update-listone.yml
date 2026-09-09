@@ -25,7 +25,7 @@ jobs:
           node-version: "24"
           package-manager-cache: false
 
-      - name: Aggiorna listone e probabilità di titolarità
+      - name: Aggiorna listone, titolarità e indisponibili
         run: node scripts/update-listone.mjs
 
       - name: Pubblica solo se i dati sono cambiati
