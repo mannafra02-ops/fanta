@@ -4297,7 +4297,7 @@ function idsTitolari(escludiKey=null){
 }
 function idsPanchina(escludiIndice=-1){
   const p=Array.isArray(formazione.panchina)?formazione.panchina:[];
-  return p.map((v,i)=>i===escludiIndice?null:Number(v))
+  return p.map((v,i)=>i===escludiIndice||v===""||v===null||v===undefined?null:Number(v))
     .filter(v=>Number.isInteger(v)&&G[v]);
 }
 const NOMI_RUOLO_SINGOLARE={P:"portiere",D:"difensore",C:"centrocampista",A:"attaccante"};
