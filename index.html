@@ -2596,6 +2596,53 @@ html[data-theme="light"] .rosa-toggle [style]{
   color:#6b7280 !important;
 }
 
+/* Formazione: selezione dall'icona del ruolo e campo proporzionato su desktop */
+.form-role-trigger{
+  appearance:none;
+  padding:0 !important;
+  cursor:pointer;
+  transition:transform .15s ease,filter .15s ease,box-shadow .15s ease !important;
+}
+.form-role-trigger.P{background:var(--p) !important;color:#251701 !important}
+.form-role-trigger.D{background:var(--d) !important;color:#fff !important}
+.form-role-trigger.C{background:var(--c) !important;color:#fff !important}
+.form-role-trigger.A{background:var(--a) !important;color:#fff !important}
+.form-role-trigger:hover,.form-role-trigger:focus-visible{
+  filter:brightness(1.08);
+  transform:translateY(-1px);
+  box-shadow:0 0 0 4px rgba(255,255,255,.2) !important;
+}
+.form-player-trigger{cursor:default}
+.riserva-role-trigger{
+  width:40px;
+  height:40px;
+  display:grid;
+  place-items:center;
+  align-self:center;
+  border:2px solid rgba(255,255,255,.88) !important;
+  border-radius:50% !important;
+  font:800 12px "Roboto Mono",monospace !important;
+}
+.riserva-name{
+  min-height:21px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  text-align:center;
+  font-size:13px;
+  font-weight:800;
+}
+.riserva-card.empty .riserva-name{color:var(--inchiostro-soft)}
+.riserva-info{text-align:center}
+@media(min-width:781px){
+  #campo{
+    width:min(100%,760px);
+    min-height:0 !important;
+    aspect-ratio:4 / 5;
+    margin-inline:auto;
+  }
+}
+
 </style>
 
 <script>
@@ -4353,9 +4400,14 @@ function disegnaFormPicker(){
   const picker=document.getElementById("form-picker");
   const lista=document.getElementById("form-picker-list");
   if(!picker||picker.hidden||!lista||!formPickerSlot) return;
-  const {key,ruolo}=formPickerSlot;
-  const selezionato=Number(formazione[key]);
-  const usati=new Set([...idsTitolari(key),...idsPanchina()]);
+  const {key,ruolo,tipo="titolare",indice=-1}=formPickerSlot;
+  const valoreSelezionato=tipo==="panchina"?formazione.panchina?.[indice]:formazione[key];
+  const selezionato=valoreSelezionato===""||valoreSelezionato===null||valoreSelezionato===undefined
+    ? Number.NaN
+    : Number(valoreSelezionato);
+  const usati=tipo==="panchina"
+    ? new Set([...idsTitolari(),...idsPanchina(indice)])
+    : new Set([...idsTitolari(key),...idsPanchina()]);
   const candidati=rosa.filter(x=>{
     const g=G[x.id];
     return g&&!g.out&&g.r===ruolo&&(!usati.has(x.id)||x.id===selezionato);
@@ -4380,8 +4432,8 @@ function disegnaFormPicker(){
   }).join("");
   lista.innerHTML=vuoto+(righe||'<div class="espn-empty">Nessun giocatore disponibile per questo ruolo.</div>');
 }
-function apriFormPicker(key,ruolo){
-  formPickerSlot={key,ruolo};
+function apriFormPicker(key,ruolo,tipo="titolare",indice=-1){
+  formPickerSlot={key,ruolo,tipo,indice};
   const picker=document.getElementById("form-picker");
   if(!picker) return;
   picker.hidden=false;
@@ -4414,31 +4466,18 @@ function cardFormazione(r,i){
   const match=g?prossimaPartitaSquadra(g.s):null;
   const stato=g?statoFormazioneGiocatore(g,match):null;
   return `<div class="player-card">
-    <div class="maglia ${r}">${r}</div>
-    <button class="form-player-trigger ${g?"":"empty"}" type="button" data-form-slot="${key}" data-role="${r}" aria-haspopup="dialog" aria-label="${g?`Cambia ${espnEsc(g.n)}`:`Aggiungi ${NOMI_RUOLO_SINGOLARE[r]||"giocatore"}`}">
-      <span class="form-player-name">${g?espnEsc(g.n):"Aggiungi"}</span>
-      <span class="form-player-match">${g?partitaGiocatoreHtml(match,false):"Tocca per scegliere"}</span>
+    <button class="maglia form-role-trigger ${r}" type="button" data-form-slot="${key}" data-role="${r}" aria-haspopup="dialog" aria-label="${g?`Cambia ${espnEsc(g.n)}`:`Scegli ${NOMI_RUOLO_SINGOLARE[r]||"giocatore"}`}">${r}</button>
+    <div class="form-player-trigger ${g?"":"empty"}">
+      <span class="form-player-name">${g?espnEsc(g.n):"Slot vuoto"}</span>
+      <span class="form-player-match">${g?partitaGiocatoreHtml(match,false):`Tocca l'icona ${r}`}</span>
       ${g?`<span class="form-player-prob ${stato.classe}" title="${espnEsc(stato.titolo)}">${stato.breve}</span>`:""}
-    </button>
+    </div>
     <div class="slot-label">${r} ${i}</div>
   </div>`;
 }
 
 const PANCHINA_RUOLI=["P","D","D","C","C","A","A"];
 
-function opzioniPanchina(indice,selezionato){
-  const ruolo=PANCHINA_RUOLI[indice];
-  const usati=new Set([...idsTitolari(),...idsPanchina(indice)]);
-  const candidati=rosa.filter(x=>G[x.id]&&!G[x.id].out&&G[x.id].r===ruolo)
-    .sort((a,b)=>G[a.id].n.localeCompare(G[b.id].n,"it"));
-  let out='<option value="">— Nessuna —</option>';
-  for(const x of candidati){
-    const g=G[x.id];
-    const dis=usati.has(x.id)&&Number(selezionato)!==x.id;
-    out+=`<option value="${x.id}" ${Number(selezionato)===x.id?"selected":""} ${dis?"disabled":""}>${g.r} · ${g.n}</option>`;
-  }
-  return out;
-}
 function disegnaPanchina(){
   if(!Array.isArray(formazione.panchina)) formazione.panchina=[];
   const vecchia=formazione.panchina.filter(v=>v!==""&&v!==null&&v!==undefined).map(Number).filter(Number.isInteger);
@@ -4458,15 +4497,13 @@ function disegnaPanchina(){
   el.innerHTML=formazione.panchina.map((id,i)=>{
     const g=id!==""?G[Number(id)]:null;
     const ruolo=PANCHINA_RUOLI[i];
-    const etichetta=i===0?"Portiere":`${ruolo} ${i-(ruolo==="D"?0:ruolo==="C"?2:4)}`;
     const match=g?prossimaPartitaSquadra(g.s):null;
     const stato=g?statoFormazioneGiocatore(g,match):null;
-    return `<div class="riserva-card">
+    return `<div class="riserva-card ${g?"":"empty"}">
       <div class="riserva-num"><b>${i+1}</b><span>${ruolo}</span></div>
-      <select data-riserva="${i}" data-riserva-ruolo="${ruolo}" aria-label="Riserva ${i+1} ${ruolo}">
-        ${opzioniPanchina(i,id)}
-      </select>
-      <div class="riserva-info">${g?`${g.s} · ${g.pos||g.r} · ${stato.breve}`:etichetta}</div>
+      <button class="riserva-role-trigger form-role-trigger ${ruolo}" type="button" data-bench-index="${i}" data-bench-role="${ruolo}" aria-haspopup="dialog" aria-label="${g?`Cambia ${espnEsc(g.n)} in panchina`:`Scegli ${NOMI_RUOLO_SINGOLARE[ruolo]} per la panchina`}">${ruolo}</button>
+      <div class="riserva-name">${g?espnEsc(g.n):"Slot vuoto"}</div>
+      <div class="riserva-info">${g?`${partitaGiocatoreHtml(match,false)} · ${stato.breve}`:`Tocca l'icona ${ruolo}`}</div>
     </div>`;
   }).join("");
 }
@@ -5243,8 +5280,13 @@ document.getElementById("campo").addEventListener("click",e=>{
 document.getElementById("form-picker-list")?.addEventListener("click",e=>{
   const scelta=e.target.closest("button[data-picker-player]");
   if(!scelta||!formPickerSlot) return;
-  const key=formPickerSlot.key,id=scelta.dataset.pickerPlayer;
-  if(id==="") delete formazione[key];
+  const {key,tipo="titolare",indice=-1}=formPickerSlot;
+  const id=scelta.dataset.pickerPlayer;
+  if(tipo==="panchina"){
+    if(!Array.isArray(formazione.panchina)) formazione.panchina=[];
+    while(formazione.panchina.length<7) formazione.panchina.push("");
+    formazione.panchina[indice]=id===""?"":Number(id);
+  }else if(id==="") delete formazione[key];
   else formazione[key]=Number(id);
   disegnaFormazione();
   chiudiFormPicker();
@@ -5256,14 +5298,10 @@ document.getElementById("form-picker")?.addEventListener("click",e=>{
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape"&&!document.getElementById("form-picker")?.hidden) chiudiFormPicker();
 });
-document.getElementById("panchina-list").addEventListener("change",e=>{
-  const sel=e.target.closest("select[data-riserva]");
-  if(!sel) return;
-  const i=Number(sel.dataset.riserva);
-  if(!Array.isArray(formazione.panchina)) formazione.panchina=[];
-  while(formazione.panchina.length<7) formazione.panchina.push("");
-  formazione.panchina[i]=sel.value===""?"":Number(sel.value);
-  disegnaFormazione();
+document.getElementById("panchina-list").addEventListener("click",e=>{
+  const btn=e.target.closest("button[data-bench-index]");
+  if(!btn) return;
+  apriFormPicker("",btn.dataset.benchRole,"panchina",Number(btn.dataset.benchIndex));
 });
 document.getElementById("auto-formazione").addEventListener("click",autoFormazione);
 document.getElementById("auto-panchina").addEventListener("click",autoPanchina);
