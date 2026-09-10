@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-09T20:36:34.974Z",
+  "updatedAt": "2026-09-10T08:27:10.137Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-09T20:36:34.974Z",
+  "probabilityUpdatedAt": "2026-09-10T08:27:10.137Z",
   "probabilityMatchday": 4,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "CAG",
       "dateLabel": "sabato 12 settembre, 20:45",
-      "officialUpdatedLabel": "09/09/2026 - 14:33"
+      "officialUpdatedLabel": "10/09/2026 - 07:11"
     },
     {
       "matchId": "17986",
@@ -21,7 +21,7 @@
       "homeCode": "COM",
       "awayCode": "PAR",
       "dateLabel": "lunedì 14 settembre, 18:30",
-      "officialUpdatedLabel": "09/09/2026 - 17:12"
+      "officialUpdatedLabel": "10/09/2026 - 07:11"
     },
     {
       "matchId": "17987",
@@ -29,7 +29,7 @@
       "homeCode": "GEN",
       "awayCode": "FRO",
       "dateLabel": "sabato 12 settembre, 15:00",
-      "officialUpdatedLabel": "09/09/2026 - 19:31"
+      "officialUpdatedLabel": "10/09/2026 - 07:12"
     },
     {
       "matchId": "17988",
@@ -37,7 +37,7 @@
       "homeCode": "INT",
       "awayCode": "UDI",
       "dateLabel": "lunedì 14 settembre, 20:45",
-      "officialUpdatedLabel": "09/09/2026 - 19:26"
+      "officialUpdatedLabel": "10/09/2026 - 07:12"
     },
     {
       "matchId": "17989",
@@ -45,7 +45,7 @@
       "homeCode": "LAZ",
       "awayCode": "MIL",
       "dateLabel": "sabato 12 settembre, 18:00",
-      "officialUpdatedLabel": "09/09/2026 - 19:24"
+      "officialUpdatedLabel": "10/09/2026 - 07:12"
     },
     {
       "matchId": "17990",
@@ -53,7 +53,7 @@
       "homeCode": "LEC",
       "awayCode": "MON",
       "dateLabel": "domenica 13 settembre, 15:00",
-      "officialUpdatedLabel": "09/09/2026 - 19:30"
+      "officialUpdatedLabel": "10/09/2026 - 07:12"
     },
     {
       "matchId": "17991",
@@ -61,7 +61,7 @@
       "homeCode": "NAP",
       "awayCode": "BOL",
       "dateLabel": "domenica 13 settembre, 18:00",
-      "officialUpdatedLabel": "09/09/2026 - 22:24"
+      "officialUpdatedLabel": "10/09/2026 - 07:12"
     },
     {
       "matchId": "17992",
@@ -69,7 +69,7 @@
       "homeCode": "SAS",
       "awayCode": "JUV",
       "dateLabel": "domenica 13 settembre, 20:45",
-      "officialUpdatedLabel": "09/09/2026 - 17:12"
+      "officialUpdatedLabel": "10/09/2026 - 07:13"
     },
     {
       "matchId": "17993",
@@ -77,7 +77,7 @@
       "homeCode": "TOR",
       "awayCode": "ROM",
       "dateLabel": "lunedì 14 settembre, 18:30",
-      "officialUpdatedLabel": "09/09/2026 - 17:12"
+      "officialUpdatedLabel": "10/09/2026 - 07:13"
     },
     {
       "matchId": "17994",
@@ -85,10 +85,10 @@
       "homeCode": "VEN",
       "awayCode": "FIO",
       "dateLabel": "venerdì 11 settembre, 20:45",
-      "officialUpdatedLabel": "09/09/2026 - 19:30"
+      "officialUpdatedLabel": "10/09/2026 - 07:14"
     }
   ],
-  "probabilityPlayerCount": 467,
+  "probabilityPlayerCount": 465,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
   "availabilityUpdatedAt": "2026-09-09T20:36:34.974Z",
@@ -11369,9 +11369,9 @@
       "sourceOrder": 564,
       "slot": 563,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 1,
-      "probabilityMatchId": "17994",
-      "probabilityMatchHash": "VEN-FIO",
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
       "unavailability": null,
       "unavailabilityNote": null,
       "unavailabilityMatchday": null,
@@ -11909,9 +11909,9 @@
       "sourceOrder": 591,
       "slot": 590,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 15,
-      "probabilityMatchId": "17987",
-      "probabilityMatchHash": "GEN-FRO",
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
       "unavailability": null,
       "unavailabilityNote": null,
       "unavailabilityMatchday": null,
