@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-10T16:24:11.472Z",
+  "updatedAt": "2026-09-10T20:23:02.912Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-10T16:24:11.472Z",
+  "probabilityUpdatedAt": "2026-09-10T20:23:02.912Z",
   "probabilityMatchday": 4,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "CAG",
       "dateLabel": "sabato 12 settembre, 20:45",
-      "officialUpdatedLabel": "10/09/2026 - 16:04"
+      "officialUpdatedLabel": "10/09/2026 - 19:32"
     },
     {
       "matchId": "17986",
@@ -21,7 +21,7 @@
       "homeCode": "COM",
       "awayCode": "PAR",
       "dateLabel": "lunedì 14 settembre, 18:30",
-      "officialUpdatedLabel": "10/09/2026 - 15:11"
+      "officialUpdatedLabel": "10/09/2026 - 21:09"
     },
     {
       "matchId": "17987",
@@ -61,7 +61,7 @@
       "homeCode": "NAP",
       "awayCode": "BOL",
       "dateLabel": "domenica 13 settembre, 18:00",
-      "officialUpdatedLabel": "10/09/2026 - 15:11"
+      "officialUpdatedLabel": "10/09/2026 - 19:38"
     },
     {
       "matchId": "17992",
@@ -77,7 +77,7 @@
       "homeCode": "TOR",
       "awayCode": "ROM",
       "dateLabel": "lunedì 14 settembre, 18:30",
-      "officialUpdatedLabel": "10/09/2026 - 17:40"
+      "officialUpdatedLabel": "10/09/2026 - 21:52"
     },
     {
       "matchId": "17994",
@@ -85,14 +85,14 @@
       "homeCode": "VEN",
       "awayCode": "FIO",
       "dateLabel": "venerdì 11 settembre, 20:45",
-      "officialUpdatedLabel": "10/09/2026 - 16:47"
+      "officialUpdatedLabel": "10/09/2026 - 18:38"
     }
   ],
-  "probabilityPlayerCount": 465,
+  "probabilityPlayerCount": 464,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-10T16:24:11.472Z",
-  "injuredCount": 54,
+  "availabilityUpdatedAt": "2026-09-10T20:23:02.912Z",
+  "injuredCount": 56,
   "suspendedCount": 1,
   "activeCount": 595,
   "totalCount": 595,
@@ -169,7 +169,7 @@
       "sourceOrder": 3,
       "slot": 3,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 70,
       "probabilityMatchId": "17986",
       "probabilityMatchHash": "COM-PAR",
       "unavailability": null,
@@ -309,7 +309,7 @@
       "sourceOrder": 10,
       "slot": 10,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "17986",
       "probabilityMatchHash": "COM-PAR",
       "unavailability": null,
@@ -429,7 +429,7 @@
       "sourceOrder": 16,
       "slot": 16,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "17986",
       "probabilityMatchHash": "COM-PAR",
       "unavailability": null,
@@ -1173,7 +1173,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il brasiliano costretto al cambio mercoledì in Champions League per noie muscolari che andranno valutate. Forfait certo per domenica contro il Bologna in campionato.",
+      "unavailabilityNote": "Il brasiliano costretto al cambio il 9 settembre in Champions League vittima di una lesione muscolare di medio grado al bicipite femorale sinistro. Proverà a tornare arruolabile dalla metà di ottobre.",
       "unavailabilityMatchday": 4,
       "unavailabilityMatchHash": "NAP-BOL"
     },
@@ -1829,7 +1829,7 @@
       "sourceOrder": 86,
       "slot": 86,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 85,
       "probabilityMatchId": "17986",
       "probabilityMatchHash": "COM-PAR",
       "unavailability": null,
@@ -2013,7 +2013,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il portiere uscito claudicante dal match di mercoledì in Champions League per un fastidio muscolare alla coscia sinistra. Condizioni da valutare, forfait per domenica in campionato contro il Bologna.",
+      "unavailabilityNote": "Il portiere uscito claudicante dal match di mercoledì in Champions League per una lesione di basso grado all'adduttore lungo. Recuperabile dall'inizio di ottobre.",
       "unavailabilityMatchday": 4,
       "unavailabilityMatchHash": "NAP-BOL"
     },
@@ -2189,7 +2189,7 @@
       "sourceOrder": 104,
       "slot": 104,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 75,
+      "startingProbability": 70,
       "probabilityMatchId": "17986",
       "probabilityMatchHash": "COM-PAR",
       "unavailability": null,
@@ -2349,13 +2349,13 @@
       "sourceOrder": 112,
       "slot": 112,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
-      "probabilityMatchId": "17993",
-      "probabilityMatchHash": "TOR-ROM",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il centrocampista uscito claudicante dal match di giovedì in Champions League per un guaio muscolare che rimane da valutare. Verso il forfait lunedì in campionato contro il Torino.",
+      "unavailabilityMatchday": 4,
+      "unavailabilityMatchHash": "TOR-ROM"
     },
     {
       "officialId": "5844",
@@ -2449,7 +2449,7 @@
       "sourceOrder": 117,
       "slot": 117,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 75,
+      "startingProbability": 70,
       "probabilityMatchId": "17986",
       "probabilityMatchHash": "COM-PAR",
       "unavailability": null,
@@ -3909,7 +3909,7 @@
       "sourceOrder": 190,
       "slot": 190,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
+      "startingProbability": 55,
       "probabilityMatchId": "17985",
       "probabilityMatchHash": "ATA-CAG",
       "unavailability": null,
@@ -3969,7 +3969,7 @@
       "sourceOrder": 193,
       "slot": 193,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 60,
       "probabilityMatchId": "17986",
       "probabilityMatchHash": "COM-PAR",
       "unavailability": null,
@@ -4409,7 +4409,7 @@
       "sourceOrder": 215,
       "slot": 215,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 90,
       "probabilityMatchId": "17993",
       "probabilityMatchHash": "TOR-ROM",
       "unavailability": null,
@@ -4849,7 +4849,7 @@
       "sourceOrder": 237,
       "slot": 237,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 75,
       "probabilityMatchId": "17986",
       "probabilityMatchHash": "COM-PAR",
       "unavailability": null,
@@ -4869,7 +4869,7 @@
       "sourceOrder": 238,
       "slot": 238,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 60,
       "probabilityMatchId": "17986",
       "probabilityMatchHash": "COM-PAR",
       "unavailability": null,
@@ -6809,7 +6809,7 @@
       "sourceOrder": 336,
       "slot": 335,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 75,
+      "startingProbability": 65,
       "probabilityMatchId": "17985",
       "probabilityMatchHash": "ATA-CAG",
       "unavailability": null,
@@ -7649,7 +7649,7 @@
       "sourceOrder": 378,
       "slot": 377,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 35,
+      "startingProbability": 55,
       "probabilityMatchId": "17993",
       "probabilityMatchHash": "TOR-ROM",
       "unavailability": null,
@@ -8109,7 +8109,7 @@
       "sourceOrder": 401,
       "slot": 400,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "17993",
       "probabilityMatchHash": "TOR-ROM",
       "unavailability": null,
@@ -11432,10 +11432,10 @@
       "startingProbability": null,
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "unavailability": "injured",
+      "unavailabilityNote": "Il centrocampista non convocato per venerdì contro la Fiorentina per un problema fisico. Da valutare in vista della 5a giornata di campionato.",
+      "unavailabilityMatchday": 4,
+      "unavailabilityMatchHash": "VEN-FIO"
     },
     {
       "officialId": "526",
@@ -11789,7 +11789,7 @@
       "sourceOrder": 585,
       "slot": 584,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 55,
+      "startingProbability": 40,
       "probabilityMatchId": "17985",
       "probabilityMatchHash": "ATA-CAG",
       "unavailability": null,
