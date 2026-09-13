@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-13T00:31:33.215Z",
+  "updatedAt": "2026-09-13T08:24:50.675Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-13T00:31:33.215Z",
+  "probabilityUpdatedAt": "2026-09-13T08:24:50.675Z",
   "probabilityMatchday": 4,
   "probabilityMatches": [
     {
@@ -21,7 +21,7 @@
       "homeCode": "COM",
       "awayCode": "PAR",
       "dateLabel": "lunedì 14 settembre, 18:30",
-      "officialUpdatedLabel": "12/09/2026 - 17:04"
+      "officialUpdatedLabel": "13/09/2026 - 10:08"
     },
     {
       "matchId": "17987",
@@ -37,7 +37,7 @@
       "homeCode": "INT",
       "awayCode": "UDI",
       "dateLabel": "lunedì 14 settembre, 20:45",
-      "officialUpdatedLabel": "12/09/2026 - 17:52"
+      "officialUpdatedLabel": "13/09/2026 - 09:59"
     },
     {
       "matchId": "17989",
@@ -53,7 +53,7 @@
       "homeCode": "LEC",
       "awayCode": "MON",
       "dateLabel": "domenica 13 settembre, 15:00",
-      "officialUpdatedLabel": "12/09/2026 - 18:15"
+      "officialUpdatedLabel": "13/09/2026 - 10:05"
     },
     {
       "matchId": "17991",
@@ -61,7 +61,7 @@
       "homeCode": "NAP",
       "awayCode": "BOL",
       "dateLabel": "domenica 13 settembre, 18:00",
-      "officialUpdatedLabel": "12/09/2026 - 13:10"
+      "officialUpdatedLabel": "13/09/2026 - 10:03"
     },
     {
       "matchId": "17992",
@@ -69,7 +69,7 @@
       "homeCode": "SAS",
       "awayCode": "JUV",
       "dateLabel": "domenica 13 settembre, 20:45",
-      "officialUpdatedLabel": "12/09/2026 - 16:26"
+      "officialUpdatedLabel": "13/09/2026 - 10:00"
     },
     {
       "matchId": "17993",
@@ -77,7 +77,7 @@
       "homeCode": "TOR",
       "awayCode": "ROM",
       "dateLabel": "lunedì 14 settembre, 18:30",
-      "officialUpdatedLabel": "12/09/2026 - 17:53"
+      "officialUpdatedLabel": "13/09/2026 - 10:08"
     },
     {
       "matchId": "17994",
@@ -91,7 +91,7 @@
   "probabilityPlayerCount": 454,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-13T00:31:33.215Z",
+  "availabilityUpdatedAt": "2026-09-13T08:24:50.675Z",
   "injuredCount": 62,
   "suspendedCount": 1,
   "activeCount": 595,
@@ -369,7 +369,7 @@
       "sourceOrder": 13,
       "slot": 13,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "17992",
       "probabilityMatchHash": "SAS-JUV",
       "unavailability": null,
@@ -793,7 +793,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il calciatore nella 1a giornata contro il Como è uscito dal campo a causa di una lesione muscolare al bicipite femorale della coscia destra. Stop di circa 25 giorni, recuperabile dalla fine di settembre.",
+      "unavailabilityNote": "il calciatore nella 1a giornata contro il Como è uscito dal campo a causa di una lesione muscolare al bicipite femorale della coscia destra. Stop di circa 25 giorni, recuperabile dalla seconda metà di settembre.",
       "unavailabilityMatchday": 4,
       "unavailabilityMatchHash": "INT-UDI"
     },
@@ -1949,7 +1949,7 @@
       "sourceOrder": 92,
       "slot": 92,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "17992",
       "probabilityMatchHash": "SAS-JUV",
       "unavailability": null,
@@ -2309,7 +2309,7 @@
       "sourceOrder": 110,
       "slot": 110,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 80,
       "probabilityMatchId": "17991",
       "probabilityMatchHash": "NAP-BOL",
       "unavailability": null,
@@ -2769,7 +2769,7 @@
       "sourceOrder": 133,
       "slot": 133,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "17990",
       "probabilityMatchHash": "LEC-MON",
       "unavailability": null,
@@ -2789,7 +2789,7 @@
       "sourceOrder": 134,
       "slot": 134,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 85,
+      "startingProbability": 55,
       "probabilityMatchId": "17991",
       "probabilityMatchHash": "NAP-BOL",
       "unavailability": null,
@@ -3509,7 +3509,7 @@
       "sourceOrder": 170,
       "slot": 170,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 85,
       "probabilityMatchId": "17991",
       "probabilityMatchHash": "NAP-BOL",
       "unavailability": null,
@@ -4349,7 +4349,7 @@
       "sourceOrder": 212,
       "slot": 212,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "17990",
       "probabilityMatchHash": "LEC-MON",
       "unavailability": null,
@@ -5869,7 +5869,7 @@
       "sourceOrder": 289,
       "slot": 288,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 55,
       "probabilityMatchId": "17991",
       "probabilityMatchHash": "NAP-BOL",
       "unavailability": null,
@@ -8489,7 +8489,7 @@
       "sourceOrder": 420,
       "slot": 419,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "17991",
       "probabilityMatchHash": "NAP-BOL",
       "unavailability": null,
@@ -9249,7 +9249,7 @@
       "sourceOrder": 458,
       "slot": 457,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 85,
       "probabilityMatchId": "17991",
       "probabilityMatchHash": "NAP-BOL",
       "unavailability": null,
@@ -9333,7 +9333,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il difensore nel primo turno di A contro il Como costretto al cambio per un lieve problema muscolare all'adduttore della coscia destra che lo terrà ai box fino alla metà di settembre.",
+      "unavailabilityNote": "il difensore nel primo turno di A contro il Como costretto al cambio per un lieve problema muscolare all'adduttore della coscia destra che lo terrà ai box fino alla fine di settembre.",
       "unavailabilityMatchday": 4,
       "unavailabilityMatchHash": "INT-UDI"
     },
