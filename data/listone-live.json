@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-12T20:24:23.992Z",
+  "updatedAt": "2026-09-13T00:31:33.215Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-12T20:24:23.992Z",
+  "probabilityUpdatedAt": "2026-09-13T00:31:33.215Z",
   "probabilityMatchday": 4,
   "probabilityMatches": [
     {
@@ -45,7 +45,7 @@
       "homeCode": "LAZ",
       "awayCode": "MIL",
       "dateLabel": "sabato 12 settembre, 18:00",
-      "officialUpdatedLabel": "12/09/2026 - 16:59"
+      "officialUpdatedLabel": "12/09/2026 - 22:51"
     },
     {
       "matchId": "17990",
@@ -91,7 +91,7 @@
   "probabilityPlayerCount": 454,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-12T16:23:14.350Z",
+  "availabilityUpdatedAt": "2026-09-13T00:31:33.215Z",
   "injuredCount": 62,
   "suspendedCount": 1,
   "activeCount": 595,
@@ -7189,13 +7189,13 @@
       "sourceOrder": 355,
       "slot": 354,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 25,
-      "probabilityMatchId": "17989",
-      "probabilityMatchHash": "LAZ-MIL",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "il centrocampista in recupero da un guaio muscolare alla gamba lamentato il 24 agosto a Bologna. Si confida di riaverlo a disposizione da metà settembre per la 5a giornata di campionato.",
+      "unavailabilityMatchday": 4,
+      "unavailabilityMatchHash": "LAZ-MIL"
     },
     {
       "officialId": "7240",
@@ -8349,13 +8349,13 @@
       "sourceOrder": 413,
       "slot": 412,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il regista biancoceleste ha ripreso a lavorare sul campo d'allenamento, messa da parte l'ernia bilaterale che lo ha costretto a saltare la preparazione estiva. Recuperabile dalla seconda metà di settembre.",
-      "unavailabilityMatchday": 4,
-      "unavailabilityMatchHash": "LAZ-MIL"
+      "startingProbability": 15,
+      "probabilityMatchId": "17989",
+      "probabilityMatchHash": "LAZ-MIL",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "7248",
