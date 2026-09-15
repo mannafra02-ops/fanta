@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-15T08:28:14.138Z",
+  "updatedAt": "2026-09-15T12:29:43.068Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-15T08:28:14.138Z",
+  "probabilityUpdatedAt": "2026-09-15T12:29:43.068Z",
   "probabilityMatchday": 5,
   "probabilityMatches": [
     {
@@ -37,7 +37,7 @@
       "homeCode": "JUV",
       "awayCode": "ATA",
       "dateLabel": "domenica 20 settembre, 18:00",
-      "officialUpdatedLabel": "15/09/2026 - 10:24"
+      "officialUpdatedLabel": "15/09/2026 - 14:07"
     },
     {
       "matchId": "17999",
@@ -69,7 +69,7 @@
       "homeCode": "ROM",
       "awayCode": "INT",
       "dateLabel": "sabato 19 settembre, 18:00",
-      "officialUpdatedLabel": "15/09/2026 - 10:19"
+      "officialUpdatedLabel": "15/09/2026 - 14:05"
     },
     {
       "matchId": "18003",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "15/09/2026 - 10:21"
     }
   ],
-  "probabilityPlayerCount": 458,
+  "probabilityPlayerCount": 459,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-15T08:28:14.138Z",
-  "injuredCount": 61,
+  "availabilityUpdatedAt": "2026-09-15T12:29:43.068Z",
+  "injuredCount": 60,
   "suspendedCount": 1,
   "activeCount": 595,
   "totalCount": 595,
@@ -213,7 +213,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il turco in tribuna lunedì sera contro l'Udinese per un affaticamento muscolare agli adduttori. Da valutare.",
+      "unavailabilityNote": "Il turco in tribuna lunedì sera contro l'Udinese per un risentimento muscolare all'adduttore della coscia destra, condizioni da valutare quotidianamente in vista del match di Roma contro i giallorossi in programma domenica.",
       "unavailabilityMatchday": 5,
       "unavailabilityMatchHash": "ROM-INT"
     },
@@ -849,13 +849,13 @@
       "sourceOrder": 38,
       "slot": 37,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il centrocampista dal 27 agosto alle prese con un affaticamento muscolare alla gamba. Assente contro Sassuolo Parma e Milan, da valutare quotidianamente in vista di domenica contro l'Atalanta nella 5a giornata di campionato.",
-      "unavailabilityMatchday": 5,
-      "unavailabilityMatchHash": "JUV-ATA"
+      "startingProbability": 55,
+      "probabilityMatchId": "17998",
+      "probabilityMatchHash": "JUV-ATA",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "632",
@@ -3309,7 +3309,7 @@
       "sourceOrder": 169,
       "slot": 160,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 55,
       "probabilityMatchId": "17998",
       "probabilityMatchHash": "JUV-ATA",
       "unavailability": null,
@@ -3833,7 +3833,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e pronto a tornare in campo dall'inizio di ottobre.",
+      "unavailabilityNote": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e pronto a tornare in campo dalla metà di ottobre.",
       "unavailabilityMatchday": 5,
       "unavailabilityMatchHash": "JUV-ATA"
     },
@@ -6129,7 +6129,7 @@
       "sourceOrder": 307,
       "slot": 301,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 35,
       "probabilityMatchId": "17998",
       "probabilityMatchHash": "JUV-ATA",
       "unavailability": null,
@@ -6149,7 +6149,7 @@
       "sourceOrder": 308,
       "slot": 302,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 40,
       "probabilityMatchId": "17998",
       "probabilityMatchHash": "JUV-ATA",
       "unavailability": null,
@@ -10329,7 +10329,7 @@
       "sourceOrder": 516,
       "slot": 511,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 30,
+      "startingProbability": 25,
       "probabilityMatchId": "17998",
       "probabilityMatchHash": "JUV-ATA",
       "unavailability": null,
