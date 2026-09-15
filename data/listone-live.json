@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-15T16:25:02.133Z",
+  "updatedAt": "2026-09-15T20:23:39.153Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-15T16:25:02.133Z",
+  "probabilityUpdatedAt": "2026-09-15T20:23:39.153Z",
   "probabilityMatchday": 5,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "BOL",
       "awayCode": "TOR",
       "dateLabel": "sabato 19 settembre, 15:00",
-      "officialUpdatedLabel": "15/09/2026 - 17:27"
+      "officialUpdatedLabel": "15/09/2026 - 19:41"
     },
     {
       "matchId": "17996",
@@ -91,7 +91,7 @@
   "probabilityPlayerCount": 458,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-15T16:25:02.133Z",
+  "availabilityUpdatedAt": "2026-09-15T20:23:39.153Z",
   "injuredCount": 61,
   "suspendedCount": 1,
   "activeCount": 595,
@@ -2129,7 +2129,7 @@
       "sourceOrder": 100,
       "slot": 101,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 55,
       "probabilityMatchId": "17995",
       "probabilityMatchHash": "BOL-TOR",
       "unavailability": null,
@@ -2489,7 +2489,7 @@
       "sourceOrder": 153,
       "slot": 119,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 70,
       "probabilityMatchId": "17995",
       "probabilityMatchHash": "BOL-TOR",
       "unavailability": null,
@@ -4453,7 +4453,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il difensorr ai box per una lesione di grado moderato al quadricipite della gamba sinistra, proverà a tornerà arruolabile dalla metà di ottobre.",
+      "unavailabilityNote": "Il difensorr ai box per una lesione di grado moderato al quadricipite della gamba sinistra, proverà a tornerà arruolabile dalla seconda metà di ottobre.",
       "unavailabilityMatchday": 5,
       "unavailabilityMatchHash": "MON-SAS"
     },
@@ -9649,7 +9649,7 @@
       "sourceOrder": 443,
       "slot": 477,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
+      "startingProbability": 45,
       "probabilityMatchId": "17995",
       "probabilityMatchHash": "BOL-TOR",
       "unavailability": null,
