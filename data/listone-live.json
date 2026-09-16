@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-16T08:26:32.966Z",
+  "updatedAt": "2026-09-16T12:30:25.984Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-16T08:26:32.966Z",
+  "probabilityUpdatedAt": "2026-09-16T12:30:25.984Z",
   "probabilityMatchday": 5,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "BOL",
       "awayCode": "TOR",
       "dateLabel": "sabato 19 settembre, 15:00",
-      "officialUpdatedLabel": "16/09/2026 - 09:33"
+      "officialUpdatedLabel": "16/09/2026 - 10:34"
     },
     {
       "matchId": "17996",
@@ -2129,7 +2129,7 @@
       "sourceOrder": 100,
       "slot": 101,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 80,
       "probabilityMatchId": "17995",
       "probabilityMatchHash": "BOL-TOR",
       "unavailability": null,
@@ -2149,7 +2149,7 @@
       "sourceOrder": 101,
       "slot": 102,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 80,
       "probabilityMatchId": "17995",
       "probabilityMatchHash": "BOL-TOR",
       "unavailability": null,
@@ -2489,7 +2489,7 @@
       "sourceOrder": 153,
       "slot": 119,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 80,
       "probabilityMatchId": "17995",
       "probabilityMatchHash": "BOL-TOR",
       "unavailability": null,
@@ -3089,7 +3089,7 @@
       "sourceOrder": 198,
       "slot": 149,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "17995",
       "probabilityMatchHash": "BOL-TOR",
       "unavailability": null,
@@ -9649,7 +9649,7 @@
       "sourceOrder": 443,
       "slot": 477,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 45,
+      "startingProbability": 5,
       "probabilityMatchId": "17995",
       "probabilityMatchHash": "BOL-TOR",
       "unavailability": null,
