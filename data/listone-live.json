@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-16T16:25:02.699Z",
+  "updatedAt": "2026-09-16T20:24:58.395Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-16T16:25:02.699Z",
+  "probabilityUpdatedAt": "2026-09-16T20:24:58.395Z",
   "probabilityMatchday": 5,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "BOL",
       "awayCode": "TOR",
       "dateLabel": "sabato 19 settembre, 15:00",
-      "officialUpdatedLabel": "16/09/2026 - 16:45"
+      "officialUpdatedLabel": "16/09/2026 - 19:06"
     },
     {
       "matchId": "17996",
@@ -45,7 +45,7 @@
       "homeCode": "MIL",
       "awayCode": "LEC",
       "dateLabel": "domenica 20 settembre, 20:45",
-      "officialUpdatedLabel": "16/09/2026 - 15:34"
+      "officialUpdatedLabel": "16/09/2026 - 19:54"
     },
     {
       "matchId": "18000",
@@ -85,14 +85,14 @@
       "homeCode": "VEN",
       "awayCode": "LAZ",
       "dateLabel": "sabato 19 settembre, 20:45",
-      "officialUpdatedLabel": "16/09/2026 - 15:40"
+      "officialUpdatedLabel": "16/09/2026 - 19:08"
     }
   ],
-  "probabilityPlayerCount": 459,
+  "probabilityPlayerCount": 461,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-16T08:26:32.966Z",
-  "injuredCount": 60,
+  "availabilityUpdatedAt": "2026-09-16T20:24:58.395Z",
+  "injuredCount": 58,
   "suspendedCount": 1,
   "activeCount": 595,
   "totalCount": 595,
@@ -3449,7 +3449,7 @@
       "sourceOrder": 178,
       "slot": 167,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "17999",
       "probabilityMatchHash": "MIL-LEC",
       "unavailability": null,
@@ -4749,13 +4749,13 @@
       "sourceOrder": 244,
       "slot": 232,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "Il terzino alle prese con un fastidio all'anca e assente domenica scorsa contro il Napoli al Maradona. Da valutare in vista di sabato contro il Toro al Dall'Ara nella 5a giornata.",
-      "unavailabilityMatchday": 5,
-      "unavailabilityMatchHash": "BOL-TOR"
+      "startingProbability": 50,
+      "probabilityMatchId": "17995",
+      "probabilityMatchHash": "BOL-TOR",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "5298",
@@ -5573,7 +5573,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il regista dei veneti KO l'11 settembre contro la Fiorentina vittima di una distrazione intratendinea del bicipite femorale destro. Rischia un lungo stop, di certo assente sabato sera contro la Lazio.",
+      "unavailabilityNote": "il regista dei veneti KO l'11 settembre contro la Fiorentina vittima di una distrazione intratendinea del bicipite femorale destro. Rischia un lungo stop e ipotizziamo un rientro dall'inizio di novembre.",
       "unavailabilityMatchday": 5,
       "unavailabilityMatchHash": "VEN-LAZ"
     },
@@ -6229,7 +6229,7 @@
       "sourceOrder": 311,
       "slot": 306,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 70,
       "probabilityMatchId": "17999",
       "probabilityMatchHash": "MIL-LEC",
       "unavailability": null,
@@ -8969,7 +8969,7 @@
       "sourceOrder": 445,
       "slot": 443,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 50,
       "probabilityMatchId": "17995",
       "probabilityMatchHash": "BOL-TOR",
       "unavailability": null,
@@ -8989,13 +8989,13 @@
       "sourceOrder": 446,
       "slot": 444,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "Il centrocampista ai box per una lesione del bicipite femorale della coscia sinistra, recuperabile dalla seconda metà di settembre.",
-      "unavailabilityMatchday": 5,
-      "unavailabilityMatchHash": "BOL-TOR"
+      "startingProbability": 20,
+      "probabilityMatchId": "17995",
+      "probabilityMatchHash": "BOL-TOR",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "7125",
