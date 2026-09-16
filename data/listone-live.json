@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-15T20:23:39.153Z",
+  "updatedAt": "2026-09-16T08:26:32.966Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-15T20:23:39.153Z",
+  "probabilityUpdatedAt": "2026-09-16T08:26:32.966Z",
   "probabilityMatchday": 5,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "BOL",
       "awayCode": "TOR",
       "dateLabel": "sabato 19 settembre, 15:00",
-      "officialUpdatedLabel": "15/09/2026 - 19:41"
+      "officialUpdatedLabel": "16/09/2026 - 09:33"
     },
     {
       "matchId": "17996",
@@ -21,7 +21,7 @@
       "homeCode": "FIO",
       "awayCode": "NAP",
       "dateLabel": "domenica 20 settembre, 12:30",
-      "officialUpdatedLabel": "15/09/2026 - 10:21"
+      "officialUpdatedLabel": "16/09/2026 - 09:33"
     },
     {
       "matchId": "17997",
@@ -29,7 +29,7 @@
       "homeCode": "FRO",
       "awayCode": "COM",
       "dateLabel": "domenica 20 settembre, 15:00",
-      "officialUpdatedLabel": "15/09/2026 - 10:20"
+      "officialUpdatedLabel": "16/09/2026 - 09:33"
     },
     {
       "matchId": "17998",
@@ -37,7 +37,7 @@
       "homeCode": "JUV",
       "awayCode": "ATA",
       "dateLabel": "domenica 20 settembre, 18:00",
-      "officialUpdatedLabel": "15/09/2026 - 14:07"
+      "officialUpdatedLabel": "16/09/2026 - 09:33"
     },
     {
       "matchId": "17999",
@@ -45,7 +45,7 @@
       "homeCode": "MIL",
       "awayCode": "LEC",
       "dateLabel": "domenica 20 settembre, 20:45",
-      "officialUpdatedLabel": "15/09/2026 - 10:20"
+      "officialUpdatedLabel": "16/09/2026 - 09:33"
     },
     {
       "matchId": "18000",
@@ -53,7 +53,7 @@
       "homeCode": "MON",
       "awayCode": "SAS",
       "dateLabel": "venerdì 18 settembre, 20:45",
-      "officialUpdatedLabel": "15/09/2026 - 14:49"
+      "officialUpdatedLabel": "16/09/2026 - 09:33"
     },
     {
       "matchId": "18001",
@@ -61,7 +61,7 @@
       "homeCode": "PAR",
       "awayCode": "GEN",
       "dateLabel": "domenica 20 settembre, 15:00",
-      "officialUpdatedLabel": "15/09/2026 - 10:21"
+      "officialUpdatedLabel": "16/09/2026 - 09:33"
     },
     {
       "matchId": "18002",
@@ -69,7 +69,7 @@
       "homeCode": "ROM",
       "awayCode": "INT",
       "dateLabel": "sabato 19 settembre, 18:00",
-      "officialUpdatedLabel": "15/09/2026 - 14:05"
+      "officialUpdatedLabel": "16/09/2026 - 09:33"
     },
     {
       "matchId": "18003",
@@ -77,7 +77,7 @@
       "homeCode": "UDI",
       "awayCode": "CAG",
       "dateLabel": "sabato 19 settembre, 15:00",
-      "officialUpdatedLabel": "15/09/2026 - 10:27"
+      "officialUpdatedLabel": "16/09/2026 - 10:02"
     },
     {
       "matchId": "18004",
@@ -85,14 +85,14 @@
       "homeCode": "VEN",
       "awayCode": "LAZ",
       "dateLabel": "sabato 19 settembre, 20:45",
-      "officialUpdatedLabel": "15/09/2026 - 17:26"
+      "officialUpdatedLabel": "16/09/2026 - 09:33"
     }
   ],
-  "probabilityPlayerCount": 458,
+  "probabilityPlayerCount": 459,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-15T20:23:39.153Z",
-  "injuredCount": 61,
+  "availabilityUpdatedAt": "2026-09-16T08:26:32.966Z",
+  "injuredCount": 60,
   "suspendedCount": 1,
   "activeCount": 595,
   "totalCount": 595,
@@ -789,13 +789,13 @@
       "sourceOrder": 31,
       "slot": 34,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il calciatore nella 1a giornata contro il Como è uscito dal campo a causa di una lesione muscolare al bicipite femorale della coscia destra. Stop di circa 25 giorni, recuperabile dalla seconda metà di settembre e da valutare la convocazione in extremis contro il Cagliari per sabato nella 5a di campionato.",
-      "unavailabilityMatchday": 5,
-      "unavailabilityMatchHash": "UDI-CAG"
+      "startingProbability": 55,
+      "probabilityMatchId": "18003",
+      "probabilityMatchHash": "UDI-CAG",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "6675",
@@ -5509,7 +5509,7 @@
       "sourceOrder": 224,
       "slot": 270,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 60,
       "probabilityMatchId": "18003",
       "probabilityMatchHash": "UDI-CAG",
       "unavailability": null,
@@ -11329,7 +11329,7 @@
       "sourceOrder": 563,
       "slot": 561,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 55,
+      "startingProbability": 40,
       "probabilityMatchId": "18003",
       "probabilityMatchHash": "UDI-CAG",
       "unavailability": null,
