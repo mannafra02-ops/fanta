@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-17T00:30:53.208Z",
+  "updatedAt": "2026-09-17T08:27:05.926Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-17T00:30:53.208Z",
+  "probabilityUpdatedAt": "2026-09-17T08:27:05.926Z",
   "probabilityMatchday": 5,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "BOL",
       "awayCode": "TOR",
       "dateLabel": "sabato 19 settembre, 15:00",
-      "officialUpdatedLabel": "16/09/2026 - 19:06"
+      "officialUpdatedLabel": "17/09/2026 - 09:01"
     },
     {
       "matchId": "17996",
@@ -21,7 +21,7 @@
       "homeCode": "FIO",
       "awayCode": "NAP",
       "dateLabel": "domenica 20 settembre, 12:30",
-      "officialUpdatedLabel": "16/09/2026 - 15:25"
+      "officialUpdatedLabel": "17/09/2026 - 09:02"
     },
     {
       "matchId": "17997",
@@ -29,7 +29,7 @@
       "homeCode": "FRO",
       "awayCode": "COM",
       "dateLabel": "domenica 20 settembre, 15:00",
-      "officialUpdatedLabel": "16/09/2026 - 15:02"
+      "officialUpdatedLabel": "17/09/2026 - 09:02"
     },
     {
       "matchId": "17998",
@@ -37,7 +37,7 @@
       "homeCode": "JUV",
       "awayCode": "ATA",
       "dateLabel": "domenica 20 settembre, 18:00",
-      "officialUpdatedLabel": "16/09/2026 - 15:33"
+      "officialUpdatedLabel": "17/09/2026 - 09:02"
     },
     {
       "matchId": "17999",
@@ -45,7 +45,7 @@
       "homeCode": "MIL",
       "awayCode": "LEC",
       "dateLabel": "domenica 20 settembre, 20:45",
-      "officialUpdatedLabel": "16/09/2026 - 19:54"
+      "officialUpdatedLabel": "17/09/2026 - 09:02"
     },
     {
       "matchId": "18000",
@@ -53,7 +53,7 @@
       "homeCode": "MON",
       "awayCode": "SAS",
       "dateLabel": "venerdì 18 settembre, 20:45",
-      "officialUpdatedLabel": "16/09/2026 - 15:01"
+      "officialUpdatedLabel": "17/09/2026 - 09:02"
     },
     {
       "matchId": "18001",
@@ -61,7 +61,7 @@
       "homeCode": "PAR",
       "awayCode": "GEN",
       "dateLabel": "domenica 20 settembre, 15:00",
-      "officialUpdatedLabel": "16/09/2026 - 22:36"
+      "officialUpdatedLabel": "17/09/2026 - 09:02"
     },
     {
       "matchId": "18002",
@@ -69,7 +69,7 @@
       "homeCode": "ROM",
       "awayCode": "INT",
       "dateLabel": "sabato 19 settembre, 18:00",
-      "officialUpdatedLabel": "16/09/2026 - 18:17"
+      "officialUpdatedLabel": "17/09/2026 - 10:18"
     },
     {
       "matchId": "18003",
@@ -77,7 +77,7 @@
       "homeCode": "UDI",
       "awayCode": "CAG",
       "dateLabel": "sabato 19 settembre, 15:00",
-      "officialUpdatedLabel": "16/09/2026 - 16:10"
+      "officialUpdatedLabel": "17/09/2026 - 09:02"
     },
     {
       "matchId": "18004",
@@ -85,7 +85,7 @@
       "homeCode": "VEN",
       "awayCode": "LAZ",
       "dateLabel": "sabato 19 settembre, 20:45",
-      "officialUpdatedLabel": "16/09/2026 - 19:08"
+      "officialUpdatedLabel": "17/09/2026 - 09:03"
     }
   ],
   "probabilityPlayerCount": 461,
@@ -949,7 +949,7 @@
       "sourceOrder": 35,
       "slot": 42,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 65,
       "probabilityMatchId": "17996",
       "probabilityMatchHash": "FIO-NAP",
       "unavailability": null,
@@ -1609,7 +1609,7 @@
       "sourceOrder": 90,
       "slot": 75,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 65,
       "probabilityMatchId": "18002",
       "probabilityMatchHash": "ROM-INT",
       "unavailability": null,
@@ -4009,7 +4009,7 @@
       "sourceOrder": 161,
       "slot": 195,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 65,
       "probabilityMatchId": "17996",
       "probabilityMatchHash": "FIO-NAP",
       "unavailability": null,
@@ -6489,7 +6489,7 @@
       "sourceOrder": 324,
       "slot": 319,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 75,
       "probabilityMatchId": "17996",
       "probabilityMatchHash": "FIO-NAP",
       "unavailability": null,
