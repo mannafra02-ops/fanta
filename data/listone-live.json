@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-17T20:24:52.880Z",
+  "updatedAt": "2026-09-18T00:30:16.006Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-17T20:24:52.880Z",
+  "probabilityUpdatedAt": "2026-09-18T00:30:16.006Z",
   "probabilityMatchday": 5,
   "probabilityMatches": [
     {
@@ -29,7 +29,7 @@
       "homeCode": "FRO",
       "awayCode": "COM",
       "dateLabel": "domenica 20 settembre, 15:00",
-      "officialUpdatedLabel": "17/09/2026 - 16:25"
+      "officialUpdatedLabel": "17/09/2026 - 22:25"
     },
     {
       "matchId": "17998",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "17/09/2026 - 21:14"
     }
   ],
-  "probabilityPlayerCount": 468,
+  "probabilityPlayerCount": 467,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-17T16:25:19.842Z",
-  "injuredCount": 52,
+  "availabilityUpdatedAt": "2026-09-18T00:30:16.006Z",
+  "injuredCount": 53,
   "suspendedCount": 1,
   "activeCount": 596,
   "totalCount": 596,
@@ -7889,13 +7889,13 @@
       "sourceOrder": 391,
       "slot": 389,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
-      "probabilityMatchId": "17997",
-      "probabilityMatchHash": "FRO-COM",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il terzino dei ciociari ai box per una lesione di basso grado del bicipite femorale della coscia sinistra, recuperabile dall'inizio di ottobre.",
+      "unavailabilityMatchday": 5,
+      "unavailabilityMatchHash": "FRO-COM"
     },
     {
       "officialId": "2012",
