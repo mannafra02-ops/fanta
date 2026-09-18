@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-18T00:30:16.006Z",
+  "updatedAt": "2026-09-18T08:25:09.070Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-18T00:30:16.006Z",
+  "probabilityUpdatedAt": "2026-09-18T08:25:09.070Z",
   "probabilityMatchday": 5,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "BOL",
       "awayCode": "TOR",
       "dateLabel": "sabato 19 settembre, 15:00",
-      "officialUpdatedLabel": "17/09/2026 - 17:02"
+      "officialUpdatedLabel": "18/09/2026 - 08:19"
     },
     {
       "matchId": "17996",
@@ -21,7 +21,7 @@
       "homeCode": "FIO",
       "awayCode": "NAP",
       "dateLabel": "domenica 20 settembre, 12:30",
-      "officialUpdatedLabel": "17/09/2026 - 17:34"
+      "officialUpdatedLabel": "18/09/2026 - 08:19"
     },
     {
       "matchId": "17997",
@@ -29,7 +29,7 @@
       "homeCode": "FRO",
       "awayCode": "COM",
       "dateLabel": "domenica 20 settembre, 15:00",
-      "officialUpdatedLabel": "17/09/2026 - 22:25"
+      "officialUpdatedLabel": "18/09/2026 - 08:19"
     },
     {
       "matchId": "17998",
@@ -37,7 +37,7 @@
       "homeCode": "JUV",
       "awayCode": "ATA",
       "dateLabel": "domenica 20 settembre, 18:00",
-      "officialUpdatedLabel": "17/09/2026 - 21:12"
+      "officialUpdatedLabel": "18/09/2026 - 08:30"
     },
     {
       "matchId": "17999",
@@ -45,7 +45,7 @@
       "homeCode": "MIL",
       "awayCode": "LEC",
       "dateLabel": "domenica 20 settembre, 20:45",
-      "officialUpdatedLabel": "17/09/2026 - 16:42"
+      "officialUpdatedLabel": "18/09/2026 - 08:19"
     },
     {
       "matchId": "18000",
@@ -53,7 +53,7 @@
       "homeCode": "MON",
       "awayCode": "SAS",
       "dateLabel": "venerdì 18 settembre, 20:45",
-      "officialUpdatedLabel": "17/09/2026 - 14:59"
+      "officialUpdatedLabel": "18/09/2026 - 08:21"
     },
     {
       "matchId": "18001",
@@ -61,7 +61,7 @@
       "homeCode": "PAR",
       "awayCode": "GEN",
       "dateLabel": "domenica 20 settembre, 15:00",
-      "officialUpdatedLabel": "17/09/2026 - 16:25"
+      "officialUpdatedLabel": "18/09/2026 - 08:19"
     },
     {
       "matchId": "18002",
@@ -69,7 +69,7 @@
       "homeCode": "ROM",
       "awayCode": "INT",
       "dateLabel": "sabato 19 settembre, 18:00",
-      "officialUpdatedLabel": "17/09/2026 - 16:25"
+      "officialUpdatedLabel": "18/09/2026 - 08:19"
     },
     {
       "matchId": "18003",
@@ -77,7 +77,7 @@
       "homeCode": "UDI",
       "awayCode": "CAG",
       "dateLabel": "sabato 19 settembre, 15:00",
-      "officialUpdatedLabel": "17/09/2026 - 17:34"
+      "officialUpdatedLabel": "18/09/2026 - 08:19"
     },
     {
       "matchId": "18004",
@@ -85,17 +85,17 @@
       "homeCode": "VEN",
       "awayCode": "LAZ",
       "dateLabel": "sabato 19 settembre, 20:45",
-      "officialUpdatedLabel": "17/09/2026 - 21:14"
+      "officialUpdatedLabel": "18/09/2026 - 08:19"
     }
   ],
-  "probabilityPlayerCount": 467,
+  "probabilityPlayerCount": 466,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
   "availabilityUpdatedAt": "2026-09-18T00:30:16.006Z",
   "injuredCount": 53,
   "suspendedCount": 1,
-  "activeCount": 596,
-  "totalCount": 596,
+  "activeCount": 597,
+  "totalCount": 597,
   "players": [
     {
       "officialId": "5585",
@@ -6649,9 +6649,9 @@
       "sourceOrder": 333,
       "slot": 327,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
-      "probabilityMatchId": "18000",
-      "probabilityMatchHash": "MON-SAS",
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
       "unavailability": null,
       "unavailabilityNote": null,
       "unavailabilityMatchday": null,
@@ -12012,6 +12012,26 @@
       "startingProbability": 30,
       "probabilityMatchId": "18003",
       "probabilityMatchHash": "UDI-CAG",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
+    },
+    {
+      "officialId": "7647",
+      "name": "Esteban",
+      "role": "A",
+      "teamCode": "LEC",
+      "initialQuotation": 1,
+      "quotation": 1,
+      "fvm": 1,
+      "active": true,
+      "sourceOrder": 596,
+      "slot": 596,
+      "addedAt": "2026-09-18T08:25:08.840Z",
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
       "unavailability": null,
       "unavailabilityNote": null,
       "unavailabilityMatchday": null,
