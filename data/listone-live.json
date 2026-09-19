@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-18T20:23:24.024Z",
+  "updatedAt": "2026-09-19T00:30:05.819Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-18T20:23:24.024Z",
+  "probabilityUpdatedAt": "2026-09-19T00:30:05.819Z",
   "probabilityMatchday": 5,
   "probabilityMatches": [
     {
@@ -9889,7 +9889,7 @@
       "sourceOrder": 494,
       "slot": 489,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 40,
       "probabilityMatchId": "18000",
       "probabilityMatchHash": "MON-SAS",
       "unavailability": null,
