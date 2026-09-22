@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-22T12:29:18.110Z",
+  "updatedAt": "2026-09-22T16:25:14.277Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-22T12:29:18.110Z",
+  "probabilityUpdatedAt": "2026-09-22T16:25:14.277Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "22/09/2026 - 09:32"
+      "officialUpdatedLabel": "22/09/2026 - 16:30"
     },
     {
       "matchId": "18013",
@@ -91,7 +91,7 @@
   "probabilityPlayerCount": 472,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-22T12:29:18.110Z",
+  "availabilityUpdatedAt": "2026-09-22T16:25:14.277Z",
   "injuredCount": 47,
   "suspendedCount": 0,
   "activeCount": 597,
@@ -2293,7 +2293,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il centrocampista subentrato a gara in corso il 20 settembre a Firenze, ma ha lamentato un nuovo fastidio fisico che andrà valutato e rischia di tenerlo fuori nel match contro il Frosinone alla ripresa del campionato.",
+      "unavailabilityNote": "il centrocampista subentrato a gara in corso il 20 settembre a Firenze, ma ha lamentato una lesione miofasciale di basso grado dell'adduttore lungo e rimane da valutare nei prossimi allenamenti in vista della gara contro il Frosinone alla ripresa del campionato.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "NAP-FRO"
     },
