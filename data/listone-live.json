@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-22T08:25:36.025Z",
+  "updatedAt": "2026-09-22T12:29:18.110Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-22T08:25:36.025Z",
+  "probabilityUpdatedAt": "2026-09-22T12:29:18.110Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -85,14 +85,14 @@
       "homeCode": "TOR",
       "awayCode": "UDI",
       "dateLabel": "lunedì 12 ottobre, 20:45",
-      "officialUpdatedLabel": "22/09/2026 - 09:01"
+      "officialUpdatedLabel": "22/09/2026 - 11:52"
     }
   ],
-  "probabilityPlayerCount": 471,
+  "probabilityPlayerCount": 472,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-22T08:25:36.025Z",
-  "injuredCount": 48,
+  "availabilityUpdatedAt": "2026-09-22T12:29:18.110Z",
+  "injuredCount": 47,
   "suspendedCount": 0,
   "activeCount": 597,
   "totalCount": 597,
@@ -8689,7 +8689,7 @@
       "sourceOrder": 232,
       "slot": 429,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 80,
       "probabilityMatchId": "18014",
       "probabilityMatchHash": "TOR-UDI",
       "unavailability": null,
@@ -8749,13 +8749,13 @@
       "sourceOrder": 435,
       "slot": 432,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il difensore fermo dal 6 settembre vittima di una lesione muscolare al bicipite femorale. Condizioni da valutare, ma dovrebbe tornare convocabile dalla metà di ottobre.",
-      "unavailabilityMatchday": 6,
-      "unavailabilityMatchHash": "TOR-UDI"
+      "startingProbability": 25,
+      "probabilityMatchId": "18014",
+      "probabilityMatchHash": "TOR-UDI",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "7538",
@@ -9329,7 +9329,7 @@
       "sourceOrder": 464,
       "slot": 461,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 35,
+      "startingProbability": 40,
       "probabilityMatchId": "18014",
       "probabilityMatchHash": "TOR-UDI",
       "unavailability": null,
