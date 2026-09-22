@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-21T20:23:40.922Z",
+  "updatedAt": "2026-09-22T08:25:36.025Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-21T20:23:40.922Z",
+  "probabilityUpdatedAt": "2026-09-22T08:25:36.025Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "VEN",
       "dateLabel": "lunedì 12 ottobre, 18:30",
-      "officialUpdatedLabel": "21/09/2026 - 13:31"
+      "officialUpdatedLabel": "22/09/2026 - 09:01"
     },
     {
       "matchId": "18006",
@@ -21,7 +21,7 @@
       "homeCode": "CAG",
       "awayCode": "JUV",
       "dateLabel": "domenica 11 ottobre, 20:45",
-      "officialUpdatedLabel": "21/09/2026 - 12:41"
+      "officialUpdatedLabel": "22/09/2026 - 09:01"
     },
     {
       "matchId": "18007",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "ROM",
       "dateLabel": "domenica 11 ottobre, 12:30",
-      "officialUpdatedLabel": "21/09/2026 - 09:30"
+      "officialUpdatedLabel": "22/09/2026 - 09:01"
     },
     {
       "matchId": "18008",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "FIO",
       "dateLabel": "sabato 10 ottobre, 15:00",
-      "officialUpdatedLabel": "21/09/2026 - 09:32"
+      "officialUpdatedLabel": "22/09/2026 - 09:01"
     },
     {
       "matchId": "18009",
@@ -45,7 +45,7 @@
       "homeCode": "INT",
       "awayCode": "PAR",
       "dateLabel": "sabato 10 ottobre, 18:00",
-      "officialUpdatedLabel": "21/09/2026 - 14:07"
+      "officialUpdatedLabel": "22/09/2026 - 09:01"
     },
     {
       "matchId": "18010",
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "MON",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "21/09/2026 - 09:30"
+      "officialUpdatedLabel": "22/09/2026 - 09:01"
     },
     {
       "matchId": "18011",
@@ -61,7 +61,7 @@
       "homeCode": "LEC",
       "awayCode": "BOL",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "21/09/2026 - 21:58"
+      "officialUpdatedLabel": "22/09/2026 - 09:01"
     },
     {
       "matchId": "18012",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "21/09/2026 - 09:32"
+      "officialUpdatedLabel": "22/09/2026 - 09:32"
     },
     {
       "matchId": "18013",
@@ -77,7 +77,7 @@
       "homeCode": "SAS",
       "awayCode": "MIL",
       "dateLabel": "domenica 11 ottobre, 18:00",
-      "officialUpdatedLabel": "21/09/2026 - 09:34"
+      "officialUpdatedLabel": "22/09/2026 - 09:01"
     },
     {
       "matchId": "18014",
@@ -85,14 +85,14 @@
       "homeCode": "TOR",
       "awayCode": "UDI",
       "dateLabel": "lunedì 12 ottobre, 20:45",
-      "officialUpdatedLabel": "21/09/2026 - 09:35"
+      "officialUpdatedLabel": "22/09/2026 - 09:01"
     }
   ],
-  "probabilityPlayerCount": 470,
+  "probabilityPlayerCount": 471,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-21T20:23:40.922Z",
-  "injuredCount": 49,
+  "availabilityUpdatedAt": "2026-09-22T08:25:36.025Z",
+  "injuredCount": 48,
   "suspendedCount": 0,
   "activeCount": 597,
   "totalCount": 597,
@@ -769,7 +769,7 @@
       "sourceOrder": 30,
       "slot": 33,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 85,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -3489,13 +3489,13 @@
       "sourceOrder": 187,
       "slot": 169,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il difensore azzurro il 18 settembre ha lamentato una lieve contrattura al bicipite femorale della coscia destra, che lo ha escluso dalla trasferta di Firenze. Da valutare nella sosta in vista della 6a giornata di campionato, ma ci sono possibilità possa far parte dei convocati contro il Frosinone.",
-      "unavailabilityMatchday": 6,
-      "unavailabilityMatchHash": "NAP-FRO"
+      "startingProbability": 50,
+      "probabilityMatchId": "18012",
+      "probabilityMatchHash": "NAP-FRO",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "4287",
@@ -5293,7 +5293,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro. Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da metà novembre.",
+      "unavailabilityNote": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro. Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da fine dicembre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "NAP-FRO"
     },
@@ -7509,7 +7509,7 @@
       "sourceOrder": 381,
       "slot": 370,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 70,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
