@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-23T12:29:29.224Z",
+  "updatedAt": "2026-09-23T16:26:20.065Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-23T12:29:29.224Z",
+  "probabilityUpdatedAt": "2026-09-23T16:26:20.065Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "ROM",
       "dateLabel": "domenica 11 ottobre, 12:30",
-      "officialUpdatedLabel": "23/09/2026 - 08:33"
+      "officialUpdatedLabel": "23/09/2026 - 17:19"
     },
     {
       "matchId": "18008",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "FIO",
       "dateLabel": "sabato 10 ottobre, 15:00",
-      "officialUpdatedLabel": "23/09/2026 - 08:33"
+      "officialUpdatedLabel": "23/09/2026 - 17:11"
     },
     {
       "matchId": "18009",
@@ -45,7 +45,7 @@
       "homeCode": "INT",
       "awayCode": "PAR",
       "dateLabel": "sabato 10 ottobre, 18:00",
-      "officialUpdatedLabel": "23/09/2026 - 08:33"
+      "officialUpdatedLabel": "23/09/2026 - 17:17"
     },
     {
       "matchId": "18010",
@@ -61,7 +61,7 @@
       "homeCode": "LEC",
       "awayCode": "BOL",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "23/09/2026 - 08:33"
+      "officialUpdatedLabel": "23/09/2026 - 17:11"
     },
     {
       "matchId": "18012",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "23/09/2026 - 08:33"
+      "officialUpdatedLabel": "23/09/2026 - 14:38"
     },
     {
       "matchId": "18013",
@@ -7589,7 +7589,7 @@
       "sourceOrder": 385,
       "slot": 374,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 70,
       "probabilityMatchId": "18009",
       "probabilityMatchHash": "INT-PAR",
       "unavailability": null,
@@ -9529,7 +9529,7 @@
       "sourceOrder": 477,
       "slot": 471,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 50,
       "probabilityMatchId": "18009",
       "probabilityMatchHash": "INT-PAR",
       "unavailability": null,
