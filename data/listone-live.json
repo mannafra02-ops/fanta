@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-23T08:26:02.609Z",
+  "updatedAt": "2026-09-23T12:29:29.224Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-23T08:26:02.609Z",
+  "probabilityUpdatedAt": "2026-09-23T12:29:29.224Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "VEN",
       "dateLabel": "lunedì 12 ottobre, 18:30",
-      "officialUpdatedLabel": "23/09/2026 - 08:32"
+      "officialUpdatedLabel": "23/09/2026 - 11:11"
     },
     {
       "matchId": "18006",
@@ -91,7 +91,7 @@
   "probabilityPlayerCount": 471,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-23T08:26:02.609Z",
+  "availabilityUpdatedAt": "2026-09-23T12:29:29.224Z",
   "injuredCount": 48,
   "suspendedCount": 0,
   "activeCount": 597,
@@ -3093,7 +3093,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il calciatore frenato dopo il match col Toro da un risentimento muscolare alla coscia e andrà valutato con appositi esami medici in vista della ripresa del campionato.",
+      "unavailabilityNote": "Il calciatore frenato dopo il match col Toro da una lesione ai flessori della coscia destra, recuperabile dalla seconda metà di ottobre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "LEC-BOL"
     },
@@ -3833,7 +3833,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e pronto a tornare in campo dalla metà di ottobre.",
+      "unavailabilityNote": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e pronto a tornare in campo dalla fine di ottobre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "ATA-VEN"
     },
@@ -6373,7 +6373,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il centrocampista alle prese dalla seconda metà di luglio con una lesione di medio grado alla coscia destra, ma a fine agosto ha deciso, assieme allo staff medico ducale, di operarsi. Lungo stop e ipotesi di ritorno in campo da novembre.",
+      "unavailabilityNote": "il centrocampista alle prese dalla seconda metà di luglio con una lesione di medio grado alla coscia destra, ma a fine agosto ha deciso, assieme allo staff medico ducale, di operarsi. Lungo stop e ipotesi di ritorno in campo da dicembre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "INT-PAR"
     },
