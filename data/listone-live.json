@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-23T16:26:20.065Z",
+  "updatedAt": "2026-09-24T08:26:45.790Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-23T16:26:20.065Z",
+  "probabilityUpdatedAt": "2026-09-24T08:26:45.790Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "VEN",
       "dateLabel": "lunedì 12 ottobre, 18:30",
-      "officialUpdatedLabel": "23/09/2026 - 11:11"
+      "officialUpdatedLabel": "24/09/2026 - 10:08"
     },
     {
       "matchId": "18006",
@@ -3869,7 +3869,7 @@
       "sourceOrder": 249,
       "slot": 188,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 35,
       "probabilityMatchId": "18005",
       "probabilityMatchHash": "ATA-VEN",
       "unavailability": null,
@@ -6529,7 +6529,7 @@
       "sourceOrder": 278,
       "slot": 321,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 75,
       "probabilityMatchId": "18005",
       "probabilityMatchHash": "ATA-VEN",
       "unavailability": null,
