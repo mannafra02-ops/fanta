@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-24T12:30:00.687Z",
+  "updatedAt": "2026-09-25T16:26:35.986Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-24T08:26:45.790Z",
+  "probabilityUpdatedAt": "2026-09-25T16:26:35.986Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "VEN",
       "dateLabel": "lunedì 12 ottobre, 18:30",
-      "officialUpdatedLabel": "24/09/2026 - 10:08"
+      "officialUpdatedLabel": "25/09/2026 - 18:13"
     },
     {
       "matchId": "18006",
@@ -21,7 +21,7 @@
       "homeCode": "CAG",
       "awayCode": "JUV",
       "dateLabel": "domenica 11 ottobre, 20:45",
-      "officialUpdatedLabel": "23/09/2026 - 08:33"
+      "officialUpdatedLabel": "25/09/2026 - 18:13"
     },
     {
       "matchId": "18007",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "ROM",
       "dateLabel": "domenica 11 ottobre, 12:30",
-      "officialUpdatedLabel": "23/09/2026 - 17:19"
+      "officialUpdatedLabel": "25/09/2026 - 18:13"
     },
     {
       "matchId": "18008",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "FIO",
       "dateLabel": "sabato 10 ottobre, 15:00",
-      "officialUpdatedLabel": "23/09/2026 - 17:11"
+      "officialUpdatedLabel": "25/09/2026 - 18:13"
     },
     {
       "matchId": "18009",
@@ -45,7 +45,7 @@
       "homeCode": "INT",
       "awayCode": "PAR",
       "dateLabel": "sabato 10 ottobre, 18:00",
-      "officialUpdatedLabel": "23/09/2026 - 17:17"
+      "officialUpdatedLabel": "25/09/2026 - 18:13"
     },
     {
       "matchId": "18010",
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "MON",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "23/09/2026 - 08:33"
+      "officialUpdatedLabel": "25/09/2026 - 18:13"
     },
     {
       "matchId": "18011",
@@ -61,7 +61,7 @@
       "homeCode": "LEC",
       "awayCode": "BOL",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "23/09/2026 - 17:11"
+      "officialUpdatedLabel": "25/09/2026 - 18:13"
     },
     {
       "matchId": "18012",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "23/09/2026 - 14:38"
+      "officialUpdatedLabel": "25/09/2026 - 18:13"
     },
     {
       "matchId": "18013",
@@ -77,7 +77,7 @@
       "homeCode": "SAS",
       "awayCode": "MIL",
       "dateLabel": "domenica 11 ottobre, 18:00",
-      "officialUpdatedLabel": "23/09/2026 - 08:33"
+      "officialUpdatedLabel": "25/09/2026 - 18:13"
     },
     {
       "matchId": "18014",
@@ -85,10 +85,10 @@
       "homeCode": "TOR",
       "awayCode": "UDI",
       "dateLabel": "lunedì 12 ottobre, 20:45",
-      "officialUpdatedLabel": "23/09/2026 - 08:33"
+      "officialUpdatedLabel": "25/09/2026 - 18:13"
     }
   ],
-  "probabilityPlayerCount": 471,
+  "probabilityPlayerCount": 472,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
   "availabilityUpdatedAt": "2026-09-23T12:29:29.224Z",
@@ -7749,7 +7749,7 @@
       "sourceOrder": 393,
       "slot": 382,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
+      "startingProbability": 25,
       "probabilityMatchId": "18014",
       "probabilityMatchHash": "TOR-UDI",
       "unavailability": null,
@@ -9329,7 +9329,7 @@
       "sourceOrder": 465,
       "slot": 461,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 30,
       "probabilityMatchId": "18014",
       "probabilityMatchHash": "TOR-UDI",
       "unavailability": null,
@@ -12049,9 +12049,9 @@
       "sourceOrder": 133,
       "slot": 597,
       "addedAt": "2026-09-24T12:30:00.673Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
+      "startingProbability": 35,
+      "probabilityMatchId": "18014",
+      "probabilityMatchHash": "TOR-UDI",
       "unavailability": null,
       "unavailabilityNote": null,
       "unavailabilityMatchday": null,
