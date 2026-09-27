@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-27T12:28:36.450Z",
+  "updatedAt": "2026-09-27T20:23:45.526Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-27T12:28:36.450Z",
+  "probabilityUpdatedAt": "2026-09-27T20:23:45.526Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "MON",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "27/09/2026 - 11:57"
+      "officialUpdatedLabel": "27/09/2026 - 19:33"
     },
     {
       "matchId": "18011",
@@ -77,7 +77,7 @@
       "homeCode": "SAS",
       "awayCode": "MIL",
       "dateLabel": "domenica 11 ottobre, 18:00",
-      "officialUpdatedLabel": "27/09/2026 - 10:27"
+      "officialUpdatedLabel": "27/09/2026 - 20:17"
     },
     {
       "matchId": "18014",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "27/09/2026 - 10:27"
     }
   ],
-  "probabilityPlayerCount": 473,
+  "probabilityPlayerCount": 472,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-27T12:28:36.450Z",
-  "injuredCount": 47,
+  "availabilityUpdatedAt": "2026-09-27T20:23:45.526Z",
+  "injuredCount": 48,
   "suspendedCount": 0,
   "activeCount": 598,
   "totalCount": 598,
@@ -2689,7 +2689,7 @@
       "sourceOrder": 98,
       "slot": 129,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18010",
       "probabilityMatchHash": "LAZ-MON",
       "unavailability": null,
@@ -4429,7 +4429,7 @@
       "sourceOrder": 323,
       "slot": 216,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 70,
       "probabilityMatchId": "18013",
       "probabilityMatchHash": "SAS-MIL",
       "unavailability": null,
@@ -7189,7 +7189,7 @@
       "sourceOrder": 362,
       "slot": 354,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 25,
+      "startingProbability": 50,
       "probabilityMatchId": "18010",
       "probabilityMatchHash": "LAZ-MON",
       "unavailability": null,
@@ -8349,13 +8349,13 @@
       "sourceOrder": 419,
       "slot": 412,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
-      "probabilityMatchId": "18010",
-      "probabilityMatchHash": "LAZ-MON",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Nuovo stop muscolare per il regista dei biancocelesti, vittima di un problema al quadricipite. Tempi di recupero da valutare, di certo out nel prossimo turno di campionato contro il Monza.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "LAZ-MON"
     },
     {
       "officialId": "7248",
