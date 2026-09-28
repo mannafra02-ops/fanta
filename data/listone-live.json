@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-28T00:33:57.941Z",
+  "updatedAt": "2026-09-28T12:32:27.750Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-28T00:33:57.941Z",
+  "probabilityUpdatedAt": "2026-09-28T12:32:27.750Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "VEN",
       "dateLabel": "lunedì 12 ottobre, 18:30",
-      "officialUpdatedLabel": "27/09/2026 - 10:27"
+      "officialUpdatedLabel": "28/09/2026 - 12:28"
     },
     {
       "matchId": "18006",
@@ -21,7 +21,7 @@
       "homeCode": "CAG",
       "awayCode": "JUV",
       "dateLabel": "domenica 11 ottobre, 20:45",
-      "officialUpdatedLabel": "27/09/2026 - 10:27"
+      "officialUpdatedLabel": "28/09/2026 - 12:28"
     },
     {
       "matchId": "18007",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "ROM",
       "dateLabel": "domenica 11 ottobre, 12:30",
-      "officialUpdatedLabel": "27/09/2026 - 10:27"
+      "officialUpdatedLabel": "28/09/2026 - 12:28"
     },
     {
       "matchId": "18008",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "FIO",
       "dateLabel": "sabato 10 ottobre, 15:00",
-      "officialUpdatedLabel": "27/09/2026 - 23:03"
+      "officialUpdatedLabel": "28/09/2026 - 12:28"
     },
     {
       "matchId": "18009",
@@ -45,7 +45,7 @@
       "homeCode": "INT",
       "awayCode": "PAR",
       "dateLabel": "sabato 10 ottobre, 18:00",
-      "officialUpdatedLabel": "27/09/2026 - 10:27"
+      "officialUpdatedLabel": "28/09/2026 - 12:28"
     },
     {
       "matchId": "18010",
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "MON",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "27/09/2026 - 19:33"
+      "officialUpdatedLabel": "28/09/2026 - 12:28"
     },
     {
       "matchId": "18011",
@@ -61,7 +61,7 @@
       "homeCode": "LEC",
       "awayCode": "BOL",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "27/09/2026 - 10:29"
+      "officialUpdatedLabel": "28/09/2026 - 12:28"
     },
     {
       "matchId": "18012",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "27/09/2026 - 23:04"
+      "officialUpdatedLabel": "28/09/2026 - 12:28"
     },
     {
       "matchId": "18013",
@@ -77,7 +77,7 @@
       "homeCode": "SAS",
       "awayCode": "MIL",
       "dateLabel": "domenica 11 ottobre, 18:00",
-      "officialUpdatedLabel": "27/09/2026 - 20:17"
+      "officialUpdatedLabel": "28/09/2026 - 12:28"
     },
     {
       "matchId": "18014",
@@ -85,7 +85,7 @@
       "homeCode": "TOR",
       "awayCode": "UDI",
       "dateLabel": "lunedì 12 ottobre, 20:45",
-      "officialUpdatedLabel": "27/09/2026 - 10:27"
+      "officialUpdatedLabel": "28/09/2026 - 12:28"
     }
   ],
   "probabilityPlayerCount": 470,
@@ -1869,7 +1869,7 @@
       "sourceOrder": 80,
       "slot": 88,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 70,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
