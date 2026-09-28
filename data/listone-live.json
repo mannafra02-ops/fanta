@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-27T20:23:45.526Z",
+  "updatedAt": "2026-09-28T00:33:57.941Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-27T20:23:45.526Z",
+  "probabilityUpdatedAt": "2026-09-28T00:33:57.941Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "FIO",
       "dateLabel": "sabato 10 ottobre, 15:00",
-      "officialUpdatedLabel": "27/09/2026 - 10:27"
+      "officialUpdatedLabel": "27/09/2026 - 23:03"
     },
     {
       "matchId": "18009",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "27/09/2026 - 10:28"
+      "officialUpdatedLabel": "27/09/2026 - 23:04"
     },
     {
       "matchId": "18013",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "27/09/2026 - 10:27"
     }
   ],
-  "probabilityPlayerCount": 472,
+  "probabilityPlayerCount": 470,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-27T20:23:45.526Z",
-  "injuredCount": 48,
+  "availabilityUpdatedAt": "2026-09-28T00:33:57.941Z",
+  "injuredCount": 50,
   "suspendedCount": 0,
   "activeCount": 598,
   "totalCount": 598,
@@ -769,7 +769,7 @@
       "sourceOrder": 30,
       "slot": 33,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 85,
+      "startingProbability": 90,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -6069,13 +6069,13 @@
       "sourceOrder": 357,
       "slot": 298,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
-      "probabilityMatchId": "18008",
-      "probabilityMatchHash": "GEN-FIO",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il calciatore ai box per noie fisiche che restano da valutare, di certo out nel prossimo turno di campionato.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "GEN-FIO"
     },
     {
       "officialId": "4970",
@@ -7789,13 +7789,13 @@
       "sourceOrder": 234,
       "slot": 384,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
-      "probabilityMatchId": "18014",
-      "probabilityMatchHash": "TOR-UDI",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "L'attaccante vittima di un problema alla caviglia a fine settembre, condizioni da valutare. Assente nel prossimo turno di campionato.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "TOR-UDI"
     },
     {
       "officialId": "6890",
@@ -8269,7 +8269,7 @@
       "sourceOrder": 415,
       "slot": 408,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 50,
       "probabilityMatchId": "18008",
       "probabilityMatchHash": "GEN-FIO",
       "unavailability": null,
@@ -9249,7 +9249,7 @@
       "sourceOrder": 269,
       "slot": 457,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 80,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -11329,7 +11329,7 @@
       "sourceOrder": 466,
       "slot": 561,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 40,
+      "startingProbability": 60,
       "probabilityMatchId": "18014",
       "probabilityMatchHash": "TOR-UDI",
       "unavailability": null,
