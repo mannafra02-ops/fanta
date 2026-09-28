@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-28T12:32:27.750Z",
+  "updatedAt": "2026-09-28T16:28:46.463Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-28T12:32:27.750Z",
+  "probabilityUpdatedAt": "2026-09-28T16:28:46.463Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -21,7 +21,7 @@
       "homeCode": "CAG",
       "awayCode": "JUV",
       "dateLabel": "domenica 11 ottobre, 20:45",
-      "officialUpdatedLabel": "28/09/2026 - 12:28"
+      "officialUpdatedLabel": "28/09/2026 - 18:11"
     },
     {
       "matchId": "18007",
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "MON",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "28/09/2026 - 12:28"
+      "officialUpdatedLabel": "28/09/2026 - 18:13"
     },
     {
       "matchId": "18011",
@@ -91,11 +91,11 @@
   "probabilityPlayerCount": 470,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-28T00:33:57.941Z",
-  "injuredCount": 50,
+  "availabilityUpdatedAt": "2026-09-28T16:28:46.463Z",
+  "injuredCount": 51,
   "suspendedCount": 0,
-  "activeCount": 598,
-  "totalCount": 598,
+  "activeCount": 599,
+  "totalCount": 599,
   "players": [
     {
       "officialId": "5585",
@@ -1329,13 +1329,13 @@
       "sourceOrder": 61,
       "slot": 61,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
-      "probabilityMatchId": "18010",
-      "probabilityMatchHash": "LAZ-MON",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla sinistra dopo una caduta fortuita in partita. Condizioni da valutare, a forte rischio la sua presenza alla ripresa del campionato contro il Monza.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "LAZ-MON"
     },
     {
       "officialId": "6217",
@@ -3189,7 +3189,7 @@
       "sourceOrder": 213,
       "slot": 154,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 75,
       "probabilityMatchId": "18006",
       "probabilityMatchHash": "CAG-JUV",
       "unavailability": null,
@@ -5093,7 +5093,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale, ipotizziamo un possibile rientro dalla metà di ottobre.",
+      "unavailabilityNote": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale, ipotizziamo un possibile rientro dalla metà di novembre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "CAG-JUV"
     },
@@ -5149,13 +5149,13 @@
       "sourceOrder": 313,
       "slot": 252,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il terzino dei biancocelesti KO il 24 agosto a Bologna vittima di una lesione muscolare alla coscia. Proverà a recuperare a pieno durante la sosta, da valutare nei prossimi allenamenti le possibilità di convocazione già contro il Monza nel prossimo turno.",
-      "unavailabilityMatchday": 6,
-      "unavailabilityMatchHash": "LAZ-MON"
+      "startingProbability": 20,
+      "probabilityMatchId": "18010",
+      "probabilityMatchHash": "LAZ-MON",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "6556",
@@ -6809,13 +6809,13 @@
       "sourceOrder": 298,
       "slot": 335,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
-      "probabilityMatchId": "18006",
-      "probabilityMatchHash": "CAG-JUV",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il centrocampista operato a fine settembre vittima di una lesione del menisco laterale del ginocchio sinistro. Ipotesi di rientro in campo dalla metà di novembre.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "CAG-JUV"
     },
     {
       "officialId": "6424",
@@ -9173,7 +9173,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso, ipotizziamo un possibile rientro dalla fine di ottobre.",
+      "unavailabilityNote": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso, rientro dalla metà di novembre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "CAG-JUV"
     },
@@ -10309,7 +10309,7 @@
       "sourceOrder": 515,
       "slot": 510,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 5,
+      "startingProbability": 1,
       "probabilityMatchId": "18006",
       "probabilityMatchHash": "CAG-JUV",
       "unavailability": null,
@@ -11789,7 +11789,7 @@
       "sourceOrder": 586,
       "slot": 584,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 40,
+      "startingProbability": 50,
       "probabilityMatchId": "18006",
       "probabilityMatchHash": "CAG-JUV",
       "unavailability": null,
@@ -12052,6 +12052,26 @@
       "startingProbability": 35,
       "probabilityMatchId": "18014",
       "probabilityMatchHash": "TOR-UDI",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
+    },
+    {
+      "officialId": "283",
+      "name": "Neto",
+      "role": "P",
+      "teamCode": "JUV",
+      "initialQuotation": 1,
+      "quotation": 1,
+      "fvm": 1,
+      "active": true,
+      "sourceOrder": 598,
+      "slot": 598,
+      "addedAt": "2026-09-28T16:28:46.445Z",
+      "startingProbability": 5,
+      "probabilityMatchId": "18006",
+      "probabilityMatchHash": "CAG-JUV",
       "unavailability": null,
       "unavailabilityNote": null,
       "unavailabilityMatchday": null,
