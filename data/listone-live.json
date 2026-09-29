@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-29T16:29:07.343Z",
+  "updatedAt": "2026-09-29T20:27:29.988Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-29T16:29:07.343Z",
+  "probabilityUpdatedAt": "2026-09-29T20:27:29.988Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "VEN",
       "dateLabel": "lunedì 12 ottobre, 18:30",
-      "officialUpdatedLabel": "29/09/2026 - 09:23"
+      "officialUpdatedLabel": "29/09/2026 - 20:54"
     },
     {
       "matchId": "18006",
@@ -21,7 +21,7 @@
       "homeCode": "CAG",
       "awayCode": "JUV",
       "dateLabel": "domenica 11 ottobre, 20:45",
-      "officialUpdatedLabel": "29/09/2026 - 09:24"
+      "officialUpdatedLabel": "29/09/2026 - 20:53"
     },
     {
       "matchId": "18007",
@@ -91,7 +91,7 @@
   "probabilityPlayerCount": 469,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-29T16:29:07.343Z",
+  "availabilityUpdatedAt": "2026-09-29T20:27:29.988Z",
   "injuredCount": 52,
   "suspendedCount": 0,
   "activeCount": 599,
@@ -1309,7 +1309,7 @@
       "sourceOrder": 48,
       "slot": 60,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 50,
       "probabilityMatchId": "18005",
       "probabilityMatchHash": "ATA-VEN",
       "unavailability": null,
@@ -4589,7 +4589,7 @@
       "sourceOrder": 285,
       "slot": 224,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 55,
       "probabilityMatchId": "18005",
       "probabilityMatchHash": "ATA-VEN",
       "unavailability": null,
@@ -6813,7 +6813,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il centrocampista operato a fine settembre vittima di una lesione del menisco laterale del ginocchio sinistro. Ipotesi di rientro in campo dalla metà di novembre.",
+      "unavailabilityNote": "Il centrocampista operato a fine settembre vittima di una lesione del menisco laterale del ginocchio sinistro. Ipotesi di rientro in campo dalla fine di ottobre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "CAG-JUV"
     },
@@ -6933,7 +6933,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il cursore di fascia della Viola sta svolgendo l'iter di recupero dall'infortunio al legamento crociato al ginocchio, punta a tornare convocabile da novembre.",
+      "unavailabilityNote": "il cursore di fascia della Viola sta svolgendo l'iter di recupero dall'infortunio al legamento crociato al ginocchio, punta a tornare convocabile da dicembre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "GEN-FIO"
     },
