@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-28T16:28:46.463Z",
+  "updatedAt": "2026-09-29T08:28:57.016Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-28T16:28:46.463Z",
+  "probabilityUpdatedAt": "2026-09-29T08:28:57.016Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "VEN",
       "dateLabel": "lunedì 12 ottobre, 18:30",
-      "officialUpdatedLabel": "28/09/2026 - 12:28"
+      "officialUpdatedLabel": "29/09/2026 - 09:23"
     },
     {
       "matchId": "18006",
@@ -21,7 +21,7 @@
       "homeCode": "CAG",
       "awayCode": "JUV",
       "dateLabel": "domenica 11 ottobre, 20:45",
-      "officialUpdatedLabel": "28/09/2026 - 18:11"
+      "officialUpdatedLabel": "29/09/2026 - 09:24"
     },
     {
       "matchId": "18007",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "ROM",
       "dateLabel": "domenica 11 ottobre, 12:30",
-      "officialUpdatedLabel": "28/09/2026 - 12:28"
+      "officialUpdatedLabel": "29/09/2026 - 09:24"
     },
     {
       "matchId": "18008",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "FIO",
       "dateLabel": "sabato 10 ottobre, 15:00",
-      "officialUpdatedLabel": "28/09/2026 - 12:28"
+      "officialUpdatedLabel": "29/09/2026 - 09:24"
     },
     {
       "matchId": "18009",
@@ -45,7 +45,7 @@
       "homeCode": "INT",
       "awayCode": "PAR",
       "dateLabel": "sabato 10 ottobre, 18:00",
-      "officialUpdatedLabel": "28/09/2026 - 12:28"
+      "officialUpdatedLabel": "29/09/2026 - 09:24"
     },
     {
       "matchId": "18010",
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "MON",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "28/09/2026 - 18:13"
+      "officialUpdatedLabel": "29/09/2026 - 09:24"
     },
     {
       "matchId": "18011",
@@ -61,7 +61,7 @@
       "homeCode": "LEC",
       "awayCode": "BOL",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "28/09/2026 - 12:28"
+      "officialUpdatedLabel": "29/09/2026 - 09:24"
     },
     {
       "matchId": "18012",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "28/09/2026 - 12:28"
+      "officialUpdatedLabel": "29/09/2026 - 09:24"
     },
     {
       "matchId": "18013",
@@ -77,7 +77,7 @@
       "homeCode": "SAS",
       "awayCode": "MIL",
       "dateLabel": "domenica 11 ottobre, 18:00",
-      "officialUpdatedLabel": "28/09/2026 - 12:28"
+      "officialUpdatedLabel": "29/09/2026 - 09:24"
     },
     {
       "matchId": "18014",
@@ -85,13 +85,13 @@
       "homeCode": "TOR",
       "awayCode": "UDI",
       "dateLabel": "lunedì 12 ottobre, 20:45",
-      "officialUpdatedLabel": "28/09/2026 - 12:28"
+      "officialUpdatedLabel": "29/09/2026 - 09:24"
     }
   ],
   "probabilityPlayerCount": 470,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-28T16:28:46.463Z",
+  "availabilityUpdatedAt": "2026-09-29T08:28:57.016Z",
   "injuredCount": 51,
   "suspendedCount": 0,
   "activeCount": 599,
@@ -4733,7 +4733,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Lo svedese KO in Nazionale il 26 settembre vittima di un problema muscolare alla coscia. Da valutare, ma non ci sarà alla ripresa del campionato.",
+      "unavailabilityNote": "Lo svedese KO in Nazionale il 26 settembre vittima di un problema muscolare alla coscia. Ha deciso di operarsi e rimangono da valutare i tempi di rientro, non ci sarà di certo alla ripresa del campionato.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "LEC-BOL"
     },
