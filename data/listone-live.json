@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-30T12:35:32.931Z",
+  "updatedAt": "2026-09-30T16:30:02.926Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-30T12:35:32.931Z",
+  "probabilityUpdatedAt": "2026-09-30T16:30:02.926Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "VEN",
       "dateLabel": "lunedì 12 ottobre, 18:30",
-      "officialUpdatedLabel": "30/09/2026 - 10:32"
+      "officialUpdatedLabel": "30/09/2026 - 18:21"
     },
     {
       "matchId": "18006",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "FIO",
       "dateLabel": "sabato 10 ottobre, 15:00",
-      "officialUpdatedLabel": "30/09/2026 - 10:32"
+      "officialUpdatedLabel": "30/09/2026 - 18:27"
     },
     {
       "matchId": "18009",
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "MON",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "30/09/2026 - 10:32"
+      "officialUpdatedLabel": "30/09/2026 - 17:53"
     },
     {
       "matchId": "18011",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "30/09/2026 - 10:32"
+      "officialUpdatedLabel": "30/09/2026 - 18:23"
     },
     {
       "matchId": "18013",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "30/09/2026 - 10:32"
     }
   ],
-  "probabilityPlayerCount": 469,
+  "probabilityPlayerCount": 468,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-09-29T20:27:29.988Z",
-  "injuredCount": 52,
+  "availabilityUpdatedAt": "2026-09-30T16:30:02.926Z",
+  "injuredCount": 53,
   "suspendedCount": 0,
   "activeCount": 599,
   "totalCount": 599,
@@ -189,7 +189,7 @@
       "sourceOrder": 6,
       "slot": 4,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 80,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -1309,13 +1309,13 @@
       "sourceOrder": 48,
       "slot": 60,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
-      "probabilityMatchId": "18005",
-      "probabilityMatchHash": "ATA-VEN",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "L'attaccante frenato a fine settembre in Nazionale azzurra da una distrazione di basso grado al bicipite femorale, rientro tra i convocati con la Dea in campionato dalla seconda metà di ottobre.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "ATA-VEN"
     },
     {
       "officialId": "5800",
@@ -1333,7 +1333,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla sinistra dopo una caduta fortuita in partita. Condizioni da valutare, a forte rischio la sua presenza alla ripresa del campionato contro il Monza.",
+      "unavailabilityNote": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla destra dopo una caduta fortuita in partita. Condizioni da monitorare, si confida di riaverlo a disposizione dalla seconda metà di ottobre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "LAZ-MON"
     },
@@ -3029,7 +3029,7 @@
       "sourceOrder": 211,
       "slot": 146,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18005",
       "probabilityMatchHash": "ATA-VEN",
       "unavailability": null,
@@ -3869,7 +3869,7 @@
       "sourceOrder": 250,
       "slot": 188,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 35,
+      "startingProbability": 40,
       "probabilityMatchId": "18005",
       "probabilityMatchHash": "ATA-VEN",
       "unavailability": null,
@@ -6073,7 +6073,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il calciatore ai box per noie fisiche che restano da valutare, di certo out nel prossimo turno di campionato.",
+      "unavailabilityNote": "Il calciatore ai box per una distrazione della muscolatura di un'anca, il cui grado rimane da valutare con ulteriori accertamenti medici. Di certo out nel prossimo turno di campionato contro la Fiorentina.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "GEN-FIO"
     },
@@ -8353,7 +8353,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Nuovo stop muscolare per il regista dei biancocelesti, vittima di un problema al quadricipite. Tempi di recupero da valutare, di certo out nel prossimo turno di campionato contro il Monza.",
+      "unavailabilityNote": "Nuovo stop muscolare per il regista dei biancocelesti, vittima di un problema al quadricipite. Out nel prossimo turno di campionato contro il Monza, tentativo di rientro dalla seconda metà di ottobre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "LAZ-MON"
     },
