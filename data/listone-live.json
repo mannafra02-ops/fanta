@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-09-30T16:30:02.926Z",
+  "updatedAt": "2026-09-30T20:26:36.074Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-09-30T16:30:02.926Z",
+  "probabilityUpdatedAt": "2026-09-30T20:26:36.074Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -45,7 +45,7 @@
       "homeCode": "INT",
       "awayCode": "PAR",
       "dateLabel": "sabato 10 ottobre, 18:00",
-      "officialUpdatedLabel": "30/09/2026 - 10:32"
+      "officialUpdatedLabel": "30/09/2026 - 21:59"
     },
     {
       "matchId": "18010",
@@ -2069,7 +2069,7 @@
       "sourceOrder": 129,
       "slot": 98,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 70,
       "probabilityMatchId": "18009",
       "probabilityMatchHash": "INT-PAR",
       "unavailability": null,
@@ -2469,7 +2469,7 @@
       "sourceOrder": 74,
       "slot": 118,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 85,
+      "startingProbability": 70,
       "probabilityMatchId": "18009",
       "probabilityMatchHash": "INT-PAR",
       "unavailability": null,
@@ -4389,7 +4389,7 @@
       "sourceOrder": 272,
       "slot": 214,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 75,
       "probabilityMatchId": "18009",
       "probabilityMatchHash": "INT-PAR",
       "unavailability": null,
@@ -6629,7 +6629,7 @@
       "sourceOrder": 281,
       "slot": 326,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 60,
       "probabilityMatchId": "18009",
       "probabilityMatchHash": "INT-PAR",
       "unavailability": null,
