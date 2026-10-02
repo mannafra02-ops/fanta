@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-02T14:42:48.510Z",
+  "updatedAt": "2026-10-02T20:41:57.019Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-02T14:42:48.510Z",
+  "probabilityUpdatedAt": "2026-10-02T20:41:57.019Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "VEN",
       "dateLabel": "lunedì 12 ottobre, 18:30",
-      "officialUpdatedLabel": "02/10/2026 - 09:22"
+      "officialUpdatedLabel": "02/10/2026 - 21:55"
     },
     {
       "matchId": "18006",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "FIO",
       "dateLabel": "sabato 10 ottobre, 15:00",
-      "officialUpdatedLabel": "02/10/2026 - 09:22"
+      "officialUpdatedLabel": "02/10/2026 - 19:39"
     },
     {
       "matchId": "18009",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "02/10/2026 - 09:22"
+      "officialUpdatedLabel": "02/10/2026 - 19:26"
     },
     {
       "matchId": "18013",
@@ -77,7 +77,7 @@
       "homeCode": "SAS",
       "awayCode": "MIL",
       "dateLabel": "domenica 11 ottobre, 18:00",
-      "officialUpdatedLabel": "02/10/2026 - 09:22"
+      "officialUpdatedLabel": "02/10/2026 - 20:11"
     },
     {
       "matchId": "18014",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "02/10/2026 - 09:22"
     }
   ],
-  "probabilityPlayerCount": 467,
+  "probabilityPlayerCount": 465,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-02T14:42:48.510Z",
-  "injuredCount": 54,
+  "availabilityUpdatedAt": "2026-10-02T20:41:57.019Z",
+  "injuredCount": 56,
   "suspendedCount": 0,
   "activeCount": 599,
   "totalCount": 599,
@@ -1909,7 +1909,7 @@
       "sourceOrder": 117,
       "slot": 90,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 75,
+      "startingProbability": 70,
       "probabilityMatchId": "18008",
       "probabilityMatchHash": "GEN-FIO",
       "unavailability": null,
@@ -3489,7 +3489,7 @@
       "sourceOrder": 188,
       "slot": 169,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 55,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -3833,7 +3833,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e pronto a tornare in campo dalla fine di ottobre.",
+      "unavailabilityNote": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e pronto a tornare in campo dalla metà di novembre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "ATA-VEN"
     },
@@ -6309,7 +6309,7 @@
       "sourceOrder": 381,
       "slot": 310,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 50,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -6713,7 +6713,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il difensore frenato da una lesione muscolare di medio-alto grado del bicipite femorale della coscia sinistra alla vigilia della sfida di campionato contro la Juventus (del 20 settembre). Lungo stop, ipotizziamo un rientro dalla fine di novembre.",
+      "unavailabilityNote": "Il difensore frenato da una lesione muscolare di medio-alto grado del bicipite femorale della coscia sinistra alla vigilia della sfida di campionato contro la Juventus (del 20 settembre). Lungo stop, rientro dalla seconda metà di novembre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "ATA-VEN"
     },
@@ -8829,13 +8829,13 @@
       "sourceOrder": 283,
       "slot": 436,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
-      "probabilityMatchId": "18012",
-      "probabilityMatchHash": "NAP-FRO",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il cursore di fascia degli azzurri ai box da inizio ottobre per una lesione muscolare di secondo grado del retto femorale della coscia destra. Recuperabile dalla metà di novembre.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "NAP-FRO"
     },
     {
       "officialId": "7599",
@@ -11929,13 +11929,13 @@
       "sourceOrder": 594,
       "slot": 591,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 1,
-      "probabilityMatchId": "18005",
-      "probabilityMatchHash": "ATA-VEN",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il portiere fermo da inizio ottobre per la frattura della falange della mano destra, out nel prossimo turno di campionato. Tempi di recupero da valutare.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "ATA-VEN"
     },
     {
       "officialId": "7628",
