@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-01T16:26:55.767Z",
+  "updatedAt": "2026-10-02T14:42:48.510Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-01T16:26:55.767Z",
+  "probabilityUpdatedAt": "2026-10-02T14:42:48.510Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "VEN",
       "dateLabel": "lunedì 12 ottobre, 18:30",
-      "officialUpdatedLabel": "01/10/2026 - 08:34"
+      "officialUpdatedLabel": "02/10/2026 - 09:22"
     },
     {
       "matchId": "18006",
@@ -21,7 +21,7 @@
       "homeCode": "CAG",
       "awayCode": "JUV",
       "dateLabel": "domenica 11 ottobre, 20:45",
-      "officialUpdatedLabel": "01/10/2026 - 14:48"
+      "officialUpdatedLabel": "02/10/2026 - 09:22"
     },
     {
       "matchId": "18007",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "ROM",
       "dateLabel": "domenica 11 ottobre, 12:30",
-      "officialUpdatedLabel": "01/10/2026 - 08:34"
+      "officialUpdatedLabel": "02/10/2026 - 16:37"
     },
     {
       "matchId": "18008",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "FIO",
       "dateLabel": "sabato 10 ottobre, 15:00",
-      "officialUpdatedLabel": "01/10/2026 - 08:34"
+      "officialUpdatedLabel": "02/10/2026 - 09:22"
     },
     {
       "matchId": "18009",
@@ -45,7 +45,7 @@
       "homeCode": "INT",
       "awayCode": "PAR",
       "dateLabel": "sabato 10 ottobre, 18:00",
-      "officialUpdatedLabel": "01/10/2026 - 16:20"
+      "officialUpdatedLabel": "02/10/2026 - 09:22"
     },
     {
       "matchId": "18010",
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "MON",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "01/10/2026 - 08:34"
+      "officialUpdatedLabel": "02/10/2026 - 09:22"
     },
     {
       "matchId": "18011",
@@ -61,7 +61,7 @@
       "homeCode": "LEC",
       "awayCode": "BOL",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "01/10/2026 - 12:26"
+      "officialUpdatedLabel": "02/10/2026 - 10:33"
     },
     {
       "matchId": "18012",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "01/10/2026 - 16:14"
+      "officialUpdatedLabel": "02/10/2026 - 09:22"
     },
     {
       "matchId": "18013",
@@ -77,7 +77,7 @@
       "homeCode": "SAS",
       "awayCode": "MIL",
       "dateLabel": "domenica 11 ottobre, 18:00",
-      "officialUpdatedLabel": "01/10/2026 - 08:34"
+      "officialUpdatedLabel": "02/10/2026 - 09:22"
     },
     {
       "matchId": "18014",
@@ -85,14 +85,14 @@
       "homeCode": "TOR",
       "awayCode": "UDI",
       "dateLabel": "lunedì 12 ottobre, 20:45",
-      "officialUpdatedLabel": "01/10/2026 - 08:35"
+      "officialUpdatedLabel": "02/10/2026 - 09:22"
     }
   ],
-  "probabilityPlayerCount": 468,
+  "probabilityPlayerCount": 467,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-01T16:26:55.767Z",
-  "injuredCount": 53,
+  "availabilityUpdatedAt": "2026-10-02T14:42:48.510Z",
+  "injuredCount": 54,
   "suspendedCount": 0,
   "activeCount": 599,
   "totalCount": 599,
@@ -109,7 +109,7 @@
       "sourceOrder": 0,
       "slot": 0,
       "addedAt": "2026-09-08T10:18:54.129Z",
-      "startingProbability": 80,
+      "startingProbability": 75,
       "probabilityMatchId": "18007",
       "probabilityMatchHash": "COM-ROM",
       "unavailability": null,
@@ -2829,13 +2829,13 @@
       "sourceOrder": 103,
       "slot": 136,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
-      "probabilityMatchId": "18007",
-      "probabilityMatchHash": "COM-ROM",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il mediano giallorosso condizionato da un'infiammazione al ginocchio e va verso il forfait contro il Como nel prossimo turno di campionato. Da valutare.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "COM-ROM"
     },
     {
       "officialId": "5735",
@@ -3109,7 +3109,7 @@
       "sourceOrder": 163,
       "slot": 150,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "18011",
       "probabilityMatchHash": "LEC-BOL",
       "unavailability": null,
@@ -8109,7 +8109,7 @@
       "sourceOrder": 339,
       "slot": 400,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 85,
       "probabilityMatchId": "18007",
       "probabilityMatchHash": "COM-ROM",
       "unavailability": null,
