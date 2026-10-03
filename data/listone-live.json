@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-03T19:11:56.416Z",
+  "updatedAt": "2026-10-03T23:00:35.034Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-03T13:21:11.975Z",
+  "probabilityUpdatedAt": "2026-10-03T23:00:35.034Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "MON",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "03/10/2026 - 10:54"
+      "officialUpdatedLabel": "03/10/2026 - 22:46"
     },
     {
       "matchId": "18011",
@@ -91,7 +91,7 @@
   "probabilityPlayerCount": 465,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-03T13:21:11.975Z",
+  "availabilityUpdatedAt": "2026-10-03T23:00:35.034Z",
   "injuredCount": 57,
   "suspendedCount": 0,
   "activeCount": 600,
@@ -1333,7 +1333,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla destra dopo una caduta fortuita in partita. Condizioni da monitorare, si confida di riaverlo a disposizione dalla seconda metà di ottobre.",
+      "unavailabilityNote": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla destra dopo una caduta fortuita in partita. Condizioni da monitorare, si confida di riaverlo a disposizione dalla fine metà di ottobre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "LAZ-MON"
     },
