@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-04T14:04:36.553Z",
+  "updatedAt": "2026-10-04T19:34:41.292Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-04T14:04:36.553Z",
+  "probabilityUpdatedAt": "2026-10-04T19:34:41.292Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -21,7 +21,7 @@
       "homeCode": "CAG",
       "awayCode": "JUV",
       "dateLabel": "domenica 11 ottobre, 20:45",
-      "officialUpdatedLabel": "04/10/2026 - 10:53"
+      "officialUpdatedLabel": "04/10/2026 - 21:31"
     },
     {
       "matchId": "18007",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "ROM",
       "dateLabel": "domenica 11 ottobre, 12:30",
-      "officialUpdatedLabel": "04/10/2026 - 10:53"
+      "officialUpdatedLabel": "04/10/2026 - 19:22"
     },
     {
       "matchId": "18008",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "04/10/2026 - 10:53"
     }
   ],
-  "probabilityPlayerCount": 465,
+  "probabilityPlayerCount": 464,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-04T14:04:36.553Z",
-  "injuredCount": 57,
+  "availabilityUpdatedAt": "2026-10-04T19:34:41.292Z",
+  "injuredCount": 58,
   "suspendedCount": 0,
   "activeCount": 600,
   "totalCount": 600,
@@ -309,7 +309,7 @@
       "sourceOrder": 12,
       "slot": 10,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 55,
       "probabilityMatchId": "18007",
       "probabilityMatchHash": "COM-ROM",
       "unavailability": null,
@@ -429,7 +429,7 @@
       "sourceOrder": 14,
       "slot": 16,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 75,
       "probabilityMatchId": "18007",
       "probabilityMatchHash": "COM-ROM",
       "unavailability": null,
@@ -1709,13 +1709,13 @@
       "sourceOrder": 130,
       "slot": 80,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
-      "probabilityMatchId": "18006",
-      "probabilityMatchHash": "CAG-JUV",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "L'attaccante non al meglio per un problema muscolare alla coscia che andrà valutato. Verso il forfait nel prossimo turno di campionato.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "CAG-JUV"
     },
     {
       "officialId": "5172",
@@ -8069,7 +8069,7 @@
       "sourceOrder": 444,
       "slot": 398,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
+      "startingProbability": 55,
       "probabilityMatchId": "18006",
       "probabilityMatchHash": "CAG-JUV",
       "unavailability": null,
