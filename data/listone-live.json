@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-04T19:34:41.292Z",
+  "updatedAt": "2026-10-05T17:06:57.643Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-04T19:34:41.292Z",
+  "probabilityUpdatedAt": "2026-10-05T17:06:57.643Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "VEN",
       "dateLabel": "lunedì 12 ottobre, 18:30",
-      "officialUpdatedLabel": "04/10/2026 - 10:53"
+      "officialUpdatedLabel": "05/10/2026 - 09:49"
     },
     {
       "matchId": "18006",
@@ -21,7 +21,7 @@
       "homeCode": "CAG",
       "awayCode": "JUV",
       "dateLabel": "domenica 11 ottobre, 20:45",
-      "officialUpdatedLabel": "04/10/2026 - 21:31"
+      "officialUpdatedLabel": "05/10/2026 - 09:49"
     },
     {
       "matchId": "18007",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "ROM",
       "dateLabel": "domenica 11 ottobre, 12:30",
-      "officialUpdatedLabel": "04/10/2026 - 19:22"
+      "officialUpdatedLabel": "05/10/2026 - 09:49"
     },
     {
       "matchId": "18008",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "FIO",
       "dateLabel": "sabato 10 ottobre, 15:00",
-      "officialUpdatedLabel": "04/10/2026 - 10:53"
+      "officialUpdatedLabel": "05/10/2026 - 09:49"
     },
     {
       "matchId": "18009",
@@ -45,7 +45,7 @@
       "homeCode": "INT",
       "awayCode": "PAR",
       "dateLabel": "sabato 10 ottobre, 18:00",
-      "officialUpdatedLabel": "04/10/2026 - 10:53"
+      "officialUpdatedLabel": "05/10/2026 - 09:49"
     },
     {
       "matchId": "18010",
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "MON",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "04/10/2026 - 10:53"
+      "officialUpdatedLabel": "05/10/2026 - 09:58"
     },
     {
       "matchId": "18011",
@@ -61,7 +61,7 @@
       "homeCode": "LEC",
       "awayCode": "BOL",
       "dateLabel": "domenica 11 ottobre, 15:00",
-      "officialUpdatedLabel": "04/10/2026 - 10:53"
+      "officialUpdatedLabel": "05/10/2026 - 09:49"
     },
     {
       "matchId": "18012",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "04/10/2026 - 10:53"
+      "officialUpdatedLabel": "05/10/2026 - 18:54"
     },
     {
       "matchId": "18013",
@@ -77,7 +77,7 @@
       "homeCode": "SAS",
       "awayCode": "MIL",
       "dateLabel": "domenica 11 ottobre, 18:00",
-      "officialUpdatedLabel": "04/10/2026 - 10:53"
+      "officialUpdatedLabel": "05/10/2026 - 18:03"
     },
     {
       "matchId": "18014",
@@ -85,14 +85,14 @@
       "homeCode": "TOR",
       "awayCode": "UDI",
       "dateLabel": "lunedì 12 ottobre, 20:45",
-      "officialUpdatedLabel": "04/10/2026 - 10:53"
+      "officialUpdatedLabel": "05/10/2026 - 17:35"
     }
   ],
-  "probabilityPlayerCount": 464,
+  "probabilityPlayerCount": 463,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-04T19:34:41.292Z",
-  "injuredCount": 58,
+  "availabilityUpdatedAt": "2026-10-05T17:06:57.643Z",
+  "injuredCount": 59,
   "suspendedCount": 0,
   "activeCount": 600,
   "totalCount": 600,
@@ -529,7 +529,7 @@
       "sourceOrder": 21,
       "slot": 21,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 80,
       "probabilityMatchId": "18014",
       "probabilityMatchHash": "TOR-UDI",
       "unavailability": null,
@@ -1989,13 +1989,13 @@
       "sourceOrder": 99,
       "slot": 94,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
-      "probabilityMatchId": "18013",
-      "probabilityMatchHash": "SAS-MIL",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il belga fermo da inizio ottobre per un problema alla caviglia, concreta ora la possibilità di operarsi. Saranno poi da stabilire i tempi di recupero, ma lo stop sarà lungo e lo rivedremo in campo nel 2027 inoltrato.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "SAS-MIL"
     },
     {
       "officialId": "572",
@@ -2109,7 +2109,7 @@
       "sourceOrder": 46,
       "slot": 100,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 85,
       "probabilityMatchId": "18013",
       "probabilityMatchHash": "SAS-MIL",
       "unavailability": null,
@@ -3349,7 +3349,7 @@
       "sourceOrder": 182,
       "slot": 162,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 35,
       "probabilityMatchId": "18010",
       "probabilityMatchHash": "LAZ-MON",
       "unavailability": null,
@@ -3429,7 +3429,7 @@
       "sourceOrder": 223,
       "slot": 166,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 60,
       "probabilityMatchId": "18013",
       "probabilityMatchHash": "SAS-MIL",
       "unavailability": null,
@@ -3489,7 +3489,7 @@
       "sourceOrder": 188,
       "slot": 169,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 75,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -4249,13 +4249,13 @@
       "sourceOrder": 260,
       "slot": 207,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il regista dei biancocelesti KO il 30 agosto contro il Genoa vittima di una lesione muscolare al polpaccio che lo terrà ai box fino alla metà di ottobre.",
-      "unavailabilityMatchday": 6,
-      "unavailabilityMatchHash": "LAZ-MON"
+      "startingProbability": 20,
+      "probabilityMatchId": "18010",
+      "probabilityMatchHash": "LAZ-MON",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "5504",
@@ -4569,7 +4569,7 @@
       "sourceOrder": 282,
       "slot": 223,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 70,
       "probabilityMatchId": "18013",
       "probabilityMatchHash": "SAS-MIL",
       "unavailability": null,
@@ -5149,7 +5149,7 @@
       "sourceOrder": 313,
       "slot": 252,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 50,
       "probabilityMatchId": "18010",
       "probabilityMatchHash": "LAZ-MON",
       "unavailability": null,
@@ -5669,7 +5669,7 @@
       "sourceOrder": 286,
       "slot": 278,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 35,
+      "startingProbability": 40,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -7349,7 +7349,7 @@
       "sourceOrder": 374,
       "slot": 362,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18013",
       "probabilityMatchHash": "SAS-MIL",
       "unavailability": null,
@@ -7509,13 +7509,13 @@
       "sourceOrder": 382,
       "slot": 370,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
-      "probabilityMatchId": "18012",
-      "probabilityMatchHash": "NAP-FRO",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "L'uruguaiano a inizio ottobre in Nazionale ha rimediato un problema muscolare alla gamba destra e salterà l'impegno di campionato contro il Frosinone. Ipotesi rientro da fine ottobre.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "NAP-FRO"
     },
     {
       "officialId": "6252",
@@ -7793,7 +7793,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "L'attaccante vittima di un problema alla caviglia a fine settembre. Assente nel prossimo turno di campionato contro il Torino, da valutare rientro dalla seconda metà di ottobre.",
+      "unavailabilityNote": "L'attaccante vittima di un problema alla caviglia a fine settembre. Ha deciso di operarsi, lungo stop di circa tre mesi e possibile ritorno in campo da fine gennaio.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "TOR-UDI"
     },
@@ -8429,13 +8429,13 @@
       "sourceOrder": 370,
       "slot": 416,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
-      "probabilityMatchId": "18013",
-      "probabilityMatchHash": "SAS-MIL",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il difensore condizionato da una distorsione al ginocchio e rimane da valutare a Milanello in vista del prossimo impegno di campionato contro il Sassuolo.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "SAS-MIL"
     },
     {
       "officialId": "5453",
@@ -8469,7 +8469,7 @@
       "sourceOrder": 425,
       "slot": 418,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 25,
+      "startingProbability": 50,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -8709,7 +8709,7 @@
       "sourceOrder": 435,
       "slot": 430,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 50,
       "probabilityMatchId": "18014",
       "probabilityMatchHash": "TOR-UDI",
       "unavailability": null,
@@ -9349,7 +9349,7 @@
       "sourceOrder": 562,
       "slot": 462,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 55,
       "probabilityMatchId": "18014",
       "probabilityMatchHash": "TOR-UDI",
       "unavailability": null,
@@ -10809,13 +10809,13 @@
       "sourceOrder": 538,
       "slot": 535,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro. Stop di circa due mesi, rientro dalla seconda metà di ottobre.",
-      "unavailabilityMatchday": 6,
-      "unavailabilityMatchHash": "NAP-FRO"
+      "startingProbability": 30,
+      "probabilityMatchId": "18012",
+      "probabilityMatchHash": "NAP-FRO",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "5481",
@@ -12049,7 +12049,7 @@
       "sourceOrder": 133,
       "slot": 597,
       "addedAt": "2026-09-24T12:30:00.673Z",
-      "startingProbability": 35,
+      "startingProbability": 50,
       "probabilityMatchId": "18014",
       "probabilityMatchHash": "TOR-UDI",
       "unavailability": null,
