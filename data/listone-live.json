@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-05T17:06:57.643Z",
+  "updatedAt": "2026-10-06T01:17:20.284Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-05T17:06:57.643Z",
+  "probabilityUpdatedAt": "2026-10-06T01:17:20.284Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "FIO",
       "dateLabel": "sabato 10 ottobre, 15:00",
-      "officialUpdatedLabel": "05/10/2026 - 09:49"
+      "officialUpdatedLabel": "05/10/2026 - 22:34"
     },
     {
       "matchId": "18009",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "FRO",
       "dateLabel": "sabato 10 ottobre, 20:45",
-      "officialUpdatedLabel": "05/10/2026 - 18:54"
+      "officialUpdatedLabel": "05/10/2026 - 23:32"
     },
     {
       "matchId": "18013",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "05/10/2026 - 17:35"
     }
   ],
-  "probabilityPlayerCount": 463,
+  "probabilityPlayerCount": 461,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-05T17:06:57.643Z",
-  "injuredCount": 59,
+  "availabilityUpdatedAt": "2026-10-06T01:17:20.284Z",
+  "injuredCount": 61,
   "suspendedCount": 0,
   "activeCount": 600,
   "totalCount": 600,
@@ -1913,7 +1913,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "L'attaccante non al meglio per un problema alla caviglia rimediato venerdì scorso in amichevole e ora a forte rischio la sua presenza nel prossimo turno di campionato contro la Fiorentina.",
+      "unavailabilityNote": "L'attaccante non al meglio per un problema alla caviglia rimediato venerdì scorso in amichevole e darà forfait nel prossimo turno di campionato contro la Fiorentina. Ipotesi di rientro da fine ottobre.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "GEN-FIO"
     },
@@ -2789,7 +2789,7 @@
       "sourceOrder": 151,
       "slot": 134,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 50,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -5553,7 +5553,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il centrocampista out contro Lazio, Frosinone e Fiorentina per noie fisiche, rimane da valutare quotidianamente in vista della 6a giornata di campionato contro l'Atalanta.",
+      "unavailabilityNote": "Il centrocampista out contro Lazio, Frosinone e Fiorentina per una fascite plantare, rimane da valutare quotidianamente in vista della 6a giornata di campionato contro l'Atalanta.",
       "unavailabilityMatchday": 6,
       "unavailabilityMatchHash": "ATA-VEN"
     },
@@ -6029,7 +6029,7 @@
       "sourceOrder": 304,
       "slot": 296,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 55,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -6309,7 +6309,7 @@
       "sourceOrder": 381,
       "slot": 310,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 55,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -7809,7 +7809,7 @@
       "sourceOrder": 396,
       "slot": 385,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 80,
       "probabilityMatchId": "18005",
       "probabilityMatchHash": "ATA-VEN",
       "unavailability": null,
@@ -7969,13 +7969,13 @@
       "sourceOrder": 402,
       "slot": 393,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
-      "probabilityMatchId": "18012",
-      "probabilityMatchHash": "NAP-FRO",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "L'attaccante sta recuperando da una lesione muscolare al quadricipite sinistro, tentativo di rientro dalla fine di ottobre.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "NAP-FRO"
     },
     {
       "officialId": "6145",
@@ -8769,7 +8769,7 @@
       "sourceOrder": 468,
       "slot": 433,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 80,
       "probabilityMatchId": "18005",
       "probabilityMatchHash": "ATA-VEN",
       "unavailability": null,
@@ -8789,13 +8789,13 @@
       "sourceOrder": 469,
       "slot": 434,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
-      "probabilityMatchId": "18005",
-      "probabilityMatchHash": "ATA-VEN",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il difensore non al meglio per noie fisiche e a rischio forfait nel prossimo turno di campionato contro l'Atalanta.",
+      "unavailabilityMatchday": 6,
+      "unavailabilityMatchHash": "ATA-VEN"
     },
     {
       "officialId": "7154",
@@ -9089,7 +9089,7 @@
       "sourceOrder": 414,
       "slot": 449,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 35,
+      "startingProbability": 50,
       "probabilityMatchId": "18012",
       "probabilityMatchHash": "NAP-FRO",
       "unavailability": null,
@@ -9449,7 +9449,7 @@
       "sourceOrder": 473,
       "slot": 467,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 50,
       "probabilityMatchId": "18005",
       "probabilityMatchHash": "ATA-VEN",
       "unavailability": null,
@@ -11469,7 +11469,7 @@
       "sourceOrder": 569,
       "slot": 568,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 15,
+      "startingProbability": 25,
       "probabilityMatchId": "18005",
       "probabilityMatchHash": "ATA-VEN",
       "unavailability": null,
