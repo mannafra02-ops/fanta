@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-07T21:16:48.362Z",
+  "updatedAt": "2026-10-08T05:58:08.538Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-07T21:16:48.362Z",
+  "probabilityUpdatedAt": "2026-10-08T05:58:08.538Z",
   "probabilityMatchday": 6,
   "probabilityMatches": [
     {
@@ -2129,7 +2129,7 @@
       "sourceOrder": 134,
       "slot": 101,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 70,
       "probabilityMatchId": "18011",
       "probabilityMatchHash": "LEC-BOL",
       "unavailability": null,
@@ -9649,7 +9649,7 @@
       "sourceOrder": 485,
       "slot": 477,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 5,
+      "startingProbability": 30,
       "probabilityMatchId": "18011",
       "probabilityMatchHash": "LEC-BOL",
       "unavailability": null,
