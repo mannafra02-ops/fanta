@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-13T19:14:07.064Z",
+  "updatedAt": "2026-10-14T13:40:35.491Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-13T19:14:07.064Z",
+  "probabilityUpdatedAt": "2026-10-14T13:40:35.491Z",
   "probabilityMatchday": 7,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "BOL",
       "awayCode": "INT",
       "dateLabel": "sabato 17 ottobre, 18:00",
-      "officialUpdatedLabel": "13/10/2026 - 15:57"
+      "officialUpdatedLabel": "14/10/2026 - 09:24"
     },
     {
       "matchId": "18016",
@@ -21,7 +21,7 @@
       "homeCode": "FIO",
       "awayCode": "COM",
       "dateLabel": "domenica 18 ottobre, 15:00",
-      "officialUpdatedLabel": "13/10/2026 - 21:12"
+      "officialUpdatedLabel": "14/10/2026 - 15:09"
     },
     {
       "matchId": "18017",
@@ -29,7 +29,7 @@
       "homeCode": "FRO",
       "awayCode": "SAS",
       "dateLabel": "venerdì 16 ottobre, 20:45",
-      "officialUpdatedLabel": "13/10/2026 - 11:11"
+      "officialUpdatedLabel": "14/10/2026 - 15:04"
     },
     {
       "matchId": "18018",
@@ -37,7 +37,7 @@
       "homeCode": "JUV",
       "awayCode": "LAZ",
       "dateLabel": "domenica 18 ottobre, 20:45",
-      "officialUpdatedLabel": "13/10/2026 - 11:11"
+      "officialUpdatedLabel": "14/10/2026 - 09:24"
     },
     {
       "matchId": "18019",
@@ -45,7 +45,7 @@
       "homeCode": "MIL",
       "awayCode": "ATA",
       "dateLabel": "domenica 18 ottobre, 18:00",
-      "officialUpdatedLabel": "13/10/2026 - 18:50"
+      "officialUpdatedLabel": "14/10/2026 - 15:04"
     },
     {
       "matchId": "18020",
@@ -53,7 +53,7 @@
       "homeCode": "MON",
       "awayCode": "CAG",
       "dateLabel": "lunedì 19 ottobre, 18:30",
-      "officialUpdatedLabel": "13/10/2026 - 11:13"
+      "officialUpdatedLabel": "14/10/2026 - 09:24"
     },
     {
       "matchId": "18021",
@@ -61,7 +61,7 @@
       "homeCode": "PAR",
       "awayCode": "TOR",
       "dateLabel": "lunedì 19 ottobre, 20:45",
-      "officialUpdatedLabel": "13/10/2026 - 11:13"
+      "officialUpdatedLabel": "14/10/2026 - 15:13"
     },
     {
       "matchId": "18022",
@@ -69,7 +69,7 @@
       "homeCode": "ROM",
       "awayCode": "GEN",
       "dateLabel": "sabato 17 ottobre, 20:45",
-      "officialUpdatedLabel": "13/10/2026 - 18:50"
+      "officialUpdatedLabel": "14/10/2026 - 15:09"
     },
     {
       "matchId": "18023",
@@ -77,7 +77,7 @@
       "homeCode": "UDI",
       "awayCode": "LEC",
       "dateLabel": "domenica 18 ottobre, 12:30",
-      "officialUpdatedLabel": "13/10/2026 - 18:51"
+      "officialUpdatedLabel": "14/10/2026 - 09:24"
     },
     {
       "matchId": "18024",
@@ -85,13 +85,13 @@
       "homeCode": "VEN",
       "awayCode": "NAP",
       "dateLabel": "sabato 17 ottobre, 15:00",
-      "officialUpdatedLabel": "13/10/2026 - 15:04"
+      "officialUpdatedLabel": "14/10/2026 - 09:24"
     }
   ],
   "probabilityPlayerCount": 462,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-13T19:14:07.064Z",
+  "availabilityUpdatedAt": "2026-10-14T13:40:35.491Z",
   "injuredCount": 62,
   "suspendedCount": 3,
   "activeCount": 603,
@@ -5653,7 +5653,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il difensore KO l'11 ottobre contro il Milan vittima di un problema al ginocchio che andrà valutato per stabilire i tempi di recupero. Di certo out venerdì contro il Frosinone in campionato.",
+      "unavailabilityNote": "il difensore KO l'11 ottobre contro il Milan vittima di una lesione al crociato anteriore del ginocchio sinistro. Lungo stop, ipotesi rientro in campo da aprile.",
       "unavailabilityMatchday": 7,
       "unavailabilityMatchHash": "FRO-SAS"
     },
