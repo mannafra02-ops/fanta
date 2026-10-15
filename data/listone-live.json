@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-15T13:23:04.761Z",
+  "updatedAt": "2026-10-15T19:51:54.065Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-15T13:23:04.761Z",
+  "probabilityUpdatedAt": "2026-10-15T19:51:54.065Z",
   "probabilityMatchday": 7,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "BOL",
       "awayCode": "INT",
       "dateLabel": "sabato 17 ottobre, 18:00",
-      "officialUpdatedLabel": "15/10/2026 - 12:07"
+      "officialUpdatedLabel": "15/10/2026 - 17:43"
     },
     {
       "matchId": "18016",
@@ -45,7 +45,7 @@
       "homeCode": "MIL",
       "awayCode": "ATA",
       "dateLabel": "domenica 18 ottobre, 18:00",
-      "officialUpdatedLabel": "15/10/2026 - 10:29"
+      "officialUpdatedLabel": "15/10/2026 - 16:05"
     },
     {
       "matchId": "18020",
@@ -61,7 +61,7 @@
       "homeCode": "PAR",
       "awayCode": "TOR",
       "dateLabel": "lunedì 19 ottobre, 20:45",
-      "officialUpdatedLabel": "15/10/2026 - 14:45"
+      "officialUpdatedLabel": "15/10/2026 - 17:01"
     },
     {
       "matchId": "18022",
@@ -77,7 +77,7 @@
       "homeCode": "UDI",
       "awayCode": "LEC",
       "dateLabel": "domenica 18 ottobre, 12:30",
-      "officialUpdatedLabel": "15/10/2026 - 15:19"
+      "officialUpdatedLabel": "15/10/2026 - 16:48"
     },
     {
       "matchId": "18024",
@@ -85,13 +85,13 @@
       "homeCode": "VEN",
       "awayCode": "NAP",
       "dateLabel": "sabato 17 ottobre, 15:00",
-      "officialUpdatedLabel": "15/10/2026 - 10:43"
+      "officialUpdatedLabel": "15/10/2026 - 16:13"
     }
   ],
   "probabilityPlayerCount": 458,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-15T13:23:04.761Z",
+  "availabilityUpdatedAt": "2026-10-15T19:51:54.065Z",
   "injuredCount": 66,
   "suspendedCount": 3,
   "activeCount": 603,
@@ -3769,7 +3769,7 @@
       "sourceOrder": 241,
       "slot": 183,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 35,
       "probabilityMatchId": "18015",
       "probabilityMatchHash": "BOL-INT",
       "unavailability": null,
@@ -5869,7 +5869,7 @@
       "sourceOrder": 295,
       "slot": 288,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "18015",
       "probabilityMatchHash": "BOL-INT",
       "unavailability": null,
@@ -6333,7 +6333,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "L'ala offensiva azzurra out sabato a Venezia per un fastidio muscolare alla gamba. Da valutare in vista della 8a giornata di campionato.",
+      "unavailabilityNote": "L'ala offensiva azzurra ai box per una lesione di basso grado al muscolo semimembranoso della coscia destra, tentativo di rientro tra i convocati dalla prima metà di novembre.",
       "unavailabilityMatchday": 7,
       "unavailabilityMatchHash": "VEN-NAP"
     },
