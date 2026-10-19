@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-18T18:37:13.058Z",
+  "updatedAt": "2026-10-19T15:34:04.487Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-18T18:37:13.058Z",
+  "probabilityUpdatedAt": "2026-10-19T15:34:04.487Z",
   "probabilityMatchday": 7,
   "probabilityMatches": [
     {
@@ -53,7 +53,7 @@
       "homeCode": "MON",
       "awayCode": "CAG",
       "dateLabel": "lunedì 19 ottobre, 18:30",
-      "officialUpdatedLabel": "18/10/2026 - 13:05"
+      "officialUpdatedLabel": "19/10/2026 - 12:09"
     },
     {
       "matchId": "18021",
@@ -61,7 +61,7 @@
       "homeCode": "PAR",
       "awayCode": "TOR",
       "dateLabel": "lunedì 19 ottobre, 20:45",
-      "officialUpdatedLabel": "17/10/2026 - 14:48"
+      "officialUpdatedLabel": "19/10/2026 - 13:58"
     },
     {
       "matchId": "18022",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "17/10/2026 - 14:01"
     }
   ],
-  "probabilityPlayerCount": 454,
+  "probabilityPlayerCount": 456,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-18T18:37:13.058Z",
-  "injuredCount": 71,
+  "availabilityUpdatedAt": "2026-10-19T15:34:04.487Z",
+  "injuredCount": 70,
   "suspendedCount": 3,
   "activeCount": 603,
   "totalCount": 603,
@@ -9469,7 +9469,7 @@
       "sourceOrder": 473,
       "slot": 468,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 15,
+      "startingProbability": 25,
       "probabilityMatchId": "18020",
       "probabilityMatchHash": "MON-CAG",
       "unavailability": null,
@@ -10769,13 +10769,13 @@
       "sourceOrder": 541,
       "slot": 533,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il centrocampista non al meglio per noie fisiche, forfait anche nel prossimo turno. Da valutare.",
-      "unavailabilityMatchday": 7,
-      "unavailabilityMatchHash": "MON-CAG"
+      "startingProbability": 25,
+      "probabilityMatchId": "18020",
+      "probabilityMatchHash": "MON-CAG",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "2845",
@@ -11609,9 +11609,9 @@
       "sourceOrder": 582,
       "slot": 575,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
+      "startingProbability": 10,
+      "probabilityMatchId": "18021",
+      "probabilityMatchHash": "PAR-TOR",
       "unavailability": null,
       "unavailabilityNote": null,
       "unavailabilityMatchday": null,
