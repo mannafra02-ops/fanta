@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-20T13:32:29.885Z",
+  "updatedAt": "2026-10-20T19:59:08.081Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-20T13:32:29.885Z",
+  "probabilityUpdatedAt": "2026-10-20T19:59:08.081Z",
   "probabilityMatchday": 8,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "FRO",
       "dateLabel": "domenica 25 ottobre, 15:00",
-      "officialUpdatedLabel": "20/10/2026 - 12:58"
+      "officialUpdatedLabel": "20/10/2026 - 19:17"
     },
     {
       "matchId": "18026",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "SAS",
       "dateLabel": "sabato 24 ottobre, 15:00",
-      "officialUpdatedLabel": "20/10/2026 - 10:33"
+      "officialUpdatedLabel": "20/10/2026 - 17:44"
     },
     {
       "matchId": "18028",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "VEN",
       "dateLabel": "domenica 25 ottobre, 15:00",
-      "officialUpdatedLabel": "20/10/2026 - 10:23"
+      "officialUpdatedLabel": "20/10/2026 - 17:55"
     },
     {
       "matchId": "18029",
@@ -61,7 +61,7 @@
       "homeCode": "LEC",
       "awayCode": "JUV",
       "dateLabel": "domenica 25 ottobre, 18:00",
-      "officialUpdatedLabel": "20/10/2026 - 11:40"
+      "officialUpdatedLabel": "20/10/2026 - 19:16"
     },
     {
       "matchId": "18032",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "ROM",
       "dateLabel": "sabato 24 ottobre, 18:00",
-      "officialUpdatedLabel": "20/10/2026 - 10:32"
+      "officialUpdatedLabel": "20/10/2026 - 21:07"
     },
     {
       "matchId": "18033",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "20/10/2026 - 11:44"
     }
   ],
-  "probabilityPlayerCount": 459,
+  "probabilityPlayerCount": 458,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-20T13:32:29.885Z",
-  "injuredCount": 70,
+  "availabilityUpdatedAt": "2026-10-20T19:59:08.081Z",
+  "injuredCount": 71,
   "suspendedCount": 0,
   "activeCount": 603,
   "totalCount": 603,
@@ -269,7 +269,7 @@
       "sourceOrder": 13,
       "slot": 8,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 80,
       "probabilityMatchId": "18032",
       "probabilityMatchHash": "NAP-ROM",
       "unavailability": null,
@@ -1609,7 +1609,7 @@
       "sourceOrder": 59,
       "slot": 75,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 80,
       "probabilityMatchId": "18032",
       "probabilityMatchHash": "NAP-ROM",
       "unavailability": null,
@@ -1629,7 +1629,7 @@
       "sourceOrder": 141,
       "slot": 76,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 65,
       "probabilityMatchId": "18032",
       "probabilityMatchHash": "NAP-ROM",
       "unavailability": null,
@@ -1849,13 +1849,13 @@
       "sourceOrder": 161,
       "slot": 87,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
-      "probabilityMatchId": "18027",
-      "probabilityMatchHash": "COM-SAS",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il calciatore si è infortunato in allenamento il 20 ottobre, rimane da valutare per stabilire i tempi di recupero. Di certo out sabato contro il Sassuolo.",
+      "unavailabilityMatchday": 8,
+      "unavailabilityMatchHash": "COM-SAS"
     },
     {
       "officialId": "5436",
@@ -2453,7 +2453,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il difensore il 18 ottobre a Firenze costretto al cambio per un guaio muscolare alla gamba che rimane da valutare. Di certo out sabato in campionato contro il Sassuolo.",
+      "unavailabilityNote": "il difensore il 18 ottobre a Firenze costretto al cambio per un guaio muscolare alla gamba, rientro da inizio novembre.",
       "unavailabilityMatchday": 8,
       "unavailabilityMatchHash": "COM-SAS"
     },
@@ -2793,7 +2793,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il centrocampista sostituito il 5 ottobre con la Nazionale italiana a causa di una lesione distrattiva al polpaccio destro. Recuperabile da inizio novembre.",
+      "unavailabilityNote": "Il centrocampista sostituito il 5 ottobre con la Nazionale italiana a causa di una lesione distrattiva al polpaccio destro. Recuperabile da fine ottobre.",
       "unavailabilityMatchday": 8,
       "unavailabilityMatchHash": "NAP-ROM"
     },
@@ -4273,7 +4273,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il centrocampista costretto al cambio il 18 ottobre a Udine per un problema muscolare alla coscia destra, che rimane da valutare. Di certo assente domenica contro la Juventus.",
+      "unavailabilityNote": "il centrocampista costretto al cambio il 18 ottobre a Udine per una lesione muscolare al bicipite femorale della coscia destra, recuperabile dall'inizio di novembre.",
       "unavailabilityMatchday": 8,
       "unavailabilityMatchHash": "LEC-JUV"
     },
@@ -4693,7 +4693,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il difensore KO il 18 ottobre a Milano vittima di un risentimento muscolare alla gamba che andrà valutato. Forfait nel prossimo turno di campionato.",
+      "unavailabilityNote": "il difensore KO il 18 ottobre a Milano vittima di una distrazione muscolare al retto femorale della coscia sinistra, recuperabile dalla metà di novembre.",
       "unavailabilityMatchday": 8,
       "unavailabilityMatchHash": "ATA-FRO"
     },
@@ -6889,7 +6889,7 @@
       "sourceOrder": 404,
       "slot": 339,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 60,
       "probabilityMatchId": "18027",
       "probabilityMatchHash": "COM-SAS",
       "unavailability": null,
@@ -8449,7 +8449,7 @@
       "sourceOrder": 461,
       "slot": 417,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 50,
       "probabilityMatchId": "18027",
       "probabilityMatchHash": "COM-SAS",
       "unavailability": null,
