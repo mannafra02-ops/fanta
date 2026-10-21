@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-20T23:09:59.278Z",
+  "updatedAt": "2026-10-21T13:44:20.014Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-20T23:09:59.278Z",
+  "probabilityUpdatedAt": "2026-10-21T13:44:20.014Z",
   "probabilityMatchday": 8,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "FRO",
       "dateLabel": "domenica 25 ottobre, 15:00",
-      "officialUpdatedLabel": "20/10/2026 - 19:17"
+      "officialUpdatedLabel": "21/10/2026 - 08:33"
     },
     {
       "matchId": "18026",
@@ -21,7 +21,7 @@
       "homeCode": "CAG",
       "awayCode": "BOL",
       "dateLabel": "sabato 24 ottobre, 15:00",
-      "officialUpdatedLabel": "20/10/2026 - 10:22"
+      "officialUpdatedLabel": "21/10/2026 - 15:00"
     },
     {
       "matchId": "18027",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "SAS",
       "dateLabel": "sabato 24 ottobre, 15:00",
-      "officialUpdatedLabel": "20/10/2026 - 17:44"
+      "officialUpdatedLabel": "21/10/2026 - 14:59"
     },
     {
       "matchId": "18028",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "VEN",
       "dateLabel": "domenica 25 ottobre, 15:00",
-      "officialUpdatedLabel": "20/10/2026 - 17:55"
+      "officialUpdatedLabel": "21/10/2026 - 08:33"
     },
     {
       "matchId": "18029",
@@ -45,7 +45,7 @@
       "homeCode": "INT",
       "awayCode": "FIO",
       "dateLabel": "domenica 25 ottobre, 12:30",
-      "officialUpdatedLabel": "20/10/2026 - 10:22"
+      "officialUpdatedLabel": "21/10/2026 - 14:57"
     },
     {
       "matchId": "18030",
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "PAR",
       "dateLabel": "sabato 24 ottobre, 20:45",
-      "officialUpdatedLabel": "20/10/2026 - 10:22"
+      "officialUpdatedLabel": "21/10/2026 - 08:33"
     },
     {
       "matchId": "18031",
@@ -61,7 +61,7 @@
       "homeCode": "LEC",
       "awayCode": "JUV",
       "dateLabel": "domenica 25 ottobre, 18:00",
-      "officialUpdatedLabel": "20/10/2026 - 19:16"
+      "officialUpdatedLabel": "21/10/2026 - 14:57"
     },
     {
       "matchId": "18032",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "ROM",
       "dateLabel": "sabato 24 ottobre, 18:00",
-      "officialUpdatedLabel": "20/10/2026 - 22:14"
+      "officialUpdatedLabel": "21/10/2026 - 13:45"
     },
     {
       "matchId": "18033",
@@ -77,7 +77,7 @@
       "homeCode": "TOR",
       "awayCode": "MON",
       "dateLabel": "venerdì 23 ottobre, 20:45",
-      "officialUpdatedLabel": "20/10/2026 - 11:40"
+      "officialUpdatedLabel": "21/10/2026 - 14:15"
     },
     {
       "matchId": "18034",
@@ -85,13 +85,13 @@
       "homeCode": "UDI",
       "awayCode": "MIL",
       "dateLabel": "domenica 25 ottobre, 20:45",
-      "officialUpdatedLabel": "20/10/2026 - 11:44"
+      "officialUpdatedLabel": "21/10/2026 - 13:43"
     }
   ],
   "probabilityPlayerCount": 457,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-20T23:09:59.278Z",
+  "availabilityUpdatedAt": "2026-10-21T13:44:20.014Z",
   "injuredCount": 72,
   "suspendedCount": 0,
   "activeCount": 603,
@@ -249,7 +249,7 @@
       "sourceOrder": 10,
       "slot": 7,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 55,
       "probabilityMatchId": "18034",
       "probabilityMatchHash": "UDI-MIL",
       "unavailability": null,
@@ -269,7 +269,7 @@
       "sourceOrder": 13,
       "slot": 8,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 85,
       "probabilityMatchId": "18032",
       "probabilityMatchHash": "NAP-ROM",
       "unavailability": null,
@@ -789,13 +789,13 @@
       "sourceOrder": 64,
       "slot": 34,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "Il calciatore alle prese con una lesione muscolare al bicipite femorale destro, rientro previsto dalla fine di ottobre.",
-      "unavailabilityMatchday": 8,
-      "unavailabilityMatchHash": "UDI-MIL"
+      "startingProbability": 50,
+      "probabilityMatchId": "18034",
+      "probabilityMatchHash": "UDI-MIL",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "6675",
@@ -2289,7 +2289,7 @@
       "sourceOrder": 199,
       "slot": 109,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 60,
       "probabilityMatchId": "18032",
       "probabilityMatchHash": "NAP-ROM",
       "unavailability": null,
@@ -2789,13 +2789,13 @@
       "sourceOrder": 200,
       "slot": 134,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "Il centrocampista sostituito il 5 ottobre con la Nazionale italiana a causa di una lesione distrattiva al polpaccio destro. Recuperabile da fine ottobre.",
-      "unavailabilityMatchday": 8,
-      "unavailabilityMatchHash": "NAP-ROM"
+      "startingProbability": 20,
+      "probabilityMatchId": "18032",
+      "probabilityMatchHash": "NAP-ROM",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "5862",
@@ -3429,7 +3429,7 @@
       "sourceOrder": 270,
       "slot": 166,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 60,
       "probabilityMatchId": "18034",
       "probabilityMatchHash": "UDI-MIL",
       "unavailability": null,
@@ -3449,13 +3449,13 @@
       "sourceOrder": 122,
       "slot": 167,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
-      "probabilityMatchId": "18034",
-      "probabilityMatchHash": "UDI-MIL",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il nigeriano da mercoledì fermo per un problema all'anca e viaggia verso il forfait domenica in campionato a Udine. Da valutare con visita specialistica in programma.",
+      "unavailabilityMatchday": 8,
+      "unavailabilityMatchHash": "UDI-MIL"
     },
     {
       "officialId": "5427",
@@ -3609,7 +3609,7 @@
       "sourceOrder": 234,
       "slot": 175,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18033",
       "probabilityMatchHash": "TOR-MON",
       "unavailability": null,
@@ -3709,7 +3709,7 @@
       "sourceOrder": 240,
       "slot": 180,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 40,
       "probabilityMatchId": "18034",
       "probabilityMatchHash": "UDI-MIL",
       "unavailability": null,
@@ -5669,7 +5669,7 @@
       "sourceOrder": 341,
       "slot": 278,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 85,
       "probabilityMatchId": "18032",
       "probabilityMatchHash": "NAP-ROM",
       "unavailability": null,
@@ -6249,7 +6249,7 @@
       "sourceOrder": 320,
       "slot": 307,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18034",
       "probabilityMatchHash": "UDI-MIL",
       "unavailability": null,
@@ -6429,7 +6429,7 @@
       "sourceOrder": 282,
       "slot": 316,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 35,
+      "startingProbability": 50,
       "probabilityMatchId": "18033",
       "probabilityMatchHash": "TOR-MON",
       "unavailability": null,
@@ -6689,13 +6689,13 @@
       "sourceOrder": 344,
       "slot": 329,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
-      "probabilityMatchId": "18033",
-      "probabilityMatchHash": "TOR-MON",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il difensore svizzero ai box per una lesione tendinea di basso grado ai muscoli flessori della coscia sinistra. Out venerdì contro il Monza, rientro possibile dall'inizio di novembre.",
+      "unavailabilityMatchday": 8,
+      "unavailabilityMatchHash": "TOR-MON"
     },
     {
       "officialId": "5578",
@@ -7329,7 +7329,7 @@
       "sourceOrder": 228,
       "slot": 361,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18034",
       "probabilityMatchHash": "UDI-MIL",
       "unavailability": null,
@@ -7369,7 +7369,7 @@
       "sourceOrder": 417,
       "slot": 363,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
+      "startingProbability": 55,
       "probabilityMatchId": "18034",
       "probabilityMatchHash": "UDI-MIL",
       "unavailability": null,
@@ -9249,7 +9249,7 @@
       "sourceOrder": 170,
       "slot": 457,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "18032",
       "probabilityMatchHash": "NAP-ROM",
       "unavailability": null,
