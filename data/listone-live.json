@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-21T20:07:34.183Z",
+  "updatedAt": "2026-10-22T13:44:47.836Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-21T20:07:34.183Z",
+  "probabilityUpdatedAt": "2026-10-22T13:44:47.836Z",
   "probabilityMatchday": 8,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "FRO",
       "dateLabel": "domenica 25 ottobre, 15:00",
-      "officialUpdatedLabel": "21/10/2026 - 17:33"
+      "officialUpdatedLabel": "22/10/2026 - 08:48"
     },
     {
       "matchId": "18026",
@@ -21,7 +21,7 @@
       "homeCode": "CAG",
       "awayCode": "BOL",
       "dateLabel": "sabato 24 ottobre, 15:00",
-      "officialUpdatedLabel": "21/10/2026 - 19:11"
+      "officialUpdatedLabel": "22/10/2026 - 08:51"
     },
     {
       "matchId": "18027",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "SAS",
       "dateLabel": "sabato 24 ottobre, 15:00",
-      "officialUpdatedLabel": "21/10/2026 - 21:00"
+      "officialUpdatedLabel": "22/10/2026 - 15:20"
     },
     {
       "matchId": "18028",
@@ -37,7 +37,7 @@
       "homeCode": "GEN",
       "awayCode": "VEN",
       "dateLabel": "domenica 25 ottobre, 15:00",
-      "officialUpdatedLabel": "21/10/2026 - 17:49"
+      "officialUpdatedLabel": "22/10/2026 - 15:22"
     },
     {
       "matchId": "18029",
@@ -45,7 +45,7 @@
       "homeCode": "INT",
       "awayCode": "FIO",
       "dateLabel": "domenica 25 ottobre, 12:30",
-      "officialUpdatedLabel": "21/10/2026 - 21:01"
+      "officialUpdatedLabel": "22/10/2026 - 15:41"
     },
     {
       "matchId": "18030",
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "PAR",
       "dateLabel": "sabato 24 ottobre, 20:45",
-      "officialUpdatedLabel": "21/10/2026 - 19:11"
+      "officialUpdatedLabel": "22/10/2026 - 12:43"
     },
     {
       "matchId": "18031",
@@ -61,7 +61,7 @@
       "homeCode": "LEC",
       "awayCode": "JUV",
       "dateLabel": "domenica 25 ottobre, 18:00",
-      "officialUpdatedLabel": "21/10/2026 - 17:42"
+      "officialUpdatedLabel": "22/10/2026 - 08:51"
     },
     {
       "matchId": "18032",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "ROM",
       "dateLabel": "sabato 24 ottobre, 18:00",
-      "officialUpdatedLabel": "21/10/2026 - 17:21"
+      "officialUpdatedLabel": "22/10/2026 - 15:03"
     },
     {
       "matchId": "18033",
@@ -77,7 +77,7 @@
       "homeCode": "TOR",
       "awayCode": "MON",
       "dateLabel": "venerdì 23 ottobre, 20:45",
-      "officialUpdatedLabel": "21/10/2026 - 19:12"
+      "officialUpdatedLabel": "22/10/2026 - 14:56"
     },
     {
       "matchId": "18034",
@@ -85,13 +85,13 @@
       "homeCode": "UDI",
       "awayCode": "MIL",
       "dateLabel": "domenica 25 ottobre, 20:45",
-      "officialUpdatedLabel": "21/10/2026 - 17:46"
+      "officialUpdatedLabel": "22/10/2026 - 08:51"
     }
   ],
   "probabilityPlayerCount": 460,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-21T20:07:34.183Z",
+  "availabilityUpdatedAt": "2026-10-22T13:44:47.836Z",
   "injuredCount": 69,
   "suspendedCount": 0,
   "activeCount": 603,
@@ -709,7 +709,7 @@
       "sourceOrder": 75,
       "slot": 30,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 75,
+      "startingProbability": 70,
       "probabilityMatchId": "18029",
       "probabilityMatchHash": "INT-FIO",
       "unavailability": null,
@@ -1333,7 +1333,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla destra dopo una caduta fortuita in partita. Condizioni da monitorare, si confida di riaverlo a disposizione da inizio di novembre.",
+      "unavailabilityNote": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla destra dopo una caduta fortuita in partita. Condizioni da monitorare, si confida di riaverlo a disposizione dalla metà di novembre.",
       "unavailabilityMatchday": 8,
       "unavailabilityMatchHash": "LAZ-PAR"
     },
@@ -2789,7 +2789,7 @@
       "sourceOrder": 200,
       "slot": 134,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 40,
       "probabilityMatchId": "18032",
       "probabilityMatchHash": "NAP-ROM",
       "unavailability": null,
@@ -5409,7 +5409,7 @@
       "sourceOrder": 327,
       "slot": 265,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 50,
       "probabilityMatchId": "18033",
       "probabilityMatchHash": "TOR-MON",
       "unavailability": null,
@@ -6309,7 +6309,7 @@
       "sourceOrder": 374,
       "slot": 310,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 35,
       "probabilityMatchId": "18032",
       "probabilityMatchHash": "NAP-ROM",
       "unavailability": null,
@@ -6429,7 +6429,7 @@
       "sourceOrder": 282,
       "slot": 316,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 40,
       "probabilityMatchId": "18033",
       "probabilityMatchHash": "TOR-MON",
       "unavailability": null,
@@ -10289,7 +10289,7 @@
       "sourceOrder": 519,
       "slot": 509,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 5,
+      "startingProbability": 30,
       "probabilityMatchId": "18029",
       "probabilityMatchHash": "INT-FIO",
       "unavailability": null,
@@ -10809,7 +10809,7 @@
       "sourceOrder": 545,
       "slot": 535,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 30,
+      "startingProbability": 20,
       "probabilityMatchId": "18032",
       "probabilityMatchHash": "NAP-ROM",
       "unavailability": null,
