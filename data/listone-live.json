@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-24T18:46:06.792Z",
+  "updatedAt": "2026-10-24T22:27:15.077Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-24T18:46:06.792Z",
+  "probabilityUpdatedAt": "2026-10-24T22:27:15.077Z",
   "probabilityMatchday": 8,
   "probabilityMatches": [
     {
@@ -53,7 +53,7 @@
       "homeCode": "LAZ",
       "awayCode": "PAR",
       "dateLabel": "sabato 24 ottobre, 20:45",
-      "officialUpdatedLabel": "24/10/2026 - 19:55"
+      "officialUpdatedLabel": "24/10/2026 - 21:42"
     },
     {
       "matchId": "18031",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "24/10/2026 - 16:40"
     }
   ],
-  "probabilityPlayerCount": 445,
+  "probabilityPlayerCount": 444,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-24T18:46:06.792Z",
-  "injuredCount": 82,
+  "availabilityUpdatedAt": "2026-10-24T22:27:15.077Z",
+  "injuredCount": 83,
   "suspendedCount": 0,
   "activeCount": 603,
   "totalCount": 603,
@@ -1649,13 +1649,13 @@
       "sourceOrder": 62,
       "slot": 77,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
-      "probabilityMatchId": "18030",
-      "probabilityMatchHash": "LAZ-PAR",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "L'attaccante si è accomodato in tribuna sabato sera contro il Parma per noie fisiche che restano da valutare in vista del turno infrasettimanale.",
+      "unavailabilityMatchday": 8,
+      "unavailabilityMatchHash": "LAZ-PAR"
     },
     {
       "officialId": "6646",
@@ -2689,7 +2689,7 @@
       "sourceOrder": 119,
       "slot": 129,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 55,
       "probabilityMatchId": "18030",
       "probabilityMatchHash": "LAZ-PAR",
       "unavailability": null,
