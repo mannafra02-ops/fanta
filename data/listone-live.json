@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-26T15:09:20.471Z",
+  "updatedAt": "2026-10-26T21:00:12.432Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-26T15:09:20.471Z",
+  "probabilityUpdatedAt": "2026-10-26T21:00:12.432Z",
   "probabilityMatchday": 9,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "FIO",
       "awayCode": "ATA",
       "dateLabel": "giovedì 29 ottobre, 20:45",
-      "officialUpdatedLabel": "26/10/2026 - 15:18"
+      "officialUpdatedLabel": "26/10/2026 - 16:55"
     },
     {
       "matchId": "18036",
@@ -37,7 +37,7 @@
       "homeCode": "MIL",
       "awayCode": "BOL",
       "dateLabel": "mercoledì 28 ottobre, 18:30",
-      "officialUpdatedLabel": "26/10/2026 - 15:45"
+      "officialUpdatedLabel": "26/10/2026 - 18:31"
     },
     {
       "matchId": "18039",
@@ -53,7 +53,7 @@
       "homeCode": "PAR",
       "awayCode": "UDI",
       "dateLabel": "mercoledì 28 ottobre, 18:30",
-      "officialUpdatedLabel": "26/10/2026 - 16:09"
+      "officialUpdatedLabel": "26/10/2026 - 17:43"
     },
     {
       "matchId": "18041",
@@ -61,7 +61,7 @@
       "homeCode": "ROM",
       "awayCode": "CAG",
       "dateLabel": "martedì 27 ottobre, 20:45",
-      "officialUpdatedLabel": "26/10/2026 - 13:54"
+      "officialUpdatedLabel": "26/10/2026 - 17:43"
     },
     {
       "matchId": "18042",
@@ -77,7 +77,7 @@
       "homeCode": "TOR",
       "awayCode": "COM",
       "dateLabel": "martedì 27 ottobre, 20:45",
-      "officialUpdatedLabel": "26/10/2026 - 15:58"
+      "officialUpdatedLabel": "26/10/2026 - 19:08"
     },
     {
       "matchId": "18044",
@@ -85,14 +85,14 @@
       "homeCode": "VEN",
       "awayCode": "INT",
       "dateLabel": "mercoledì 28 ottobre, 18:30",
-      "officialUpdatedLabel": "26/10/2026 - 10:20"
+      "officialUpdatedLabel": "26/10/2026 - 19:11"
     }
   ],
-  "probabilityPlayerCount": 447,
+  "probabilityPlayerCount": 442,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-10-26T15:09:20.471Z",
-  "injuredCount": 81,
+  "availabilityUpdatedAt": "2026-10-26T21:00:12.432Z",
+  "injuredCount": 86,
   "suspendedCount": 0,
   "activeCount": 603,
   "totalCount": 603,
@@ -309,13 +309,13 @@
       "sourceOrder": 20,
       "slot": 10,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
-      "probabilityMatchId": "18043",
-      "probabilityMatchHash": "TOR-COM",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "l'attaccante in recupero dal fastidio alla tibia e, dopo aver saltato le sfide contro Sassuolo, Roma e Fiorentina, non è tra i convocati neppure per martedì a Torino. Punta a tornare dalla 10a giornata di A.",
+      "unavailabilityMatchday": 9,
+      "unavailabilityMatchHash": "TOR-COM"
     },
     {
       "officialId": "5951",
@@ -1409,13 +1409,13 @@
       "sourceOrder": 70,
       "slot": 65,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
-      "probabilityMatchId": "18038",
-      "probabilityMatchHash": "MIL-BOL",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il difensore assente domenica scorsa contro l'Udinese per un sovraccarico alla caviglia sinistra. Da valutare, a rischio anche per mercoledì a San Siro contro il Bologna.",
+      "unavailabilityMatchday": 9,
+      "unavailabilityMatchHash": "MIL-BOL"
     },
     {
       "officialId": "4728",
@@ -1749,13 +1749,13 @@
       "sourceOrder": 132,
       "slot": 82,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 25,
-      "probabilityMatchId": "18035",
-      "probabilityMatchHash": "FIO-ATA",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "L'ivoriano condizionato da una distrazione di basso grado al polpaccio della gamba destra e out contro Milan e Frosinone. Da valutare in vista di giovedì a Firenze nel turno infrasettimanale, proverà a recuperare in extremis.",
+      "unavailabilityMatchday": 9,
+      "unavailabilityMatchHash": "FIO-ATA"
     },
     {
       "officialId": "7625",
@@ -1789,7 +1789,7 @@
       "sourceOrder": 182,
       "slot": 84,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 15,
+      "startingProbability": 25,
       "probabilityMatchId": "18035",
       "probabilityMatchHash": "FIO-ATA",
       "unavailability": null,
@@ -2109,13 +2109,13 @@
       "sourceOrder": 34,
       "slot": 100,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
-      "probabilityMatchId": "18038",
-      "probabilityMatchHash": "MIL-BOL",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "L'esterno rossonero frenato da un affaticamento muscolare al flessore sinistro e out domenica scorsa contro l'Udinese. Da valutare, convocazione a rischio anche mercoledì contro il Bologna.",
+      "unavailabilityMatchday": 9,
+      "unavailabilityMatchHash": "MIL-BOL"
     },
     {
       "officialId": "133",
@@ -3709,7 +3709,7 @@
       "sourceOrder": 222,
       "slot": 180,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 75,
+      "startingProbability": 80,
       "probabilityMatchId": "18038",
       "probabilityMatchHash": "MIL-BOL",
       "unavailability": null,
@@ -4889,13 +4889,13 @@
       "sourceOrder": 230,
       "slot": 239,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 25,
-      "probabilityMatchId": "18043",
-      "probabilityMatchHash": "TOR-COM",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il centrocampista offensivo dei lariani mercoledì scorso in Champions League prima di subentrare ha lamentato un fastidio alla gamba, out ora in campionato contro Sassuolo e Torino. Da valutare rientro nella 10a di A.",
+      "unavailabilityMatchday": 9,
+      "unavailabilityMatchHash": "TOR-COM"
     },
     {
       "officialId": "7464",
@@ -5229,7 +5229,7 @@
       "sourceOrder": 269,
       "slot": 256,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 90,
       "probabilityMatchId": "18038",
       "probabilityMatchHash": "MIL-BOL",
       "unavailability": null,
@@ -5849,7 +5849,7 @@
       "sourceOrder": 404,
       "slot": 287,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 30,
       "probabilityMatchId": "18035",
       "probabilityMatchHash": "FIO-ATA",
       "unavailability": null,
@@ -6249,7 +6249,7 @@
       "sourceOrder": 271,
       "slot": 307,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 75,
+      "startingProbability": 80,
       "probabilityMatchId": "18038",
       "probabilityMatchHash": "MIL-BOL",
       "unavailability": null,
@@ -6373,7 +6373,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il centrocampista alle prese dalla seconda metà di luglio con una lesione di medio grado alla coscia destra, ma a fine agosto ha deciso, assieme allo staff medico ducale, di operarsi. Lungo stop e ipotesi di ritorno in campo da dicembre.",
+      "unavailabilityNote": "il centrocampista alle prese dalla seconda metà di luglio con una lesione di medio grado alla coscia destra, ma a fine agosto ha deciso, assieme allo staff medico ducale, di operarsi. Lungo stop e ritorno in campo da inizio novembre.",
       "unavailabilityMatchday": 9,
       "unavailabilityMatchHash": "PAR-UDI"
     },
@@ -7353,7 +7353,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il centrocampista non al meglio per un problema alla gamba destra ravvisato sul finire del match di Udine (25 ottobre). Condizioni da valutare, ma viaggia verso il forfait per mercoledì contro il Bologna.",
+      "unavailabilityNote": "il centrocampista non al meglio per un problema al flessore ravvisato sul finire del match di Udine (25 ottobre). Condizioni da valutare, forfait certo per mercoledì contro il Bologna.",
       "unavailabilityMatchday": 9,
       "unavailabilityMatchHash": "MIL-BOL"
     },
@@ -10669,7 +10669,7 @@
       "sourceOrder": 457,
       "slot": 528,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 30,
+      "startingProbability": 55,
       "probabilityMatchId": "18038",
       "probabilityMatchHash": "MIL-BOL",
       "unavailability": null,
@@ -11709,7 +11709,7 @@
       "sourceOrder": 586,
       "slot": 580,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 20,
+      "startingProbability": 35,
       "probabilityMatchId": "18038",
       "probabilityMatchHash": "MIL-BOL",
       "unavailability": null,
@@ -11769,7 +11769,7 @@
       "sourceOrder": 589,
       "slot": 583,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 40,
+      "startingProbability": 50,
       "probabilityMatchId": "18038",
       "probabilityMatchHash": "MIL-BOL",
       "unavailability": null,
