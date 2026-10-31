@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-10-30T20:44:46.278Z",
+  "updatedAt": "2026-10-31T05:34:35.396Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-10-30T20:44:46.278Z",
+  "probabilityUpdatedAt": "2026-10-31T05:34:35.396Z",
   "probabilityMatchday": 10,
   "probabilityMatches": [
     {
@@ -69,7 +69,7 @@
       "homeCode": "MIL",
       "awayCode": "INT",
       "dateLabel": "sabato 31 ottobre, 20:45",
-      "officialUpdatedLabel": "30/10/2026 - 19:49"
+      "officialUpdatedLabel": "30/10/2026 - 23:41"
     },
     {
       "matchId": "18053",
@@ -85,7 +85,7 @@
       "homeCode": "UDI",
       "awayCode": "ROM",
       "dateLabel": "sabato 31 ottobre, 18:00",
-      "officialUpdatedLabel": "30/10/2026 - 18:27"
+      "officialUpdatedLabel": "30/10/2026 - 23:27"
     }
   ],
   "probabilityPlayerCount": 444,
@@ -1409,7 +1409,7 @@
       "sourceOrder": 68,
       "slot": 65,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 80,
       "probabilityMatchId": "18052",
       "probabilityMatchHash": "MIL-INT",
       "unavailability": null,
@@ -3709,7 +3709,7 @@
       "sourceOrder": 160,
       "slot": 180,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 75,
+      "startingProbability": 60,
       "probabilityMatchId": "18052",
       "probabilityMatchHash": "MIL-INT",
       "unavailability": null,
@@ -7329,7 +7329,7 @@
       "sourceOrder": 248,
       "slot": 361,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 80,
       "probabilityMatchId": "18052",
       "probabilityMatchHash": "MIL-INT",
       "unavailability": null,
@@ -10669,7 +10669,7 @@
       "sourceOrder": 456,
       "slot": 528,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 35,
+      "startingProbability": 55,
       "probabilityMatchId": "18052",
       "probabilityMatchHash": "MIL-INT",
       "unavailability": null,
