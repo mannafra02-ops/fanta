@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-03T11:53:38.729Z",
+  "updatedAt": "2026-11-03T19:28:11.178Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-03T11:53:38.729Z",
+  "probabilityUpdatedAt": "2026-11-03T19:28:11.178Z",
   "probabilityMatchday": 11,
   "probabilityMatches": [
     {
@@ -45,7 +45,7 @@
       "homeCode": "MON",
       "awayCode": "ATA",
       "dateLabel": "domenica 08 novembre, 15:00",
-      "officialUpdatedLabel": "03/11/2026 - 10:04"
+      "officialUpdatedLabel": "03/11/2026 - 16:50"
     },
     {
       "matchId": "18060",
@@ -69,7 +69,7 @@
       "homeCode": "ROM",
       "awayCode": "SAS",
       "dateLabel": "sabato 07 novembre, 20:45",
-      "officialUpdatedLabel": "03/11/2026 - 10:03"
+      "officialUpdatedLabel": "03/11/2026 - 19:28"
     },
     {
       "matchId": "18063",
@@ -85,14 +85,14 @@
       "homeCode": "VEN",
       "awayCode": "UDI",
       "dateLabel": "venerdì 06 novembre, 20:45",
-      "officialUpdatedLabel": "03/11/2026 - 10:04"
+      "officialUpdatedLabel": "03/11/2026 - 20:17"
     }
   ],
-  "probabilityPlayerCount": 441,
+  "probabilityPlayerCount": 442,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-03T11:53:38.729Z",
-  "injuredCount": 86,
+  "availabilityUpdatedAt": "2026-11-03T19:28:11.178Z",
+  "injuredCount": 85,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -489,13 +489,13 @@
       "sourceOrder": 58,
       "slot": 19,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "L'attaccante fuori causa dal match di fine ottobre a Firenze a causa di un risentimento ai muscoli flessori della coscia destra. Verrà rivalutato, si proverà ad averlo a disposizione già da inizio novembre nella trasferta di Monza.",
-      "unavailabilityMatchday": 11,
-      "unavailabilityMatchHash": "MON-ATA"
+      "startingProbability": 60,
+      "probabilityMatchId": "18059",
+      "probabilityMatchHash": "MON-ATA",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "531",
@@ -549,7 +549,7 @@
       "sourceOrder": 8,
       "slot": 22,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 65,
       "probabilityMatchId": "18059",
       "probabilityMatchHash": "MON-ATA",
       "unavailability": null,
@@ -1289,7 +1289,7 @@
       "sourceOrder": 96,
       "slot": 59,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "18059",
       "probabilityMatchHash": "MON-ATA",
       "unavailability": null,
@@ -1469,7 +1469,7 @@
       "sourceOrder": 223,
       "slot": 68,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 85,
       "probabilityMatchId": "18064",
       "probabilityMatchHash": "VEN-UDI",
       "unavailability": null,
@@ -5849,7 +5849,7 @@
       "sourceOrder": 447,
       "slot": 287,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "18059",
       "probabilityMatchHash": "MON-ATA",
       "unavailability": null,
@@ -8689,7 +8689,7 @@
       "sourceOrder": 188,
       "slot": 429,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 60,
       "probabilityMatchId": "18064",
       "probabilityMatchHash": "VEN-UDI",
       "unavailability": null,
@@ -10909,7 +10909,7 @@
       "sourceOrder": 221,
       "slot": 540,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 90,
+      "startingProbability": 75,
       "probabilityMatchId": "18062",
       "probabilityMatchHash": "ROM-SAS",
       "unavailability": null,
