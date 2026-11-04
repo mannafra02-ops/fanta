@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-04T00:35:28.499Z",
+  "updatedAt": "2026-11-04T12:03:48.154Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-04T00:35:28.499Z",
+  "probabilityUpdatedAt": "2026-11-04T12:03:48.154Z",
   "probabilityMatchday": 11,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "CAG",
       "awayCode": "FRO",
       "dateLabel": "sabato 07 novembre, 15:00",
-      "officialUpdatedLabel": "03/11/2026 - 21:58"
+      "officialUpdatedLabel": "04/11/2026 - 12:57"
     },
     {
       "matchId": "18056",
@@ -21,7 +21,7 @@
       "homeCode": "FIO",
       "awayCode": "JUV",
       "dateLabel": "domenica 08 novembre, 20:45",
-      "officialUpdatedLabel": "03/11/2026 - 10:04"
+      "officialUpdatedLabel": "04/11/2026 - 10:48"
     },
     {
       "matchId": "18057",
@@ -29,7 +29,7 @@
       "homeCode": "GEN",
       "awayCode": "MIL",
       "dateLabel": "domenica 08 novembre, 15:00",
-      "officialUpdatedLabel": "03/11/2026 - 10:03"
+      "officialUpdatedLabel": "04/11/2026 - 12:30"
     },
     {
       "matchId": "18058",
@@ -37,7 +37,7 @@
       "homeCode": "INT",
       "awayCode": "COM",
       "dateLabel": "domenica 08 novembre, 18:00",
-      "officialUpdatedLabel": "03/11/2026 - 10:08"
+      "officialUpdatedLabel": "04/11/2026 - 09:22"
     },
     {
       "matchId": "18059",
@@ -45,7 +45,7 @@
       "homeCode": "MON",
       "awayCode": "ATA",
       "dateLabel": "domenica 08 novembre, 15:00",
-      "officialUpdatedLabel": "03/11/2026 - 16:50"
+      "officialUpdatedLabel": "04/11/2026 - 12:58"
     },
     {
       "matchId": "18060",
@@ -53,7 +53,7 @@
       "homeCode": "NAP",
       "awayCode": "LAZ",
       "dateLabel": "domenica 08 novembre, 12:30",
-      "officialUpdatedLabel": "03/11/2026 - 10:04"
+      "officialUpdatedLabel": "04/11/2026 - 09:22"
     },
     {
       "matchId": "18061",
@@ -61,7 +61,7 @@
       "homeCode": "PAR",
       "awayCode": "BOL",
       "dateLabel": "sabato 07 novembre, 18:00",
-      "officialUpdatedLabel": "03/11/2026 - 22:00"
+      "officialUpdatedLabel": "04/11/2026 - 09:22"
     },
     {
       "matchId": "18062",
@@ -69,7 +69,7 @@
       "homeCode": "ROM",
       "awayCode": "SAS",
       "dateLabel": "sabato 07 novembre, 20:45",
-      "officialUpdatedLabel": "03/11/2026 - 22:02"
+      "officialUpdatedLabel": "04/11/2026 - 10:00"
     },
     {
       "matchId": "18063",
@@ -77,7 +77,7 @@
       "homeCode": "TOR",
       "awayCode": "LEC",
       "dateLabel": "sabato 07 novembre, 15:00",
-      "officialUpdatedLabel": "03/11/2026 - 22:01"
+      "officialUpdatedLabel": "04/11/2026 - 09:22"
     },
     {
       "matchId": "18064",
@@ -85,14 +85,14 @@
       "homeCode": "VEN",
       "awayCode": "UDI",
       "dateLabel": "venerdì 06 novembre, 20:45",
-      "officialUpdatedLabel": "03/11/2026 - 20:17"
+      "officialUpdatedLabel": "04/11/2026 - 10:23"
     }
   ],
-  "probabilityPlayerCount": 442,
+  "probabilityPlayerCount": 443,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-04T00:35:28.499Z",
-  "injuredCount": 85,
+  "availabilityUpdatedAt": "2026-11-04T12:03:48.154Z",
+  "injuredCount": 84,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -184,7 +184,7 @@
       "teamCode": "NAP",
       "initialQuotation": 28,
       "quotation": 24,
-      "fvm": 200,
+      "fvm": 190,
       "active": true,
       "sourceOrder": 9,
       "slot": 4,
@@ -244,7 +244,7 @@
       "teamCode": "MIL",
       "initialQuotation": 27,
       "quotation": 20,
-      "fvm": 175,
+      "fvm": 180,
       "active": true,
       "sourceOrder": 19,
       "slot": 7,
@@ -569,7 +569,7 @@
       "sourceOrder": 47,
       "slot": 23,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 100,
+      "startingProbability": 70,
       "probabilityMatchId": "18058",
       "probabilityMatchHash": "INT-COM",
       "unavailability": null,
@@ -3453,7 +3453,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il nigeriano dal 21 ottobre fermo per un problema all'anca sinistra. Iniziato un trattamento infiltrativo all'anca, a inizio novembre nuovi controlli medici per stabilire i tempi di rientro.",
+      "unavailabilityNote": "Il nigeriano dal 21 ottobre fermato dalla rottura del tendine del muscolo tensore della fascia lata dell'anca sinistra. Operato il 4 novembre, lungo stop. Ipotesi di rientro in campo da aprile.",
       "unavailabilityMatchday": 11,
       "unavailabilityMatchHash": "GEN-MIL"
     },
@@ -4344,7 +4344,7 @@
       "teamCode": "MON",
       "initialQuotation": 3,
       "quotation": 20,
-      "fvm": 140,
+      "fvm": 170,
       "active": true,
       "sourceOrder": 20,
       "slot": 212,
@@ -10909,7 +10909,7 @@
       "sourceOrder": 221,
       "slot": 540,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 70,
+      "startingProbability": 55,
       "probabilityMatchId": "18062",
       "probabilityMatchHash": "ROM-SAS",
       "unavailability": null,
@@ -11329,13 +11329,13 @@
       "sourceOrder": 562,
       "slot": 561,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "l'attaccante assente a Torino il 12 ottobre a causa di una lesione al bicipite femorale della coscia destra, rientro tra i convocati da metà novembre.",
-      "unavailabilityMatchday": 11,
-      "unavailabilityMatchHash": "VEN-UDI"
+      "startingProbability": 20,
+      "probabilityMatchId": "18064",
+      "probabilityMatchHash": "VEN-UDI",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "6671",
@@ -11933,7 +11933,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il portiere fermo da inizio ottobre per la frattura della falange della mano destra, out nel prossimo turno di campionato. Tempi di recupero da valutare.",
+      "unavailabilityNote": "Il portiere fermo da inizio ottobre per la frattura della falange della mano destra, out nel prossimo turno di campionato. Recuperabile da dicembre.",
       "unavailabilityMatchday": 11,
       "unavailabilityMatchHash": "MON-ATA"
     },
@@ -12149,7 +12149,7 @@
       "sourceOrder": 602,
       "slot": 602,
       "addedAt": "2026-10-10T20:02:28.381Z",
-      "startingProbability": 5,
+      "startingProbability": 45,
       "probabilityMatchId": "18062",
       "probabilityMatchHash": "ROM-SAS",
       "unavailability": null,
