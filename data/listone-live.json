@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-04T12:03:48.154Z",
+  "updatedAt": "2026-11-04T19:42:34.681Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-04T12:03:48.154Z",
+  "probabilityUpdatedAt": "2026-11-04T19:42:34.681Z",
   "probabilityMatchday": 11,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "CAG",
       "awayCode": "FRO",
       "dateLabel": "sabato 07 novembre, 15:00",
-      "officialUpdatedLabel": "04/11/2026 - 12:57"
+      "officialUpdatedLabel": "04/11/2026 - 17:49"
     },
     {
       "matchId": "18056",
@@ -21,7 +21,7 @@
       "homeCode": "FIO",
       "awayCode": "JUV",
       "dateLabel": "domenica 08 novembre, 20:45",
-      "officialUpdatedLabel": "04/11/2026 - 10:48"
+      "officialUpdatedLabel": "04/11/2026 - 16:22"
     },
     {
       "matchId": "18057",
@@ -29,7 +29,7 @@
       "homeCode": "GEN",
       "awayCode": "MIL",
       "dateLabel": "domenica 08 novembre, 15:00",
-      "officialUpdatedLabel": "04/11/2026 - 12:30"
+      "officialUpdatedLabel": "04/11/2026 - 17:48"
     },
     {
       "matchId": "18058",
@@ -37,7 +37,7 @@
       "homeCode": "INT",
       "awayCode": "COM",
       "dateLabel": "domenica 08 novembre, 18:00",
-      "officialUpdatedLabel": "04/11/2026 - 09:22"
+      "officialUpdatedLabel": "04/11/2026 - 14:27"
     },
     {
       "matchId": "18059",
@@ -53,7 +53,7 @@
       "homeCode": "NAP",
       "awayCode": "LAZ",
       "dateLabel": "domenica 08 novembre, 12:30",
-      "officialUpdatedLabel": "04/11/2026 - 09:22"
+      "officialUpdatedLabel": "04/11/2026 - 19:30"
     },
     {
       "matchId": "18061",
@@ -61,7 +61,7 @@
       "homeCode": "PAR",
       "awayCode": "BOL",
       "dateLabel": "sabato 07 novembre, 18:00",
-      "officialUpdatedLabel": "04/11/2026 - 09:22"
+      "officialUpdatedLabel": "04/11/2026 - 13:28"
     },
     {
       "matchId": "18062",
@@ -77,7 +77,7 @@
       "homeCode": "TOR",
       "awayCode": "LEC",
       "dateLabel": "sabato 07 novembre, 15:00",
-      "officialUpdatedLabel": "04/11/2026 - 09:22"
+      "officialUpdatedLabel": "04/11/2026 - 17:48"
     },
     {
       "matchId": "18064",
@@ -85,14 +85,14 @@
       "homeCode": "VEN",
       "awayCode": "UDI",
       "dateLabel": "venerdì 06 novembre, 20:45",
-      "officialUpdatedLabel": "04/11/2026 - 10:23"
+      "officialUpdatedLabel": "04/11/2026 - 16:22"
     }
   ],
-  "probabilityPlayerCount": 443,
+  "probabilityPlayerCount": 442,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-04T12:03:48.154Z",
-  "injuredCount": 84,
+  "availabilityUpdatedAt": "2026-11-04T19:42:34.681Z",
+  "injuredCount": 85,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -453,7 +453,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi. Rientro in campo da inizio dicembre.",
+      "unavailabilityNote": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi. Rientro in campo da prima metà di dicembre.",
       "unavailabilityMatchday": 11,
       "unavailabilityMatchHash": "FIO-JUV"
     },
@@ -809,7 +809,7 @@
       "sourceOrder": 145,
       "slot": 35,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "18061",
       "probabilityMatchHash": "PAR-BOL",
       "unavailability": null,
@@ -869,13 +869,13 @@
       "sourceOrder": 13,
       "slot": 38,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
-      "probabilityMatchId": "18060",
-      "probabilityMatchHash": "NAP-LAZ",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il capitano dei biancocelesti alle prese con un problema muscolare alla coscia sinistra. Out domenica a Napoli, rischia uno stop di un mese.",
+      "unavailabilityMatchday": 11,
+      "unavailabilityMatchHash": "NAP-LAZ"
     },
     {
       "officialId": "309",
@@ -1529,13 +1529,13 @@
       "sourceOrder": 247,
       "slot": 71,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il difensore alle prese con un risentimento ai flessori della coscia sinistra. Possibile rientro dall'inizio di novembre, ma da valutare la convocazione già domenica contro il Como.",
-      "unavailabilityMatchday": 11,
-      "unavailabilityMatchHash": "INT-COM"
+      "startingProbability": 25,
+      "probabilityMatchId": "18058",
+      "probabilityMatchHash": "INT-COM",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "152",
@@ -1589,13 +1589,13 @@
       "sourceOrder": 112,
       "slot": 74,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
-      "probabilityMatchId": "18060",
-      "probabilityMatchHash": "NAP-LAZ",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "il capitano azzurro costretto al cambio l'1 novembre contro la Juve per un risentimento all'adduttore, recuperabile dalla seconda metà di novembre.",
+      "unavailabilityMatchday": 11,
+      "unavailabilityMatchHash": "NAP-LAZ"
     },
     {
       "officialId": "4807",
@@ -1729,7 +1729,7 @@
       "sourceOrder": 193,
       "slot": 81,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 55,
       "probabilityMatchId": "18058",
       "probabilityMatchHash": "INT-COM",
       "unavailability": null,
@@ -2529,13 +2529,13 @@
       "sourceOrder": 169,
       "slot": 121,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "l'attaccante indisponibile a causa di un guaio muscolare al bicipite femorale della coscia destra. Recuperabile dalla metà di novembre, ma sta provando a forzare il rientro già domenica a Parma.",
-      "unavailabilityMatchday": 11,
-      "unavailabilityMatchHash": "PAR-BOL"
+      "startingProbability": 55,
+      "probabilityMatchId": "18061",
+      "probabilityMatchHash": "PAR-BOL",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "6530",
@@ -3089,7 +3089,7 @@
       "sourceOrder": 300,
       "slot": 149,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18061",
       "probabilityMatchHash": "PAR-BOL",
       "unavailability": null,
@@ -3769,7 +3769,7 @@
       "sourceOrder": 141,
       "slot": 183,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "18061",
       "probabilityMatchHash": "PAR-BOL",
       "unavailability": null,
@@ -4249,7 +4249,7 @@
       "sourceOrder": 317,
       "slot": 207,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 10,
+      "startingProbability": 20,
       "probabilityMatchId": "18060",
       "probabilityMatchHash": "NAP-LAZ",
       "unavailability": null,
@@ -4269,7 +4269,7 @@
       "sourceOrder": 129,
       "slot": 208,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 35,
+      "startingProbability": 50,
       "probabilityMatchId": "18063",
       "probabilityMatchHash": "TOR-LEC",
       "unavailability": null,
@@ -5149,7 +5149,7 @@
       "sourceOrder": 408,
       "slot": 252,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 10,
+      "startingProbability": 20,
       "probabilityMatchId": "18060",
       "probabilityMatchHash": "NAP-LAZ",
       "unavailability": null,
@@ -5169,7 +5169,7 @@
       "sourceOrder": 40,
       "slot": 253,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 80,
       "probabilityMatchId": "18060",
       "probabilityMatchHash": "NAP-LAZ",
       "unavailability": null,
@@ -7109,7 +7109,7 @@
       "sourceOrder": 248,
       "slot": 350,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 40,
       "probabilityMatchId": "18058",
       "probabilityMatchHash": "INT-COM",
       "unavailability": null,
@@ -8069,13 +8069,13 @@
       "sourceOrder": 196,
       "slot": 398,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 25,
-      "probabilityMatchId": "18055",
-      "probabilityMatchHash": "CAG-FRO",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "L'attaccante alle prese con una distrazione muscolare ai flessori della coscia destra, rientro dalla seconda metà di novembre.",
+      "unavailabilityMatchday": 11,
+      "unavailabilityMatchHash": "CAG-FRO"
     },
     {
       "officialId": "6047",
@@ -9149,7 +9149,7 @@
       "sourceOrder": 458,
       "slot": 452,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 35,
+      "startingProbability": 30,
       "probabilityMatchId": "18058",
       "probabilityMatchHash": "INT-COM",
       "unavailability": null,
@@ -10569,7 +10569,7 @@
       "sourceOrder": 459,
       "slot": 523,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 55,
+      "startingProbability": 40,
       "probabilityMatchId": "18063",
       "probabilityMatchHash": "TOR-LEC",
       "unavailability": null,
