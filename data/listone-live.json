@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-05T19:57:50.106Z",
+  "updatedAt": "2026-11-06T00:56:53.825Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-05T19:57:50.106Z",
+  "probabilityUpdatedAt": "2026-11-06T00:56:53.825Z",
   "probabilityMatchday": 11,
   "probabilityMatches": [
     {
@@ -21,7 +21,7 @@
       "homeCode": "FIO",
       "awayCode": "JUV",
       "dateLabel": "domenica 08 novembre, 20:45",
-      "officialUpdatedLabel": "05/11/2026 - 17:36"
+      "officialUpdatedLabel": "05/11/2026 - 23:06"
     },
     {
       "matchId": "18057",
@@ -29,7 +29,7 @@
       "homeCode": "GEN",
       "awayCode": "MIL",
       "dateLabel": "domenica 08 novembre, 15:00",
-      "officialUpdatedLabel": "05/11/2026 - 17:40"
+      "officialUpdatedLabel": "05/11/2026 - 22:08"
     },
     {
       "matchId": "18058",
@@ -45,7 +45,7 @@
       "homeCode": "MON",
       "awayCode": "ATA",
       "dateLabel": "domenica 08 novembre, 15:00",
-      "officialUpdatedLabel": "05/11/2026 - 17:40"
+      "officialUpdatedLabel": "05/11/2026 - 22:18"
     },
     {
       "matchId": "18060",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "05/11/2026 - 17:40"
     }
   ],
-  "probabilityPlayerCount": 442,
+  "probabilityPlayerCount": 444,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-05T19:57:50.106Z",
-  "injuredCount": 82,
+  "availabilityUpdatedAt": "2026-11-06T00:56:53.825Z",
+  "injuredCount": 80,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -369,7 +369,7 @@
       "sourceOrder": 23,
       "slot": 13,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 80,
       "probabilityMatchId": "18056",
       "probabilityMatchHash": "FIO-JUV",
       "unavailability": null,
@@ -1313,7 +1313,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Nuovo stop muscolare per l'attaccante, frenato il 15 ottobre in Conference League da una distrazione muscolare di basso grado al bicipite femorale della coscia destra. Punta a rientrare dall'inizio di novembre, ma da valutare la convocazione già domenica a Monza.",
+      "unavailabilityNote": "Nuovo stop muscolare per l'attaccante, frenato il 15 ottobre in Conference League da una distrazione muscolare di basso grado al bicipite femorale della coscia destra. Punta a rientrare dalla metà di novembre.",
       "unavailabilityMatchday": 11,
       "unavailabilityMatchHash": "MON-ATA"
     },
@@ -1749,13 +1749,13 @@
       "sourceOrder": 139,
       "slot": 82,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "L'ivoriano condizionato da una distrazione di basso grado al polpaccio della gamba destra, tentativo rientro da inizio novembre e da valutare l'eventuale convocazione già domenica a Monza.",
-      "unavailabilityMatchday": 11,
-      "unavailabilityMatchHash": "MON-ATA"
+      "startingProbability": 20,
+      "probabilityMatchId": "18059",
+      "probabilityMatchHash": "MON-ATA",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "7625",
@@ -3049,7 +3049,7 @@
       "sourceOrder": 265,
       "slot": 147,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 80,
       "probabilityMatchId": "18056",
       "probabilityMatchHash": "FIO-JUV",
       "unavailability": null,
@@ -4689,13 +4689,13 @@
       "sourceOrder": 295,
       "slot": 229,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il difensore KO il 18 ottobre a Milano vittima di una distrazione muscolare al retto femorale della coscia sinistra, recuperabile dalla metà di novembre.",
-      "unavailabilityMatchday": 11,
-      "unavailabilityMatchHash": "MON-ATA"
+      "startingProbability": 15,
+      "probabilityMatchId": "18059",
+      "probabilityMatchHash": "MON-ATA",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "6916",
