@@ -1,0 +1,1172 @@
+{
+  "schema": 1,
+  "source": "ESPN",
+  "updatedAt": "2026-11-06T14:07:58.476Z",
+  "season": "2026-27 Italian Serie A",
+  "expectedTeamCount": 20,
+  "missingTeamIds": [],
+  "fixtures": [
+    {
+      "id": "401874815",
+      "date": "2026-11-06T19:45Z",
+      "home": {
+        "id": "17530",
+        "name": "Venezia",
+        "abbr": "VEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png"
+      },
+      "away": {
+        "id": "118",
+        "name": "Udinese",
+        "abbr": "UDI",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
+      },
+      "venue": "Stadio Pier Luigi Penzo",
+      "state": "pre"
+    },
+    {
+      "id": "401874791",
+      "date": "2026-11-07T14:00Z",
+      "home": {
+        "id": "2925",
+        "name": "Cagliari",
+        "abbr": "CAG",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png"
+      },
+      "away": {
+        "id": "4057",
+        "name": "Frosinone",
+        "abbr": "FRO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png"
+      },
+      "venue": "Unipol Domus",
+      "state": "pre"
+    },
+    {
+      "id": "401874811",
+      "date": "2026-11-07T14:00Z",
+      "home": {
+        "id": "239",
+        "name": "Torino",
+        "abbr": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png"
+      },
+      "away": {
+        "id": "113",
+        "name": "Lecce",
+        "abbr": "LEC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
+      },
+      "venue": "Stadio Olimpico Grande Torino",
+      "state": "pre"
+    },
+    {
+      "id": "401874974",
+      "date": "2026-11-07T17:00Z",
+      "home": {
+        "id": "115",
+        "name": "Parma",
+        "abbr": "PAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png"
+      },
+      "away": {
+        "id": "107",
+        "name": "Bologna",
+        "abbr": "BOL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png"
+      },
+      "venue": "Ennio Tardini",
+      "state": "pre"
+    },
+    {
+      "id": "401874803",
+      "date": "2026-11-07T19:45Z",
+      "home": {
+        "id": "104",
+        "name": "AS Roma",
+        "abbr": "ROMA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+      },
+      "away": {
+        "id": "3997",
+        "name": "Sassuolo",
+        "abbr": "SAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png"
+      },
+      "venue": "Olimpico",
+      "state": "pre"
+    },
+    {
+      "id": "401874810",
+      "date": "2026-11-08T11:30Z",
+      "home": {
+        "id": "114",
+        "name": "Napoli",
+        "abbr": "NAP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png"
+      },
+      "away": {
+        "id": "112",
+        "name": "Lazio",
+        "abbr": "LAZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png"
+      },
+      "venue": "Stadio Diego Armando Maradona",
+      "state": "pre"
+    },
+    {
+      "id": "401875018",
+      "date": "2026-11-08T14:00Z",
+      "home": {
+        "id": "3263",
+        "name": "Genoa",
+        "abbr": "GEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png"
+      },
+      "away": {
+        "id": "103",
+        "name": "AC Milan",
+        "abbr": "MIL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
+      },
+      "venue": "Stadio Luigi Ferraris",
+      "state": "pre"
+    },
+    {
+      "id": "401874800",
+      "date": "2026-11-08T14:00Z",
+      "home": {
+        "id": "4007",
+        "name": "Monza",
+        "abbr": "MON",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png"
+      },
+      "away": {
+        "id": "105",
+        "name": "Atalanta",
+        "abbr": "ATA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png"
+      },
+      "venue": "U-Power Stadium",
+      "state": "pre"
+    },
+    {
+      "id": "401874808",
+      "date": "2026-11-08T17:00Z",
+      "home": {
+        "id": "110",
+        "name": "Internazionale",
+        "abbr": "INT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+      },
+      "away": {
+        "id": "2572",
+        "name": "Como",
+        "abbr": "COMO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
+      },
+      "venue": "San Siro",
+      "state": "pre"
+    },
+    {
+      "id": "401875003",
+      "date": "2026-11-08T19:45Z",
+      "home": {
+        "id": "109",
+        "name": "Fiorentina",
+        "abbr": "FIO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png"
+      },
+      "away": {
+        "id": "111",
+        "name": "Juventus",
+        "abbr": "JUV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png"
+      },
+      "venue": "Stadio Artemio Franchi",
+      "state": "pre"
+    },
+    {
+      "id": "401875056",
+      "date": "2026-11-21T14:00Z",
+      "home": {
+        "id": "2572",
+        "name": "Como",
+        "abbr": "COMO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
+      },
+      "away": {
+        "id": "2925",
+        "name": "Cagliari",
+        "abbr": "CAG",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png"
+      },
+      "venue": "Giuseppe Sinigaglia",
+      "state": "pre"
+    },
+    {
+      "id": "401874981",
+      "date": "2026-11-21T14:00Z",
+      "home": {
+        "id": "112",
+        "name": "Lazio",
+        "abbr": "LAZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png"
+      },
+      "away": {
+        "id": "113",
+        "name": "Lecce",
+        "abbr": "LEC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
+      },
+      "venue": "Olimpico",
+      "state": "pre"
+    },
+    {
+      "id": "401874967",
+      "date": "2026-11-21T17:00Z",
+      "home": {
+        "id": "115",
+        "name": "Parma",
+        "abbr": "PAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png"
+      },
+      "away": {
+        "id": "104",
+        "name": "AS Roma",
+        "abbr": "ROMA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+      },
+      "venue": "Ennio Tardini",
+      "state": "pre"
+    },
+    {
+      "id": "401875067",
+      "date": "2026-11-21T19:45Z",
+      "home": {
+        "id": "114",
+        "name": "Napoli",
+        "abbr": "NAP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png"
+      },
+      "away": {
+        "id": "239",
+        "name": "Torino",
+        "abbr": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png"
+      },
+      "venue": "Stadio Diego Armando Maradona",
+      "state": "pre"
+    },
+    {
+      "id": "401875008",
+      "date": "2026-11-22T11:30Z",
+      "home": {
+        "id": "111",
+        "name": "Juventus",
+        "abbr": "JUV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png"
+      },
+      "away": {
+        "id": "17530",
+        "name": "Venezia",
+        "abbr": "VEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png"
+      },
+      "venue": "Allianz Stadium",
+      "state": "pre"
+    },
+    {
+      "id": "401875047",
+      "date": "2026-11-22T14:00Z",
+      "home": {
+        "id": "107",
+        "name": "Bologna",
+        "abbr": "BOL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png"
+      },
+      "away": {
+        "id": "118",
+        "name": "Udinese",
+        "abbr": "UDI",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
+      },
+      "venue": "Renato Dall'Ara",
+      "state": "pre"
+    },
+    {
+      "id": "401874960",
+      "date": "2026-11-22T14:00Z",
+      "home": {
+        "id": "3997",
+        "name": "Sassuolo",
+        "abbr": "SAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png"
+      },
+      "away": {
+        "id": "3263",
+        "name": "Genoa",
+        "abbr": "GEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png"
+      },
+      "venue": "Mapei Stadium",
+      "state": "pre"
+    },
+    {
+      "id": "401874989",
+      "date": "2026-11-22T17:00Z",
+      "home": {
+        "id": "103",
+        "name": "AC Milan",
+        "abbr": "MIL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
+      },
+      "away": {
+        "id": "4057",
+        "name": "Frosinone",
+        "abbr": "FRO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png"
+      },
+      "venue": "San Siro",
+      "state": "pre"
+    },
+    {
+      "id": "401875001",
+      "date": "2026-11-22T19:45Z",
+      "home": {
+        "id": "105",
+        "name": "Atalanta",
+        "abbr": "ATA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png"
+      },
+      "away": {
+        "id": "110",
+        "name": "Internazionale",
+        "abbr": "INT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+      },
+      "venue": "New Balance Arena",
+      "state": "pre"
+    },
+    {
+      "id": "401875009",
+      "date": "2026-11-23T19:45Z",
+      "home": {
+        "id": "4007",
+        "name": "Monza",
+        "abbr": "MON",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png"
+      },
+      "away": {
+        "id": "109",
+        "name": "Fiorentina",
+        "abbr": "FIO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png"
+      },
+      "venue": "U-Power Stadium",
+      "state": "pre"
+    },
+    {
+      "id": "401875004",
+      "date": "2026-11-27T19:45Z",
+      "home": {
+        "id": "17530",
+        "name": "Venezia",
+        "abbr": "VEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png"
+      },
+      "away": {
+        "id": "107",
+        "name": "Bologna",
+        "abbr": "BOL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png"
+      },
+      "venue": "Stadio Pier Luigi Penzo",
+      "state": "pre"
+    },
+    {
+      "id": "401875081",
+      "date": "2026-11-28T14:00Z",
+      "home": {
+        "id": "4057",
+        "name": "Frosinone",
+        "abbr": "FRO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png"
+      },
+      "away": {
+        "id": "115",
+        "name": "Parma",
+        "abbr": "PAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png"
+      },
+      "venue": "Stadio Benito Stirpe",
+      "state": "pre"
+    },
+    {
+      "id": "401874826",
+      "date": "2026-11-28T17:00Z",
+      "home": {
+        "id": "239",
+        "name": "Torino",
+        "abbr": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png"
+      },
+      "away": {
+        "id": "112",
+        "name": "Lazio",
+        "abbr": "LAZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png"
+      },
+      "venue": "Stadio Olimpico Grande Torino",
+      "state": "pre"
+    },
+    {
+      "id": "401874977",
+      "date": "2026-11-28T19:45Z",
+      "home": {
+        "id": "110",
+        "name": "Internazionale",
+        "abbr": "INT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+      },
+      "away": {
+        "id": "3263",
+        "name": "Genoa",
+        "abbr": "GEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png"
+      },
+      "venue": "San Siro",
+      "state": "pre"
+    },
+    {
+      "id": "401875031",
+      "date": "2026-11-29T11:30Z",
+      "home": {
+        "id": "118",
+        "name": "Udinese",
+        "abbr": "UDI",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
+      },
+      "away": {
+        "id": "109",
+        "name": "Fiorentina",
+        "abbr": "FIO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png"
+      },
+      "venue": "Stadio Friuli",
+      "state": "pre"
+    },
+    {
+      "id": "401874992",
+      "date": "2026-11-29T14:00Z",
+      "home": {
+        "id": "3997",
+        "name": "Sassuolo",
+        "abbr": "SAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png"
+      },
+      "away": {
+        "id": "114",
+        "name": "Napoli",
+        "abbr": "NAP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png"
+      },
+      "venue": "Mapei Stadium",
+      "state": "pre"
+    },
+    {
+      "id": "401874769",
+      "date": "2026-11-29T17:00Z",
+      "home": {
+        "id": "104",
+        "name": "AS Roma",
+        "abbr": "ROMA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+      },
+      "away": {
+        "id": "4007",
+        "name": "Monza",
+        "abbr": "MON",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png"
+      },
+      "venue": "Olimpico",
+      "state": "pre"
+    },
+    {
+      "id": "401874994",
+      "date": "2026-11-29T19:45Z",
+      "home": {
+        "id": "2572",
+        "name": "Como",
+        "abbr": "COMO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
+      },
+      "away": {
+        "id": "111",
+        "name": "Juventus",
+        "abbr": "JUV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png"
+      },
+      "venue": "Giuseppe Sinigaglia",
+      "state": "pre"
+    },
+    {
+      "id": "401875095",
+      "date": "2026-11-30T17:30Z",
+      "home": {
+        "id": "113",
+        "name": "Lecce",
+        "abbr": "LEC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
+      },
+      "away": {
+        "id": "105",
+        "name": "Atalanta",
+        "abbr": "ATA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png"
+      },
+      "venue": "Via Del Mare",
+      "state": "pre"
+    },
+    {
+      "id": "401875019",
+      "date": "2026-11-30T19:45Z",
+      "home": {
+        "id": "2925",
+        "name": "Cagliari",
+        "abbr": "CAG",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png"
+      },
+      "away": {
+        "id": "103",
+        "name": "AC Milan",
+        "abbr": "MIL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
+      },
+      "venue": "Unipol Domus",
+      "state": "pre"
+    },
+    {
+      "id": "401874984",
+      "date": "2026-12-04T19:45Z",
+      "home": {
+        "id": "107",
+        "name": "Bologna",
+        "abbr": "BOL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png"
+      },
+      "away": {
+        "id": "104",
+        "name": "AS Roma",
+        "abbr": "ROMA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png"
+      },
+      "venue": "Renato Dall'Ara",
+      "state": "pre"
+    },
+    {
+      "id": "401874975",
+      "date": "2026-12-05T14:00Z",
+      "home": {
+        "id": "4007",
+        "name": "Monza",
+        "abbr": "MON",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png"
+      },
+      "away": {
+        "id": "2572",
+        "name": "Como",
+        "abbr": "COMO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png"
+      },
+      "venue": "U-Power Stadium",
+      "state": "pre"
+    },
+    {
+      "id": "401875023",
+      "date": "2026-12-05T17:00Z",
+      "home": {
+        "id": "4057",
+        "name": "Frosinone",
+        "abbr": "FRO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png"
+      },
+      "away": {
+        "id": "110",
+        "name": "Internazionale",
+        "abbr": "INT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
+      },
+      "venue": "Stadio Benito Stirpe",
+      "state": "pre"
+    },
+    {
+      "id": "401874788",
+      "date": "2026-12-05T19:45Z",
+      "home": {
+        "id": "114",
+        "name": "Napoli",
+        "abbr": "NAP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png"
+      },
+      "away": {
+        "id": "113",
+        "name": "Lecce",
+        "abbr": "LEC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png"
+      },
+      "venue": "Stadio Diego Armando Maradona",
+      "state": "pre"
+    },
+    {
+      "id": "401875017",
+      "date": "2026-12-06T11:30Z",
+      "home": {
+        "id": "3263",
+        "name": "Genoa",
+        "abbr": "GEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png"
+      },
+      "away": {
+        "id": "239",
+        "name": "Torino",
+        "abbr": "TOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png"
+      },
+      "venue": "Stadio Luigi Ferraris",
+      "state": "pre"
+    },
+    {
+      "id": "401875029",
+      "date": "2026-12-06T14:00Z",
+      "home": {
+        "id": "112",
+        "name": "Lazio",
+        "abbr": "LAZ",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png"
+      },
+      "away": {
+        "id": "105",
+        "name": "Atalanta",
+        "abbr": "ATA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png"
+      },
+      "venue": "Olimpico",
+      "state": "pre"
+    },
+    {
+      "id": "401875006",
+      "date": "2026-12-06T17:00Z",
+      "home": {
+        "id": "111",
+        "name": "Juventus",
+        "abbr": "JUV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png"
+      },
+      "away": {
+        "id": "118",
+        "name": "Udinese",
+        "abbr": "UDI",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png"
+      },
+      "venue": "Allianz Stadium",
+      "state": "pre"
+    },
+    {
+      "id": "401874995",
+      "date": "2026-12-06T19:45Z",
+      "home": {
+        "id": "103",
+        "name": "AC Milan",
+        "abbr": "MIL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png"
+      },
+      "away": {
+        "id": "115",
+        "name": "Parma",
+        "abbr": "PAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png"
+      },
+      "venue": "San Siro",
+      "state": "pre"
+    },
+    {
+      "id": "401875011",
+      "date": "2026-12-07T17:30Z",
+      "home": {
+        "id": "17530",
+        "name": "Venezia",
+        "abbr": "VEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png"
+      },
+      "away": {
+        "id": "3997",
+        "name": "Sassuolo",
+        "abbr": "SAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png"
+      },
+      "venue": "Stadio Pier Luigi Penzo",
+      "state": "pre"
+    },
+    {
+      "id": "401875107",
+      "date": "2026-12-07T19:45Z",
+      "home": {
+        "id": "109",
+        "name": "Fiorentina",
+        "abbr": "FIO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png"
+      },
+      "away": {
+        "id": "2925",
+        "name": "Cagliari",
+        "abbr": "CAG",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png"
+      },
+      "venue": "Stadio Artemio Franchi",
+      "state": "pre"
+    }
+  ],
+  "lineups": [
+    {
+      "teamId": "103",
+      "eventId": "401874795",
+      "team": "AC Milan",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+      "formation": "3-4-2-1",
+      "starters": [
+        "Mike Maignan",
+        "Diego Moreira",
+        "Sankhoun Diawara",
+        "Strahinja Pavlovic",
+        "Koni De Winter",
+        "Mario Gila",
+        "Luka Modric",
+        "Yunus Musah",
+        "Gonçalo Ramos",
+        "Adrien Rabiot",
+        "Christian Pulisic"
+      ],
+      "date": "2026-10-31T19:45Z",
+      "result": "vs Internazionale · 3-1"
+    },
+    {
+      "teamId": "104",
+      "eventId": "401874990",
+      "team": "AS Roma",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+      "formation": "3-4-2-1",
+      "starters": [
+        "Pierluigi Gollini",
+        "Nahuel Molina",
+        "Wesley",
+        "Mario Hermoso",
+        "Evan Ndicka",
+        "Daniele Ghilardi",
+        "Bryan Cristante",
+        "Marten de Roon",
+        "Donyell Malen",
+        "Matìas Soulè",
+        "Rodrigo Mora"
+      ],
+      "date": "2026-10-31T17:00Z",
+      "result": "@ Udinese · 2-5"
+    },
+    {
+      "teamId": "105",
+      "eventId": "401874971",
+      "team": "Atalanta",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+      "formation": "4-2-3-1",
+      "starters": [
+        "Marco Carnesecchi",
+        "Davide Zappacosta",
+        "Lorenzo Bernasconi",
+        "Mario Pasalic",
+        "Giorgio Scalvini",
+        "Relja Obric",
+        "Nicola Zalewski",
+        "Éderson",
+        "Nikola Krstovic",
+        "Charles De Ketelaere",
+        "Jon Rowe"
+      ],
+      "date": "2026-11-02T19:45Z",
+      "result": "vs Parma · 0-3"
+    },
+    {
+      "teamId": "107",
+      "eventId": "401874798",
+      "team": "Bologna",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+      "formation": "3-4-2-1",
+      "starters": [
+        "Lukasz Skorupski",
+        "Nadir Zortea",
+        "Juan Miranda",
+        "Arthur Theate",
+        "Nicoló Casale",
+        "Martin Vitík",
+        "Lewis Ferguson",
+        "Tommaso Pobega",
+        "Jens Odgaard",
+        "Federico Bernardeschi",
+        "Nicolò Cambiaghi"
+      ],
+      "date": "2026-10-31T14:00Z",
+      "result": "vs Monza · 2-1"
+    },
+    {
+      "teamId": "2925",
+      "eventId": "401874983",
+      "team": "Cagliari",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+      "formation": "4-2-3-1",
+      "starters": [
+        "Elia Caprile",
+        "Zé Pedro",
+        "Adam Obert",
+        "Alessandro Romano",
+        "Alessandro Deiola",
+        "Juan Rodríguez",
+        "Alieu Fadera",
+        "Michel Adopo",
+        "M'Bala Nzola",
+        "Daniel Maldini",
+        "Jacopo Fazzini"
+      ],
+      "date": "2026-11-01T14:00Z",
+      "result": "@ Lazio · 2-1"
+    },
+    {
+      "teamId": "2572",
+      "eventId": "401875002",
+      "team": "Como",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+      "formation": "4-2-3-1",
+      "starters": [
+        "Jean Butez",
+        "Yan Couto",
+        "Kaiki",
+        "Samuele Ricci",
+        "Jacobo Ramón",
+        "Marc-Oliver Kempf",
+        "Lucas Da Cunha",
+        "Luis Milla",
+        "Tasos Douvikas",
+        "Nico Paz",
+        "Martin Baturina"
+      ],
+      "date": "2026-11-01T11:30Z",
+      "result": "vs Venezia · 1-0"
+    },
+    {
+      "teamId": "109",
+      "eventId": "401874963",
+      "team": "Fiorentina",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+      "formation": "4-3-3",
+      "starters": [
+        "David de Gea",
+        "Álex Jiménez",
+        "João Mário",
+        "Nicolò Fagioli",
+        "Radu Dragusin",
+        "Viery",
+        "Cher Ndour",
+        "Marco Brescianini",
+        "Mateo Pellegrino",
+        "Franco Mastantuono",
+        "Alieu Njie"
+      ],
+      "date": "2026-11-02T17:30Z",
+      "result": "@ Sassuolo · 2-4"
+    },
+    {
+      "teamId": "4057",
+      "eventId": "401874782",
+      "team": "Frosinone",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+      "formation": "4-2-3-1",
+      "starters": [
+        "Lorenzo Palmisani",
+        "Enzo Tchato",
+        "Gabriele Bracaglia",
+        "Giacomo Calo",
+        "Gabriele Calvani",
+        "Ilario Monterisi",
+        "Farès Ghedjemis",
+        "Patrizio Masini",
+        "Antonio Raimondo",
+        "Romano Schmid",
+        "Giorgi Kvernadze"
+      ],
+      "date": "2026-11-01T14:00Z",
+      "result": "vs Torino · 2-0"
+    },
+    {
+      "teamId": "3263",
+      "eventId": "401874968",
+      "team": "Genoa",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+      "formation": "3-4-2-1",
+      "starters": [
+        "Justin Bijlow",
+        "Mikael Ellertsson",
+        "Stephan El Shaarawy",
+        "Johan Vásquez",
+        "Leo Østigard",
+        "Alessandro Marcandalli",
+        "Morten Frendrup",
+        "Hamed Traoré",
+        "Milutin Osmajic",
+        "Samuel Wiafe",
+        "Junior Messias"
+      ],
+      "date": "2026-11-01T17:00Z",
+      "result": "@ Lecce · 1-2"
+    },
+    {
+      "teamId": "110",
+      "eventId": "401874795",
+      "team": "Internazionale",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+      "formation": "3-4-2-1",
+      "starters": [
+        "Josep Martínez",
+        "Djed Spence",
+        "Carlos Augusto",
+        "Alessandro Bastoni",
+        "Manuel Akanji",
+        "Yann Bisseck",
+        "Nicolò Barella",
+        "Hakan Çalhanoglu",
+        "Marcus Thuram",
+        "Andy Diouf",
+        "Petar Sucic"
+      ],
+      "date": "2026-10-31T19:45Z",
+      "result": "@ AC Milan · 3-1"
+    },
+    {
+      "teamId": "111",
+      "eventId": "401874949",
+      "team": "Juventus",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+      "formation": "4-4-2",
+      "starters": [
+        "Guglielmo Vicario",
+        "Pierre Kalulu",
+        "Juan Cabal",
+        "Douglas Luiz",
+        "Bremer",
+        "Jhon Lucumí",
+        "Weston McKennie",
+        "Teun Koopmeiners",
+        "Nick Woltemade",
+        "Randal Kolo Muani",
+        "Kerim Alajbegovic"
+      ],
+      "date": "2026-11-01T19:45Z",
+      "result": "vs Napoli · 2-0"
+    },
+    {
+      "teamId": "112",
+      "eventId": "401874983",
+      "team": "Lazio",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+      "formation": "4-3-3",
+      "starters": [
+        "Christos Mandas",
+        "Romano Floriani",
+        "Nuno Tavares",
+        "Reda Belahyane",
+        "Josip Sutalo",
+        "Oliver Provstgaard",
+        "Davide Frattesi",
+        "Kenneth Taylor",
+        "Tijjani Noslin",
+        "Gustav Isaksen",
+        "Mattia Zaccagni"
+      ],
+      "date": "2026-11-01T14:00Z",
+      "result": "vs Cagliari · 2-1"
+    },
+    {
+      "teamId": "113",
+      "eventId": "401874968",
+      "team": "Lecce",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+      "formation": "4-3-3",
+      "starters": [
+        "Wladimiro Falcone",
+        "Danilo Veiga",
+        "Antonino Gallo",
+        "Oumar Ngom",
+        "Jamil Siebert",
+        "Tiago Gabriel",
+        "Olaf Gorter",
+        "Youssef Maleh",
+        "Nikola Stulic",
+        "Konan N’Dri",
+        "Joel Monteiro"
+      ],
+      "date": "2026-11-01T17:00Z",
+      "result": "vs Genoa · 1-2"
+    },
+    {
+      "teamId": "4007",
+      "eventId": "401874798",
+      "team": "Monza",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+      "formation": "3-4-2-1",
+      "starters": [
+        "Noel Törnqvist",
+        "Samuele Birindelli",
+        "Ricardo Mangas",
+        "Lorenzo Lucchesi",
+        "Saba Goglichidze",
+        "Eddy Kouadio",
+        "Manga Foe Ondoa",
+        "Leonardo Colombo",
+        "Gustavo Varela",
+        "Dany Mota",
+        "Exequiel Zeballos"
+      ],
+      "date": "2026-10-31T14:00Z",
+      "result": "@ Bologna · 2-1"
+    },
+    {
+      "teamId": "114",
+      "eventId": "401874949",
+      "team": "Napoli",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+      "formation": "4-3-3",
+      "starters": [
+        "Alex Meret",
+        "Giovanni Di Lorenzo",
+        "Mathías Olivera",
+        "Frank Anguissa",
+        "Luca Marianucci",
+        "Rafa Marín",
+        "Kevin De Bruyne",
+        "Scott McTominay",
+        "Lorenzo Lucca",
+        "Matteo Politano",
+        "Noa Lang"
+      ],
+      "date": "2026-11-01T19:45Z",
+      "result": "@ Juventus · 2-0"
+    },
+    {
+      "teamId": "115",
+      "eventId": "401874971",
+      "team": "Parma",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+      "formation": "3-5-2",
+      "starters": [
+        "Giovanni Daffara",
+        "Sascha Britschgi",
+        "Emanuele Valeri",
+        "Dominik Drobnic",
+        "Mariano Troilo",
+        "Enrico Del Prato",
+        "Giovanni Fabbian",
+        "Mandela Keita",
+        "Simone Lontani",
+        "El Bilal Toure",
+        "Vincent Sierro"
+      ],
+      "date": "2026-11-02T19:45Z",
+      "result": "@ Atalanta · 0-3"
+    },
+    {
+      "teamId": "3997",
+      "eventId": "401874963",
+      "team": "Sassuolo",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+      "formation": "4-3-3",
+      "starters": [
+        "Stefano Turati",
+        "Sebastian Walukiewicz",
+        "Josh Doig",
+        "Nemanja Matic",
+        "Jay Idzes",
+        "Fali Candé",
+        "Vasilije Adzic",
+        "Sulemana",
+        "Sebastiano Esposito",
+        "Domenico Berardi",
+        "Armand Laurienté"
+      ],
+      "date": "2026-11-02T17:30Z",
+      "result": "vs Fiorentina · 2-4"
+    },
+    {
+      "teamId": "239",
+      "eventId": "401874782",
+      "team": "Torino",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+      "formation": "3-5-2",
+      "starters": [
+        "Lucas Perri",
+        "Rafik Belghali",
+        "Zakaria Aboukhlal",
+        "Pietro Comuzzo",
+        "Adrian Ismajli",
+        "Saúl Coco",
+        "Nikola Vlasic",
+        "Gvidas Gineitis",
+        "Giovanni Simeone",
+        "Ché Adams",
+        "Daniel Bragança"
+      ],
+      "date": "2026-11-01T14:00Z",
+      "result": "@ Frosinone · 2-0"
+    },
+    {
+      "teamId": "118",
+      "eventId": "401874990",
+      "team": "Udinese",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+      "formation": "3-4-2-1",
+      "starters": [
+        "Maduka Okoye",
+        "Mërgim Vojvoda",
+        "Hassane Kamara",
+        "Matteo Palma",
+        "Christian Kabasele",
+        "James Abankwah",
+        "Jesper Karlström",
+        "Lennon Miller",
+        "Keinan Davis",
+        "Nicolò Zaniolo",
+        "Jurgen Ekkelenkamp"
+      ],
+      "date": "2026-10-31T17:00Z",
+      "result": "vs AS Roma · 2-5"
+    },
+    {
+      "teamId": "17530",
+      "eventId": "401875002",
+      "team": "Venezia",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+      "formation": "3-5-2",
+      "starters": [
+        "Filip Stankovic",
+        "Antoine Hainaut",
+        "Pasquale Mazzocchi",
+        "Juan Jesus",
+        "Matías Moreno",
+        "Redouane Halhal",
+        "Thorir Johann Helgason",
+        "Gianluca Busio",
+        "Lion Lauberbach",
+        "Akor Adams",
+        "Simon Sohm"
+      ],
+      "date": "2026-11-01T11:30Z",
+      "result": "@ Como · 1-0"
+    }
+  ]
+}
