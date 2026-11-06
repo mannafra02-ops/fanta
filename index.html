@@ -2510,6 +2510,44 @@ html[data-theme="dark"] .espn-error{background:#2b1719 !important;border-color:#
 }
 .legenda .legenda-toggle h2{margin:0}
 .legenda-body{padding-top:4px}
+/* Infermeria: le note sono editoriali, non date di recupero garantite. */
+.infortuni-body{padding:14px}
+.infortuni-toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.infortuni-toolbar input,.infortuni-toolbar select{
+  min-width:0;min-height:40px;padding:9px 11px;border:1px solid var(--linea);
+  border-radius:10px;background:var(--foglio);color:var(--inchiostro);font:inherit
+}
+.infortuni-toolbar input{flex:1 1 230px}
+.infortuni-toolbar select{flex:0 1 160px}
+.infortuni-only{min-height:40px;border:1px solid var(--linea);border-radius:10px;padding:8px 12px;background:transparent;color:var(--inchiostro);font:inherit;font-size:12px;font-weight:700;cursor:pointer}
+.infortuni-only[aria-pressed="true"]{background:#eaf1ff;border-color:#8bb2ed;color:#174e9f}
+.infortuni-meta{display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;margin-bottom:12px;color:var(--inchiostro-soft);font-size:12px}
+.infortuni-notice{border-left:3px solid #d98a1f;padding:9px 12px;margin-bottom:14px;background:rgba(217,138,31,.07);color:var(--inchiostro-soft);font-size:12px}
+.infortuni-notice[data-stale="true"]{border-color:#c8352a;background:rgba(200,53,42,.08)}
+.infortuni-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.infortunio-card{border:1px solid var(--linea);border-radius:14px;padding:15px;background:var(--foglio);min-width:0}
+.infortunio-card.mio{border-color:#6c9fe4;box-shadow:inset 3px 0 #2d6fd0}
+.infortunio-head{display:flex;gap:10px;align-items:center;margin-bottom:10px}
+.infortunio-head .pallino{flex-shrink:0}
+.infortunio-name{flex:1;min-width:0}
+.infortunio-name h3{font:800 16px/1.2 "Source Sans 3",sans-serif;margin:0 0 2px;overflow-wrap:anywhere;color:var(--inchiostro)}
+.infortunio-name small{color:var(--inchiostro-soft);font-size:12px}
+.infortunio-mio{display:inline-block;margin-left:5px;font:700 9px "Roboto Mono",monospace;color:#2563eb}
+.infortunio-status{max-width:110px;text-align:right;font:700 10px/1.4 "Roboto Mono",monospace;color:var(--inchiostro-soft)}
+.infortunio-label{display:block;margin-bottom:4px;font:700 9px "Roboto Mono",monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--inchiostro-soft)}
+.infortunio-testo{margin:0 0 12px;color:var(--inchiostro);font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+.infortunio-rientro{border-radius:9px;background:rgba(217,138,31,.09);padding:10px 12px;color:var(--inchiostro)}
+.infortunio-rientro p{font-size:13px;line-height:1.45;margin:0;overflow-wrap:anywhere}
+.infortunio-footer{margin:10px 0 0;color:var(--inchiostro-soft);font-size:11px}
+.infortuni-source{font-size:12px;color:var(--inchiostro-soft);margin:14px 0 0}
+.infortuni-source a{color:inherit;text-decoration:underline}
+html[data-theme="dark"] .infortuni-only[aria-pressed="true"]{background:#172c49;color:#a8ccff;border-color:#547cae}
+html[data-theme="dark"] .infortunio-mio{color:#a8ccff}
+@media(max-width:640px){
+  .infortuni-grid{grid-template-columns:1fr}
+  .infortuni-toolbar input{flex-basis:100%}
+  .infortuni-toolbar select{flex:1}
+}
 .bottom-nav{display:none}
 @media(max-width:820px){
   html{scroll-padding-top:12px;scroll-padding-bottom:92px}
@@ -2521,7 +2559,7 @@ html[data-theme="dark"] .espn-error{background:#2b1719 !important;border-color:#
     right:0;
     bottom:0;
     display:grid;
-    grid-template-columns:repeat(5,1fr);
+    grid-template-columns:repeat(6,minmax(0,1fr));
     height:74px;
     padding:6px 5px calc(6px + env(safe-area-inset-bottom));
     background:var(--foglio,#fff);
@@ -2540,7 +2578,7 @@ html[data-theme="dark"] .espn-error{background:#2b1719 !important;border-color:#
     align-items:center;
     justify-content:center;
     gap:3px;
-    font:700 10.5px/1.1 system-ui,sans-serif;
+    font:700 clamp(8px,2.35vw,10.5px)/1.1 system-ui,sans-serif;
     cursor:pointer;
   }
   .bottom-nav svg{
@@ -2596,53 +2634,6 @@ html[data-theme="light"] .rosa-toggle [style]{
   color:#6b7280 !important;
 }
 
-/* Formazione: selezione dall'icona del ruolo e campo proporzionato su desktop */
-.form-role-trigger{
-  appearance:none;
-  padding:0 !important;
-  cursor:pointer;
-  transition:transform .15s ease,filter .15s ease,box-shadow .15s ease !important;
-}
-.form-role-trigger.P{background:var(--p) !important;color:#251701 !important}
-.form-role-trigger.D{background:var(--d) !important;color:#fff !important}
-.form-role-trigger.C{background:var(--c) !important;color:#fff !important}
-.form-role-trigger.A{background:var(--a) !important;color:#fff !important}
-.form-role-trigger:hover,.form-role-trigger:focus-visible{
-  filter:brightness(1.08);
-  transform:translateY(-1px);
-  box-shadow:0 0 0 4px rgba(255,255,255,.2) !important;
-}
-.form-player-trigger{cursor:default}
-.riserva-role-trigger{
-  width:40px;
-  height:40px;
-  display:grid;
-  place-items:center;
-  align-self:center;
-  border:2px solid rgba(255,255,255,.88) !important;
-  border-radius:50% !important;
-  font:800 12px "Roboto Mono",monospace !important;
-}
-.riserva-name{
-  min-height:21px;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  white-space:nowrap;
-  text-align:center;
-  font-size:13px;
-  font-weight:800;
-}
-.riserva-card.empty .riserva-name{color:var(--inchiostro-soft)}
-.riserva-info{text-align:center}
-@media(min-width:781px){
-  #campo{
-    width:min(100%,760px);
-    min-height:0 !important;
-    aspect-ratio:4 / 5;
-    margin-inline:auto;
-  }
-}
-
 </style>
 
 <script>
@@ -2685,6 +2676,7 @@ html[data-theme="light"] .rosa-toggle [style]{
 <p style="font-size:11px;color:var(--inchiostro-soft);margin:6px 0 0" id="listone-status" aria-live="polite">
   <b>Listone:</b> caricamento ruoli Classic e quotazioni aggiornate…
 </p>
+<button class="chip" id="apri-infortuni" type="button" style="margin-top:10px">🩹 Apri infermeria</button>
 </header>
 </details>
 
@@ -2813,7 +2805,7 @@ html[data-theme="light"] .rosa-toggle [style]{
         <button class="espn-tab" id="espn-tab-lineups" type="button" role="tab" aria-selected="false" data-espn-view="lineups">Ultime formazioni</button>
       </div>
       <button class="chip espn-refresh" id="espn-refresh" type="button">Aggiorna dati</button>
-      <span class="espn-status" id="espn-status" aria-live="polite">Connessione a ESPN…</span>
+      <span class="espn-status" id="espn-status" aria-live="polite">Caricamento dati Serie A…</span>
     </div>
     <div class="espn-error" id="espn-error" role="alert" hidden></div>
 
@@ -2833,10 +2825,32 @@ html[data-theme="light"] .rosa-toggle [style]{
       <div class="espn-grid" id="espn-lineups"><div class="espn-empty">Le formazioni verranno caricate qui.</div></div>
     </div>
 
-    <p class="espn-source">Fonte: feed pubblico ESPN. Le formazioni future compaiono soltanto quando diventano ufficiali; qui viene mostrato l’ultimo XI disponibile.</p>
+    <p class="espn-source">Fonte: ESPN. Calendario e ultimi XI completi sono salvati anche sul sito e aggiornati da GitHub ogni 4 ore. La data su ciascuna formazione indica la partita realmente giocata: non è una probabile formazione futura.</p>
   </div>
 </details>
 
+
+<details class="categoria-panel" id="infortunati-panel" data-panel-storage="fanta_asta_2026_27_infortunati_panel_v1" open>
+  <summary class="categoria-toggle" aria-label="Mostra o nascondi infortunati">
+    <span>
+      <span class="categoria-title">🩹 Infortunati</span>
+      <span class="categoria-subtitle">Problema fisico, disponibilità e possibile rientro dei giocatori.</span>
+    </span>
+  </summary>
+  <div class="infortuni-body">
+    <div class="infortuni-toolbar" role="search" aria-label="Filtra gli infortunati">
+      <input id="infortuni-search" type="search" placeholder="Cerca giocatore, squadra o infortunio…" aria-label="Cerca infortunato">
+      <select id="infortuni-team" aria-label="Squadra degli infortunati"><option value="">Tutte le squadre</option></select>
+      <button class="infortuni-only" id="infortuni-only" type="button" aria-pressed="false">Solo la mia rosa</button>
+    </div>
+    <div class="infortuni-meta" aria-live="polite">
+      <span id="infortuni-count"></span><span id="infortuni-updated"></span>
+    </div>
+    <div class="infortuni-notice" id="infortuni-notice">I rientri sono indicazioni della fonte, non conferme di convocazione. Una nota senza tempi precisi resta da valutare.</div>
+    <div class="infortuni-grid" id="infortuni-list"></div>
+    <p class="infortuni-source">Fonte: <a href="https://www.fantacalcio.it/infortunati-serie-a" target="_blank" rel="noopener noreferrer">Infermeria Fantacalcio.it</a> · sincronizzazione automatica ogni 4 ore. La scheda non include gli squalificati.</p>
+  </div>
+</details>
 
 <details class="osservati-wrap" id="osservati-panel" open>
   <summary class="osservati-toggle" aria-label="Mostra o nascondi giocatori osservati">
@@ -3057,6 +3071,9 @@ html[data-theme="light"] .rosa-toggle [style]{
   <button type="button" data-target="formazione-panel" aria-label="Formazione">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4h14v17M5 9h14M9.5 4v5M14.5 4v5"/><circle cx="12" cy="15" r="2.5"/></svg><span>Formazione</span>
   </button>
+  <button type="button" data-target="infortunati-panel" aria-label="Infortunati">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.2 9.8 9.8 4.2a3 3 0 0 1 4.2 0l5.8 5.8a3 3 0 0 1 0 4.2l-5.6 5.6a3 3 0 0 1-4.2 0L4.2 14a3 3 0 0 1 0-4.2Z"/><path d="m8 8 8 8M16 8l-8 8"/></svg><span>Infortunati</span>
+  </button>
 </nav>
 
 <dialog id="dialog-acquisto">
@@ -3133,6 +3150,7 @@ html[data-theme="light"] .rosa-toggle [style]{
 
 
 <script type="module">
+import { fetchScoreboard, collectLineups, futureFixtures, fetchJson } from "./scripts/espn-feed.mjs";
 let G = [
 {r:"P",n:"Svilar",s:"Roma",min:55,max:75,f:1,t:["MOD"],no:"18 clean sheet, top per fantamedia. La difesa di Gasperini è la più adatta al modificatore.",q:22,eta:27,pos:"POR",prof:"DIF",src:"FCO PDF 30/08/2026"},
 {r:"P",n:"Butez",s:"Como",min:50,max:70,f:1,t:["MOD"],no:"19 clean sheet, miglior dato della Serie A. Incognita rotazioni per la Champions.",q:19,eta:31,pos:"POR",prof:"DIF",src:"FCO PDF 30/08/2026"},
@@ -4297,7 +4315,7 @@ function idsTitolari(escludiKey=null){
 }
 function idsPanchina(escludiIndice=-1){
   const p=Array.isArray(formazione.panchina)?formazione.panchina:[];
-  return p.map((v,i)=>i===escludiIndice||v===""||v===null||v===undefined?null:Number(v))
+  return p.map((v,i)=>i===escludiIndice?null:Number(v))
     .filter(v=>Number.isInteger(v)&&G[v]);
 }
 const NOMI_RUOLO_SINGOLARE={P:"portiere",D:"difensore",C:"centrocampista",A:"attaccante"};
@@ -4313,13 +4331,17 @@ function chiaveSquadra(nome){
   return grezza.replace(/\b(fc|ac|as|ssc|calcio)\b/g,"").replace(/\s+/g," ").trim();
 }
 function codiceSquadra(team,ripiego=""){
+  const ufficiale=Object.entries(LISTONE_TEAM).find(([,nome])=>chiaveSquadra(nome)===chiaveSquadra(team?.name||ripiego));
+  if(ufficiale) return ufficiale[0];
   const codice=team?.abbr||team?.name||ripiego||"---";
   return normalizza(codice).replace(/[^a-z0-9]/g,"").slice(0,3).toUpperCase()||"---";
 }
 function prossimaPartitaSquadra(nomeSquadra){
   const key=chiaveSquadra(nomeSquadra);
   const partite=(typeof espnState!=="undefined"&&Array.isArray(espnState.fixtures))?espnState.fixtures:[];
-  const partita=partite.find(p=>chiaveSquadra(p.home?.name)===key||chiaveSquadra(p.away?.name)===key);
+  const partita=partite.filter(p=>Date.parse(p.date)>=Date.now()-3*3600000&&p.state!=="post")
+    .sort((a,b)=>Date.parse(a.date)-Date.parse(b.date))
+    .find(p=>chiaveSquadra(p.home?.name)===key||chiaveSquadra(p.away?.name)===key);
   if(!partita) return null;
   const casa=codiceSquadra(partita.home);
   const fuori=codiceSquadra(partita.away);
@@ -4400,14 +4422,9 @@ function disegnaFormPicker(){
   const picker=document.getElementById("form-picker");
   const lista=document.getElementById("form-picker-list");
   if(!picker||picker.hidden||!lista||!formPickerSlot) return;
-  const {key,ruolo,tipo="titolare",indice=-1}=formPickerSlot;
-  const valoreSelezionato=tipo==="panchina"?formazione.panchina?.[indice]:formazione[key];
-  const selezionato=valoreSelezionato===""||valoreSelezionato===null||valoreSelezionato===undefined
-    ? Number.NaN
-    : Number(valoreSelezionato);
-  const usati=tipo==="panchina"
-    ? new Set([...idsTitolari(),...idsPanchina(indice)])
-    : new Set([...idsTitolari(key),...idsPanchina()]);
+  const {key,ruolo}=formPickerSlot;
+  const selezionato=Number(formazione[key]);
+  const usati=new Set([...idsTitolari(key),...idsPanchina()]);
   const candidati=rosa.filter(x=>{
     const g=G[x.id];
     return g&&!g.out&&g.r===ruolo&&(!usati.has(x.id)||x.id===selezionato);
@@ -4432,8 +4449,8 @@ function disegnaFormPicker(){
   }).join("");
   lista.innerHTML=vuoto+(righe||'<div class="espn-empty">Nessun giocatore disponibile per questo ruolo.</div>');
 }
-function apriFormPicker(key,ruolo,tipo="titolare",indice=-1){
-  formPickerSlot={key,ruolo,tipo,indice};
+function apriFormPicker(key,ruolo){
+  formPickerSlot={key,ruolo};
   const picker=document.getElementById("form-picker");
   if(!picker) return;
   picker.hidden=false;
@@ -4466,18 +4483,31 @@ function cardFormazione(r,i){
   const match=g?prossimaPartitaSquadra(g.s):null;
   const stato=g?statoFormazioneGiocatore(g,match):null;
   return `<div class="player-card">
-    <button class="maglia form-role-trigger ${r}" type="button" data-form-slot="${key}" data-role="${r}" aria-haspopup="dialog" aria-label="${g?`Cambia ${espnEsc(g.n)}`:`Scegli ${NOMI_RUOLO_SINGOLARE[r]||"giocatore"}`}">${r}</button>
-    <div class="form-player-trigger ${g?"":"empty"}">
-      <span class="form-player-name">${g?espnEsc(g.n):"Slot vuoto"}</span>
-      <span class="form-player-match">${g?partitaGiocatoreHtml(match,false):`Tocca l'icona ${r}`}</span>
+    <div class="maglia ${r}">${r}</div>
+    <button class="form-player-trigger ${g?"":"empty"}" type="button" data-form-slot="${key}" data-role="${r}" aria-haspopup="dialog" aria-label="${g?`Cambia ${espnEsc(g.n)}`:`Aggiungi ${NOMI_RUOLO_SINGOLARE[r]||"giocatore"}`}">
+      <span class="form-player-name">${g?espnEsc(g.n):"Aggiungi"}</span>
+      <span class="form-player-match">${g?partitaGiocatoreHtml(match,false):"Tocca per scegliere"}</span>
       ${g?`<span class="form-player-prob ${stato.classe}" title="${espnEsc(stato.titolo)}">${stato.breve}</span>`:""}
-    </div>
+    </button>
     <div class="slot-label">${r} ${i}</div>
   </div>`;
 }
 
 const PANCHINA_RUOLI=["P","D","D","C","C","A","A"];
 
+function opzioniPanchina(indice,selezionato){
+  const ruolo=PANCHINA_RUOLI[indice];
+  const usati=new Set([...idsTitolari(),...idsPanchina(indice)]);
+  const candidati=rosa.filter(x=>G[x.id]&&!G[x.id].out&&G[x.id].r===ruolo)
+    .sort((a,b)=>G[a.id].n.localeCompare(G[b.id].n,"it"));
+  let out='<option value="">— Nessuna —</option>';
+  for(const x of candidati){
+    const g=G[x.id];
+    const dis=usati.has(x.id)&&Number(selezionato)!==x.id;
+    out+=`<option value="${x.id}" ${Number(selezionato)===x.id?"selected":""} ${dis?"disabled":""}>${g.r} · ${g.n}</option>`;
+  }
+  return out;
+}
 function disegnaPanchina(){
   if(!Array.isArray(formazione.panchina)) formazione.panchina=[];
   const vecchia=formazione.panchina.filter(v=>v!==""&&v!==null&&v!==undefined).map(Number).filter(Number.isInteger);
@@ -4497,13 +4527,15 @@ function disegnaPanchina(){
   el.innerHTML=formazione.panchina.map((id,i)=>{
     const g=id!==""?G[Number(id)]:null;
     const ruolo=PANCHINA_RUOLI[i];
+    const etichetta=i===0?"Portiere":`${ruolo} ${i-(ruolo==="D"?0:ruolo==="C"?2:4)}`;
     const match=g?prossimaPartitaSquadra(g.s):null;
     const stato=g?statoFormazioneGiocatore(g,match):null;
-    return `<div class="riserva-card ${g?"":"empty"}">
+    return `<div class="riserva-card">
       <div class="riserva-num"><b>${i+1}</b><span>${ruolo}</span></div>
-      <button class="riserva-role-trigger form-role-trigger ${ruolo}" type="button" data-bench-index="${i}" data-bench-role="${ruolo}" aria-haspopup="dialog" aria-label="${g?`Cambia ${espnEsc(g.n)} in panchina`:`Scegli ${NOMI_RUOLO_SINGOLARE[ruolo]} per la panchina`}">${ruolo}</button>
-      <div class="riserva-name">${g?espnEsc(g.n):"Slot vuoto"}</div>
-      <div class="riserva-info">${g?`${partitaGiocatoreHtml(match,false)} · ${stato.breve}`:`Tocca l'icona ${ruolo}`}</div>
+      <select data-riserva="${i}" data-riserva-ruolo="${ruolo}" aria-label="Riserva ${i+1} ${ruolo}">
+        ${opzioniPanchina(i,id)}
+      </select>
+      <div class="riserva-info">${g?`${g.s} · ${g.pos||g.r} · ${stato.breve}`:etichetta}</div>
     </div>`;
   }).join("");
 }
@@ -4906,6 +4938,72 @@ function disegnaMercato(){
   if(extraPrezzo) extraPrezzo.max=BUDGET;
 }
 
+/* Infermeria: estratti testuali della fonte, nessuna prognosi calcolata. */
+function dettagliInfortunio(nota){
+  const testo=String(nota||"").replace(/&(?:rsquo|lsquo);/g,"’")
+    .replace(/&(?:rdquo|ldquo);/g,'"').replace(/&nbsp;/g," ")
+    .replace(/&(?:ndash|mdash);/g,"–").replace(/&amp;/g,"&").replace(/\s+/g," ").trim();
+  const rientro=testo.match(/\b(?:(?:ipotesi|tentativo|ipotizziamo\s+un)(?:\s+di)?\s+)?(?:rientr(?:o|are)|recuperabil[ei]|(?:possibile\s+)?ritorno(?:\s+in\s+campo)?|punta\s+a\s+(?:rientrare|tornare)|(?:può|proverà\s+a|pronto\s+a)\s+(?:tornare|recuperare)|si\s+confida\s+di\s+riaverlo|si\s+ipotizza\s+un\s+ritorno|rivedremo|recuperarlo)[^.!?]*/i)?.[0]?.trim()||"";
+  const valutazione=/da\s+valutare|da\s+monitorare|condizioni\s+da\s+monitorare|rischio|difficile|tentativo|proverà|possibilit[àa]/i.test(testo);
+  return {
+    testo:testo||"La fonte segnala un infortunio ma non ha pubblicato ulteriori dettagli.",
+    rientro:rientro?rientro.charAt(0).toUpperCase()+rientro.slice(1):"Tempi di recupero non indicati dalla fonte: da valutare.",
+    rientroIndicato:Boolean(rientro),
+    disponibilita:valutazione?"Da valutare":"Infortunio segnalato"
+  };
+}
+const filtriInfortuni={q:"",squadra:"",soloMiei:false};
+function disegnaInfortunati(){
+  const box=document.getElementById("infortuni-list");
+  if(!box) return;
+  const miei=new Set(rosa.map(p=>p.id));
+  const tutti=G.filter(g=>!g.out&&g.indisponibile==="injured");
+  const select=document.getElementById("infortuni-team");
+  const squadre=[...new Set(tutti.map(g=>g.s))].sort((a,b)=>a.localeCompare(b,"it"));
+  if(filtriInfortuni.squadra&&!squadre.includes(filtriInfortuni.squadra)) filtriInfortuni.squadra="";
+  select.innerHTML='<option value="">Tutte le squadre</option>'+squadre.map(s=>`<option value="${espnEsc(s)}">${espnEsc(s)}</option>`).join("");
+  select.value=filtriInfortuni.squadra;
+  const q=normalizza(filtriInfortuni.q.trim());
+  const lista=tutti.filter(g=>(!filtriInfortuni.soloMiei||miei.has(g.id))
+    &&(!filtriInfortuni.squadra||g.s===filtriInfortuni.squadra)
+    &&(!q||normalizza(`${g.n} ${g.s} ${g.indisponibileNota||""}`).includes(q)))
+    .sort((a,b)=>Number(miei.has(b.id))-Number(miei.has(a.id))||a.s.localeCompare(b.s,"it")||a.n.localeCompare(b.n,"it"));
+  document.getElementById("infortuni-count").textContent=`${lista.length} di ${tutti.length} segnalazioni · ${tutti.filter(g=>miei.has(g.id)).length} nella tua rosa`;
+  const apri=document.getElementById("apri-infortuni");
+  if(apri) apri.textContent=`🩹 Infortunati · ${tutti.filter(g=>miei.has(g.id)).length} nella tua rosa`;
+  const controllo=Date.parse(LISTONE_LIVE_META?.availabilityUpdatedAt||"");
+  const vecchi=!Number.isFinite(controllo)||Date.now()-controllo>12*24*3600000;
+  document.getElementById("infortuni-updated").textContent=Number.isFinite(controllo)?`Dati del ${dataListoneIt(new Date(controllo).toISOString())}`:"Aggiornamento non disponibile";
+  const avviso=document.getElementById("infortuni-notice");
+  avviso.dataset.stale=String(vecchi);
+  avviso.textContent=vecchi
+    ? "Attenzione: i dati non sono recenti o la data non è disponibile. Le segnalazioni qui sotto non confermano la situazione attuale: verifica la fonte."
+    : "I rientri sono stime della fonte, non conferme di convocazione o di titolarità. Se manca una data, la disponibilità resta da valutare.";
+  document.getElementById("infortuni-only").setAttribute("aria-pressed",String(filtriInfortuni.soloMiei));
+  box.innerHTML=lista.map(g=>{
+    const d=dettagliInfortunio(g.indisponibileNota);
+    return `<article class="infortunio-card ${miei.has(g.id)?"mio":""}">
+      <div class="infortunio-head">
+        <span class="pallino ${g.r}" aria-label="Ruolo ${g.r}">${g.r}</span>
+        <div class="infortunio-name"><h3>${espnEsc(g.n)}</h3><small>${espnEsc(g.s)}${miei.has(g.id)?'<span class="infortunio-mio">NELLA TUA ROSA</span>':""}</small></div>
+        <span class="infortunio-status">🩹 ${vecchi?"Da verificare":d.disponibilita}</span>
+      </div>
+      <span class="infortunio-label">Problema fisico e disponibilità</span>
+      <p class="infortunio-testo">${espnEsc(d.testo)}</p>
+      <div class="infortunio-rientro"><span class="infortunio-label">Possibile rientro · indicazione della fonte</span><p>${espnEsc(d.rientro)}</p></div>
+      <p class="infortunio-footer">${d.rientroIndicato?"Rientro indicativo: da confermare con le convocazioni.":"Nessuna data certa pubblicata."}</p>
+    </article>`;
+  }).join("")||`<div class="espn-empty">${tutti.length?"Nessun infortunato corrisponde ai filtri selezionati.":"Nessuna segnalazione disponibile nel file attuale. Questo non conferma che tutti i giocatori siano sani."}</div>`;
+}
+document.getElementById("infortuni-search")?.addEventListener("input",e=>{filtriInfortuni.q=e.target.value;disegnaInfortunati();});
+document.getElementById("infortuni-team")?.addEventListener("change",e=>{filtriInfortuni.squadra=e.target.value;disegnaInfortunati();});
+document.getElementById("infortuni-only")?.addEventListener("click",()=>{filtriInfortuni.soloMiei=!filtriInfortuni.soloMiei;disegnaInfortunati();});
+document.getElementById("apri-infortuni")?.addEventListener("click",()=>{
+  const panel=document.getElementById("infortunati-panel");
+  panel.open=true;
+  panel.scrollIntoView({behavior:"smooth",block:"start"});
+});
+
 function aggiorna(){
   salvaRosa();
   salvaMercato();
@@ -4916,6 +5014,7 @@ function aggiorna(){
   disegnaOsservati();
   disegnaTabella();
   disegnaFormazione();
+  disegnaInfortunati();
 }
 
 /* ============================================================
@@ -5280,13 +5379,8 @@ document.getElementById("campo").addEventListener("click",e=>{
 document.getElementById("form-picker-list")?.addEventListener("click",e=>{
   const scelta=e.target.closest("button[data-picker-player]");
   if(!scelta||!formPickerSlot) return;
-  const {key,tipo="titolare",indice=-1}=formPickerSlot;
-  const id=scelta.dataset.pickerPlayer;
-  if(tipo==="panchina"){
-    if(!Array.isArray(formazione.panchina)) formazione.panchina=[];
-    while(formazione.panchina.length<7) formazione.panchina.push("");
-    formazione.panchina[indice]=id===""?"":Number(id);
-  }else if(id==="") delete formazione[key];
+  const key=formPickerSlot.key,id=scelta.dataset.pickerPlayer;
+  if(id==="") delete formazione[key];
   else formazione[key]=Number(id);
   disegnaFormazione();
   chiudiFormPicker();
@@ -5298,10 +5392,14 @@ document.getElementById("form-picker")?.addEventListener("click",e=>{
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape"&&!document.getElementById("form-picker")?.hidden) chiudiFormPicker();
 });
-document.getElementById("panchina-list").addEventListener("click",e=>{
-  const btn=e.target.closest("button[data-bench-index]");
-  if(!btn) return;
-  apriFormPicker("",btn.dataset.benchRole,"panchina",Number(btn.dataset.benchIndex));
+document.getElementById("panchina-list").addEventListener("change",e=>{
+  const sel=e.target.closest("select[data-riserva]");
+  if(!sel) return;
+  const i=Number(sel.dataset.riserva);
+  if(!Array.isArray(formazione.panchina)) formazione.panchina=[];
+  while(formazione.panchina.length<7) formazione.panchina.push("");
+  formazione.panchina[i]=sel.value===""?"":Number(sel.value);
+  disegnaFormazione();
 });
 document.getElementById("auto-formazione").addEventListener("click",autoFormazione);
 document.getElementById("auto-panchina").addEventListener("click",autoPanchina);
@@ -5317,20 +5415,15 @@ document.getElementById("svuota-formazione").addEventListener("click",()=>{
 /* ============================================================
    SERIE A LIVE — ESPN (nessuna chiave API)
    ============================================================ */
-const ESPN_BASE="https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1";
 const ESPN_CACHE_KEY="fanta_asta_2026_27_espn_v2";
 const ESPN_CACHE_TTL=15*60*1000;
+const ESPN_SNAPSHOT_URL="data/serie-a-live.json";
+const ESPN_SNAPSHOT_TTL=24*3600000;
 const espnState={fixtures:[],lineups:[],lineupsLoaded:false,active:"fixtures",fixturesUpdatedAt:0,lineupsUpdatedAt:0};
+let espnSnapshotPromise=null;
 
 function espnEsc(v){
   return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-}
-function espnYmd(d){
-  const parts=new Intl.DateTimeFormat("en-CA",{
-    timeZone:"Europe/Rome",year:"numeric",month:"2-digit",day:"2-digit"
-  }).formatToParts(d);
-  const get=t=>parts.find(p=>p.type===t)?.value||"";
-  return `${get("year")}${get("month")}${get("day")}`;
 }
 function espnDataOra(iso,soloData=false){
   const opt=soloData
@@ -5338,10 +5431,6 @@ function espnDataOra(iso,soloData=false){
     :{timeZone:"Europe/Rome",weekday:"short",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"};
   return new Intl.DateTimeFormat("it-IT",opt).format(new Date(iso)).replace(",","");
 }
-function espnComp(evento){return evento?.competitions?.[0]||null;}
-function espnCasa(comp){return comp?.competitors?.find(x=>x.homeAway==="home")||null;}
-function espnTrasferta(comp){return comp?.competitors?.find(x=>x.homeAway==="away")||null;}
-function espnLogo(team){return team?.logo||team?.logos?.[0]?.href||"";}
 function espnSetStatus(testo){
   const el=document.getElementById("espn-status");
   if(el) el.textContent=testo;
@@ -5365,34 +5454,46 @@ function espnCaricaCache(){
   try{
     const c=JSON.parse(localStorage.getItem(ESPN_CACHE_KEY)||"null");
     if(!c||typeof c!=="object") return null;
-    if(Array.isArray(c.fixtures)) espnState.fixtures=c.fixtures;
-    if(Array.isArray(c.lineups)&&c.lineups.length){
+    const fixturesTs=Number(c.fixturesTs)||Number(c.ts)||0;
+    const lineupsTs=Number(c.lineupsTs)||Number(c.ts)||0;
+    if(Array.isArray(c.fixtures)&&fixturesTs>espnState.fixturesUpdatedAt){
+      espnState.fixtures=c.fixtures.filter(p=>Date.parse(p.date)>=Date.now()-3*3600000&&p.state!=="post");
+      espnState.fixturesUpdatedAt=fixturesTs;
+    }
+    if(Array.isArray(c.lineups)&&c.lineups.length&&lineupsTs>espnState.lineupsUpdatedAt){
       espnState.lineups=c.lineups;
       espnState.lineupsLoaded=true;
+      espnState.lineupsUpdatedAt=lineupsTs;
     }
-    espnState.fixturesUpdatedAt=Number(c.fixturesTs)||Number(c.ts)||0;
-    espnState.lineupsUpdatedAt=Number(c.lineupsTs)||Number(c.ts)||0;
     return c;
   }catch{return null;}
 }
-async function espnJson(url){
-  const risposta=await fetch(url,{headers:{Accept:"application/json"}});
-  if(!risposta.ok) throw new Error(`HTTP ${risposta.status}`);
-  return risposta.json();
+function espnStatoSalvato(tipo){
+  const ts=tipo==="lineups"?espnState.lineupsUpdatedAt:espnState.fixturesUpdatedAt;
+  return `Dati ESPN del ${dataListoneIt(new Date(ts).toISOString())}`;
 }
-async function espnScoreboard(da,a){
-  return espnJson(`${ESPN_BASE}/scoreboard?dates=${espnYmd(da)}-${espnYmd(a)}&limit=200`);
-}
-function espnNormalizzaPartita(evento){
-  const comp=espnComp(evento),casa=espnCasa(comp),trasferta=espnTrasferta(comp);
-  if(!comp||!casa||!trasferta) return null;
-  return {
-    id:String(evento.id),date:evento.date,
-    home:{id:String(casa.team?.id||""),name:casa.team?.displayName||casa.team?.name||"Casa",abbr:casa.team?.abbreviation||"",logo:espnLogo(casa.team)},
-    away:{id:String(trasferta.team?.id||""),name:trasferta.team?.displayName||trasferta.team?.name||"Trasferta",abbr:trasferta.team?.abbreviation||"",logo:espnLogo(trasferta.team)},
-    venue:comp.venue?.fullName||evento.venue?.displayName||"",
-    state:evento.status?.type?.state||comp.status?.type?.state||"pre"
-  };
+async function espnCaricaSnapshot(forza=false){
+  if(forza) espnSnapshotPromise=null;
+  if(!espnSnapshotPromise){
+    espnSnapshotPromise=(async()=>{
+      const data=await fetchJson(`${ESPN_SNAPSHOT_URL}?v=${Math.floor(Date.now()/900000)}`,{timeout:6000});
+      const ts=Date.parse(data.updatedAt);
+      if(data.schema!==1||!Number.isFinite(ts)||ts>Date.now()+5*60000||!Array.isArray(data.fixtures)||!Array.isArray(data.lineups)) throw new Error("Copia ESPN non valida");
+      if(ts>espnState.fixturesUpdatedAt){
+        espnState.fixtures=data.fixtures.filter(p=>p.home?.id&&p.away?.id&&Date.parse(p.date)>=Date.now()-3*3600000&&p.state!=="post");
+        espnState.fixturesUpdatedAt=ts;
+      }
+      const lineups=data.lineups.filter(l=>l.team&&Number.isFinite(Date.parse(l.date))&&Array.isArray(l.starters)&&l.starters.length===11);
+      if(lineups.length&&ts>espnState.lineupsUpdatedAt){
+        espnState.lineups=lineups;
+        espnState.lineupsUpdatedAt=ts;
+        espnState.lineupsLoaded=true;
+      }
+      espnSalvaCache();
+      return data;
+    })().catch(error=>{console.warn("Copia locale ESPN non disponibile",error.message);return null;});
+  }
+  return espnSnapshotPromise;
 }
 function espnDisegnaPartite(){
   const box=document.getElementById("espn-fixtures");
@@ -5403,6 +5504,8 @@ function espnDisegnaPartite(){
   if(!partite.length){
     box.innerHTML='<div class="espn-empty">Nessuna partita futura trovata nel feed.</div>';
     disegnaRosa();
+    disegnaFormazione();
+    disegnaFormPicker();
     return;
   }
   box.innerHTML=partite.map(p=>`
@@ -5446,88 +5549,63 @@ function espnDisegnaFormazioni(){
     </article>`).join("");
 }
 async function espnCaricaPartite(forza=false){
-  const cache=espnCaricaCache();
+  espnCaricaCache();
   if(espnState.fixtures.length) espnDisegnaPartite();
-  if(!forza&&cache&&Date.now()-espnState.fixturesUpdatedAt<ESPN_CACHE_TTL&&espnState.fixtures.length){
-    espnSetStatus(`Dati aggiornati alle ${new Intl.DateTimeFormat("it-IT",{hour:"2-digit",minute:"2-digit",timeZone:"Europe/Rome"}).format(new Date(espnState.fixturesUpdatedAt))}`);
+  espnSetError();
+  const snapshot=await espnCaricaSnapshot(forza);
+  if(!forza&&espnState.fixtures.length&&(Date.now()-espnState.fixturesUpdatedAt<ESPN_CACHE_TTL||snapshot&&Date.now()-Date.parse(snapshot.updatedAt)<ESPN_SNAPSHOT_TTL)){
+    espnDisegnaPartite();
+    espnSetStatus(espnStatoSalvato("fixtures"));
     return;
   }
-  espnSetError();
   espnSetStatus("Aggiornamento prossime partite…");
   try{
-    const adesso=new Date(),fino=new Date(Date.now()+60*86400000);
-    const data=await espnScoreboard(adesso,fino);
-    espnState.fixtures=(data.events||[])
-      .filter(e=>new Date(e.date)>=new Date(Date.now()-3*3600000)&&e.status?.type?.completed!==true)
-      .sort((a,b)=>new Date(a.date)-new Date(b.date))
-      .slice(0,40).map(espnNormalizzaPartita).filter(Boolean);
+    const data=await fetchScoreboard(new Date(Date.now()-3*3600000),new Date(Date.now()+60*86400000));
+    const fixtures=futureFixtures(data.events);
+    if(!fixtures.length) throw new Error("Calendario futuro vuoto");
+    espnState.fixtures=fixtures;
     espnState.fixturesUpdatedAt=Date.now();
     espnDisegnaPartite();
     espnSalvaCache();
     espnSetStatus(`Aggiornato ora · stagione ${data.leagues?.[0]?.season?.displayName||"2026/27"}`);
   }catch(err){
-    espnSetError("Non riesco a raggiungere ESPN in questo momento. Riprova con “Aggiorna dati”.");
-    espnSetStatus(espnState.fixtures.length?"Mostro l’ultimo calendario salvato":"Aggiornamento non riuscito");
+    console.warn("Aggiornamento diretto ESPN",err.message);
+    espnDisegnaPartite();
+    espnSetError(espnState.fixtures.length?"Collegamento diretto a ESPN non disponibile: mostro la copia salvata, con la sua data di aggiornamento.":"Calendario non disponibile. Avvia l’aggiornamento GitHub o riprova più tardi.");
+    espnSetStatus(espnState.fixtures.length?espnStatoSalvato("fixtures"):"Aggiornamento non riuscito");
   }
 }
 async function espnCaricaFormazioni(forza=false){
-  const cache=espnCaricaCache();
+  espnCaricaCache();
   if(espnState.lineups.length) espnDisegnaFormazioni();
-  if(!forza&&cache&&Date.now()-espnState.lineupsUpdatedAt<ESPN_CACHE_TTL&&espnState.lineups.length){
+  espnSetError();
+  const snapshot=await espnCaricaSnapshot(forza);
+  if(!forza&&espnState.lineups.length&&(Date.now()-espnState.lineupsUpdatedAt<ESPN_CACHE_TTL||snapshot&&Date.now()-Date.parse(snapshot.updatedAt)<ESPN_SNAPSHOT_TTL)){
     espnState.lineupsLoaded=true;
+    espnDisegnaFormazioni();
+    espnSetStatus(espnStatoSalvato("lineups"));
     return;
   }
   const box=document.getElementById("espn-lineups");
   if(box) box.innerHTML='<div class="espn-empty">Caricamento degli ultimi XI titolari…</div>';
-  espnSetError();
   espnSetStatus("Cerco l’ultima partita di ogni squadra…");
   try{
     const adesso=new Date(),da=new Date(Date.now()-60*86400000);
-    const data=await espnScoreboard(da,adesso);
-    const concluse=(data.events||[]).filter(e=>e.status?.type?.completed===true)
-      .sort((a,b)=>new Date(b.date)-new Date(a.date));
-    const ultimaPerTeam=new Map();
-    concluse.forEach(e=>{
-      (espnComp(e)?.competitors||[]).forEach(c=>{
-        const id=String(c.team?.id||"");
-        if(id&&!ultimaPerTeam.has(id)) ultimaPerTeam.set(id,e);
-      });
-    });
-    const eventi=[...new Map([...ultimaPerTeam.values()].map(e=>[String(e.id),e])).values()];
-    if(!eventi.length) throw new Error("Nessuna gara conclusa");
-    const risultati=await Promise.allSettled(eventi.map(async e=>({evento:e,dati:await espnJson(`${ESPN_BASE}/summary?event=${encodeURIComponent(e.id)}`)})));
-    const lineups=[];
-    risultati.forEach(r=>{
-      if(r.status!=="fulfilled") return;
-      const {evento,dati}=r.value,comp=espnComp(evento),casa=espnCasa(comp),trasferta=espnTrasferta(comp);
-      (dati.rosters||[]).forEach(roster=>{
-        const teamId=String(roster.team?.id||"");
-        if(String(ultimaPerTeam.get(teamId)?.id||"")!==String(evento.id)) return;
-        const titolari=(roster.roster||[]).filter(x=>x.starter===true)
-          .sort((a,b)=>(Number(a.formationPlace)||99)-(Number(b.formationPlace)||99))
-          .map(x=>x.athlete?.displayName||x.athlete?.fullName).filter(Boolean);
-        if(!titolari.length) return;
-        const isCasa=String(casa?.team?.id||"")===teamId;
-        const avversario=isCasa?trasferta:casa;
-        const punteggio=casa&&trasferta?`${casa.score||0}-${trasferta.score||0}`:"";
-        lineups.push({
-          team:roster.team?.displayName||roster.team?.name||"Squadra",
-          logo:espnLogo(roster.team),formation:roster.formation||"",
-          starters:titolari.slice(0,11),date:evento.date,
-          result:`${isCasa?"vs":"@"} ${avversario?.team?.displayName||"avversario"}${punteggio?` · ${punteggio}`:""}`
-        });
-      });
-    });
+    const data=await fetchScoreboard(da,adesso);
+    const {lineups,missingTeamIds}=await collectLineups(data.events);
+    if(lineups.length<espnState.lineups.length) throw new Error("Risposta parziale: mantengo le formazioni salvate");
     espnState.lineups=lineups.sort((a,b)=>a.team.localeCompare(b.team,"it"));
     espnState.lineupsLoaded=true;
     espnState.lineupsUpdatedAt=Date.now();
     espnDisegnaFormazioni();
     espnSalvaCache();
     espnSetStatus(`Formazioni aggiornate · ${espnState.lineups.length} squadre`);
+    if(missingTeamIds.length) espnSetError(`XI non ancora disponibili per ${missingTeamIds.length} squadre.`);
   }catch(err){
     espnState.lineupsLoaded=false;
-    espnSetError("Non riesco a caricare le ultime formazioni da ESPN. Riprova tra poco.");
-    espnSetStatus(espnState.lineups.length?"Mostro le ultime formazioni salvate":"Aggiornamento non riuscito");
+    console.warn("Ultime formazioni ESPN",err.message);
+    espnSetError(espnState.lineups.length?"Collegamento diretto a ESPN non disponibile: mostro le ultime formazioni salvate, con la data di ogni gara.":"Formazioni non disponibili. Avvia l’aggiornamento GitHub o riprova più tardi.");
+    espnSetStatus(espnState.lineups.length?espnStatoSalvato("lineups"):"Aggiornamento non riuscito");
     espnDisegnaFormazioni();
   }
 }
@@ -5540,7 +5618,12 @@ function espnCambiaVista(vista){
   });
   document.getElementById("espn-fixtures-view").hidden=vista!=="fixtures";
   document.getElementById("espn-lineups-view").hidden=vista!=="lineups";
-  if(vista==="lineups"&&(!espnState.lineupsLoaded||Date.now()-espnState.lineupsUpdatedAt>=ESPN_CACHE_TTL)) espnCaricaFormazioni();
+  if(vista==="lineups") espnCaricaFormazioni();
+  else {
+    espnSetError();
+    espnDisegnaPartite();
+    if(espnState.fixturesUpdatedAt) espnSetStatus(espnStatoSalvato("fixtures"));
+  }
 }
 function inizializzaEspn(){
   const panel=document.getElementById("espn-panel");
