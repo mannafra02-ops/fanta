@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-06T14:13:40.066Z",
+  "updatedAt": "2026-11-06T14:42:48.008Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-06T14:13:40.066Z",
+  "probabilityUpdatedAt": "2026-11-06T14:42:48.008Z",
   "probabilityMatchday": 11,
   "probabilityMatches": [
     {
@@ -45,7 +45,7 @@
       "homeCode": "MON",
       "awayCode": "ATA",
       "dateLabel": "domenica 08 novembre, 15:00",
-      "officialUpdatedLabel": "06/11/2026 - 09:48"
+      "officialUpdatedLabel": "06/11/2026 - 15:15"
     },
     {
       "matchId": "18060",
@@ -1749,7 +1749,7 @@
       "sourceOrder": 139,
       "slot": 82,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 55,
       "probabilityMatchId": "18059",
       "probabilityMatchHash": "MON-ATA",
       "unavailability": null,
@@ -3029,7 +3029,7 @@
       "sourceOrder": 297,
       "slot": 146,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 60,
       "probabilityMatchId": "18059",
       "probabilityMatchHash": "MON-ATA",
       "unavailability": null,
@@ -4689,7 +4689,7 @@
       "sourceOrder": 295,
       "slot": 229,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 15,
+      "startingProbability": 40,
       "probabilityMatchId": "18059",
       "probabilityMatchHash": "MON-ATA",
       "unavailability": null,
