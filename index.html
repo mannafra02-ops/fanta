@@ -1849,33 +1849,6 @@ html[data-theme="light"] .pos-badge.pos-ATT{
   font-weight:800 !important;
 }
 
-/* Portiere: separazione più netta dalla linea difensiva su schermi piccoli */
-@media(max-width:780px){
-  .campo{
-    min-height:610px !important;
-  }
-  .linea-D{
-    top:59% !important;
-  }
-  .linea-P{
-    bottom:1.5% !important;
-  }
-}
-@media(max-width:500px){
-  .campo{
-    min-height:590px !important;
-  }
-  .linea-D{
-    top:58% !important;
-  }
-  .linea-P{
-    bottom:1.5% !important;
-  }
-  .linea-P .player-card{
-    transform:translateY(2px);
-  }
-}
-
 /* I select sul campo devono mantenere contrasto indipendentemente dal tema pagina */
 .player-card select{
   background:rgba(24,27,32,.94) !important;
@@ -2634,6 +2607,131 @@ html[data-theme="light"] .rosa-toggle [style]{
   color:#6b7280 !important;
 }
 
+/* Campo verticale proporzionato: la larghezza della pagina non lo deforma. */
+.formazione-tabs{display:flex;gap:8px;flex-wrap:wrap;padding:12px 14px;border-bottom:1px solid var(--linea)}
+.form-view-tab{border:1px solid var(--linea);border-radius:10px;padding:9px 14px;cursor:pointer;font-weight:700}
+.formazione-layout{
+  display:grid;grid-template-columns:minmax(0,520px) minmax(240px,1fr);
+  gap:20px;align-items:start;max-width:1080px;margin:0 auto;padding:16px;
+}
+.formazione-pitch-column{width:100%;min-width:0}
+.campo{
+  width:100%;max-width:520px;aspect-ratio:68/105;height:auto;min-height:0;
+  margin:0 auto;padding:0;container-type:inline-size;border-radius:18px;isolation:isolate;
+  background:repeating-linear-gradient(0deg,#32804c 0 10%,#3b8b55 10% 20%);
+}
+.campo::before{inset:3%;border-width:2px}
+.campo::after{width:27%;height:auto;aspect-ratio:1;border-width:2px}
+.campo .meta-campo{left:3%;right:3%;border-top-width:2px}
+.campo .area-top,.campo .area-bottom{width:60%;height:16%;border-width:2px}
+.campo .area-top{top:3%}.campo .area-bottom{bottom:3%}
+.campo .area-top::after,.campo .area-bottom::after{
+  content:"";position:absolute;left:27%;width:46%;height:36%;border:2px solid rgba(255,255,255,.72);pointer-events:none;
+}
+.campo .area-top::after{top:0;border-top:0}
+.campo .area-bottom::after{bottom:0;border-bottom:0}
+.campo .linea-formazione{left:4%;right:4%;gap:5px;transform:translateY(-50%);justify-content:space-evenly}
+.campo .linea-A{top:16%}.campo .linea-C{top:39%}.campo .linea-D{top:62%}.campo .linea-P{top:85%;bottom:auto}
+.campo .player-card{
+  flex:0 1 108px;width:100%;max-width:108px;min-width:0;display:flex;flex-direction:column;
+  align-items:center;gap:4px;padding:5px 2px;border:0;border-radius:12px !important;
+  color:#fff;box-shadow:none !important;text-align:center;
+}
+/* L'intera scheda è un solo pulsante, inclusi ruolo, sfondo e didascalia. */
+html .campo button.field-slot,html[data-theme="dark"] .campo button.field-slot{
+  background:rgba(0,0,0,.05) !important;border:0 !important;color:#fff !important;cursor:pointer;
+}
+html .campo button.field-slot:hover,html[data-theme="dark"] .campo button.field-slot:hover{background:rgba(0,0,0,.17) !important}
+.campo button.field-slot:focus-visible{outline:3px solid #facc15;outline-offset:2px}
+.campo .maglia{
+  width:42px;height:42px;width:clamp(30px,9cqw,52px);height:clamp(30px,9cqw,52px);
+  margin:0;border-radius:12px;font-size:clamp(12px,3.4cqw,17px);flex-shrink:0;
+}
+.campo .form-player-trigger{min-height:44px;gap:2px;padding:5px 3px;border-radius:9px;width:100%;pointer-events:none}
+.campo .form-player-name{font-size:clamp(9px,2.6cqw,12px)}
+.campo .form-player-match{font-size:clamp(7px,1.9cqw,9px)}
+.campo .form-player-prob{font-size:clamp(7px,1.9cqw,9px);min-width:0;padding:1px 4px}
+.campo .slot-label{display:block;margin:0;font-size:clamp(7px,1.8cqw,9px);line-height:1.2}
+.campo .opponent-player{background:rgba(0,0,0,.05)}
+.campo .opponent-player.missing{opacity:.65}
+.formazione-pitch-column .formazione-riepilogo{margin-top:10px;background:transparent;border-top:0;gap:6px !important;grid-template-columns:repeat(4,minmax(0,1fr))}
+.formazione-pitch-column .formazione-riepilogo>div{padding:8px 3px;font-size:9px}
+.formazione-layout .panchina-wrap{border:1px solid var(--linea) !important;border-radius:14px;padding:14px;min-width:0}
+.formazione-layout .panchina-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.riserva-num{gap:7px;justify-content:flex-start}
+.riserva-num>span{margin-right:auto}
+html button.riserva-remove,html[data-theme="dark"] button.riserva-remove{
+  width:30px;height:30px;min-height:30px;padding:0;border:1px solid #e89999 !important;
+  border-radius:8px;background:#fff0f0 !important;color:#c21c27 !important;font:800 22px/1 system-ui;cursor:pointer;
+}
+html button.riserva-remove:hover,html[data-theme="dark"] button.riserva-remove:hover{background:#ffd7d7 !important;border-color:#d62838 !important}
+html[data-theme="dark"] button.riserva-remove{background:#421d23 !important;color:#ff8b94 !important}
+.avversario-toolbar{display:flex;align-items:flex-end;gap:12px;flex-wrap:wrap;padding:14px}
+.avversario-toolbar label{display:grid;gap:5px;color:var(--inchiostro-soft);font-size:12px;font-weight:700}
+.avversario-toolbar select{min-width:180px;max-width:100%;padding:9px;border:1px solid var(--linea);border-radius:9px;background:var(--foglio);color:var(--inchiostro)}
+.avversario-spiegazione{margin:0;padding:0 14px 12px;color:var(--inchiostro-soft);font-size:12px;line-height:1.5}
+.avversario-status{margin:0 14px;padding:12px 14px;border:1px solid var(--linea);border-left:4px solid #eaa329;border-radius:10px;font-size:13px;color:var(--inchiostro)}
+.avversario-riserve{border:1px solid var(--linea);border-radius:14px;padding:14px;min-width:0}
+.avversario-riserve h3{margin:0 0 12px;font-size:15px;color:var(--inchiostro)}
+.avversario-alternativa{display:flex;align-items:center;gap:8px;padding:10px 0;border-bottom:1px solid var(--linea);min-width:0}
+.avversario-alternativa>span:nth-child(2){flex:1;min-width:0}
+.avversario-alternativa b{display:block;font-size:13px;overflow-wrap:anywhere}
+.avversario-alternativa small{display:block;font-size:11px}
+.avversario-dato{font:700 10px "Roboto Mono",monospace;white-space:nowrap;color:var(--inchiostro-soft)}
+.avversario-dato.out{color:#c21c27}.avversario-vuoto{font-size:12px;color:var(--inchiostro-soft)}
+.squadre{grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:10px}
+.squadra-card{border-radius:12px;padding:12px;gap:8px}
+.squadra-card-top{grid-template-columns:minmax(0,1fr);gap:8px}
+.squadra-card input{min-height:30px}
+.sq-card-actions{flex-direction:row;align-items:center;flex-wrap:wrap}
+.squadre .sq-remove-team{margin-left:auto;width:34px;flex:0 0 34px}
+@media(max-width:920px){
+  .formazione-layout{grid-template-columns:minmax(0,1fr);max-width:600px;gap:14px;padding:12px}
+  .formazione-layout .panchina-list{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+@media(max-width:560px){
+  .formazione-layout{padding:8px}
+  .formazione-layout .panchina-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .avversario-toolbar label{flex:1;min-width:0}.avversario-toolbar select{min-width:0;width:100%}
+}
+
+/* Pulsanti operativi arancioni; navigazione e schede sul campo sono escluse. */
+html[data-theme] :is(button.chip,button.btn,button.secondario,button.svuota,button.filtri-toggle,button.sq-open,button.sq-remove-team,button.sq-player-action,button.espn-tab,button.infortuni-only,button.form-view-tab,button.form-picker-close,button.obs-remove,button.theme-toggle){
+  background:#ffb46b !important;color:#422005 !important;border:1px solid #dd842f !important;
+}
+html[data-theme] :is(button.chip,button.btn,button.secondario,button.svuota,button.filtri-toggle,button.sq-open,button.sq-remove-team,button.sq-player-action,button.espn-tab,button.infortuni-only,button.form-view-tab,button.form-picker-close,button.obs-remove,button.theme-toggle):hover{
+  background:#ffa144 !important;border-color:#b35c10 !important;color:#361800 !important;
+}
+html[data-theme] :is(button.chip.on,button.espn-tab.on,button.form-view-tab.on,button.infortuni-only[aria-pressed="true"]){background:#984100 !important;color:#fff !important;border-color:#984100 !important}
+:is(button.chip,button.btn,button.secondario,button.svuota,button.infortuni-only,button.form-view-tab):disabled{opacity:.5;cursor:not-allowed}
+
+/* Navigazione sempre visibile, anche su desktop, e gialla nella sezione attiva. */
+html{scroll-padding-top:16px;scroll-padding-bottom:120px}
+body{padding-bottom:112px}
+.bottom-nav{
+  position:fixed;z-index:1100;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));
+  left:50%;right:auto;bottom:14px;transform:translateX(-50%);width:min(920px,calc(100% - 28px));
+  height:76px;padding:6px;border:1px solid var(--linea);border-radius:18px;
+  background:var(--foglio);box-shadow:0 -3px 24px rgba(0,0,0,.15);
+}
+html .bottom-nav button,html[data-theme="dark"] .bottom-nav button{
+  appearance:none;border:1px solid transparent !important;background:transparent !important;color:var(--inchiostro-soft) !important;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-width:0;padding:4px 1px;
+  border-radius:12px;font:700 11px/1.1 system-ui,sans-serif;cursor:pointer;
+}
+.bottom-nav svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round}
+html .bottom-nav button.active,html[data-theme="dark"] .bottom-nav button.active{
+  background:#242b36 !important;color:#facc15 !important;border-color:#9a7e16 !important;
+}
+.bottom-nav button.active svg{color:#facc15;filter:none}
+html .bottom-nav button:hover:not(.active),html[data-theme="dark"] .bottom-nav button:hover:not(.active){background:rgba(128,128,128,.12) !important}
+.bottom-nav button:focus-visible{outline:2px solid #eab308;outline-offset:1px}
+@media(max-width:820px){
+  .bottom-nav{left:0;right:0;bottom:0;transform:none;width:100%;height:calc(74px + env(safe-area-inset-bottom));border-radius:0;padding:5px 3px calc(5px + env(safe-area-inset-bottom))}
+  html .bottom-nav button,html[data-theme="dark"] .bottom-nav button{font-size:clamp(8px,2.3vw,11px)}
+  body{padding-bottom:calc(92px + env(safe-area-inset-bottom))}
+}
+@media print{.bottom-nav{display:none !important}body{padding-bottom:0}.formazione-layout{break-inside:avoid}}
 </style>
 
 <script>
@@ -2738,6 +2836,11 @@ html[data-theme="light"] .rosa-toggle [style]{
     <div class="formazione-title">Formazione titolare</div>
   </summary>
   <div class="formazione-collapsible">
+  <div class="formazione-tabs" role="tablist" aria-label="Formazioni della lega">
+    <button class="form-view-tab on" id="tab-formazione-mia" type="button" role="tab" aria-selected="true" aria-controls="formazione-mia-view" data-form-view="mia">La mia formazione</button>
+    <button class="form-view-tab" id="tab-formazione-avversario" type="button" role="tab" aria-selected="false" aria-controls="formazione-avversario-view" data-form-view="avversario">Avversario · stima</button>
+  </div>
+  <div id="formazione-mia-view" role="tabpanel" aria-labelledby="tab-formazione-mia">
     
   <div class="formazione-head">
     
@@ -2761,7 +2864,9 @@ html[data-theme="light"] .rosa-toggle [style]{
     <span id="formazione-prob-status"></span>
   </div>
 
-  <div class="campo" id="campo">
+  <div class="formazione-layout">
+  <div class="formazione-pitch-column">
+  <div class="campo" id="campo" role="group" aria-label="Campo della tua formazione">
     <div class="meta-campo"></div>
     <div class="area-top"></div>
     <div class="area-bottom"></div>
@@ -2772,6 +2877,7 @@ html[data-theme="light"] .rosa-toggle [style]{
   </div>
 
   <div class="formazione-riepilogo" id="formazione-riepilogo"></div>
+  </div>
 
   <div class="panchina-wrap">
     <div class="panchina-head">
@@ -2785,6 +2891,36 @@ html[data-theme="light"] .rosa-toggle [style]{
       </div>
     </div>
     <div class="panchina-list" id="panchina-list"></div>
+  </div>
+  </div>
+  </div>
+
+  <div id="formazione-avversario-view" role="tabpanel" aria-labelledby="tab-formazione-avversario" hidden>
+    <div class="avversario-toolbar">
+      <label for="avversario-team">Squadra avversaria<select id="avversario-team" aria-label="Scegli squadra avversaria"></select></label>
+      <label for="avversario-modulo">Modulo<select id="avversario-modulo" aria-label="Modulo della formazione avversaria">
+        <option value="auto">Migliore combinazione</option>
+        <option>3-4-3</option><option>3-5-2</option><option>4-3-3</option><option>4-4-2</option><option>4-5-1</option><option>5-3-2</option><option>5-4-1</option>
+      </select></label>
+      <button class="chip" type="button" id="avversario-gestisci">Gestisci rose avversarie</button>
+    </div>
+    <p class="avversario-spiegazione">Stima dei migliori XI tra i giocatori registrati nella rosa scelta, usando FVM/quotazione e probabilità ufficiali. Gli indisponibili segnalati per la gara sono esclusi. Non è la formazione realmente consegnata dall'avversario né una previsione del punteggio.</p>
+    <div id="avversario-status" class="avversario-status" aria-live="polite"></div>
+    <div class="formazione-layout">
+      <div class="formazione-pitch-column">
+        <div class="campo" id="campo-avversario" role="group" aria-label="Campo della formazione avversaria stimata">
+          <div class="meta-campo"></div><div class="area-top"></div><div class="area-bottom"></div>
+          <div class="linea-formazione linea-A" id="avversario-linea-A"></div>
+          <div class="linea-formazione linea-C" id="avversario-linea-C"></div>
+          <div class="linea-formazione linea-D" id="avversario-linea-D"></div>
+          <div class="linea-formazione linea-P" id="avversario-linea-P"></div>
+        </div>
+      </div>
+      <aside class="avversario-riserve" aria-label="Alternative della squadra avversaria">
+        <h3>Alternative e indisponibili</h3>
+        <div id="avversario-alternative"></div>
+      </aside>
+    </div>
   </div>
 
   </div>
@@ -4305,6 +4441,11 @@ function caricaFormazione(){
 function salvaFormazione(){localStorage.setItem(STORAGE_FORM,JSON.stringify(formazione));}
 function moduloCorrente(){return document.getElementById("modulo")?.value||formazione.modulo||"4-3-3";}
 function schemaModulo(mod){const [d,c,a]=mod.split("-").map(Number);return {P:1,D:d,C:c,A:a};}
+function leggiIdGiocatore(valore){
+  if(valore===""||valore===null||valore===undefined) return null;
+  const id=Number(valore);
+  return Number.isInteger(id)&&id>=0?id:null;
+}
 function idValidoPerRuolo(id,r){const g=G[Number(id)];return g&&!g.out&&g.r===r&&inRosa(Number(id));}
 
 function idsTitolari(escludiKey=null){
@@ -4315,8 +4456,8 @@ function idsTitolari(escludiKey=null){
 }
 function idsPanchina(escludiIndice=-1){
   const p=Array.isArray(formazione.panchina)?formazione.panchina:[];
-  return p.map((v,i)=>i===escludiIndice?null:Number(v))
-    .filter(v=>Number.isInteger(v)&&G[v]);
+  return p.map((v,i)=>i===escludiIndice?null:leggiIdGiocatore(v))
+    .filter(v=>v!==null&&G[v]);
 }
 const NOMI_RUOLO_SINGOLARE={P:"portiere",D:"difensore",C:"centrocampista",A:"attaccante"};
 const TEAM_CANON={
@@ -4423,7 +4564,7 @@ function disegnaFormPicker(){
   const lista=document.getElementById("form-picker-list");
   if(!picker||picker.hidden||!lista||!formPickerSlot) return;
   const {key,ruolo}=formPickerSlot;
-  const selezionato=Number(formazione[key]);
+  const selezionato=leggiIdGiocatore(formazione[key]);
   const usati=new Set([...idsTitolari(key),...idsPanchina()]);
   const candidati=rosa.filter(x=>{
     const g=G[x.id];
@@ -4431,7 +4572,7 @@ function disegnaFormPicker(){
   }).sort((a,b)=>punteggioTitolaritaFormazione(G[b.id])-punteggioTitolaritaFormazione(G[a.id])||G[a.id].n.localeCompare(G[b.id].n,"it"));
   document.getElementById("form-picker-title").textContent=`Scegli ${NOMI_RUOLO_SINGOLARE[ruolo]||"giocatore"}`;
   document.getElementById("form-picker-subtitle").textContent="Partita, titolarità e indisponibilità da Fantacalcio.it.";
-  const vuoto=`<button class="form-pick-row form-pick-empty ${!Number.isInteger(selezionato)?"selected":""}" type="button" data-picker-player="">
+  const vuoto=`<button class="form-pick-row form-pick-empty ${selezionato===null?"selected":""}" type="button" data-picker-player="">
     <span class="form-pick-role">×</span>
     <span class="form-pick-main"><span class="form-pick-name">Lascia lo slot vuoto</span><span class="form-pick-match">Nessun giocatore selezionato</span></span>
   </button>`;
@@ -4479,18 +4620,19 @@ function cardFormazione(r,i){
   const key=`${r}${i}`;
   let val=formazione[key];
   if(val!==undefined&&val!==""&&!idValidoPerRuolo(val,r)){val="";delete formazione[key];}
-  const g=val!==""&&val!==undefined?G[Number(val)]:null;
+  const id=leggiIdGiocatore(val);
+  const g=id!==null?G[id]:null;
   const match=g?prossimaPartitaSquadra(g.s):null;
   const stato=g?statoFormazioneGiocatore(g,match):null;
-  return `<div class="player-card">
-    <div class="maglia ${r}">${r}</div>
-    <button class="form-player-trigger ${g?"":"empty"}" type="button" data-form-slot="${key}" data-role="${r}" aria-haspopup="dialog" aria-label="${g?`Cambia ${espnEsc(g.n)}`:`Aggiungi ${NOMI_RUOLO_SINGOLARE[r]||"giocatore"}`}">
+  return `<button class="player-card field-slot ${g?"":"empty"}" type="button" data-form-slot="${key}" data-role="${r}" aria-haspopup="dialog" aria-label="${g?`Cambia ${espnEsc(g.n)}`:`Aggiungi ${NOMI_RUOLO_SINGOLARE[r]||"giocatore"} ${i}`}">
+    <span class="maglia ${r}">${r}</span>
+    <span class="form-player-trigger ${g?"":"empty"}">
       <span class="form-player-name">${g?espnEsc(g.n):"Aggiungi"}</span>
       <span class="form-player-match">${g?partitaGiocatoreHtml(match,false):"Tocca per scegliere"}</span>
       ${g?`<span class="form-player-prob ${stato.classe}" title="${espnEsc(stato.titolo)}">${stato.breve}</span>`:""}
-    </button>
-    <div class="slot-label">${r} ${i}</div>
-  </div>`;
+    </span>
+    <span class="slot-label">${r} ${i}</span>
+  </button>`;
 }
 
 const PANCHINA_RUOLI=["P","D","D","C","C","A","A"];
@@ -4500,27 +4642,34 @@ function opzioniPanchina(indice,selezionato){
   const usati=new Set([...idsTitolari(),...idsPanchina(indice)]);
   const candidati=rosa.filter(x=>G[x.id]&&!G[x.id].out&&G[x.id].r===ruolo)
     .sort((a,b)=>G[a.id].n.localeCompare(G[b.id].n,"it"));
-  let out='<option value="">— Nessuna —</option>';
+  const scelto=leggiIdGiocatore(selezionato);
+  let out=`<option value="" ${scelto===null?"selected":""}>— Nessuna —</option>`;
   for(const x of candidati){
     const g=G[x.id];
-    const dis=usati.has(x.id)&&Number(selezionato)!==x.id;
-    out+=`<option value="${x.id}" ${Number(selezionato)===x.id?"selected":""} ${dis?"disabled":""}>${g.r} · ${g.n}</option>`;
+    const dis=usati.has(x.id)&&scelto!==x.id;
+    out+=`<option value="${x.id}" ${scelto===x.id?"selected":""} ${dis?"disabled":""}>${g.r} · ${espnEsc(g.n)}</option>`;
   }
   return out;
 }
+function normalizzaPanchina(valori,titolari=idsTitolari()){
+  const lista=Array.isArray(valori)?valori:[];
+  const usati=new Set(titolari);
+  // Non compattare: cancellare D1 non deve spostare D2 nello slot appena vuotato.
+  return PANCHINA_RUOLI.map((ruolo,i)=>{
+    const id=leggiIdGiocatore(lista[i]);
+    if(id===null||!G[id]||G[id].out||!inRosa(id)||G[id].r!==ruolo||usati.has(id)) return "";
+    usati.add(id);
+    return id;
+  });
+}
+function rimuoviRiserva(indice){
+  if(!Number.isInteger(indice)||indice<0||indice>=PANCHINA_RUOLI.length) return;
+  formazione.panchina=normalizzaPanchina(formazione.panchina);
+  formazione.panchina[indice]="";
+  disegnaFormazione();
+}
 function disegnaPanchina(){
-  if(!Array.isArray(formazione.panchina)) formazione.panchina=[];
-  const vecchia=formazione.panchina.filter(v=>v!==""&&v!==null&&v!==undefined).map(Number).filter(Number.isInteger);
-  const nuova=Array(7).fill("");
-  const usati=new Set(idsTitolari());
-
-  // Mantiene, quando possibile, le vecchie riserve nei nuovi slot corretti.
-  for(let i=0;i<7;i++){
-    const ruolo=PANCHINA_RUOLI[i];
-    const id=vecchia.find(id=>!usati.has(id)&&G[id]&&!G[id].out&&inRosa(id)&&G[id].r===ruolo);
-    if(id!==undefined){nuova[i]=id;usati.add(id);}
-  }
-  formazione.panchina=nuova;
+  formazione.panchina=normalizzaPanchina(formazione.panchina);
 
   const el=document.getElementById("panchina-list");
   if(!el) return;
@@ -4531,7 +4680,7 @@ function disegnaPanchina(){
     const match=g?prossimaPartitaSquadra(g.s):null;
     const stato=g?statoFormazioneGiocatore(g,match):null;
     return `<div class="riserva-card">
-      <div class="riserva-num"><b>${i+1}</b><span>${ruolo}</span></div>
+      <div class="riserva-num"><b>${i+1}</b><span>${ruolo}</span>${g?`<button class="riserva-remove" type="button" data-remove-reserve="${i}" aria-label="Rimuovi ${espnEsc(g.n)} dalla panchina" title="Rimuovi dalla panchina">×</button>`:""}</div>
       <select data-riserva="${i}" data-riserva-ruolo="${ruolo}" aria-label="Riserva ${i+1} ${ruolo}">
         ${opzioniPanchina(i,id)}
       </select>
@@ -4553,7 +4702,7 @@ function disegnaFormazione(){
   for(const r of ["D","C","A"]){
     for(let i=schema[r]+1;i<=5;i++) delete formazione[`${r}${i}`];
   }
-  formazione.P1=formazione.P1||"";
+  if(leggiIdGiocatore(formazione.P1)===null) formazione.P1="";
   const titolari=idsTitolari().map(id=>G[id]).filter(Boolean);
   const conteggi={P:0,D:0,C:0,A:0};
   titolari.forEach(g=>conteggi[g.r]++);
@@ -4570,6 +4719,7 @@ function disegnaFormazione(){
       : "Probabilità ufficiali momentaneamente non disponibili: viene mostrato n.d.";
   }
   disegnaPanchina();
+  disegnaAvversario();
   salvaFormazione();
 }
 function autoFormazione(){
@@ -4606,11 +4756,90 @@ function ripulisciFormazione(){
     if(k==="modulo"||k==="panchina") continue;
     if(!inRosa(Number(v))) delete formazione[k];
   }
-  if(!Array.isArray(formazione.panchina)) formazione.panchina=[];
-  formazione.panchina=formazione.panchina
-    .filter(id=>Number.isInteger(Number(id))&&inRosa(Number(id))&&G[Number(id)]&&!G[Number(id)].out)
-    .slice(0,7);
+  formazione.panchina=normalizzaPanchina(formazione.panchina);
 }
+
+/* XI avversario: solo acquisti registrati, nessun accesso alla sua formazione reale. */
+const MODULI_AVVERSARIO=["4-3-3","3-4-3","3-5-2","4-4-2","4-5-1","5-3-2","5-4-1"];
+let avversarioSelezionato=1;
+function valutaGiocatoreAvversario(g){
+  const match=prossimaPartitaSquadra(g.s);
+  const indisponibile=indisponibilitaUfficiale(g,match);
+  const probabilita=probabilitaTitolaritaUfficiale(g,match);
+  const base=Number(g.fvm)>0?Number(g.fvm):Number(g.q)>0?Number(g.q)*4:Math.max(1,Number(g.mid)||1);
+  return {
+    ...g,
+    escluso:Boolean(indisponibile)||probabilita===0,
+    probabilita,
+    // 0.65 è solo un peso di ordinamento per dati mancanti, non una probabilità mostrata.
+    score:base*(probabilita===null ? .65 : .15+.85*probabilita/100)
+  };
+}
+function calcolaXIAvversario(giocatori,modulo="auto"){
+  const unici=[...new Map(giocatori.filter(g=>g&&!g.out&&RUOLI.includes(g.r)).map(g=>[g.id,g])).values()];
+  const candidati=unici.filter(g=>!g.escluso);
+  const moduli=MODULI_AVVERSARIO.includes(modulo)?[modulo]:MODULI_AVVERSARIO;
+  const soluzioni=moduli.map(mod=>{
+    const schema=schemaModulo(mod),gruppi={P:[],D:[],C:[],A:[]};
+    for(const r of RUOLI) gruppi[r]=candidati.filter(g=>g.r===r)
+      .sort((a,b)=>(Number(b.score)||0)-(Number(a.score)||0)||a.n.localeCompare(b.n,"it")).slice(0,schema[r]);
+    const scelti=RUOLI.flatMap(r=>gruppi[r]);
+    return {modulo:mod,gruppi,schema,scelti,conteggio:scelti.length,score:scelti.reduce((sum,g)=>sum+(Number(g.score)||0),0)};
+  });
+  return soluzioni.sort((a,b)=>b.conteggio-a.conteggio||b.score-a.score)[0];
+}
+function cardAvversario(g,ruolo){
+  if(!g) return `<div class="player-card opponent-player missing"><span class="maglia ${ruolo}">${ruolo}</span><span class="form-player-trigger"><span class="form-player-name">Slot scoperto</span><span class="form-player-match">Dati insufficienti</span></span></div>`;
+  const match=prossimaPartitaSquadra(g.s),stato=statoFormazioneGiocatore(g,match);
+  return `<div class="player-card opponent-player" title="${espnEsc(g.n)} · ${espnEsc(stato.titolo)}">
+    <span class="maglia ${ruolo}">${ruolo}</span>
+    <span class="form-player-trigger"><span class="form-player-name">${espnEsc(g.n)}</span><span class="form-player-match">${partitaGiocatoreHtml(match,false)}</span><span class="form-player-prob ${stato.classe}">${stato.breve}</span></span>
+  </div>`;
+}
+function disegnaAvversario(){
+  const select=document.getElementById("avversario-team");
+  if(!select) return;
+  if(avversarioSelezionato<1||avversarioSelezionato>=mercato.n) avversarioSelezionato=1;
+  select.innerHTML=Array.from({length:Math.max(0,mercato.n-1)},(_,i)=>`<option value="${i+1}">${espnEsc(nomeTeam(i+1))}</option>`).join("");
+  select.value=String(avversarioSelezionato);
+  const registrati=acquistiTeam(avversarioSelezionato).map(x=>G[x.id]).filter(Boolean).map(valutaGiocatoreAvversario);
+  const xi=calcolaXIAvversario(registrati,document.getElementById("avversario-modulo").value||"auto");
+  for(const r of ["A","C","D","P"]){
+    document.getElementById(`avversario-linea-${r}`).innerHTML=Array.from({length:xi.schema[r]},(_,i)=>cardAvversario(xi.gruppi[r][i],r)).join("");
+  }
+  const senzaDato=xi.scelti.filter(g=>g.probabilita===null).length;
+  const indisponibili=registrati.filter(g=>g.escluso).length;
+  const status=document.getElementById("avversario-status");
+  status.textContent=registrati.length
+    ? `${nomeTeam(avversarioSelezionato)} · modulo ${xi.modulo} · ${xi.conteggio}/11 posti coperti · ${registrati.length} giocatori registrati. ${indisponibili} esclusi per indisponibilità o TIT 0%.${senzaDato?` Titolarità n.d. per ${senzaDato} dei giocatori scelti: stima meno affidabile.`:""}${xi.conteggio<11?" Rosa incompleta o ruoli insufficienti: gli slot scoperti restano vuoti.":""}`
+    : `${nomeTeam(avversarioSelezionato)} non ha giocatori registrati: aggiungi i suoi acquisti in Squadre. Non vengono inventati calciatori.`;
+  document.getElementById("campo-avversario").setAttribute("aria-label",`Formazione stimata ${nomeTeam(avversarioSelezionato)} · ${xi.modulo}`);
+  const ids=new Set(xi.scelti.map(g=>g.id));
+  const alternative=registrati.filter(g=>!ids.has(g.id)).sort((a,b)=>Number(a.escluso)-Number(b.escluso)||(b.score||0)-(a.score||0));
+  document.getElementById("avversario-alternative").innerHTML=alternative.map(g=>{
+    const stato=statoFormazioneGiocatore(g,prossimaPartitaSquadra(g.s));
+    return `<div class="avversario-alternativa"><span class="pallino ${g.r}">${g.r}</span><span><b>${espnEsc(g.n)}</b><small>${espnEsc(g.s)}${Number.isFinite(g.fvm)?` · FVM ${g.fvm}`:""}</small></span><span class="avversario-dato ${g.escluso?"out":""}" title="${espnEsc(stato.titolo)}">${stato.breve}</span></div>`;
+  }).join("")||'<p class="avversario-vuoto">Nessuna alternativa registrata.</p>';
+}
+function mostraFormazione(tipo,team=null){
+  const avversario=tipo==="avversario";
+  if(Number.isInteger(team)&&team>0&&team<mercato.n) avversarioSelezionato=team;
+  document.getElementById("formazione-mia-view").hidden=avversario;
+  document.getElementById("formazione-avversario-view").hidden=!avversario;
+  document.querySelectorAll("button[data-form-view]").forEach(btn=>{
+    const selezionato=btn.dataset.formView===(avversario?"avversario":"mia");
+    btn.classList.toggle("on",selezionato);
+    btn.setAttribute("aria-selected",String(selezionato));
+  });
+  if(avversario) disegnaAvversario();
+}
+document.querySelectorAll("button[data-form-view]").forEach(btn=>btn.addEventListener("click",()=>{
+  mostraFormazione(btn.dataset.formView);
+  vaiASezione("formazione-panel");
+}));
+document.getElementById("avversario-team").addEventListener("change",e=>{avversarioSelezionato=Number(e.target.value);disegnaAvversario();});
+document.getElementById("avversario-modulo").addEventListener("change",disegnaAvversario);
+document.getElementById("avversario-gestisci").addEventListener("click",()=>vaiASezione("mercato-live-panel"));
 
 /* ============================================================
    TABELLA
@@ -4910,6 +5139,7 @@ function disegnaMercato(){
           <button class="sq-open" type="button" data-open-team="${s.t}" aria-expanded="${aperta}">
             ${aperta?"Chiudi":"Vedi rosa"} · ${nAcq}
           </button>
+          ${s.t===0?"":`<button class="chip sq-lineup" type="button" data-view-lineup="${s.t}" aria-label="Possibile XI di ${espnEsc(nomeTeam(s.t))}">Possibile XI</button>`}
           ${s.t===0?"":`<button class="sq-remove-team" type="button" data-remove-team="${s.t}" aria-label="Rimuovi ${nomeTeam(s.t)}" title="Rimuovi squadra">✕</button>`}
         </div>
       </div>
@@ -5162,6 +5392,12 @@ if(filtriToggle){
 
 /* Apri/chiudi la rosa di ogni squadra */
 document.getElementById("squadre").addEventListener("click",e=>{
+  const lineup=e.target.closest("button[data-view-lineup]");
+  if(lineup){
+    mostraFormazione("avversario",Number(lineup.dataset.viewLineup));
+    vaiASezione("formazione-panel");
+    return;
+  }
   const removeTeam=e.target.closest("[data-remove-team]");
   if(removeTeam){
     e.preventDefault();
@@ -5261,6 +5497,7 @@ document.getElementById("squadre").addEventListener("input",e=>{
   const t=Number(inp.dataset.team);
   mercato.nomi[t]=inp.value;
   salvaMercato();
+  disegnaAvversario();
 });
 document.getElementById("n-squadre").addEventListener("change",e=>{
   const n=clamp(Math.trunc(Number(e.target.value))||8,2,14);
@@ -5400,6 +5637,10 @@ document.getElementById("panchina-list").addEventListener("change",e=>{
   while(formazione.panchina.length<7) formazione.panchina.push("");
   formazione.panchina[i]=sel.value===""?"":Number(sel.value);
   disegnaFormazione();
+});
+document.getElementById("panchina-list").addEventListener("click",e=>{
+  const btn=e.target.closest("button[data-remove-reserve]");
+  if(btn) rimuoviRiserva(Number(btn.dataset.removeReserve));
 });
 document.getElementById("auto-formazione").addEventListener("click",autoFormazione);
 document.getElementById("auto-panchina").addEventListener("click",autoPanchina);
@@ -5666,11 +5907,21 @@ document.querySelectorAll("details[data-panel-storage]").forEach(panel=>{
   });
 });
 
-/* Barra Dashboard / Rosa / Squadre / Listone / Formazione. */
+function vaiASezione(id){
+  window.dispatchEvent(new CustomEvent("fanta:navigate",{detail:{id}}));
+}
+function sezioneDaPosizioni(posizioni,altezza){
+  const lista=posizioni.filter(p=>Number.isFinite(p.top)).sort((a,b)=>a.top-b.top);
+  if(!lista.length) return null;
+  const soglia=Math.min(180,Math.max(70,altezza*.22));
+  return lista.filter(p=>p.top<=soglia).at(-1)?.id||lista[0].id;
+}
+/* Barra sempre visibile: clic e scorrimento manuale condividono lo stato attivo. */
 (function(){
   const nav=document.getElementById("bottom-nav");
   if(!nav) return;
   const buttons=Array.from(nav.querySelectorAll("button[data-target]"));
+  let raf=0,blocco=null,fineBlocco=0;
   function attiva(id){
     buttons.forEach(button=>{
       const on=button.dataset.target===id;
@@ -5679,16 +5930,41 @@ document.querySelectorAll("details[data-panel-storage]").forEach(panel=>{
       else button.removeAttribute("aria-current");
     });
   }
-  nav.addEventListener("click",event=>{
-    const button=event.target.closest("button[data-target]");
-    if(!button) return;
-    const target=document.getElementById(button.dataset.target);
+  function aggiornaSezione(){
+    raf=0;
+    if(blocco&&Date.now()<fineBlocco) return;
+    blocco=null;
+    const posizioni=buttons.map(btn=>({id:btn.dataset.target,top:document.getElementById(btn.dataset.target)?.getBoundingClientRect().top}));
+    attiva(sezioneDaPosizioni(posizioni,window.innerHeight));
+  }
+  function pianifica(){if(!raf) raf=requestAnimationFrame(aggiornaSezione);}
+  function libera(){blocco=null;pianifica();}
+  function naviga(id){
+    const target=document.getElementById(id);
     if(!target) return;
     if(target.tagName.toLowerCase()==="details") target.open=true;
-    attiva(button.dataset.target);
+    blocco=id;fineBlocco=Date.now()+1300;
+    attiva(id);
     const top=target.getBoundingClientRect().top+window.pageYOffset-10;
-    window.scrollTo({top:Math.max(0,top),behavior:"smooth"});
+    window.scrollTo({top:Math.max(0,top),behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
+  }
+  nav.addEventListener("click",event=>{
+    const button=event.target.closest("button[data-target]");
+    if(button) naviga(button.dataset.target);
   });
+  window.addEventListener("fanta:navigate",event=>naviga(event.detail?.id));
+  window.addEventListener("scroll",pianifica,{passive:true});
+  window.addEventListener("resize",libera,{passive:true});
+  window.addEventListener("wheel",libera,{passive:true});
+  window.addEventListener("touchstart",libera,{passive:true});
+  document.addEventListener("pointerdown",event=>{if(!event.target.closest("#bottom-nav")) libera();},{passive:true});
+  document.addEventListener("keydown",event=>{if(["ArrowUp","ArrowDown","PageUp","PageDown","Home","End"," "].includes(event.key)&&!event.target.closest("input,select,textarea")) libera();});
+  document.addEventListener("toggle",pianifica,true);
+  if(typeof ResizeObserver!=="undefined"){
+    const observer=new ResizeObserver(pianifica);
+    buttons.forEach(btn=>{const panel=document.getElementById(btn.dataset.target);if(panel) observer.observe(panel);});
+  }
+  pianifica();
 })();
 
 
