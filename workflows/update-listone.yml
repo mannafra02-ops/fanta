@@ -3,6 +3,7 @@ name: Aggiorna listone Fantacalcio
 on:
   schedule:
     - cron: "17 */4 * * *"
+    - cron: "3-59/10 10-22 * * *"
   workflow_dispatch:
 
 permissions:
@@ -10,7 +11,7 @@ permissions:
 
 concurrency:
   group: update-listone
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -18,6 +19,8 @@ jobs:
     steps:
       - name: Scarica il repository
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - name: Configura Node.js
         uses: actions/setup-node@v7
@@ -27,17 +30,37 @@ jobs:
 
       - name: Aggiorna listone, titolarità e indisponibili
         id: listone
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 */4 * * *'
         continue-on-error: true
         run: node scripts/update-listone.mjs
 
       - name: Aggiorna calendario e ultime formazioni ESPN
         id: espn
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 */4 * * *'
         continue-on-error: true
         run: node scripts/update-espn.mjs
 
+      - name: Aggiorna le giornate ufficiali di Serie A
+        id: calendario
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 */4 * * *'
+        continue-on-error: true
+        run: node scripts/update-fantacalcio-live.mjs calendar
+
+      - name: Aggiorna i voti pubblici della Redazione Fantacalcio
+        id: voti
+        continue-on-error: true
+        env:
+          SOLO_FASCIA_PARTITE: ${{ github.event_name == 'schedule' && github.event.schedule == '3-59/10 10-22 * * *' }}
+        run: |
+          if [ "$SOLO_FASCIA_PARTITE" = "true" ]; then
+            node scripts/update-fantacalcio-live.mjs votes --only-near-kickoff
+          else
+            node scripts/update-fantacalcio-live.mjs votes
+          fi
+
       - name: Pubblica solo se i dati sono cambiati
         run: |
-          git add data/listone-live.json data/serie-a-live.json
+          git add data/listone-live.json data/serie-a-live.json data/serie-a-giornate.json data/voti-live.json
           if git diff --cached --quiet; then
             echo "Nessun aggiornamento da pubblicare."
             exit 0
@@ -45,10 +68,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Aggiorna dati Fantacalcio e ESPN"
+          git pull --rebase
           git push
 
       - name: Segnala eventuali fonti non aggiornate
-        if: steps.listone.outcome == 'failure' || steps.espn.outcome == 'failure'
+        if: steps.listone.outcome == 'failure' || steps.espn.outcome == 'failure' || steps.calendario.outcome == 'failure' || steps.voti.outcome == 'failure'
         run: |
           echo "::error::Una fonte non è stata aggiornata. I dati validi delle altre fonti sono stati pubblicati; per la fonte in errore resta la copia precedente."
           exit 1
