@@ -2732,6 +2732,85 @@ html .bottom-nav button:hover:not(.active),html[data-theme="dark"] .bottom-nav b
   body{padding-bottom:calc(92px + env(safe-area-inset-bottom))}
 }
 @media print{.bottom-nav{display:none !important}body{padding-bottom:0}.formazione-layout{break-inside:avoid}}
+
+/* Header Formazione: titolo e freccia occupano una riga propria, dentro i bordi. */
+#formazione-panel>.formazione-toggle{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  box-sizing:border-box;width:100%;min-height:55px;padding:12px 112px 12px 16px;
+  border-bottom:1px solid var(--linea);line-height:1.25;
+}
+#formazione-panel>.formazione-toggle::after{content:none}
+#formazione-panel .formazione-title{margin:0;overflow-wrap:anywhere;line-height:1.35}
+.formazione-caret{display:grid;place-items:center;flex:0 0 28px;height:28px;color:var(--inchiostro-soft)}
+.formazione-caret svg{width:18px;height:18px;transition:transform .18s ease}
+#formazione-panel[open]>.formazione-toggle .formazione-caret svg{transform:rotate(180deg)}
+#formazione-panel>.formazione-toggle:focus-visible{outline-offset:-4px}
+@media(max-width:720px){#formazione-panel>.formazione-toggle{padding-right:58px}}
+
+/* Panchina per reparto: stessi ruoli e stessi badge del campo, senza select. */
+.formazione-layout .panchina-list{display:grid;grid-template-columns:1fr;gap:11px}
+.bench-group{min-width:0;margin:0;padding:0;border:0}
+.bench-group+.bench-group{padding-top:10px;border-top:1px solid var(--linea)}
+.bench-group-title{display:flex;justify-content:space-between;gap:6px;align-items:center;
+  margin:0 0 6px;color:var(--inchiostro-soft);font-size:11px;font-weight:750}
+.bench-group-title small{font-size:10px;font-variant-numeric:tabular-nums}
+.bench-slots{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.bench-card{min-width:0;position:relative}
+html[data-theme] .panchina-list button.bench-slot{
+  display:grid;grid-template-columns:32px minmax(0,1fr);align-items:center;gap:7px;
+  min-height:75px;height:100%;width:100%;padding:8px 27px 8px 8px;
+  border:1px solid var(--linea) !important;background:var(--foglio) !important;
+  color:var(--inchiostro) !important;border-radius:12px;cursor:pointer;text-align:left;box-shadow:none;
+}
+html[data-theme] .panchina-list button.bench-slot.empty{border-style:dashed !important;background:var(--carta) !important}
+html[data-theme] .panchina-list button.bench-slot:hover{border-color:#dc8a39 !important}
+.bench-slot:focus-visible{outline:2px solid #eaa329;outline-offset:2px}
+.bench-slot .maglia{width:32px;height:32px;min-width:0;margin:0;font-size:13px;border-radius:9px;box-shadow:none}
+.bench-slot .form-player-trigger{padding:0;min-height:0;border:0 !important;box-shadow:none !important;
+  background:transparent !important;align-items:flex-start;gap:3px;text-align:left;min-width:0;pointer-events:none}
+.bench-slot .form-player-name,.bench-slot.empty .form-player-name{color:var(--inchiostro) !important;font-size:11px}
+.bench-slot .form-player-match{color:var(--inchiostro-soft) !important;font-size:8px}
+.bench-slot .form-player-prob{font-size:8px}
+html .bench-card .riserva-remove,html[data-theme] .bench-card .riserva-remove{
+  position:absolute;top:6px;right:6px;width:22px;height:22px;min-height:22px;font-size:16px;
+}
+@media(max-width:480px){
+  html[data-theme] .panchina-list button.bench-slot{grid-template-columns:27px minmax(0,1fr);gap:5px;padding-left:6px}
+  .bench-slot .maglia{width:27px;height:27px;font-size:11px}
+}
+
+/* Rose importate, filtri di lega e voti. */
+.squadra-card.esaurita{opacity:1}
+.league-import{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;margin:0 0 14px;padding:10px 12px;border:1px solid var(--linea);border-radius:10px}
+.league-import p{margin:0;flex:1 1 240px;font-size:12px;color:var(--inchiostro-soft);line-height:1.5}
+.infortunio-fanta{display:inline-block;margin-left:6px;color:var(--inchiostro);font-weight:700}
+.infortuni-toolbar #infortuni-fanta-team{flex:0 1 205px}
+.round-nav{display:flex;align-items:center;justify-content:space-between;gap:8px;max-width:330px;width:100%}
+.round-nav[hidden]{display:none}
+.round-nav button{min-width:44px;min-height:38px;font-size:19px;line-height:1}
+.round-nav-label{flex:1;text-align:center;font-size:15px;font-weight:800;line-height:1.25}
+.round-nav-label small{display:block;color:var(--inchiostro-soft);font-size:10px;font-weight:600;margin-top:3px}
+.round-fixture-state{font-weight:700;font-size:10px}
+.round-fixture-state[data-live="true"]{color:var(--verde)}
+.voti-panel{padding:14px}
+.voti-toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-end;margin-bottom:10px}
+.voti-toolbar label{display:grid;gap:5px;min-width:0;color:var(--inchiostro-soft);font-size:12px;font-weight:700}
+.voti-toolbar select{max-width:100%;min-height:36px;padding:6px 8px;border:1px solid var(--linea);border-radius:8px;color:var(--inchiostro);background:var(--foglio)}
+.voti-toolbar .chip{min-height:36px}
+.voti-status{margin:0 0 7px;color:var(--inchiostro);font-size:13px;font-weight:700}
+.voti-note{margin:0 0 12px;color:var(--inchiostro-soft);font-size:11px;line-height:1.5}
+.voti-note a{color:var(--inchiostro);text-decoration:underline}
+.voti-list{display:grid;gap:5px}
+.voti-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(45px,65px) minmax(56px,83px);
+  align-items:center;gap:5px;padding:7px 8px;border:1px solid var(--linea);border-radius:9px;color:var(--inchiostro);background:var(--foglio)}
+.voti-head{border-color:transparent;background:transparent;color:var(--inchiostro-soft);font-size:10px;font-weight:800}
+.voti-player{display:flex;align-items:center;gap:7px;min-width:0}
+.voti-player b{display:block;overflow-wrap:anywhere;font-size:12px}
+.voti-player small{display:block;color:var(--inchiostro-soft);font-size:10px;line-height:1.3}
+.voti-value{text-align:center;font-variant-numeric:tabular-nums;font-weight:750}
+.voti-value.nd{color:var(--inchiostro-soft);font-weight:400}
+.voti-row[data-provisional="true"] .voti-value:not(.nd){color:#b36515}
+html[data-theme="dark"] .voti-row[data-provisional="true"] .voti-value:not(.nd){color:#ffc073}
 </style>
 
 <script>
@@ -2826,19 +2905,25 @@ html .bottom-nav button:hover:not(.active),html[data-theme="dark"] .bottom-nav b
       <button class="chip" id="esporta-mercato" type="button">Copia riepilogo</button>
     </div>
 
+    <div class="league-import">
+      <p id="league-import-note" role="status">Rose della lega · 7 novembre 2026</p>
+      <button class="chip" id="importa-rose-lega" type="button">Importa 7 rose</button>
+    </div>
     <div class="squadre" id="squadre"></div>
   </div>
 </details>
 
 
 <details class="formazione-wrap" aria-label="Formazione titolare" id="formazione-panel" open>
-  <summary class="formazione-toggle" aria-label="Mostra o nascondi formazione titolare">
-    <div class="formazione-title">Formazione titolare</div>
+  <summary class="formazione-toggle">
+    <h2 class="formazione-title">Formazione titolare</h2>
+    <span class="formazione-caret" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="m5 9 7 7 7-7"/></svg></span>
   </summary>
   <div class="formazione-collapsible">
   <div class="formazione-tabs" role="tablist" aria-label="Formazioni della lega">
     <button class="form-view-tab on" id="tab-formazione-mia" type="button" role="tab" aria-selected="true" aria-controls="formazione-mia-view" data-form-view="mia">La mia formazione</button>
     <button class="form-view-tab" id="tab-formazione-avversario" type="button" role="tab" aria-selected="false" aria-controls="formazione-avversario-view" data-form-view="avversario">Avversario · stima</button>
+    <button class="form-view-tab" id="tab-formazione-voti" type="button" role="tab" aria-selected="false" aria-controls="formazione-voti-view" data-form-view="voti">Voti live</button>
   </div>
   <div id="formazione-mia-view" role="tabpanel" aria-labelledby="tab-formazione-mia">
     
@@ -2883,7 +2968,7 @@ html .bottom-nav button:hover:not(.active),html[data-theme="dark"] .bottom-nav b
     <div class="panchina-head">
       <div>
         <div class="panchina-title">Panchina</div>
-        <div class="panchina-note">7 riserve fisse: 1 portiere, 2 difensori, 2 centrocampisti e 2 attaccanti.</div>
+        <div class="panchina-note">Tocca una casella per scegliere o cambiare una riserva.</div>
       </div>
       <div class="panchina-tools">
         <button class="chip" id="auto-panchina" type="button">Auto panchina</button>
@@ -2923,21 +3008,33 @@ html .bottom-nav button:hover:not(.active),html[data-theme="dark"] .bottom-nav b
     </div>
   </div>
 
+  <div id="formazione-voti-view" class="voti-panel" role="tabpanel" aria-labelledby="tab-formazione-voti" hidden>
+    <div class="voti-toolbar">
+      <label for="voti-fanta-team">Squadra della lega<select id="voti-fanta-team"></select></label>
+      <button class="chip" id="voti-refresh" type="button">Aggiorna voti</button>
+    </div>
+    <p class="voti-status" id="voti-status" role="status">In attesa dei voti di giornata…</p>
+    <p class="voti-note">Voti e fantavoti della Redazione Fantacalcio.it; quelli durante la gara, se pubblicati, sono provvisori. Non sono punteggi della lega.
+      <a id="voti-fonte" href="https://www.fantacalcio.it/voti-fantacalcio-serie-a" target="_blank" rel="noopener noreferrer">Apri fonte ufficiale</a>
+    </p>
+    <div class="voti-list" id="voti-list" role="table" aria-label="Voti della rosa"></div>
+  </div>
+
   </div>
 </details>
 
 
-<details class="espn-wrap" aria-label="Serie A: prossime partite e ultime formazioni" id="espn-panel" open>
+<details class="espn-wrap" aria-label="Serie A: calendario e ultime formazioni" id="espn-panel" open>
   <summary class="espn-toggle">
     <div>
       <div class="espn-title">Serie A live</div>
-      <div class="espn-subtitle">Prossime partite e ultimi undici titolari realmente schierati.</div>
+      <div class="espn-subtitle">Partite per giornata e ultimi undici titolari realmente schierati.</div>
     </div>
   </summary>
   <div class="espn-body">
     <div class="espn-toolbar">
       <div class="espn-tabs" role="tablist" aria-label="Dati Serie A">
-        <button class="espn-tab on" id="espn-tab-fixtures" type="button" role="tab" aria-selected="true" data-espn-view="fixtures">Prossime partite</button>
+        <button class="espn-tab on" id="espn-tab-fixtures" type="button" role="tab" aria-selected="true" data-espn-view="fixtures">Calendario</button>
         <button class="espn-tab" id="espn-tab-lineups" type="button" role="tab" aria-selected="false" data-espn-view="lineups">Ultime formazioni</button>
       </div>
       <button class="chip espn-refresh" id="espn-refresh" type="button">Aggiorna dati</button>
@@ -2947,7 +3044,11 @@ html .bottom-nav button:hover:not(.active),html[data-theme="dark"] .bottom-nav b
 
     <div id="espn-fixtures-view" role="tabpanel" aria-labelledby="espn-tab-fixtures">
       <div class="espn-view-head">
-        <div class="espn-view-title">Partite da giocare</div>
+        <div class="round-nav" id="round-nav" aria-label="Navigazione per giornata" hidden>
+          <button class="chip" id="round-prev" type="button" aria-label="Giornata precedente">←</button>
+          <div class="round-nav-label" id="round-label" aria-live="polite"></div>
+          <button class="chip" id="round-next" type="button" aria-label="Giornata successiva">→</button>
+        </div>
         <div class="espn-view-note" id="espn-fixtures-count"></div>
       </div>
       <div class="espn-grid" id="espn-fixtures"><div class="espn-empty">Caricamento calendario…</div></div>
@@ -2961,7 +3062,7 @@ html .bottom-nav button:hover:not(.active),html[data-theme="dark"] .bottom-nav b
       <div class="espn-grid" id="espn-lineups"><div class="espn-empty">Le formazioni verranno caricate qui.</div></div>
     </div>
 
-    <p class="espn-source">Fonte: ESPN. Calendario e ultimi XI completi sono salvati anche sul sito e aggiornati da GitHub ogni 4 ore. La data su ciascuna formazione indica la partita realmente giocata: non è una probabile formazione futura.</p>
+    <p class="espn-source">Giornate: <a href="https://www.fantacalcio.it/serie-a/calendario" target="_blank" rel="noopener noreferrer">calendario Fantacalcio.it</a>. Ultimi XI: ESPN, con la data della partita giocata. Le formazioni mostrate non sono previsioni.</p>
   </div>
 </details>
 
@@ -2976,7 +3077,8 @@ html .bottom-nav button:hover:not(.active),html[data-theme="dark"] .bottom-nav b
   <div class="infortuni-body">
     <div class="infortuni-toolbar" role="search" aria-label="Filtra gli infortunati">
       <input id="infortuni-search" type="search" placeholder="Cerca giocatore, squadra o infortunio…" aria-label="Cerca infortunato">
-      <select id="infortuni-team" aria-label="Squadra degli infortunati"><option value="">Tutte le squadre</option></select>
+      <select id="infortuni-team" aria-label="Club di Serie A"><option value="">Tutti i club di Serie A</option></select>
+      <select id="infortuni-fanta-team" aria-label="Squadra della lega da filtrare"><option value="">Tutti i calciatori</option></select>
       <button class="infortuni-only" id="infortuni-only" type="button" aria-pressed="false">Solo la mia rosa</button>
     </div>
     <div class="infortuni-meta" aria-live="polite">
@@ -3287,6 +3389,8 @@ html .bottom-nav button:hover:not(.active),html[data-theme="dark"] .bottom-nav b
 
 <script type="module">
 import { fetchScoreboard, collectLineups, futureFixtures, fetchJson } from "./scripts/espn-feed.mjs";
+import { LEAGUE_ROSTER_VERSION, planLeagueImport, remapLeagueAcquisitions } from "./scripts/lega-rose.mjs";
+import { FC_GRADES_URL, FC_SEASON, currentFcRound, validFcCalendar, validFcGrades } from "./scripts/fantacalcio-live.mjs";
 let G = [
 {r:"P",n:"Svilar",s:"Roma",min:55,max:75,f:1,t:["MOD"],no:"18 clean sheet, top per fantamedia. La difesa di Gasperini è la più adatta al modificatore.",q:22,eta:27,pos:"POR",prof:"DIF",src:"FCO PDF 30/08/2026"},
 {r:"P",n:"Butez",s:"Como",min:50,max:70,f:1,t:["MOD"],no:"19 clean sheet, miglior dato della Serie A. Incognita rotazioni per la Champions.",q:19,eta:31,pos:"POR",prof:"DIF",src:"FCO PDF 30/08/2026"},
@@ -3965,14 +4069,32 @@ function dataListoneIt(value){
   try{return new Intl.DateTimeFormat("it-IT",{dateStyle:"short",timeStyle:"short",timeZone:"Europe/Rome"}).format(new Date(value));}
   catch{return String(value||"");}
 }
+function dataFeedUrls(path){
+  // Un commit del workflow non rigenera Pages: sul repository del sito leggi
+  // anche i JSON pubblici della branch, senza credenziali né nuovi permessi.
+  const urls=[path];
+  if(location.hostname==="mannafra02-ops.github.io"&&/^\/fanta(?:\/|$)/.test(location.pathname)){
+    urls.push(`https://raw.githubusercontent.com/mannafra02-ops/fanta/main/${path}`);
+  }
+  return urls;
+}
+async function caricaSnapshotPiuRecente(path,valida){
+  const results=await Promise.allSettled(dataFeedUrls(path).map(async url=>{
+    const response=await fetch(url,{cache:"no-store",signal:AbortSignal.timeout(7000)});
+    if(!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data=await response.json();
+    if(!valida(data)) throw new Error("Dati non validi");
+    return data;
+  }));
+  const available=results.filter(r=>r.status==="fulfilled").map(r=>r.value)
+    .sort((a,b)=>Date.parse(b.updatedAt)-Date.parse(a.updatedAt));
+  if(!available.length) throw new Error("Nessun dato valido disponibile");
+  return available[0];
+}
 async function caricaListoneUfficiale(){
   const status=document.getElementById("listone-status");
   try{
-    const ora=new Date().toISOString().slice(0,13);
-    const response=await fetch(`${LISTONE_LIVE_URL}?v=${ora}`,{cache:"no-store"});
-    if(!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data=await response.json();
-    if(!Array.isArray(data.players)||Number(data.activeCount)<450) throw new Error("dati incompleti");
+    const data=await caricaSnapshotPiuRecente(LISTONE_LIVE_URL,d=>Array.isArray(d.players)&&Number(d.activeCount)>=450&&Number.isFinite(Date.parse(d.updatedAt)));
 
     const usati=new Set(),nonAbbinati=[];
     [...data.players].sort((a,b)=>Number(a.slot)-Number(b.slot)).forEach(p=>{
@@ -4012,6 +4134,7 @@ function migraIdsExtraPerListone(){
     const basePrecedente=primaMigrazione?STATIC_LISTONE_COUNT:salvato;
     const baseAttuale=G.length;
     const remap=id=>{
+      if(id===""||id===null||id===undefined) return id;
       id=Number(id);
       if(!Number.isInteger(id)) return id;
       if(extraCount&&id>=basePrecedente&&id<basePrecedente+extraCount) return baseAttuale+(id-basePrecedente);
@@ -4123,6 +4246,7 @@ function caricaMercato(){
       nomi:Array.isArray(d.nomi)?d.nomi:[],
       altri:Array.isArray(d.altri)?d.altri.filter(x=>Number.isInteger(x.id)&&Number.isFinite(x.prezzo)&&Number.isInteger(x.team)):[],
       extra:Array.isArray(d.extra)?d.extra:[],
+      roseImportVersion:typeof d.roseImportVersion==="string"?d.roseImportVersion:null,
       budget:Number.isFinite(Number(d.budget))&&Number(d.budget)>=50&&Number(d.budget)<=10000?Math.trunc(Number(d.budget)):BUDGET_BASE
     };
   }catch{return vuoto;}
@@ -4153,7 +4277,6 @@ mercato.extra.forEach(e=>{
   G.push({r:e.r||"C",n:e.n||"Fuori lista",s:e.s||"—",min:e.p||1,max:e.p||1,f:4,t:[],
           no:"Aggiunto a mano durante l'asta.",x:true});
 });
-mercato.altri=mercato.altri.filter(x=>G[x.id]&&!G[x.id].out);
 
 function calcolaTitolaritaStimata(){
   const attivi=G.filter(g=>!g.out);
@@ -4191,6 +4314,7 @@ function calcolaTitolaritaStimata(){
 }
 
 G.forEach((g,i)=>{g.id=i;g.mid=Math.round((g.min+g.max)/2);g.pos=inferisciPosizione(g);g.prof=inferisciProfilo(g);});
+mercato.altri=remapLeagueAcquisitions(mercato.altri,G);
 calcolaTitolaritaStimata();
 
 function caricaRosa(){
@@ -4208,11 +4332,12 @@ function caricaRosa(){
 function salvaRosa(){localStorage.setItem(STORAGE_KEY,JSON.stringify(rosa));}
 
 let filtri={ruolo:"all",fascia:"all",profilo:"all",posizione:"all",titolarita:"all",tag:new Set(),q:"",ordina:"tetto-desc",soloLiberi:false,soloOsservati:false};
+const rosaPreesistente=localStorage.getItem(STORAGE_KEY)!==null;
 let rosa=caricaRosa();
 
 /* Ripristino rosa fornita dall'utente — seed una tantum.
    Non sovrascrive modifiche future: viene applicato soltanto se la rosa salvata è vuota. */
-if(rosa.length===0){
+if(!rosaPreesistente&&rosa.length===0){
   const rosaRipristino=[{"names": ["Bijlow"], "team": "Genoa", "price": 15}, {"names": ["Falcone"], "team": "Lecce", "price": 20}, {"names": ["Svilar"], "team": "Roma", "price": 118}, {"names": ["Couto", "Yan Couto"], "team": "Como", "price": 1}, {"names": ["Hainaut"], "team": "Venezia", "price": 6}, {"names": ["Lulli", "Lulli G."], "team": "Roma", "price": 1}, {"names": ["Marcandalli"], "team": "Genoa", "price": 1}, {"names": ["Mina"], "team": "Cagliari", "price": 5}, {"names": ["Stones"], "team": "Inter", "price": 10}, {"names": ["Valeri"], "team": "Parma", "price": 10}, {"names": ["Valle"], "team": "Como", "price": 1}, {"names": ["Baturina"], "team": "Como", "price": 126}, {"names": ["Busio"], "team": "Venezia", "price": 1}, {"names": ["Gaetano"], "team": "Atalanta", "price": 8}, {"names": ["Milla"], "team": "Como", "price": 1}, {"names": ["Moreira", "Da Silva Moreira"], "team": "Milan", "price": 36}, {"names": ["Orsolini"], "team": "Bologna", "price": 186}, {"names": ["Samardzic"], "team": "Atalanta", "price": 1}, {"names": ["Vergara"], "team": "Napoli", "price": 25}, {"names": ["Berardi"], "team": "Sassuolo", "price": 66}, {"names": ["Dovbyk"], "team": "Bologna", "price": 67}, {"names": ["Hojlund"], "team": "Napoli", "price": 282}, {"names": ["Kevin Carlos"], "team": "Cagliari", "price": 1}, {"names": ["Neres"], "team": "Napoli", "price": 1}, {"names": ["Yeboah J.", "Yeboah"], "team": "Venezia", "price": 1}];
   const normRosa=s=>normalizza(String(s||"")).replace(/\s+/g," ").trim();
   const trovati=[];
@@ -4226,6 +4351,30 @@ if(rosa.length===0){
     salvaRosa();
   }
 }
+let notaImportazioneRose="";
+function disegnaImportazioneRose(){
+  const box=document.getElementById("league-import-note"),btn=document.getElementById("importa-rose-lega");
+  const importato=mercato.roseImportVersion===LEAGUE_ROSTER_VERSION;
+  const mancanti=mercato.altri.filter(row=>row.fcId&&row.id<0).length;
+  if(box) box.textContent=notaImportazioneRose||(importato
+    ? `Rose del 7 novembre importate in questo browser.${mancanti?` ${mancanti} giocatori non disponibili nel listone corrente: i loro acquisti restano salvati.`:""}`
+    : "Sono pronte le 7 rose delle schermate, con 175 acquisti. Prima di applicarle vedrai gli eventuali trasferimenti.");
+  if(btn) btn.textContent=importato?"Reimporta 7 rose":"Importa 7 rose";
+}
+function preparaImportazioneRose(){
+  if(mercato.roseImportVersion||mercato.n>8||mercato.altri.length||mercato.nomi.slice(1).some(n=>String(n||"").trim()&&!/^Squadra \d+$/i.test(n))) return;
+  try{
+    const piano=planLeagueImport(mercato,rosa,G);
+    const inRosa=piano.moves.filter(x=>x.own);
+    if(rosaPreesistente&&inRosa.length){
+      notaImportazioneRose=`Le 7 rose sono pronte. Conferma prima il passaggio di ${inRosa.map(x=>`${x.player} a ${x.to}`).join(", ")}.`;
+      return;
+    }
+    rosa=piano.own;
+    mercato=piano.market;
+  }catch(error){notaImportazioneRose=error.message;}
+}
+preparaImportazioneRose();
 let osservati=caricaOsservati();
 
 const STORAGE_FORM_PANEL="fanta_asta_2026_27_formazione_panel_v1";
@@ -4272,10 +4421,10 @@ function nomeTeam(t){
 function acquistiTeam(t){
   return t===0
     ? rosa.map(x=>({id:x.id,prezzo:x.prezzo,team:0}))
-    : mercato.altri.filter(a=>a.team===t);
+    : mercato.altri.filter(a=>a.team===t&&a.id>=0);
 }
 function tuttiAcquisti(){
-  return rosa.map(x=>({id:x.id,prezzo:x.prezzo,team:0})).concat(mercato.altri);
+  return rosa.map(x=>({id:x.id,prezzo:x.prezzo,team:0})).concat(mercato.altri.filter(a=>a.id>=0));
 }
 function acquistoDi(id){
   const mio=rosa.find(x=>x.id===id);
@@ -4563,14 +4712,15 @@ function disegnaFormPicker(){
   const picker=document.getElementById("form-picker");
   const lista=document.getElementById("form-picker-list");
   if(!picker||picker.hidden||!lista||!formPickerSlot) return;
-  const {key,ruolo}=formPickerSlot;
-  const selezionato=leggiIdGiocatore(formazione[key]);
-  const usati=new Set([...idsTitolari(key),...idsPanchina()]);
+  const {key,ruolo,riserva}=formPickerSlot;
+  const inPanchina=riserva>=0;
+  const selezionato=leggiIdGiocatore(inPanchina?formazione.panchina?.[riserva]:formazione[key]);
+  const usati=new Set([...idsTitolari(inPanchina?null:key),...idsPanchina(riserva)]);
   const candidati=rosa.filter(x=>{
     const g=G[x.id];
     return g&&!g.out&&g.r===ruolo&&(!usati.has(x.id)||x.id===selezionato);
   }).sort((a,b)=>punteggioTitolaritaFormazione(G[b.id])-punteggioTitolaritaFormazione(G[a.id])||G[a.id].n.localeCompare(G[b.id].n,"it"));
-  document.getElementById("form-picker-title").textContent=`Scegli ${NOMI_RUOLO_SINGOLARE[ruolo]||"giocatore"}`;
+  document.getElementById("form-picker-title").textContent=`Scegli ${NOMI_RUOLO_SINGOLARE[ruolo]||"giocatore"}${inPanchina?" di riserva":""}`;
   document.getElementById("form-picker-subtitle").textContent="Partita, titolarità e indisponibilità da Fantacalcio.it.";
   const vuoto=`<button class="form-pick-row form-pick-empty ${selezionato===null?"selected":""}" type="button" data-picker-player="">
     <span class="form-pick-role">×</span>
@@ -4590,8 +4740,8 @@ function disegnaFormPicker(){
   }).join("");
   lista.innerHTML=vuoto+(righe||'<div class="espn-empty">Nessun giocatore disponibile per questo ruolo.</div>');
 }
-function apriFormPicker(key,ruolo){
-  formPickerSlot={key,ruolo};
+function apriFormPicker(key,ruolo,riserva=-1){
+  formPickerSlot={key,ruolo,riserva};
   const picker=document.getElementById("form-picker");
   if(!picker) return;
   picker.hidden=false;
@@ -4603,18 +4753,19 @@ function chiudiFormPicker(){
   const picker=document.getElementById("form-picker");
   if(picker) picker.hidden=true;
   document.body.classList.remove("form-picker-open");
+  const slot=formPickerSlot;
   formPickerSlot=null;
+  if(slot) document.querySelector(slot.riserva>=0?`button[data-bench-slot="${slot.riserva}"]`:`button[data-form-slot="${slot.key}"]`)?.focus({preventScroll:true});
 }
-function opzioniRuolo(r,selezionato,slotKey){
-  const usati=new Set([...idsTitolari(slotKey),...idsPanchina()]);
-  const candidati=rosa.filter(x=>G[x.id]&&G[x.id].r===r)
-    .sort((a,b)=>G[a.id].n.localeCompare(G[b.id].n,"it"));
-  let out='<option value="">—</option>';
-  for(const x of candidati){
-    const dis=usati.has(x.id)&&Number(selezionato)!==x.id;
-    out+=`<option value="${x.id}" ${Number(selezionato)===x.id?"selected":""} ${dis?"disabled":""}>${G[x.id].n}</option>`;
-  }
-  return out;
+function contenutoSchedaFormazione(r,g){
+  const match=g?prossimaPartitaSquadra(g.s):null;
+  const stato=g?statoFormazioneGiocatore(g,match):null;
+  return `<span class="maglia ${r}">${r}</span>
+    <span class="form-player-trigger ${g?"":"empty"}">
+      <span class="form-player-name">${g?espnEsc(g.n):"Aggiungi"}</span>
+      <span class="form-player-match">${g?partitaGiocatoreHtml(match,false):"Tocca per scegliere"}</span>
+      ${g?`<span class="form-player-prob ${stato.classe}" title="${espnEsc(stato.titolo)}">${stato.breve}</span>`:""}
+    </span>`;
 }
 function cardFormazione(r,i){
   const key=`${r}${i}`;
@@ -4622,35 +4773,14 @@ function cardFormazione(r,i){
   if(val!==undefined&&val!==""&&!idValidoPerRuolo(val,r)){val="";delete formazione[key];}
   const id=leggiIdGiocatore(val);
   const g=id!==null?G[id]:null;
-  const match=g?prossimaPartitaSquadra(g.s):null;
-  const stato=g?statoFormazioneGiocatore(g,match):null;
   return `<button class="player-card field-slot ${g?"":"empty"}" type="button" data-form-slot="${key}" data-role="${r}" aria-haspopup="dialog" aria-label="${g?`Cambia ${espnEsc(g.n)}`:`Aggiungi ${NOMI_RUOLO_SINGOLARE[r]||"giocatore"} ${i}`}">
-    <span class="maglia ${r}">${r}</span>
-    <span class="form-player-trigger ${g?"":"empty"}">
-      <span class="form-player-name">${g?espnEsc(g.n):"Aggiungi"}</span>
-      <span class="form-player-match">${g?partitaGiocatoreHtml(match,false):"Tocca per scegliere"}</span>
-      ${g?`<span class="form-player-prob ${stato.classe}" title="${espnEsc(stato.titolo)}">${stato.breve}</span>`:""}
-    </span>
+    ${contenutoSchedaFormazione(r,g)}
     <span class="slot-label">${r} ${i}</span>
   </button>`;
 }
 
 const PANCHINA_RUOLI=["P","D","D","C","C","A","A"];
 
-function opzioniPanchina(indice,selezionato){
-  const ruolo=PANCHINA_RUOLI[indice];
-  const usati=new Set([...idsTitolari(),...idsPanchina(indice)]);
-  const candidati=rosa.filter(x=>G[x.id]&&!G[x.id].out&&G[x.id].r===ruolo)
-    .sort((a,b)=>G[a.id].n.localeCompare(G[b.id].n,"it"));
-  const scelto=leggiIdGiocatore(selezionato);
-  let out=`<option value="" ${scelto===null?"selected":""}>— Nessuna —</option>`;
-  for(const x of candidati){
-    const g=G[x.id];
-    const dis=usati.has(x.id)&&scelto!==x.id;
-    out+=`<option value="${x.id}" ${scelto===x.id?"selected":""} ${dis?"disabled":""}>${g.r} · ${espnEsc(g.n)}</option>`;
-  }
-  return out;
-}
 function normalizzaPanchina(valori,titolari=idsTitolari()){
   const lista=Array.isArray(valori)?valori:[];
   const usati=new Set(titolari);
@@ -4668,23 +4798,29 @@ function rimuoviRiserva(indice){
   formazione.panchina[indice]="";
   disegnaFormazione();
 }
+function cardPanchina(i,id){
+  const ruolo=PANCHINA_RUOLI[i],g=id!==""?G[id]:null;
+  const posizione=PANCHINA_RUOLI.slice(0,i+1).filter(r=>r===ruolo).length;
+  return `<div class="bench-card">
+    <button class="bench-slot ${g?"":"empty"}" type="button" data-bench-slot="${i}" aria-haspopup="dialog"
+      aria-label="${g?`Cambia ${espnEsc(g.n)} in panchina`:`Aggiungi ${NOMI_RUOLO_SINGOLARE[ruolo]} di riserva ${posizione}`}">
+      ${contenutoSchedaFormazione(ruolo,g)}
+    </button>
+    ${g?`<button class="riserva-remove" type="button" data-remove-reserve="${i}" aria-label="Rimuovi ${espnEsc(g.n)} dalla panchina" title="Rimuovi dalla panchina">×</button>`:""}
+  </div>`;
+}
 function disegnaPanchina(){
   formazione.panchina=normalizzaPanchina(formazione.panchina);
 
   const el=document.getElementById("panchina-list");
   if(!el) return;
-  el.innerHTML=formazione.panchina.map((id,i)=>{
-    const g=id!==""?G[Number(id)]:null;
-    const ruolo=PANCHINA_RUOLI[i];
-    const etichetta=i===0?"Portiere":`${ruolo} ${i-(ruolo==="D"?0:ruolo==="C"?2:4)}`;
-    const match=g?prossimaPartitaSquadra(g.s):null;
-    const stato=g?statoFormazioneGiocatore(g,match):null;
-    return `<div class="riserva-card">
-      <div class="riserva-num"><b>${i+1}</b><span>${ruolo}</span>${g?`<button class="riserva-remove" type="button" data-remove-reserve="${i}" aria-label="Rimuovi ${espnEsc(g.n)} dalla panchina" title="Rimuovi dalla panchina">×</button>`:""}</div>
-      <select data-riserva="${i}" data-riserva-ruolo="${ruolo}" aria-label="Riserva ${i+1} ${ruolo}">
-        ${opzioniPanchina(i,id)}
-      </select>
-      <div class="riserva-info">${g?`${g.s} · ${g.pos||g.r} · ${stato.breve}`:etichetta}</div>
+  el.innerHTML=RUOLI.map(ruolo=>{
+    const slots=PANCHINA_RUOLI.flatMap((r,i)=>r===ruolo?[i]:[]);
+    const etichetta=ruolo==="P"?"Portiere":ruolo==="D"?"Difensori":ruolo==="C"?"Centrocampisti":"Attaccanti";
+    const scelti=slots.filter(i=>formazione.panchina[i]!=="").length;
+    return `<div class="bench-group" role="group" aria-label="${etichetta} di riserva">
+      <h3 class="bench-group-title">${etichetta}<small>${scelti}/${slots.length}</small></h3>
+      <div class="bench-slots">${slots.map(i=>cardPanchina(i,formazione.panchina[i])).join("")}</div>
     </div>`;
   }).join("");
 }
@@ -4736,7 +4872,7 @@ function autoFormazione(){
   }
   // elimina dalla panchina chi è diventato titolare
   const tit=new Set(idsTitolari());
-  formazione.panchina=formazione.panchina.map(id=>tit.has(Number(id))?"":id);
+  formazione.panchina=formazione.panchina.map(id=>tit.has(leggiIdGiocatore(id))?"":id);
   disegnaFormazione();
 }
 function autoPanchina(){
@@ -4821,17 +4957,23 @@ function disegnaAvversario(){
     return `<div class="avversario-alternativa"><span class="pallino ${g.r}">${g.r}</span><span><b>${espnEsc(g.n)}</b><small>${espnEsc(g.s)}${Number.isFinite(g.fvm)?` · FVM ${g.fvm}`:""}</small></span><span class="avversario-dato ${g.escluso?"out":""}" title="${espnEsc(stato.titolo)}">${stato.breve}</span></div>`;
   }).join("")||'<p class="avversario-vuoto">Nessuna alternativa registrata.</p>';
 }
+let vistaFormazione="mia";
 function mostraFormazione(tipo,team=null){
-  const avversario=tipo==="avversario";
+  vistaFormazione=["mia","avversario","voti"].includes(tipo)?tipo:"mia";
   if(Number.isInteger(team)&&team>0&&team<mercato.n) avversarioSelezionato=team;
-  document.getElementById("formazione-mia-view").hidden=avversario;
-  document.getElementById("formazione-avversario-view").hidden=!avversario;
+  for(const view of ["mia","avversario","voti"]){
+    document.getElementById(`formazione-${view}-view`).hidden=view!==vistaFormazione;
+  }
   document.querySelectorAll("button[data-form-view]").forEach(btn=>{
-    const selezionato=btn.dataset.formView===(avversario?"avversario":"mia");
+    const selezionato=btn.dataset.formView===vistaFormazione;
     btn.classList.toggle("on",selezionato);
     btn.setAttribute("aria-selected",String(selezionato));
   });
-  if(avversario) disegnaAvversario();
+  if(vistaFormazione==="avversario") disegnaAvversario();
+  if(vistaFormazione==="voti"){
+    disegnaVoti();
+    caricaVoti();
+  }
 }
 document.querySelectorAll("button[data-form-view]").forEach(btn=>btn.addEventListener("click",()=>{
   mostraFormazione(btn.dataset.formView);
@@ -5166,7 +5308,31 @@ function disegnaMercato(){
   if(prezzoInput) prezzoInput.max=BUDGET;
   const extraPrezzo=document.getElementById("extra-prezzo");
   if(extraPrezzo) extraPrezzo.max=BUDGET;
+  disegnaImportazioneRose();
 }
+
+document.getElementById("importa-rose-lega")?.addEventListener("click",()=>{
+  try{
+    const piano=planLeagueImport(mercato,rosa,G);
+    const passaggi=piano.moves.map(x=>`${x.player||"Giocatore"}: ${x.from} → ${x.to}`);
+    const testo=[
+      `Importare ${piano.count} acquisti delle 7 rose del 7 novembre?`,
+      piano.replacing?`Verranno aggiornate le rose omonime (${piano.replacing} acquisti già registrati). Le altre squadre restano.`:"Non saranno sostituite altre rose.",
+      passaggi.length?`Trasferimenti da applicare:\n${passaggi.slice(0,12).join("\n")}${passaggi.length>12?`\n… e altri ${passaggi.length-12}`:""}`:"La tua rosa rimarrà intatta.",
+      "I giocatori trasferiti dalla tua rosa saranno tolti anche da titolari e riserve; gli altri slot non cambiano."
+    ].join("\n\n");
+    if(!confirm(testo)) return;
+    localStorage.setItem(`${STORAGE_MERC}_backup_import_rose`,JSON.stringify({rosa,mercato,formazione}));
+    rosa=piano.own;
+    mercato=piano.market;
+    notaImportazioneRose=`Importate 7 rose e ${piano.count} acquisti.${piano.moves.length?` Trasferimenti confermati: ${piano.moves.length}.`:""}`;
+    TENSIONE0=tensioneIniziale();
+    aggiorna();
+  }catch(error){
+    notaImportazioneRose=error.message;
+    disegnaImportazioneRose();
+  }
+});
 
 /* Infermeria: estratti testuali della fonte, nessuna prognosi calcolata. */
 function dettagliInfortunio(nota){
@@ -5182,23 +5348,34 @@ function dettagliInfortunio(nota){
     disponibilita:valutazione?"Da valutare":"Infortunio segnalato"
   };
 }
-const filtriInfortuni={q:"",squadra:"",soloMiei:false};
+const filtriInfortuni={q:"",squadra:"",lega:"",soloMiei:false};
 function disegnaInfortunati(){
   const box=document.getElementById("infortuni-list");
   if(!box) return;
   const miei=new Set(rosa.map(p=>p.id));
+  const proprietari=new Map(tuttiAcquisti().map(a=>[a.id,a.team]));
   const tutti=G.filter(g=>!g.out&&g.indisponibile==="injured");
   const select=document.getElementById("infortuni-team");
   const squadre=[...new Set(tutti.map(g=>g.s))].sort((a,b)=>a.localeCompare(b,"it"));
   if(filtriInfortuni.squadra&&!squadre.includes(filtriInfortuni.squadra)) filtriInfortuni.squadra="";
-  select.innerHTML='<option value="">Tutte le squadre</option>'+squadre.map(s=>`<option value="${espnEsc(s)}">${espnEsc(s)}</option>`).join("");
+  select.innerHTML='<option value="">Tutti i club di Serie A</option>'+squadre.map(s=>`<option value="${espnEsc(s)}">${espnEsc(s)}</option>`).join("");
   select.value=filtriInfortuni.squadra;
+  const fantaSelect=document.getElementById("infortuni-fanta-team");
+  if(fantaSelect){
+    if(/^\d+$/.test(filtriInfortuni.lega)&&Number(filtriInfortuni.lega)>=mercato.n) filtriInfortuni.lega="";
+    fantaSelect.innerHTML='<option value="">Tutti i calciatori</option><option value="lega">Tutte le rose della lega</option>'
+      +Array.from({length:mercato.n},(_,t)=>`<option value="${t}">${espnEsc(nomeTeam(t))}${t===0?" (mia)":""}</option>`).join("");
+    fantaSelect.value=filtriInfortuni.lega;
+  }
   const q=normalizza(filtriInfortuni.q.trim());
-  const lista=tutti.filter(g=>(!filtriInfortuni.soloMiei||miei.has(g.id))
-    &&(!filtriInfortuni.squadra||g.s===filtriInfortuni.squadra)
-    &&(!q||normalizza(`${g.n} ${g.s} ${g.indisponibileNota||""}`).includes(q)))
+  const nellaRosa=g=>filtriInfortuni.soloMiei?miei.has(g.id):filtriInfortuni.lega==="lega"?proprietari.has(g.id)
+    :!filtriInfortuni.lega||proprietari.get(g.id)===Number(filtriInfortuni.lega);
+  const scope=tutti.filter(nellaRosa);
+  const lista=scope.filter(g=>
+    (!filtriInfortuni.squadra||g.s===filtriInfortuni.squadra)
+    &&(!q||normalizza(`${g.n} ${g.s} ${proprietari.has(g.id)?nomeTeam(proprietari.get(g.id)):""} ${g.indisponibileNota||""}`).includes(q)))
     .sort((a,b)=>Number(miei.has(b.id))-Number(miei.has(a.id))||a.s.localeCompare(b.s,"it")||a.n.localeCompare(b.n,"it"));
-  document.getElementById("infortuni-count").textContent=`${lista.length} di ${tutti.length} segnalazioni · ${tutti.filter(g=>miei.has(g.id)).length} nella tua rosa`;
+  document.getElementById("infortuni-count").textContent=`${lista.length} di ${scope.length} segnalazioni · ${tutti.filter(g=>miei.has(g.id)).length} nella tua rosa`;
   const apri=document.getElementById("apri-infortuni");
   if(apri) apri.textContent=`🩹 Infortunati · ${tutti.filter(g=>miei.has(g.id)).length} nella tua rosa`;
   const controllo=Date.parse(LISTONE_LIVE_META?.availabilityUpdatedAt||"");
@@ -5212,10 +5389,11 @@ function disegnaInfortunati(){
   document.getElementById("infortuni-only").setAttribute("aria-pressed",String(filtriInfortuni.soloMiei));
   box.innerHTML=lista.map(g=>{
     const d=dettagliInfortunio(g.indisponibileNota);
+    const t=proprietari.get(g.id);
     return `<article class="infortunio-card ${miei.has(g.id)?"mio":""}">
       <div class="infortunio-head">
         <span class="pallino ${g.r}" aria-label="Ruolo ${g.r}">${g.r}</span>
-        <div class="infortunio-name"><h3>${espnEsc(g.n)}</h3><small>${espnEsc(g.s)}${miei.has(g.id)?'<span class="infortunio-mio">NELLA TUA ROSA</span>':""}</small></div>
+        <div class="infortunio-name"><h3>${espnEsc(g.n)}</h3><small>${espnEsc(g.s)}${miei.has(g.id)?'<span class="infortunio-mio">NELLA TUA ROSA</span>':Number.isInteger(t)?`<span class="infortunio-fanta">${espnEsc(nomeTeam(t))}</span>`:""}</small></div>
         <span class="infortunio-status">🩹 ${vecchi?"Da verificare":d.disponibilita}</span>
       </div>
       <span class="infortunio-label">Problema fisico e disponibilità</span>
@@ -5227,7 +5405,12 @@ function disegnaInfortunati(){
 }
 document.getElementById("infortuni-search")?.addEventListener("input",e=>{filtriInfortuni.q=e.target.value;disegnaInfortunati();});
 document.getElementById("infortuni-team")?.addEventListener("change",e=>{filtriInfortuni.squadra=e.target.value;disegnaInfortunati();});
-document.getElementById("infortuni-only")?.addEventListener("click",()=>{filtriInfortuni.soloMiei=!filtriInfortuni.soloMiei;disegnaInfortunati();});
+document.getElementById("infortuni-fanta-team")?.addEventListener("change",e=>{
+  filtriInfortuni.lega=e.target.value;filtriInfortuni.soloMiei=filtriInfortuni.lega==="0";disegnaInfortunati();
+});
+document.getElementById("infortuni-only")?.addEventListener("click",()=>{
+  filtriInfortuni.soloMiei=!filtriInfortuni.soloMiei;filtriInfortuni.lega=filtriInfortuni.soloMiei?"0":"";disegnaInfortunati();
+});
 document.getElementById("apri-infortuni")?.addEventListener("click",()=>{
   const panel=document.getElementById("infortunati-panel");
   panel.open=true;
@@ -5245,6 +5428,7 @@ function aggiorna(){
   disegnaTabella();
   disegnaFormazione();
   disegnaInfortunati();
+  if(vistaFormazione==="voti") disegnaVoti();
 }
 
 /* ============================================================
@@ -5498,6 +5682,8 @@ document.getElementById("squadre").addEventListener("input",e=>{
   mercato.nomi[t]=inp.value;
   salvaMercato();
   disegnaAvversario();
+  disegnaInfortunati();
+  if(vistaFormazione==="voti") disegnaVoti();
 });
 document.getElementById("n-squadre").addEventListener("change",e=>{
   const n=clamp(Math.trunc(Number(e.target.value))||8,2,14);
@@ -5616,9 +5802,13 @@ document.getElementById("campo").addEventListener("click",e=>{
 document.getElementById("form-picker-list")?.addEventListener("click",e=>{
   const scelta=e.target.closest("button[data-picker-player]");
   if(!scelta||!formPickerSlot) return;
-  const key=formPickerSlot.key,id=scelta.dataset.pickerPlayer;
-  if(id==="") delete formazione[key];
-  else formazione[key]=Number(id);
+  const {key,ruolo,riserva}=formPickerSlot,id=leggiIdGiocatore(scelta.dataset.pickerPlayer);
+  if(id!==null&&(!idValidoPerRuolo(id,ruolo)||idsTitolari(riserva>=0?null:key).includes(id)||idsPanchina(riserva).includes(id))) return;
+  if(riserva>=0){
+    formazione.panchina=normalizzaPanchina(formazione.panchina);
+    formazione.panchina[riserva]=id??"";
+  }else if(id===null) delete formazione[key];
+  else formazione[key]=id;
   disegnaFormazione();
   chiudiFormPicker();
 });
@@ -5627,20 +5817,28 @@ document.getElementById("form-picker")?.addEventListener("click",e=>{
   if(e.target.id==="form-picker") chiudiFormPicker();
 });
 document.addEventListener("keydown",e=>{
-  if(e.key==="Escape"&&!document.getElementById("form-picker")?.hidden) chiudiFormPicker();
-});
-document.getElementById("panchina-list").addEventListener("change",e=>{
-  const sel=e.target.closest("select[data-riserva]");
-  if(!sel) return;
-  const i=Number(sel.dataset.riserva);
-  if(!Array.isArray(formazione.panchina)) formazione.panchina=[];
-  while(formazione.panchina.length<7) formazione.panchina.push("");
-  formazione.panchina[i]=sel.value===""?"":Number(sel.value);
-  disegnaFormazione();
+  const picker=document.getElementById("form-picker");
+  if(!picker||picker.hidden) return;
+  if(e.key==="Escape"){e.preventDefault();chiudiFormPicker();}
+  if(e.key==="Tab"){
+    const buttons=[...picker.querySelectorAll("button:not(:disabled)")];
+    const first=buttons[0],last=buttons.at(-1);
+    if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus();}
+    else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus();}
+  }
 });
 document.getElementById("panchina-list").addEventListener("click",e=>{
   const btn=e.target.closest("button[data-remove-reserve]");
-  if(btn) rimuoviRiserva(Number(btn.dataset.removeReserve));
+  if(btn){
+    const indice=Number(btn.dataset.removeReserve);
+    rimuoviRiserva(indice);
+    document.querySelector(`button[data-bench-slot="${indice}"]`)?.focus({preventScroll:true});
+    return;
+  }
+  const card=e.target.closest("button[data-bench-slot]");
+  if(!card) return;
+  const indice=Number(card.dataset.benchSlot),ruolo=PANCHINA_RUOLI[indice];
+  if(ruolo) apriFormPicker(null,ruolo,indice);
 });
 document.getElementById("auto-formazione").addEventListener("click",autoFormazione);
 document.getElementById("auto-panchina").addEventListener("click",autoPanchina);
@@ -5662,6 +5860,8 @@ const ESPN_SNAPSHOT_URL="data/serie-a-live.json";
 const ESPN_SNAPSHOT_TTL=24*3600000;
 const espnState={fixtures:[],lineups:[],lineupsLoaded:false,active:"fixtures",fixturesUpdatedAt:0,lineupsUpdatedAt:0};
 let espnSnapshotPromise=null;
+let fcCalendar=null,fcCalendarPromise=null,giornataVista=null;
+const votiState={data:null,team:0,loading:false,lastCheck:0,error:false};
 
 function espnEsc(v){
   return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -5710,6 +5910,7 @@ function espnCaricaCache(){
   }catch{return null;}
 }
 function espnStatoSalvato(tipo){
+  if(tipo==="fixtures"&&fcCalendar) return `Calendario Fantacalcio.it · ${dataListoneIt(fcCalendar.updatedAt)}`;
   const ts=tipo==="lineups"?espnState.lineupsUpdatedAt:espnState.fixturesUpdatedAt;
   return `Dati ESPN del ${dataListoneIt(new Date(ts).toISOString())}`;
 }
@@ -5736,12 +5937,79 @@ async function espnCaricaSnapshot(forza=false){
   }
   return espnSnapshotPromise;
 }
+function caricaGiornate(forza=false){
+  if(fcCalendarPromise) return fcCalendarPromise;
+  if(fcCalendar&&!forza) return Promise.resolve(fcCalendar);
+  fcCalendarPromise=caricaSnapshotPiuRecente("data/serie-a-giornate.json",d=>validFcCalendar(d))
+    .then(data=>{
+      if(!fcCalendar||Date.parse(data.updatedAt)>=Date.parse(fcCalendar.updatedAt)) fcCalendar=data;
+      if(espnState.active==="fixtures"){
+        espnDisegnaPartite();
+        espnSetStatus(espnStatoSalvato("fixtures"));
+      }
+      return fcCalendar;
+    })
+    .catch(error=>{console.warn("Calendario Fantacalcio.it non disponibile",error.message);return fcCalendar;})
+    .finally(()=>{fcCalendarPromise=null;});
+  return fcCalendarPromise;
+}
+function votiGiornataCorrente(){
+  const round=currentFcRound(fcCalendar);
+  return validFcGrades(votiState.data,round)?votiState.data:null;
+}
+function partiteGiornata(round){
+  const grades=votiGiornataCorrente();
+  if(!grades||grades.matchday!==round.matchday||Date.parse(grades.updatedAt)<Date.parse(fcCalendar.updatedAt)) return round.matches;
+  const byMatch=new Map(grades.matches.map(m=>[m.id,m]));
+  return round.matches.map(m=>{
+    const updated=byMatch.get(m.id);
+    return updated?{...m,state:updated.state,score:updated.score}:m;
+  });
+}
+const ETICHETTE_PARTITA={pre:"Da giocare",in:"In corso",post:"Terminata",postponed:"Rinviata",suspended:"Sospesa"};
+function htmlPartitaGiornata(p){
+  const date=espnDataOra(`${p.date}T12:00:00Z`,true);
+  const logo=t=>typeof t.logo==="string"&&t.logo.startsWith("https://content.fantacalcio.it/")
+    ?`<img class="espn-team-logo" src="${espnEsc(t.logo)}" alt="" loading="lazy">`:"<span></span>";
+  return `<article class="espn-fixture">
+    <div class="espn-kickoff">${espnEsc(date)} · ${espnEsc(p.time||"orario da definire")}</div>
+    <div class="espn-team-row">${logo(p.home)}<span>${espnEsc(p.home.name)}</span><span>${Array.isArray(p.score)?espnEsc(p.score[0]):"casa"}</span></div>
+    <div class="espn-team-row">${logo(p.away)}<span>${espnEsc(p.away.name)}</span><span>${Array.isArray(p.score)?espnEsc(p.score[1]):"trasferta"}</span></div>
+    <div class="espn-venue"><span class="round-fixture-state" data-live="${p.state==="in"}">${ETICHETTE_PARTITA[p.state]}</span>${p.venue?` · ${espnEsc(p.venue)}`:""}</div>
+  </article>`;
+}
+function roundInVista(){
+  const corrente=currentFcRound(fcCalendar);
+  return fcCalendar?.rounds.find(r=>r.matchday===giornataVista)||corrente||fcCalendar?.rounds.find(r=>r.matchday===fcCalendar.activeMatchday);
+}
+function cambiaGiornata(delta){
+  const rounds=fcCalendar?.rounds.slice().sort((a,b)=>a.matchday-b.matchday)||[];
+  const index=rounds.findIndex(r=>r.matchday===roundInVista()?.matchday);
+  if(index<0||!rounds[index+delta]) return;
+  giornataVista=rounds[index+delta].matchday;
+  espnDisegnaPartite();
+}
 function espnDisegnaPartite(){
   const box=document.getElementById("espn-fixtures");
   const count=document.getElementById("espn-fixtures-count");
   if(!box) return;
-  const partite=espnState.fixtures;
-  if(count) count.textContent=partite.length?`${partite.length} incontri disponibili`:"";
+  const nav=document.getElementById("round-nav"),round=roundInVista();
+  if(nav) nav.hidden=!round;
+  if(round){
+    const rounds=fcCalendar.rounds.slice().sort((a,b)=>a.matchday-b.matchday);
+    const index=rounds.findIndex(r=>r.matchday===round.matchday);
+    const corrente=currentFcRound(fcCalendar)?.matchday===round.matchday;
+    const label=document.getElementById("round-label");
+    label.innerHTML=`Giornata ${round.matchday}<small>${corrente?"Corrente · ":""}Serie A 2026/27</small>`;
+    document.getElementById("round-prev").disabled=index<=0;
+    document.getElementById("round-next").disabled=index>=rounds.length-1;
+    if(count) count.textContent=`${round.matches.length} partite · ${rounds.length} giornate disponibili`;
+    box.innerHTML=partiteGiornata(round).map(htmlPartitaGiornata).join("");
+    disegnaRosa();disegnaFormazione();disegnaFormPicker();
+    return;
+  }
+  const partite=espnState.fixtures.slice(0,10);
+  if(count) count.textContent=partite.length?"Giornate non disponibili · prossime partite ESPN":"";
   if(!partite.length){
     box.innerHTML='<div class="espn-empty">Nessuna partita futura trovata nel feed.</div>';
     disegnaRosa();
@@ -5808,12 +6076,12 @@ async function espnCaricaPartite(forza=false){
     espnState.fixturesUpdatedAt=Date.now();
     espnDisegnaPartite();
     espnSalvaCache();
-    espnSetStatus(`Aggiornato ora · stagione ${data.leagues?.[0]?.season?.displayName||"2026/27"}`);
+    espnSetStatus(fcCalendar?espnStatoSalvato("fixtures"):`Aggiornato ora · stagione ${data.leagues?.[0]?.season?.displayName||"2026/27"}`);
   }catch(err){
     console.warn("Aggiornamento diretto ESPN",err.message);
     espnDisegnaPartite();
-    espnSetError(espnState.fixtures.length?"Collegamento diretto a ESPN non disponibile: mostro la copia salvata, con la sua data di aggiornamento.":"Calendario non disponibile. Avvia l’aggiornamento GitHub o riprova più tardi.");
-    espnSetStatus(espnState.fixtures.length?espnStatoSalvato("fixtures"):"Aggiornamento non riuscito");
+    espnSetError(fcCalendar?"":espnState.fixtures.length?"Collegamento diretto a ESPN non disponibile: mostro la copia salvata, con la sua data di aggiornamento.":"Calendario non disponibile. Avvia l’aggiornamento GitHub o riprova più tardi.");
+    espnSetStatus(fcCalendar||espnState.fixtures.length?espnStatoSalvato("fixtures"):"Aggiornamento non riuscito");
   }
 }
 async function espnCaricaFormazioni(forza=false){
@@ -5863,7 +6131,7 @@ function espnCambiaVista(vista){
   else {
     espnSetError();
     espnDisegnaPartite();
-    if(espnState.fixturesUpdatedAt) espnSetStatus(espnStatoSalvato("fixtures"));
+    if(fcCalendar||espnState.fixturesUpdatedAt) espnSetStatus(espnStatoSalvato("fixtures"));
   }
 }
 function inizializzaEspn(){
@@ -5873,16 +6141,97 @@ function inizializzaEspn(){
   panel.open=localStorage.getItem(panelKey)!=="chiuso";
   panel.addEventListener("toggle",()=>localStorage.setItem(panelKey,panel.open?"aperto":"chiuso"));
   document.querySelectorAll(".espn-tab").forEach(btn=>btn.addEventListener("click",()=>espnCambiaVista(btn.dataset.espnView)));
+  document.getElementById("round-prev").addEventListener("click",()=>cambiaGiornata(-1));
+  document.getElementById("round-next").addEventListener("click",()=>cambiaGiornata(1));
   document.getElementById("espn-refresh")?.addEventListener("click",async()=>{
     const bottone=document.getElementById("espn-refresh");
     bottone.disabled=true;
     try{
       if(espnState.active==="lineups") await espnCaricaFormazioni(true);
-      else await espnCaricaPartite(true);
+      else await Promise.all([caricaGiornate(true),espnCaricaPartite(true)]);
     }finally{bottone.disabled=false;}
   });
+  caricaGiornate();
   espnCaricaPartite();
 }
+
+const votoIt=new Intl.NumberFormat("it-IT",{maximumFractionDigits:2});
+function disegnaVoti(){
+  const list=document.getElementById("voti-list"),status=document.getElementById("voti-status"),select=document.getElementById("voti-fanta-team");
+  if(!list||!status||!select) return;
+  if(votiState.team>=mercato.n) votiState.team=0;
+  const options=Array.from({length:mercato.n},(_,t)=>`<option value="${t}">${espnEsc(nomeTeam(t))}${t===0?" (mia)":""}</option>`).join("");
+  if(select.dataset.options!==options){select.innerHTML=options;select.dataset.options=options;}
+  select.value=String(votiState.team);
+  const round=currentFcRound(fcCalendar),data=votiGiornataCorrente();
+  const prefix=round?`Giornata ${round.matchday} · `:"";
+  document.getElementById("voti-fonte").href=round?`${FC_GRADES_URL}/${FC_SEASON}/${round.matchday}`:FC_GRADES_URL;
+  const roster=acquistiTeam(votiState.team).map(x=>G[x.id]).filter(Boolean)
+    .sort((a,b)=>RUOLI.indexOf(a.r)-RUOLI.indexOf(b.r)||a.n.localeCompare(b.n,"it"));
+  const grades=new Map((data?.grades||[]).map(g=>[g.officialId,g]));
+  const sourceMatches=new Map((data?.matches||[]).map(m=>[m.id,m]));
+  const games=round?partiteGiornata(round):[];
+  const matchById=new Map(games.map(m=>[m.id,m]));
+  const matchByClub=new Map(games.flatMap(m=>[[chiaveSquadra(m.home.name),m],[chiaveSquadra(m.away.name),m]]));
+  const liveStale=Boolean(data&&Date.now()-Date.parse(data.updatedAt)>25*60000);
+  const titolari=votiState.team===0?new Set(idsTitolari()):new Set();
+  const riserve=votiState.team===0?new Set(idsPanchina()):new Set();
+  let withGrade=0;
+  const value=n=>`<span role="cell" class="voti-value ${n===null?"nd":""}">${n===null?"—":votoIt.format(n)}</span>`;
+  const rows=roster.map(g=>{
+    const raw=grades.get(String(g.fcId)),p=matchById.get(raw?.matchId)||matchByClub.get(chiaveSquadra(g.s));
+    // Anche se il calendario è passato a "Terminata", un voto raccolto
+    // durante la gara non diventa ufficialmente pubblicato per deduzione.
+    const provvisorio=(raw?sourceMatches.get(raw.matchId):p)?.state==="in";
+    const voto=provvisorio&&liveStale?null:raw?.vote??null;
+    const fanta=provvisorio&&liveStale?null:raw?.fanta??null;
+    const pubblicato=voto!==null||fanta!==null;
+    if(pubblicato) withGrade++;
+    const stato=pubblicato?(provvisorio?"Live · provvisorio":"Voto pubblicato")
+      :provvisorio?(liveStale?"Rilevazione live non recente":"In corso · voto non pubblicato")
+      :p?.state==="post"?"Voto non disponibile":ETICHETTE_PARTITA[p?.state]||"Voto non disponibile";
+    const slot=titolari.has(g.id)?" · Titolare salvato":riserve.has(g.id)?" · Riserva salvata":"";
+    return `<div role="row" class="voti-row" data-provisional="${provvisorio&&pubblicato}">
+      <span role="cell" class="voti-player"><span class="pallino ${g.r}" aria-label="Ruolo ${g.r}">${g.r}</span>
+      <span><b>${espnEsc(g.n)}</b><small>${espnEsc(g.s)} · ${stato}${slot}</small></span></span>
+      ${value(voto)}${value(fanta)}
+    </div>`;
+  });
+  status.textContent=votiState.loading&&!data?`${prefix}Cerco i voti della Redazione…`
+    :data?`${prefix}${withGrade}/${roster.length} giocatori a voto · rilevazione ${dataListoneIt(data.updatedAt)}${votiState.error?" · aggiornamento non riuscito":""}`
+    :round?`${prefix}Nessun voto ufficiale verificato per questo turno.`
+    :"Giornata corrente non verificabile: i voti non vengono mostrati.";
+  list.innerHTML=rows.length
+    ?'<div role="row" class="voti-row voti-head"><span role="columnheader">Giocatore</span><span role="columnheader" class="voti-value">Voto</span><span role="columnheader" class="voti-value">Fantavoto</span></div>'+rows.join("")
+    :'<div class="espn-empty">Nessun giocatore registrato in questa rosa. Apri Squadre per aggiungerli.</div>';
+}
+async function caricaVoti(forza=false){
+  if(votiState.loading||!forza&&Date.now()-votiState.lastCheck<55000) return;
+  const btn=document.getElementById("voti-refresh");
+  votiState.loading=true;
+  if(btn) btn.disabled=true;
+  disegnaVoti();
+  try{
+    await caricaGiornate(forza||!fcCalendar||Date.now()-Date.parse(fcCalendar.updatedAt)>4*3600000);
+    const round=currentFcRound(fcCalendar);
+    const data=await caricaSnapshotPiuRecente("data/voti-live.json",d=>validFcGrades(d,round));
+    if(!votiGiornataCorrente()||Date.parse(data.updatedAt)>=Date.parse(votiState.data.updatedAt)) votiState.data=data;
+    votiState.error=false;
+    if(espnState.active==="fixtures") espnDisegnaPartite();
+  }catch(error){
+    votiState.error=true;
+    console.warn("Voti ufficiali non disponibili",error.message);
+  }finally{
+    votiState.loading=false;votiState.lastCheck=Date.now();
+    if(btn) btn.disabled=false;
+    disegnaVoti();
+  }
+}
+document.getElementById("voti-fanta-team").addEventListener("change",e=>{votiState.team=Number(e.target.value);disegnaVoti();});
+document.getElementById("voti-refresh").addEventListener("click",()=>caricaVoti(true));
+setInterval(()=>{
+  if(vistaFormazione==="voti"&&formazionePanel?.open&&!document.hidden) caricaVoti();
+},60000);
 
 TENSIONE0=tensioneIniziale();
 aggiorna();
