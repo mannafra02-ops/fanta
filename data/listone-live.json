@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-06T19:20:17.469Z",
+  "updatedAt": "2026-11-07T12:09:59.298Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-06T19:20:17.469Z",
+  "probabilityUpdatedAt": "2026-11-07T12:09:59.298Z",
   "probabilityMatchday": 11,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "CAG",
       "awayCode": "FRO",
       "dateLabel": "sabato 07 novembre, 15:00",
-      "officialUpdatedLabel": "06/11/2026 - 19:51"
+      "officialUpdatedLabel": "07/11/2026 - 09:54"
     },
     {
       "matchId": "18056",
@@ -21,7 +21,7 @@
       "homeCode": "FIO",
       "awayCode": "JUV",
       "dateLabel": "domenica 08 novembre, 20:45",
-      "officialUpdatedLabel": "06/11/2026 - 16:11"
+      "officialUpdatedLabel": "07/11/2026 - 09:55"
     },
     {
       "matchId": "18057",
@@ -29,7 +29,7 @@
       "homeCode": "GEN",
       "awayCode": "MIL",
       "dateLabel": "domenica 08 novembre, 15:00",
-      "officialUpdatedLabel": "06/11/2026 - 15:11"
+      "officialUpdatedLabel": "07/11/2026 - 09:54"
     },
     {
       "matchId": "18058",
@@ -37,7 +37,7 @@
       "homeCode": "INT",
       "awayCode": "COM",
       "dateLabel": "domenica 08 novembre, 18:00",
-      "officialUpdatedLabel": "06/11/2026 - 16:44"
+      "officialUpdatedLabel": "07/11/2026 - 09:54"
     },
     {
       "matchId": "18059",
@@ -45,7 +45,7 @@
       "homeCode": "MON",
       "awayCode": "ATA",
       "dateLabel": "domenica 08 novembre, 15:00",
-      "officialUpdatedLabel": "06/11/2026 - 15:15"
+      "officialUpdatedLabel": "07/11/2026 - 09:54"
     },
     {
       "matchId": "18060",
@@ -53,7 +53,7 @@
       "homeCode": "NAP",
       "awayCode": "LAZ",
       "dateLabel": "domenica 08 novembre, 12:30",
-      "officialUpdatedLabel": "06/11/2026 - 18:38"
+      "officialUpdatedLabel": "07/11/2026 - 12:59"
     },
     {
       "matchId": "18061",
@@ -61,7 +61,7 @@
       "homeCode": "PAR",
       "awayCode": "BOL",
       "dateLabel": "sabato 07 novembre, 18:00",
-      "officialUpdatedLabel": "06/11/2026 - 18:37"
+      "officialUpdatedLabel": "07/11/2026 - 09:54"
     },
     {
       "matchId": "18062",
@@ -69,7 +69,7 @@
       "homeCode": "ROM",
       "awayCode": "SAS",
       "dateLabel": "sabato 07 novembre, 20:45",
-      "officialUpdatedLabel": "06/11/2026 - 18:43"
+      "officialUpdatedLabel": "07/11/2026 - 09:58"
     },
     {
       "matchId": "18063",
@@ -77,7 +77,7 @@
       "homeCode": "TOR",
       "awayCode": "LEC",
       "dateLabel": "sabato 07 novembre, 15:00",
-      "officialUpdatedLabel": "06/11/2026 - 16:40"
+      "officialUpdatedLabel": "07/11/2026 - 11:28"
     },
     {
       "matchId": "18064",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "06/11/2026 - 19:50"
     }
   ],
-  "probabilityPlayerCount": 443,
+  "probabilityPlayerCount": 444,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-06T19:20:17.469Z",
-  "injuredCount": 79,
+  "availabilityUpdatedAt": "2026-11-07T12:09:59.298Z",
+  "injuredCount": 78,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -1129,7 +1129,7 @@
       "sourceOrder": 130,
       "slot": 51,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 65,
+      "startingProbability": 60,
       "probabilityMatchId": "18057",
       "probabilityMatchHash": "GEN-MIL",
       "unavailability": null,
@@ -1333,7 +1333,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla destra dopo una caduta fortuita in partita. Condizioni da monitorare, si confida di riaverlo a disposizione dalla seconda metà di novembre.",
+      "unavailabilityNote": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla destra dopo una caduta fortuita in partita. Condizioni da monitorare durante la sosta Nazionali, si confida di riaverlo a disposizione dalla seconda metà di novembre.",
       "unavailabilityMatchday": 11,
       "unavailabilityMatchHash": "NAP-LAZ"
     },
@@ -2349,13 +2349,13 @@
       "sourceOrder": 114,
       "slot": 112,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "Il centrocampista frenato il 14 ottobre in Champions League contro il Real Madrid da una lesione di primo grado al bicipite femorale destro, tentativo di rientro tra i convocati in campionato dalla prima metà di novembre ma da valutare in settimana a Trigoria in vista di sabato sera contro il Sassuolo.",
-      "unavailabilityMatchday": 11,
-      "unavailabilityMatchHash": "ROM-SAS"
+      "startingProbability": 40,
+      "probabilityMatchId": "18062",
+      "probabilityMatchHash": "ROM-SAS",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "5844",
@@ -3309,13 +3309,13 @@
       "sourceOrder": 315,
       "slot": 160,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
-      "probabilityMatchId": "18056",
-      "probabilityMatchHash": "FIO-JUV",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il difensore affaticato dopo l'impegno di giovedì in Europa League e out per domenica sera al Franchi in campionato contro la Fiorentina. Da valutare nella sosta Nazionali.",
+      "unavailabilityMatchday": 11,
+      "unavailabilityMatchHash": "FIO-JUV"
     },
     {
       "officialId": "5544",
@@ -9029,13 +9029,13 @@
       "sourceOrder": 455,
       "slot": 446,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il difensore alle prese con uno schiacciamento di un nervo al piede, forfait anche lunedì scorso contro il Sassuolo. Da valutare il rientro tra i convocati già domenica contro la Juve al Franchi, altrimenti lo rivedremo dalla 12a di A.",
-      "unavailabilityMatchday": 11,
-      "unavailabilityMatchHash": "FIO-JUV"
+      "startingProbability": 15,
+      "probabilityMatchId": "18056",
+      "probabilityMatchHash": "FIO-JUV",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "7540",
@@ -10349,7 +10349,7 @@
       "sourceOrder": 365,
       "slot": 512,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 60,
+      "startingProbability": 80,
       "probabilityMatchId": "18056",
       "probabilityMatchHash": "FIO-JUV",
       "unavailability": null,
@@ -10909,7 +10909,7 @@
       "sourceOrder": 221,
       "slot": 540,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 20,
+      "startingProbability": 15,
       "probabilityMatchId": "18062",
       "probabilityMatchHash": "ROM-SAS",
       "unavailability": null,
