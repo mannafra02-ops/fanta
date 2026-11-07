@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-07T20:12:48.813Z",
+  "updatedAt": "2026-11-07T23:37:35.203Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-07T20:12:48.813Z",
+  "probabilityUpdatedAt": "2026-11-07T23:37:35.203Z",
   "probabilityMatchday": 11,
   "probabilityMatches": [
     {
@@ -29,7 +29,7 @@
       "homeCode": "GEN",
       "awayCode": "MIL",
       "dateLabel": "domenica 08 novembre, 15:00",
-      "officialUpdatedLabel": "07/11/2026 - 13:30"
+      "officialUpdatedLabel": "07/11/2026 - 22:45"
     },
     {
       "matchId": "18058",
@@ -37,7 +37,7 @@
       "homeCode": "INT",
       "awayCode": "COM",
       "dateLabel": "domenica 08 novembre, 18:00",
-      "officialUpdatedLabel": "07/11/2026 - 19:26"
+      "officialUpdatedLabel": "08/11/2026 - 00:05"
     },
     {
       "matchId": "18059",
@@ -45,7 +45,7 @@
       "homeCode": "MON",
       "awayCode": "ATA",
       "dateLabel": "domenica 08 novembre, 15:00",
-      "officialUpdatedLabel": "07/11/2026 - 15:00"
+      "officialUpdatedLabel": "07/11/2026 - 22:47"
     },
     {
       "matchId": "18060",
@@ -849,7 +849,7 @@
       "sourceOrder": 108,
       "slot": 37,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 70,
       "probabilityMatchId": "18056",
       "probabilityMatchHash": "FIO-JUV",
       "unavailability": null,
@@ -2089,7 +2089,7 @@
       "sourceOrder": 260,
       "slot": 99,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "18058",
       "probabilityMatchHash": "INT-COM",
       "unavailability": null,
@@ -2589,7 +2589,7 @@
       "sourceOrder": 61,
       "slot": 124,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18058",
       "probabilityMatchHash": "INT-COM",
       "unavailability": null,
@@ -4209,7 +4209,7 @@
       "sourceOrder": 125,
       "slot": 205,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 55,
       "probabilityMatchId": "18056",
       "probabilityMatchHash": "FIO-JUV",
       "unavailability": null,
@@ -6129,7 +6129,7 @@
       "sourceOrder": 174,
       "slot": 301,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 55,
       "probabilityMatchId": "18056",
       "probabilityMatchHash": "FIO-JUV",
       "unavailability": null,
@@ -10249,9 +10249,9 @@
       "sourceOrder": 518,
       "slot": 507,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
+      "startingProbability": 15,
+      "probabilityMatchId": "18057",
+      "probabilityMatchHash": "GEN-MIL",
       "unavailability": null,
       "unavailabilityNote": null,
       "unavailabilityMatchday": null,
@@ -11909,9 +11909,9 @@
       "sourceOrder": 595,
       "slot": 590,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 15,
-      "probabilityMatchId": "18057",
-      "probabilityMatchHash": "GEN-MIL",
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
       "unavailability": null,
       "unavailabilityNote": null,
       "unavailabilityMatchday": null,
