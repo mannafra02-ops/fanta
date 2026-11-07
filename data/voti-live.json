@@ -1,0 +1,380 @@
+{
+  "schema": 1,
+  "source": "Fantacalcio.it · Redazione Fantacalcio",
+  "season": "2026-27",
+  "updatedAt": "2026-11-07T11:28:36.002Z",
+  "matchday": 11,
+  "matches": [
+    {
+      "id": "18064",
+      "matchday": 11,
+      "date": "2026-11-06",
+      "time": "20:45",
+      "home": {
+        "id": "138",
+        "name": "Venezia",
+        "slug": "venezia",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/venezia_2026_d.png"
+      },
+      "away": {
+        "id": "19",
+        "name": "Udinese",
+        "slug": "udinese",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/udinese_d.png"
+      },
+      "state": "post",
+      "score": [
+        2,
+        1
+      ],
+      "venue": "Pier Luigi Penzo"
+    },
+    {
+      "id": "18055",
+      "matchday": 11,
+      "date": "2026-11-07",
+      "time": "15:00",
+      "home": {
+        "id": "21",
+        "name": "Cagliari",
+        "slug": "cagliari",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/cagliari_d.png"
+      },
+      "away": {
+        "id": "7",
+        "name": "Frosinone",
+        "slug": "frosinone",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/frosinone_d.png"
+      },
+      "state": "pre",
+      "score": null,
+      "venue": "Sardegna Arena"
+    },
+    {
+      "id": "18063",
+      "matchday": 11,
+      "date": "2026-11-07",
+      "time": "15:00",
+      "home": {
+        "id": "18",
+        "name": "Torino",
+        "slug": "torino",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/torino_d.png"
+      },
+      "away": {
+        "id": "119",
+        "name": "Lecce",
+        "slug": "lecce",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/lecce_d.png"
+      },
+      "state": "pre",
+      "score": null,
+      "venue": "Olimpico"
+    },
+    {
+      "id": "18061",
+      "matchday": 11,
+      "date": "2026-11-07",
+      "time": "18:00",
+      "home": {
+        "id": "107",
+        "name": "Parma",
+        "slug": "parma",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/parma_d.png"
+      },
+      "away": {
+        "id": "2",
+        "name": "Bologna",
+        "slug": "bologna",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/bolognanew_d.png"
+      },
+      "state": "pre",
+      "score": null,
+      "venue": "Tardini"
+    },
+    {
+      "id": "18062",
+      "matchday": 11,
+      "date": "2026-11-07",
+      "time": "20:45",
+      "home": {
+        "id": "15",
+        "name": "Roma",
+        "slug": "roma",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/roma_d.png"
+      },
+      "away": {
+        "id": "17",
+        "name": "Sassuolo",
+        "slug": "sassuolo",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/sassuolooriginal_d.png"
+      },
+      "state": "pre",
+      "score": null,
+      "venue": "Olimpico"
+    },
+    {
+      "id": "18060",
+      "matchday": 11,
+      "date": "2026-11-08",
+      "time": "12:30",
+      "home": {
+        "id": "13",
+        "name": "Napoli",
+        "slug": "napoli",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/napoli_2024_new_d.png"
+      },
+      "away": {
+        "id": "11",
+        "name": "Lazio",
+        "slug": "lazio",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/lazio_d.png"
+      },
+      "state": "pre",
+      "score": null,
+      "venue": "Diego Armando Maradona"
+    },
+    {
+      "id": "18057",
+      "matchday": 11,
+      "date": "2026-11-08",
+      "time": "15:00",
+      "home": {
+        "id": "8",
+        "name": "Genoa",
+        "slug": "genoa",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/genoa_new_d.png"
+      },
+      "away": {
+        "id": "12",
+        "name": "Milan",
+        "slug": "milan",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/milan_d.png"
+      },
+      "state": "pre",
+      "score": null,
+      "venue": "Luigi Ferraris"
+    },
+    {
+      "id": "18059",
+      "matchday": 11,
+      "date": "2026-11-08",
+      "time": "15:00",
+      "home": {
+        "id": "143",
+        "name": "Monza",
+        "slug": "monza",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/monza_2024_d.png"
+      },
+      "away": {
+        "id": "1",
+        "name": "Atalanta",
+        "slug": "atalanta",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/atalanta2026_d.png"
+      },
+      "state": "pre",
+      "score": null,
+      "venue": "U-Power Stadium"
+    },
+    {
+      "id": "18058",
+      "matchday": 11,
+      "date": "2026-11-08",
+      "time": "18:00",
+      "home": {
+        "id": "9",
+        "name": "Inter",
+        "slug": "inter",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/inter2021_d.png"
+      },
+      "away": {
+        "id": "153",
+        "name": "Como",
+        "slug": "como",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/como_2024_d.png"
+      },
+      "state": "pre",
+      "score": null,
+      "venue": "Giuseppe Meazza"
+    },
+    {
+      "id": "18056",
+      "matchday": 11,
+      "date": "2026-11-08",
+      "time": "20:45",
+      "home": {
+        "id": "6",
+        "name": "Fiorentina",
+        "slug": "fiorentina",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/fiorentina2022_d.png"
+      },
+      "away": {
+        "id": "10",
+        "name": "Juventus",
+        "slug": "juventus",
+        "logo": "https://content.fantacalcio.it/web/img/team/ico/juventus_2024_d.png"
+      },
+      "state": "pre",
+      "score": null,
+      "venue": "Artemio Franchi"
+    }
+  ],
+  "grades": [
+    {
+      "officialId": "256",
+      "matchId": "18064",
+      "vote": 6,
+      "fanta": 6
+    },
+    {
+      "officialId": "2766",
+      "matchId": "18064",
+      "vote": 5.5,
+      "fanta": 5.5
+    },
+    {
+      "officialId": "4263",
+      "matchId": "18064",
+      "vote": 5.5,
+      "fanta": 5.5
+    },
+    {
+      "officialId": "4994",
+      "matchId": "18064",
+      "vote": 5.5,
+      "fanta": 5.5
+    },
+    {
+      "officialId": "5319",
+      "matchId": "18064",
+      "vote": 6,
+      "fanta": 6
+    },
+    {
+      "officialId": "5481",
+      "matchId": "18064",
+      "vote": 6.5,
+      "fanta": 7
+    },
+    {
+      "officialId": "5555",
+      "matchId": "18064",
+      "vote": 6,
+      "fanta": 6
+    },
+    {
+      "officialId": "5637",
+      "matchId": "18064",
+      "vote": 5.5,
+      "fanta": 5.5
+    },
+    {
+      "officialId": "5674",
+      "matchId": "18064",
+      "vote": 7,
+      "fanta": 10
+    },
+    {
+      "officialId": "5695",
+      "matchId": "18064",
+      "vote": 6,
+      "fanta": 6
+    },
+    {
+      "officialId": "6021",
+      "matchId": "18064",
+      "vote": 6,
+      "fanta": 6
+    },
+    {
+      "officialId": "6248",
+      "matchId": "18064",
+      "vote": 6.5,
+      "fanta": 5.5
+    },
+    {
+      "officialId": "6462",
+      "matchId": "18064",
+      "vote": 5.5,
+      "fanta": 3.5
+    },
+    {
+      "officialId": "6680",
+      "matchId": "18064",
+      "vote": 5,
+      "fanta": 5
+    },
+    {
+      "officialId": "6684",
+      "matchId": "18064",
+      "vote": 6,
+      "fanta": 6
+    },
+    {
+      "officialId": "6783",
+      "matchId": "18064",
+      "vote": 5.5,
+      "fanta": 5.5
+    },
+    {
+      "officialId": "6821",
+      "matchId": "18064",
+      "vote": 7,
+      "fanta": 8
+    },
+    {
+      "officialId": "6890",
+      "matchId": "18064",
+      "vote": 5,
+      "fanta": 3
+    },
+    {
+      "officialId": "6904",
+      "matchId": "18064",
+      "vote": 6,
+      "fanta": 6
+    },
+    {
+      "officialId": "6925",
+      "matchId": "18064",
+      "vote": 5.5,
+      "fanta": 5
+    },
+    {
+      "officialId": "6956",
+      "matchId": "18064",
+      "vote": 6.5,
+      "fanta": 6.5
+    },
+    {
+      "officialId": "6994",
+      "matchId": "18064",
+      "vote": 7.5,
+      "fanta": 10.5
+    },
+    {
+      "officialId": "7198",
+      "matchId": "18064",
+      "vote": 5.5,
+      "fanta": 5.5
+    },
+    {
+      "officialId": "7418",
+      "matchId": "18064",
+      "vote": 5,
+      "fanta": 5
+    },
+    {
+      "officialId": "7484",
+      "matchId": "18064",
+      "vote": 5.5,
+      "fanta": 5.5
+    },
+    {
+      "officialId": "7538",
+      "matchId": "18064",
+      "vote": 6.5,
+      "fanta": 6.5
+    }
+  ]
+}
