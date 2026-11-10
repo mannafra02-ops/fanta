@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-10T12:34:26.897Z",
+  "updatedAt": "2026-11-10T21:47:01.420Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-10T12:34:26.897Z",
+  "probabilityUpdatedAt": "2026-11-10T21:47:01.420Z",
   "probabilityMatchday": 12,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "INT",
       "dateLabel": "domenica 22 novembre, 20:45",
-      "officialUpdatedLabel": "10/11/2026 - 08:50"
+      "officialUpdatedLabel": "10/11/2026 - 16:01"
     },
     {
       "matchId": "18066",
@@ -37,7 +37,7 @@
       "homeCode": "JUV",
       "awayCode": "VEN",
       "dateLabel": "lunedì 23 novembre, 20:45",
-      "officialUpdatedLabel": "10/11/2026 - 08:50"
+      "officialUpdatedLabel": "10/11/2026 - 19:23"
     },
     {
       "matchId": "18069",
@@ -45,7 +45,7 @@
       "homeCode": "LAZ",
       "awayCode": "LEC",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "10/11/2026 - 08:50"
+      "officialUpdatedLabel": "10/11/2026 - 19:24"
     },
     {
       "matchId": "18070",
@@ -77,7 +77,7 @@
       "homeCode": "PAR",
       "awayCode": "ROM",
       "dateLabel": "sabato 21 novembre, 18:00",
-      "officialUpdatedLabel": "10/11/2026 - 08:51"
+      "officialUpdatedLabel": "10/11/2026 - 16:15"
     },
     {
       "matchId": "18074",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "10/11/2026 - 08:51"
     }
   ],
-  "probabilityPlayerCount": 456,
+  "probabilityPlayerCount": 454,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-09T18:43:33.731Z",
-  "injuredCount": 68,
+  "availabilityUpdatedAt": "2026-11-10T21:47:01.420Z",
+  "injuredCount": 70,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -129,13 +129,13 @@
       "sourceOrder": 2,
       "slot": 1,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "L'argentino sottoposto il 15 ottobre a controlli medici che hanno evidenziato un risentimento muscolare ai flessori della coscia sinistra. Recuperabile dalla metà di novembre, da valutare nei prossimi allenamenti le possibilità di convocazione già alla ripresa del campionato contro l'Atalanta.",
-      "unavailabilityMatchday": 12,
-      "unavailabilityMatchHash": "ATA-INT"
+      "startingProbability": 50,
+      "probabilityMatchId": "18065",
+      "probabilityMatchHash": "ATA-INT",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "254",
@@ -229,13 +229,13 @@
       "sourceOrder": 1,
       "slot": 6,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
-      "probabilityMatchId": "18065",
-      "probabilityMatchHash": "ATA-INT",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il francese condizionato da un problema muscolare al bicipite femorale della coscia. Condizioni da valutare durante questa sosta, a rischio la sua convocazione alla ripresa del campionato contro l'Atalanta.",
+      "unavailabilityMatchday": 12,
+      "unavailabilityMatchHash": "ATA-INT"
     },
     {
       "officialId": "6397",
@@ -749,7 +749,7 @@
       "sourceOrder": 16,
       "slot": 32,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 90,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -873,7 +873,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "Il capitano dei biancocelesti alle prese con una lesione del quadricipite femorale sinistro, rientro in campo da fine novembre.",
+      "unavailabilityNote": "Il capitano dei biancocelesti in rapido recupero da una lesione del quadricipite femorale sinistro, proverà a tornare arruolabile già alla ripresa del campionato contro il Lecce. Condizioni da valutare quotidianamente a Formello in vista della 12a di A.",
       "unavailabilityMatchday": 12,
       "unavailabilityMatchHash": "LAZ-LEC"
     },
@@ -889,7 +889,7 @@
       "sourceOrder": 55,
       "slot": 39,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
+      "startingProbability": 50,
       "probabilityMatchId": "18073",
       "probabilityMatchHash": "PAR-ROM",
       "unavailability": null,
@@ -1489,7 +1489,7 @@
       "sourceOrder": 127,
       "slot": 69,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 30,
       "probabilityMatchId": "18068",
       "probabilityMatchHash": "JUV-VEN",
       "unavailability": null,
@@ -1729,7 +1729,7 @@
       "sourceOrder": 229,
       "slot": 81,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -2609,7 +2609,7 @@
       "sourceOrder": 112,
       "slot": 125,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 70,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -4189,13 +4189,13 @@
       "sourceOrder": 94,
       "slot": 204,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
-      "probabilityMatchId": "18065",
-      "probabilityMatchHash": "ATA-INT",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "L'attaccante ai box per un risentimento muscolare ai flessori della coscia destra, da valutare convocazione contro Atalanta nel prossimo turno di campionato.",
+      "unavailabilityMatchday": 12,
+      "unavailabilityMatchHash": "ATA-INT"
     },
     {
       "officialId": "5685",
@@ -5029,7 +5029,7 @@
       "sourceOrder": 402,
       "slot": 246,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 50,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -6409,7 +6409,7 @@
       "sourceOrder": 219,
       "slot": 315,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 40,
       "probabilityMatchId": "18073",
       "probabilityMatchHash": "PAR-ROM",
       "unavailability": null,
@@ -7109,7 +7109,7 @@
       "sourceOrder": 247,
       "slot": 350,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 55,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -9149,13 +9149,13 @@
       "sourceOrder": 458,
       "slot": 452,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
-      "probabilityMatchId": "18065",
-      "probabilityMatchHash": "ATA-INT",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il centrocampista frenato da una lesione al muscolo adduttore della coscia destra. Out alla ripresa del campionato contro l'Atalanta, tempi di recupero da valutare.",
+      "unavailabilityMatchday": 12,
+      "unavailabilityMatchHash": "ATA-INT"
     },
     {
       "officialId": "6822",
