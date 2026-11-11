@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-10T21:47:01.420Z",
+  "updatedAt": "2026-11-11T16:07:41.965Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-10T21:47:01.420Z",
+  "probabilityUpdatedAt": "2026-11-11T16:07:41.965Z",
   "probabilityMatchday": 12,
   "probabilityMatches": [
     {
@@ -13,15 +13,15 @@
       "homeCode": "ATA",
       "awayCode": "INT",
       "dateLabel": "domenica 22 novembre, 20:45",
-      "officialUpdatedLabel": "10/11/2026 - 16:01"
+      "officialUpdatedLabel": "11/11/2026 - 16:44"
     },
     {
       "matchId": "18066",
       "matchHash": "BOL-UDI",
       "homeCode": "BOL",
       "awayCode": "UDI",
-      "dateLabel": "domenica 22 novembre, 18:00",
-      "officialUpdatedLabel": "10/11/2026 - 08:50"
+      "dateLabel": "domenica 22 novembre, 15:00",
+      "officialUpdatedLabel": "11/11/2026 - 09:04"
     },
     {
       "matchId": "18067",
@@ -29,15 +29,15 @@
       "homeCode": "COM",
       "awayCode": "CAG",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "10/11/2026 - 08:50"
+      "officialUpdatedLabel": "11/11/2026 - 17:06"
     },
     {
       "matchId": "18068",
       "matchHash": "JUV-VEN",
       "homeCode": "JUV",
       "awayCode": "VEN",
-      "dateLabel": "lunedì 23 novembre, 20:45",
-      "officialUpdatedLabel": "10/11/2026 - 19:23"
+      "dateLabel": "domenica 22 novembre, 12:30",
+      "officialUpdatedLabel": "11/11/2026 - 16:29"
     },
     {
       "matchId": "18069",
@@ -45,23 +45,23 @@
       "homeCode": "LAZ",
       "awayCode": "LEC",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "10/11/2026 - 19:24"
+      "officialUpdatedLabel": "11/11/2026 - 10:44"
     },
     {
       "matchId": "18070",
       "matchHash": "MIL-FRO",
       "homeCode": "MIL",
       "awayCode": "FRO",
-      "dateLabel": "domenica 22 novembre, 15:00",
-      "officialUpdatedLabel": "10/11/2026 - 08:51"
+      "dateLabel": "domenica 22 novembre, 18:00",
+      "officialUpdatedLabel": "11/11/2026 - 09:04"
     },
     {
       "matchId": "18071",
       "matchHash": "MON-FIO",
       "homeCode": "MON",
       "awayCode": "FIO",
-      "dateLabel": "lunedì 23 novembre, 18:30",
-      "officialUpdatedLabel": "10/11/2026 - 08:51"
+      "dateLabel": "lunedì 23 novembre, 20:45",
+      "officialUpdatedLabel": "11/11/2026 - 09:04"
     },
     {
       "matchId": "18072",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "TOR",
       "dateLabel": "sabato 21 novembre, 20:45",
-      "officialUpdatedLabel": "10/11/2026 - 08:51"
+      "officialUpdatedLabel": "11/11/2026 - 09:04"
     },
     {
       "matchId": "18073",
@@ -77,22 +77,22 @@
       "homeCode": "PAR",
       "awayCode": "ROM",
       "dateLabel": "sabato 21 novembre, 18:00",
-      "officialUpdatedLabel": "10/11/2026 - 16:15"
+      "officialUpdatedLabel": "11/11/2026 - 15:50"
     },
     {
       "matchId": "18074",
       "matchHash": "SAS-GEN",
       "homeCode": "SAS",
       "awayCode": "GEN",
-      "dateLabel": "domenica 22 novembre, 12:30",
-      "officialUpdatedLabel": "10/11/2026 - 08:51"
+      "dateLabel": "domenica 22 novembre, 15:00",
+      "officialUpdatedLabel": "11/11/2026 - 09:05"
     }
   ],
-  "probabilityPlayerCount": 454,
+  "probabilityPlayerCount": 457,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-10T21:47:01.420Z",
-  "injuredCount": 70,
+  "availabilityUpdatedAt": "2026-11-11T16:07:41.965Z",
+  "injuredCount": 67,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -229,13 +229,13 @@
       "sourceOrder": 1,
       "slot": 6,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "Il francese condizionato da un problema muscolare al bicipite femorale della coscia. Condizioni da valutare durante questa sosta, a rischio la sua convocazione alla ripresa del campionato contro l'Atalanta.",
-      "unavailabilityMatchday": 12,
-      "unavailabilityMatchHash": "ATA-INT"
+      "startingProbability": 50,
+      "probabilityMatchId": "18065",
+      "probabilityMatchHash": "ATA-INT",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "6397",
@@ -869,13 +869,13 @@
       "sourceOrder": 14,
       "slot": 38,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "Il capitano dei biancocelesti in rapido recupero da una lesione del quadricipite femorale sinistro, proverà a tornare arruolabile già alla ripresa del campionato contro il Lecce. Condizioni da valutare quotidianamente a Formello in vista della 12a di A.",
-      "unavailabilityMatchday": 12,
-      "unavailabilityMatchHash": "LAZ-LEC"
+      "startingProbability": 50,
+      "probabilityMatchId": "18069",
+      "probabilityMatchHash": "LAZ-LEC",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "309",
@@ -929,7 +929,7 @@
       "sourceOrder": 74,
       "slot": 41,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 90,
       "probabilityMatchId": "18067",
       "probabilityMatchHash": "COM-CAG",
       "unavailability": null,
@@ -1009,13 +1009,13 @@
       "sourceOrder": 122,
       "slot": 45,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "Il difensore fuori dai convocati nel turno precedente contro il Sassuolo per un risentimento muscolare alla gamba accusato nella rifinitura. Da valutare nella sosta in vista della 12a di campionato contro il Parma al Tardini.",
-      "unavailabilityMatchday": 12,
-      "unavailabilityMatchHash": "PAR-ROM"
+      "startingProbability": 50,
+      "probabilityMatchId": "18073",
+      "probabilityMatchHash": "PAR-ROM",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "5734",
@@ -1309,7 +1309,7 @@
       "sourceOrder": 105,
       "slot": 60,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 30,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -1369,7 +1369,7 @@
       "sourceOrder": 78,
       "slot": 63,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
+      "startingProbability": 55,
       "probabilityMatchId": "18068",
       "probabilityMatchHash": "JUV-VEN",
       "unavailability": null,
@@ -1489,7 +1489,7 @@
       "sourceOrder": 127,
       "slot": 69,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
+      "startingProbability": 35,
       "probabilityMatchId": "18068",
       "probabilityMatchHash": "JUV-VEN",
       "unavailability": null,
@@ -3349,7 +3349,7 @@
       "sourceOrder": 248,
       "slot": 162,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 40,
       "probabilityMatchId": "18069",
       "probabilityMatchHash": "LAZ-LEC",
       "unavailability": null,
@@ -3789,7 +3789,7 @@
       "sourceOrder": 257,
       "slot": 184,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
+      "startingProbability": 5,
       "probabilityMatchId": "18067",
       "probabilityMatchHash": "COM-CAG",
       "unavailability": null,
@@ -4193,7 +4193,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "L'attaccante ai box per un risentimento muscolare ai flessori della coscia destra, da valutare convocazione contro Atalanta nel prossimo turno di campionato.",
+      "unavailabilityNote": "L'attaccante ai box per un risentimento muscolare ai flessori della coscia destra, rientro possibile dall'inizio di dicembre.",
       "unavailabilityMatchday": 12,
       "unavailabilityMatchHash": "ATA-INT"
     },
@@ -4233,7 +4233,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il terzino dei biancocelesti costretto al cambio l'8 novembre a Napoli a causa di un guaio muscolare al flessore della gamba. Condizioni da valutare, verso il forfait alla ripresa del campionato contro il Lecce all'Olimpico di Roma.",
+      "unavailabilityNote": "il terzino dei biancocelesti costretto al cambio l'8 novembre a Napoli a causa di un guaio muscolare al flessore della gamba. Condizioni da valutare, ma darà forfait alla ripresa del campionato contro il Lecce all'Olimpico di Roma.",
       "unavailabilityMatchday": 12,
       "unavailabilityMatchHash": "LAZ-LEC"
     },
@@ -5029,7 +5029,7 @@
       "sourceOrder": 402,
       "slot": 246,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 40,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -9169,7 +9169,7 @@
       "sourceOrder": 522,
       "slot": 453,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 40,
       "probabilityMatchId": "18068",
       "probabilityMatchHash": "JUV-VEN",
       "unavailability": null,
