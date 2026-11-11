@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-11T16:07:41.965Z",
+  "updatedAt": "2026-11-11T22:40:15.721Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-11T16:07:41.965Z",
+  "probabilityUpdatedAt": "2026-11-11T22:40:15.721Z",
   "probabilityMatchday": 12,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "INT",
       "dateLabel": "domenica 22 novembre, 20:45",
-      "officialUpdatedLabel": "11/11/2026 - 16:44"
+      "officialUpdatedLabel": "11/11/2026 - 20:10"
     },
     {
       "matchId": "18066",
@@ -45,7 +45,7 @@
       "homeCode": "LAZ",
       "awayCode": "LEC",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "11/11/2026 - 10:44"
+      "officialUpdatedLabel": "11/11/2026 - 19:28"
     },
     {
       "matchId": "18070",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "11/11/2026 - 09:05"
     }
   ],
-  "probabilityPlayerCount": 457,
+  "probabilityPlayerCount": 459,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-11T16:07:41.965Z",
-  "injuredCount": 67,
+  "availabilityUpdatedAt": "2026-11-11T22:40:15.721Z",
+  "injuredCount": 65,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -1309,7 +1309,7 @@
       "sourceOrder": 105,
       "slot": 60,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
+      "startingProbability": 50,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -5809,7 +5809,7 @@
       "sourceOrder": 297,
       "slot": 285,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 50,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -7249,13 +7249,13 @@
       "sourceOrder": 534,
       "slot": 357,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "Il centrocampista ha lamentato un sovraccarico muscolare alla gamba e non ha preso parte alle ultime sfide di campionato. Recuperabile dalla seconda metà di novembre.",
-      "unavailabilityMatchday": 12,
-      "unavailabilityMatchHash": "LAZ-LEC"
+      "startingProbability": 35,
+      "probabilityMatchId": "18069",
+      "probabilityMatchHash": "LAZ-LEC",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "7318",
@@ -9009,13 +9009,13 @@
       "sourceOrder": 493,
       "slot": 445,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il calciatore in ripresa dalla rottura del legamento crociato, può tornare arruolabile dalla fine di novembre.",
-      "unavailabilityMatchday": 12,
-      "unavailabilityMatchHash": "COM-CAG"
+      "startingProbability": 20,
+      "probabilityMatchId": "18067",
+      "probabilityMatchHash": "COM-CAG",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "4378",
@@ -12109,7 +12109,7 @@
       "sourceOrder": 601,
       "slot": 600,
       "addedAt": "2026-11-06T14:13:40.059Z",
-      "startingProbability": 50,
+      "startingProbability": 35,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
