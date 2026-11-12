@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-11T22:40:15.721Z",
+  "updatedAt": "2026-11-12T16:46:13.216Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-11T22:40:15.721Z",
+  "probabilityUpdatedAt": "2026-11-12T16:46:13.216Z",
   "probabilityMatchday": 12,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "INT",
       "dateLabel": "domenica 22 novembre, 20:45",
-      "officialUpdatedLabel": "11/11/2026 - 20:10"
+      "officialUpdatedLabel": "12/11/2026 - 14:04"
     },
     {
       "matchId": "18066",
@@ -21,7 +21,7 @@
       "homeCode": "BOL",
       "awayCode": "UDI",
       "dateLabel": "domenica 22 novembre, 15:00",
-      "officialUpdatedLabel": "11/11/2026 - 09:04"
+      "officialUpdatedLabel": "12/11/2026 - 14:38"
     },
     {
       "matchId": "18067",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "CAG",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "11/11/2026 - 17:06"
+      "officialUpdatedLabel": "12/11/2026 - 12:29"
     },
     {
       "matchId": "18068",
@@ -37,7 +37,7 @@
       "homeCode": "JUV",
       "awayCode": "VEN",
       "dateLabel": "domenica 22 novembre, 12:30",
-      "officialUpdatedLabel": "11/11/2026 - 16:29"
+      "officialUpdatedLabel": "12/11/2026 - 12:29"
     },
     {
       "matchId": "18069",
@@ -45,7 +45,7 @@
       "homeCode": "LAZ",
       "awayCode": "LEC",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "11/11/2026 - 19:28"
+      "officialUpdatedLabel": "12/11/2026 - 14:05"
     },
     {
       "matchId": "18070",
@@ -53,7 +53,7 @@
       "homeCode": "MIL",
       "awayCode": "FRO",
       "dateLabel": "domenica 22 novembre, 18:00",
-      "officialUpdatedLabel": "11/11/2026 - 09:04"
+      "officialUpdatedLabel": "12/11/2026 - 12:29"
     },
     {
       "matchId": "18071",
@@ -61,7 +61,7 @@
       "homeCode": "MON",
       "awayCode": "FIO",
       "dateLabel": "lunedì 23 novembre, 20:45",
-      "officialUpdatedLabel": "11/11/2026 - 09:04"
+      "officialUpdatedLabel": "12/11/2026 - 12:29"
     },
     {
       "matchId": "18072",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "TOR",
       "dateLabel": "sabato 21 novembre, 20:45",
-      "officialUpdatedLabel": "11/11/2026 - 09:04"
+      "officialUpdatedLabel": "12/11/2026 - 12:29"
     },
     {
       "matchId": "18073",
@@ -77,7 +77,7 @@
       "homeCode": "PAR",
       "awayCode": "ROM",
       "dateLabel": "sabato 21 novembre, 18:00",
-      "officialUpdatedLabel": "11/11/2026 - 15:50"
+      "officialUpdatedLabel": "12/11/2026 - 12:29"
     },
     {
       "matchId": "18074",
@@ -85,14 +85,14 @@
       "homeCode": "SAS",
       "awayCode": "GEN",
       "dateLabel": "domenica 22 novembre, 15:00",
-      "officialUpdatedLabel": "11/11/2026 - 09:05"
+      "officialUpdatedLabel": "12/11/2026 - 14:39"
     }
   ],
-  "probabilityPlayerCount": 459,
+  "probabilityPlayerCount": 461,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-11T22:40:15.721Z",
-  "injuredCount": 65,
+  "availabilityUpdatedAt": "2026-11-12T16:46:13.216Z",
+  "injuredCount": 63,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -1329,13 +1329,13 @@
       "sourceOrder": 151,
       "slot": 61,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla destra dopo una caduta fortuita in partita. Verrà testato sul campo in allenamento durante la sosta Nazionali, si confida di riaverlo a disposizione dalla seconda metà di novembre.",
-      "unavailabilityMatchday": 12,
-      "unavailabilityMatchHash": "LAZ-LEC"
+      "startingProbability": 35,
+      "probabilityMatchId": "18069",
+      "probabilityMatchHash": "LAZ-LEC",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "6217",
@@ -6109,13 +6109,13 @@
       "sourceOrder": 358,
       "slot": 300,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "l'esterno nerazzurro sottoposto il 23 ottobre a esami medici che hanno evidenziato un risentimento all'adduttore lungo della coscia sinistra. Tentativo di recupero dalla seconda metà di novembre.",
-      "unavailabilityMatchday": 12,
-      "unavailabilityMatchHash": "ATA-INT"
+      "startingProbability": 30,
+      "probabilityMatchId": "18065",
+      "probabilityMatchHash": "ATA-INT",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "5831",
