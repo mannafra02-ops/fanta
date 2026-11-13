@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-12T16:46:13.216Z",
+  "updatedAt": "2026-11-13T01:03:09.776Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-12T16:46:13.216Z",
+  "probabilityUpdatedAt": "2026-11-13T01:03:09.776Z",
   "probabilityMatchday": 12,
   "probabilityMatches": [
     {
@@ -45,7 +45,7 @@
       "homeCode": "LAZ",
       "awayCode": "LEC",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "12/11/2026 - 14:05"
+      "officialUpdatedLabel": "12/11/2026 - 22:11"
     },
     {
       "matchId": "18070",
@@ -88,11 +88,11 @@
       "officialUpdatedLabel": "12/11/2026 - 14:39"
     }
   ],
-  "probabilityPlayerCount": 461,
+  "probabilityPlayerCount": 460,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-12T16:46:13.216Z",
-  "injuredCount": 63,
+  "availabilityUpdatedAt": "2026-11-13T01:03:09.776Z",
+  "injuredCount": 64,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -5149,13 +5149,13 @@
       "sourceOrder": 406,
       "slot": 252,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
-      "probabilityMatchId": "18069",
-      "probabilityMatchHash": "LAZ-LEC",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il montenegrino frenato ancora da un fastidio muscolare alla gamba, condizioni che restano valutare ma non ci sarà nel prossimo turno di campionato.",
+      "unavailabilityMatchday": 12,
+      "unavailabilityMatchHash": "LAZ-LEC"
     },
     {
       "officialId": "6556",
