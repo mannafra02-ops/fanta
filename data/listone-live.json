@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-13T12:08:29.620Z",
+  "updatedAt": "2026-11-13T19:37:28.644Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-13T12:08:29.620Z",
+  "probabilityUpdatedAt": "2026-11-13T19:37:28.644Z",
   "probabilityMatchday": 12,
   "probabilityMatches": [
     {
@@ -45,7 +45,7 @@
       "homeCode": "LAZ",
       "awayCode": "LEC",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "13/11/2026 - 10:39"
+      "officialUpdatedLabel": "13/11/2026 - 17:30"
     },
     {
       "matchId": "18070",
@@ -61,7 +61,7 @@
       "homeCode": "MON",
       "awayCode": "FIO",
       "dateLabel": "lunedì 23 novembre, 20:45",
-      "officialUpdatedLabel": "13/11/2026 - 09:08"
+      "officialUpdatedLabel": "13/11/2026 - 14:12"
     },
     {
       "matchId": "18072",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "TOR",
       "dateLabel": "sabato 21 novembre, 20:45",
-      "officialUpdatedLabel": "13/11/2026 - 09:08"
+      "officialUpdatedLabel": "13/11/2026 - 14:05"
     },
     {
       "matchId": "18073",
@@ -949,7 +949,7 @@
       "sourceOrder": 173,
       "slot": 42,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 25,
+      "startingProbability": 35,
       "probabilityMatchId": "18071",
       "probabilityMatchHash": "MON-FIO",
       "unavailability": null,
@@ -1929,7 +1929,7 @@
       "sourceOrder": 51,
       "slot": 91,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 70,
       "probabilityMatchId": "18069",
       "probabilityMatchHash": "LAZ-LEC",
       "unavailability": null,
@@ -3729,7 +3729,7 @@
       "sourceOrder": 102,
       "slot": 181,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 70,
       "probabilityMatchId": "18072",
       "probabilityMatchHash": "NAP-TOR",
       "unavailability": null,
