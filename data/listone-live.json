@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-13T01:03:09.776Z",
+  "updatedAt": "2026-11-13T12:08:29.620Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-13T01:03:09.776Z",
+  "probabilityUpdatedAt": "2026-11-13T12:08:29.620Z",
   "probabilityMatchday": 12,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "INT",
       "dateLabel": "domenica 22 novembre, 20:45",
-      "officialUpdatedLabel": "12/11/2026 - 14:04"
+      "officialUpdatedLabel": "13/11/2026 - 10:40"
     },
     {
       "matchId": "18066",
@@ -21,7 +21,7 @@
       "homeCode": "BOL",
       "awayCode": "UDI",
       "dateLabel": "domenica 22 novembre, 15:00",
-      "officialUpdatedLabel": "12/11/2026 - 14:38"
+      "officialUpdatedLabel": "13/11/2026 - 10:41"
     },
     {
       "matchId": "18067",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "CAG",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "12/11/2026 - 12:29"
+      "officialUpdatedLabel": "13/11/2026 - 10:42"
     },
     {
       "matchId": "18068",
@@ -37,7 +37,7 @@
       "homeCode": "JUV",
       "awayCode": "VEN",
       "dateLabel": "domenica 22 novembre, 12:30",
-      "officialUpdatedLabel": "12/11/2026 - 12:29"
+      "officialUpdatedLabel": "13/11/2026 - 10:39"
     },
     {
       "matchId": "18069",
@@ -45,7 +45,7 @@
       "homeCode": "LAZ",
       "awayCode": "LEC",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "12/11/2026 - 22:11"
+      "officialUpdatedLabel": "13/11/2026 - 10:39"
     },
     {
       "matchId": "18070",
@@ -53,7 +53,7 @@
       "homeCode": "MIL",
       "awayCode": "FRO",
       "dateLabel": "domenica 22 novembre, 18:00",
-      "officialUpdatedLabel": "12/11/2026 - 12:29"
+      "officialUpdatedLabel": "13/11/2026 - 09:08"
     },
     {
       "matchId": "18071",
@@ -61,7 +61,7 @@
       "homeCode": "MON",
       "awayCode": "FIO",
       "dateLabel": "lunedì 23 novembre, 20:45",
-      "officialUpdatedLabel": "12/11/2026 - 12:29"
+      "officialUpdatedLabel": "13/11/2026 - 09:08"
     },
     {
       "matchId": "18072",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "TOR",
       "dateLabel": "sabato 21 novembre, 20:45",
-      "officialUpdatedLabel": "12/11/2026 - 12:29"
+      "officialUpdatedLabel": "13/11/2026 - 09:08"
     },
     {
       "matchId": "18073",
@@ -77,7 +77,7 @@
       "homeCode": "PAR",
       "awayCode": "ROM",
       "dateLabel": "sabato 21 novembre, 18:00",
-      "officialUpdatedLabel": "12/11/2026 - 12:29"
+      "officialUpdatedLabel": "13/11/2026 - 09:08"
     },
     {
       "matchId": "18074",
@@ -85,14 +85,14 @@
       "homeCode": "SAS",
       "awayCode": "GEN",
       "dateLabel": "domenica 22 novembre, 15:00",
-      "officialUpdatedLabel": "12/11/2026 - 14:39"
+      "officialUpdatedLabel": "13/11/2026 - 10:41"
     }
   ],
-  "probabilityPlayerCount": 460,
+  "probabilityPlayerCount": 461,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-13T01:03:09.776Z",
-  "injuredCount": 64,
+  "availabilityUpdatedAt": "2026-11-13T12:08:29.620Z",
+  "injuredCount": 63,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -229,7 +229,7 @@
       "sourceOrder": 1,
       "slot": 6,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 70,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -2609,7 +2609,7 @@
       "sourceOrder": 112,
       "slot": 125,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 60,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -4233,7 +4233,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il terzino dei biancocelesti costretto al cambio l'8 novembre a Napoli a causa di un guaio muscolare al flessore della gamba. Condizioni da valutare, ma darà forfait alla ripresa del campionato contro il Lecce all'Olimpico di Roma.",
+      "unavailabilityNote": "il terzino dei biancocelesti costretto al cambio l'8 novembre a Napoli a causa di un guaio muscolare al flessore della gamba. Recuperabile dalla metà di dicembre, proverà a esserci nel derby.",
       "unavailabilityMatchday": 12,
       "unavailabilityMatchHash": "LAZ-LEC"
     },
@@ -5693,7 +5693,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il difensore KO l'8 novembre a Napoli vittima di un guaio muscolare al flessore della gamba. Condizioni da valutare, verso il forfait alla ripresa del campionato contro il Lecce all'Olimpico di Roma.",
+      "unavailabilityNote": "il difensore KO l'8 novembre a Napoli vittima di una lesione muscolare di secondo grado al flessore della gamba. Recuperabile dalla seconda metà di dicembre.",
       "unavailabilityMatchday": 12,
       "unavailabilityMatchHash": "LAZ-LEC"
     },
@@ -11989,13 +11989,13 @@
       "sourceOrder": 197,
       "slot": 594,
       "addedAt": "2026-11-06T14:13:40.056Z",
-      "startingProbability": null,
-      "probabilityMatchId": null,
-      "probabilityMatchHash": null,
-      "unavailability": "injured",
-      "unavailabilityNote": "il difensore sostituito nell'intervallo della sfida contro il Lecce (18 ottobre) per un risentimento muscolare al polpaccio destro. Recuperabile dalla metà di novembre e ora da valutare il rientro tra i convocati già nel prossimo turno a Bologna in campionato.",
-      "unavailabilityMatchday": 12,
-      "unavailabilityMatchHash": "BOL-UDI"
+      "startingProbability": 30,
+      "probabilityMatchId": "18066",
+      "probabilityMatchHash": "BOL-UDI",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
     },
     {
       "officialId": "2525",
