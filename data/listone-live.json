@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-14T11:25:36.296Z",
+  "updatedAt": "2026-11-14T17:57:51.244Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-14T11:25:36.296Z",
+  "probabilityUpdatedAt": "2026-11-14T17:57:51.244Z",
   "probabilityMatchday": 12,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "INT",
       "dateLabel": "domenica 22 novembre, 20:45",
-      "officialUpdatedLabel": "14/11/2026 - 08:54"
+      "officialUpdatedLabel": "14/11/2026 - 17:02"
     },
     {
       "matchId": "18066",
@@ -21,7 +21,7 @@
       "homeCode": "BOL",
       "awayCode": "UDI",
       "dateLabel": "domenica 22 novembre, 15:00",
-      "officialUpdatedLabel": "14/11/2026 - 08:54"
+      "officialUpdatedLabel": "14/11/2026 - 14:19"
     },
     {
       "matchId": "18067",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "CAG",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "14/11/2026 - 08:54"
+      "officialUpdatedLabel": "14/11/2026 - 18:47"
     },
     {
       "matchId": "18068",
@@ -45,7 +45,7 @@
       "homeCode": "LAZ",
       "awayCode": "LEC",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "14/11/2026 - 10:15"
+      "officialUpdatedLabel": "14/11/2026 - 12:42"
     },
     {
       "matchId": "18070",
@@ -61,7 +61,7 @@
       "homeCode": "MON",
       "awayCode": "FIO",
       "dateLabel": "lunedì 23 novembre, 20:45",
-      "officialUpdatedLabel": "14/11/2026 - 08:54"
+      "officialUpdatedLabel": "14/11/2026 - 18:49"
     },
     {
       "matchId": "18072",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "TOR",
       "dateLabel": "sabato 21 novembre, 20:45",
-      "officialUpdatedLabel": "14/11/2026 - 08:54"
+      "officialUpdatedLabel": "14/11/2026 - 18:51"
     },
     {
       "matchId": "18073",
@@ -77,7 +77,7 @@
       "homeCode": "PAR",
       "awayCode": "ROM",
       "dateLabel": "sabato 21 novembre, 18:00",
-      "officialUpdatedLabel": "14/11/2026 - 08:54"
+      "officialUpdatedLabel": "14/11/2026 - 18:51"
     },
     {
       "matchId": "18074",
@@ -91,7 +91,7 @@
   "probabilityPlayerCount": 460,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-14T00:52:02.632Z",
+  "availabilityUpdatedAt": "2026-11-14T17:57:51.244Z",
   "injuredCount": 64,
   "suspendedCount": 2,
   "activeCount": 603,
@@ -289,7 +289,7 @@
       "sourceOrder": 18,
       "slot": 9,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 80,
       "probabilityMatchId": "18066",
       "probabilityMatchHash": "BOL-UDI",
       "unavailability": null,
@@ -409,7 +409,7 @@
       "sourceOrder": 12,
       "slot": 15,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 70,
       "probabilityMatchId": "18067",
       "probabilityMatchHash": "COM-CAG",
       "unavailability": null,
@@ -1549,7 +1549,7 @@
       "sourceOrder": 31,
       "slot": 72,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 70,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -1929,7 +1929,7 @@
       "sourceOrder": 51,
       "slot": 91,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 50,
       "probabilityMatchId": "18069",
       "probabilityMatchHash": "LAZ-LEC",
       "unavailability": null,
@@ -2149,7 +2149,7 @@
       "sourceOrder": 41,
       "slot": 102,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 70,
       "probabilityMatchId": "18066",
       "probabilityMatchHash": "BOL-UDI",
       "unavailability": null,
@@ -3109,7 +3109,7 @@
       "sourceOrder": 72,
       "slot": 150,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 50,
       "probabilityMatchId": "18066",
       "probabilityMatchHash": "BOL-UDI",
       "unavailability": null,
@@ -3749,7 +3749,7 @@
       "sourceOrder": 336,
       "slot": 182,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 20,
       "probabilityMatchId": "18073",
       "probabilityMatchHash": "PAR-ROM",
       "unavailability": null,
@@ -4249,7 +4249,7 @@
       "sourceOrder": 315,
       "slot": 207,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 55,
       "probabilityMatchId": "18069",
       "probabilityMatchHash": "LAZ-LEC",
       "unavailability": null,
@@ -5129,7 +5129,7 @@
       "sourceOrder": 209,
       "slot": 251,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 75,
+      "startingProbability": 85,
       "probabilityMatchId": "18069",
       "probabilityMatchHash": "LAZ-LEC",
       "unavailability": null,
@@ -5269,7 +5269,7 @@
       "sourceOrder": 414,
       "slot": 258,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 55,
       "probabilityMatchId": "18071",
       "probabilityMatchHash": "MON-FIO",
       "unavailability": null,
@@ -5589,7 +5589,7 @@
       "sourceOrder": 87,
       "slot": 274,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 30,
       "probabilityMatchId": "18071",
       "probabilityMatchHash": "MON-FIO",
       "unavailability": null,
@@ -5693,7 +5693,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "il difensore KO l'8 novembre a Napoli vittima di una lesione muscolare di secondo grado al flessore della gamba. Recuperabile dalla seconda metà di dicembre.",
+      "unavailabilityNote": "il difensore KO l'8 novembre a Napoli vittima di una lesione muscolare di secondo grado al flessore della gamba. Recuperabile dalla fine di dicembre.",
       "unavailabilityMatchday": 12,
       "unavailabilityMatchHash": "LAZ-LEC"
     },
@@ -5749,7 +5749,7 @@
       "sourceOrder": 234,
       "slot": 282,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 70,
       "probabilityMatchId": "18071",
       "probabilityMatchHash": "MON-FIO",
       "unavailability": null,
@@ -7189,7 +7189,7 @@
       "sourceOrder": 115,
       "slot": 354,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 80,
       "probabilityMatchId": "18069",
       "probabilityMatchHash": "LAZ-LEC",
       "unavailability": null,
@@ -8349,7 +8349,7 @@
       "sourceOrder": 527,
       "slot": 412,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18069",
       "probabilityMatchHash": "LAZ-LEC",
       "unavailability": null,
@@ -9529,7 +9529,7 @@
       "sourceOrder": 437,
       "slot": 471,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 70,
       "probabilityMatchId": "18073",
       "probabilityMatchHash": "PAR-ROM",
       "unavailability": null,
