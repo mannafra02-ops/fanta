@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-15T15:38:01.770Z",
+  "updatedAt": "2026-11-15T21:01:00.750Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-15T15:38:01.770Z",
+  "probabilityUpdatedAt": "2026-11-15T21:01:00.750Z",
   "probabilityMatchday": 12,
   "probabilityMatches": [
     {
@@ -53,7 +53,7 @@
       "homeCode": "MIL",
       "awayCode": "FRO",
       "dateLabel": "domenica 22 novembre, 18:00",
-      "officialUpdatedLabel": "15/11/2026 - 10:11"
+      "officialUpdatedLabel": "15/11/2026 - 22:00"
     },
     {
       "matchId": "18071",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "TOR",
       "dateLabel": "sabato 21 novembre, 20:45",
-      "officialUpdatedLabel": "15/11/2026 - 10:11"
+      "officialUpdatedLabel": "15/11/2026 - 21:13"
     },
     {
       "matchId": "18073",
@@ -85,7 +85,7 @@
       "homeCode": "SAS",
       "awayCode": "GEN",
       "dateLabel": "domenica 22 novembre, 15:00",
-      "officialUpdatedLabel": "15/11/2026 - 10:11"
+      "officialUpdatedLabel": "15/11/2026 - 20:35"
     }
   ],
   "probabilityPlayerCount": 460,
@@ -989,7 +989,7 @@
       "sourceOrder": 80,
       "slot": 44,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 70,
       "probabilityMatchId": "18070",
       "probabilityMatchHash": "MIL-FRO",
       "unavailability": null,
@@ -1449,7 +1449,7 @@
       "sourceOrder": 141,
       "slot": 67,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 70,
       "probabilityMatchId": "18072",
       "probabilityMatchHash": "NAP-TOR",
       "unavailability": null,
@@ -4429,7 +4429,7 @@
       "sourceOrder": 423,
       "slot": 216,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 80,
       "probabilityMatchId": "18074",
       "probabilityMatchHash": "SAS-GEN",
       "unavailability": null,
@@ -4489,7 +4489,7 @@
       "sourceOrder": 125,
       "slot": 219,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 55,
       "probabilityMatchId": "18074",
       "probabilityMatchHash": "SAS-GEN",
       "unavailability": null,
@@ -5369,7 +5369,7 @@
       "sourceOrder": 139,
       "slot": 263,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 70,
       "probabilityMatchId": "18074",
       "probabilityMatchHash": "SAS-GEN",
       "unavailability": null,
@@ -10989,7 +10989,7 @@
       "sourceOrder": 424,
       "slot": 544,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 30,
+      "startingProbability": 20,
       "probabilityMatchId": "18074",
       "probabilityMatchHash": "SAS-GEN",
       "unavailability": null,
