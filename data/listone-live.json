@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-16T18:28:21.482Z",
+  "updatedAt": "2026-11-17T13:17:47.681Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-16T18:28:21.482Z",
+  "probabilityUpdatedAt": "2026-11-17T13:17:47.681Z",
   "probabilityMatchday": 12,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "ATA",
       "awayCode": "INT",
       "dateLabel": "domenica 22 novembre, 20:45",
-      "officialUpdatedLabel": "16/11/2026 - 11:50"
+      "officialUpdatedLabel": "17/11/2026 - 12:22"
     },
     {
       "matchId": "18066",
@@ -21,7 +21,7 @@
       "homeCode": "BOL",
       "awayCode": "UDI",
       "dateLabel": "domenica 22 novembre, 15:00",
-      "officialUpdatedLabel": "16/11/2026 - 10:26"
+      "officialUpdatedLabel": "17/11/2026 - 08:53"
     },
     {
       "matchId": "18067",
@@ -29,7 +29,7 @@
       "homeCode": "COM",
       "awayCode": "CAG",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "16/11/2026 - 10:26"
+      "officialUpdatedLabel": "17/11/2026 - 08:53"
     },
     {
       "matchId": "18068",
@@ -37,7 +37,7 @@
       "homeCode": "JUV",
       "awayCode": "VEN",
       "dateLabel": "domenica 22 novembre, 12:30",
-      "officialUpdatedLabel": "16/11/2026 - 10:28"
+      "officialUpdatedLabel": "17/11/2026 - 13:46"
     },
     {
       "matchId": "18069",
@@ -45,7 +45,7 @@
       "homeCode": "LAZ",
       "awayCode": "LEC",
       "dateLabel": "sabato 21 novembre, 15:00",
-      "officialUpdatedLabel": "16/11/2026 - 10:26"
+      "officialUpdatedLabel": "17/11/2026 - 12:22"
     },
     {
       "matchId": "18070",
@@ -53,7 +53,7 @@
       "homeCode": "MIL",
       "awayCode": "FRO",
       "dateLabel": "domenica 22 novembre, 18:00",
-      "officialUpdatedLabel": "16/11/2026 - 10:26"
+      "officialUpdatedLabel": "17/11/2026 - 08:54"
     },
     {
       "matchId": "18071",
@@ -61,7 +61,7 @@
       "homeCode": "MON",
       "awayCode": "FIO",
       "dateLabel": "lunedì 23 novembre, 20:45",
-      "officialUpdatedLabel": "16/11/2026 - 10:26"
+      "officialUpdatedLabel": "17/11/2026 - 08:54"
     },
     {
       "matchId": "18072",
@@ -69,7 +69,7 @@
       "homeCode": "NAP",
       "awayCode": "TOR",
       "dateLabel": "sabato 21 novembre, 20:45",
-      "officialUpdatedLabel": "16/11/2026 - 10:26"
+      "officialUpdatedLabel": "17/11/2026 - 12:24"
     },
     {
       "matchId": "18073",
@@ -77,7 +77,7 @@
       "homeCode": "PAR",
       "awayCode": "ROM",
       "dateLabel": "sabato 21 novembre, 18:00",
-      "officialUpdatedLabel": "16/11/2026 - 10:26"
+      "officialUpdatedLabel": "17/11/2026 - 12:21"
     },
     {
       "matchId": "18074",
@@ -85,14 +85,14 @@
       "homeCode": "SAS",
       "awayCode": "GEN",
       "dateLabel": "domenica 22 novembre, 15:00",
-      "officialUpdatedLabel": "16/11/2026 - 10:26"
+      "officialUpdatedLabel": "17/11/2026 - 08:55"
     }
   ],
-  "probabilityPlayerCount": 462,
+  "probabilityPlayerCount": 461,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
-  "availabilityUpdatedAt": "2026-11-16T18:28:21.482Z",
-  "injuredCount": 62,
+  "availabilityUpdatedAt": "2026-11-17T13:17:47.681Z",
+  "injuredCount": 63,
   "suspendedCount": 2,
   "activeCount": 603,
   "totalCount": 603,
@@ -1369,7 +1369,7 @@
       "sourceOrder": 78,
       "slot": 63,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18068",
       "probabilityMatchHash": "JUV-VEN",
       "unavailability": null,
@@ -1449,7 +1449,7 @@
       "sourceOrder": 141,
       "slot": 67,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 50,
       "probabilityMatchId": "18072",
       "probabilityMatchHash": "NAP-TOR",
       "unavailability": null,
@@ -1489,7 +1489,7 @@
       "sourceOrder": 127,
       "slot": 69,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 40,
       "probabilityMatchId": "18068",
       "probabilityMatchHash": "JUV-VEN",
       "unavailability": null,
@@ -1549,7 +1549,7 @@
       "sourceOrder": 31,
       "slot": 72,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 60,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -1619,7 +1619,7 @@
     },
     {
       "officialId": "4317",
-      "name": "N'Dicka",
+      "name": "Ndicka",
       "role": "D",
       "teamCode": "ROM",
       "initialQuotation": 13,
@@ -1649,7 +1649,7 @@
       "sourceOrder": 68,
       "slot": 77,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 70,
       "probabilityMatchId": "18069",
       "probabilityMatchHash": "LAZ-LEC",
       "unavailability": null,
@@ -2009,7 +2009,7 @@
       "sourceOrder": 184,
       "slot": 95,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 30,
+      "startingProbability": 70,
       "probabilityMatchId": "18072",
       "probabilityMatchHash": "NAP-TOR",
       "unavailability": null,
@@ -2309,7 +2309,7 @@
       "sourceOrder": 46,
       "slot": 110,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 85,
       "probabilityMatchId": "18072",
       "probabilityMatchHash": "NAP-TOR",
       "unavailability": null,
@@ -2473,7 +2473,7 @@
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
       "unavailability": "injured",
-      "unavailabilityNote": "l'attaccante KO il 7 novembre contro il Bologna vittima in campo di una lussazione acromion-claveare della spalla destra. Condizioni da valutare, ma non ci sarà nel prossimo turno al Tardini contro la Roma.",
+      "unavailabilityNote": "l'attaccante KO il 7 novembre contro il Bologna vittima in campo di una lussazione acromion-claveare della spalla destra. Recuperabile dalla fine di dicembre.",
       "unavailabilityMatchday": 12,
       "unavailabilityMatchHash": "PAR-ROM"
     },
@@ -3289,7 +3289,7 @@
       "sourceOrder": 273,
       "slot": 159,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 50,
       "probabilityMatchId": "18068",
       "probabilityMatchHash": "JUV-VEN",
       "unavailability": null,
@@ -3309,7 +3309,7 @@
       "sourceOrder": 314,
       "slot": 160,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 70,
       "probabilityMatchId": "18068",
       "probabilityMatchHash": "JUV-VEN",
       "unavailability": null,
@@ -3489,7 +3489,7 @@
       "sourceOrder": 280,
       "slot": 169,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18072",
       "probabilityMatchHash": "NAP-TOR",
       "unavailability": null,
@@ -3749,13 +3749,13 @@
       "sourceOrder": 336,
       "slot": 182,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
-      "probabilityMatchId": "18073",
-      "probabilityMatchHash": "PAR-ROM",
-      "unavailability": null,
-      "unavailabilityNote": null,
-      "unavailabilityMatchday": null,
-      "unavailabilityMatchHash": null
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
+      "unavailability": "injured",
+      "unavailabilityNote": "Il difensore sabato scorso in allenamento ha lamentato un fastidio muscolare alla gamba e ora a forte rischio la sua convocazione in campionato contro la Roma.",
+      "unavailabilityMatchday": 12,
+      "unavailabilityMatchHash": "PAR-ROM"
     },
     {
       "officialId": "6833",
@@ -5069,7 +5069,7 @@
       "sourceOrder": 76,
       "slot": 248,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 50,
       "probabilityMatchId": "18068",
       "probabilityMatchHash": "JUV-VEN",
       "unavailability": null,
@@ -5789,7 +5789,7 @@
       "sourceOrder": 195,
       "slot": 284,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 70,
       "probabilityMatchId": "18072",
       "probabilityMatchHash": "NAP-TOR",
       "unavailability": null,
@@ -6149,7 +6149,7 @@
       "sourceOrder": 403,
       "slot": 302,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 35,
+      "startingProbability": 40,
       "probabilityMatchId": "18068",
       "probabilityMatchHash": "JUV-VEN",
       "unavailability": null,
@@ -6469,7 +6469,7 @@
       "sourceOrder": 286,
       "slot": 318,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18072",
       "probabilityMatchHash": "NAP-TOR",
       "unavailability": null,
@@ -7109,7 +7109,7 @@
       "sourceOrder": 247,
       "slot": 350,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "18065",
       "probabilityMatchHash": "ATA-INT",
       "unavailability": null,
@@ -7189,7 +7189,7 @@
       "sourceOrder": 115,
       "slot": 354,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 70,
       "probabilityMatchId": "18069",
       "probabilityMatchHash": "LAZ-LEC",
       "unavailability": null,
@@ -7489,7 +7489,7 @@
       "sourceOrder": 185,
       "slot": 369,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 70,
+      "startingProbability": 30,
       "probabilityMatchId": "18072",
       "probabilityMatchHash": "NAP-TOR",
       "unavailability": null,
@@ -7509,7 +7509,7 @@
       "sourceOrder": 318,
       "slot": 370,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 70,
       "probabilityMatchId": "18072",
       "probabilityMatchHash": "NAP-TOR",
       "unavailability": null,
@@ -8989,7 +8989,7 @@
       "sourceOrder": 450,
       "slot": 444,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 40,
+      "startingProbability": 55,
       "probabilityMatchId": "18066",
       "probabilityMatchHash": "BOL-UDI",
       "unavailability": null,
@@ -9249,7 +9249,7 @@
       "sourceOrder": 137,
       "slot": 457,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "18072",
       "probabilityMatchHash": "NAP-TOR",
       "unavailability": null,
