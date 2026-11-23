@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-22T21:44:41.097Z",
+  "updatedAt": "2026-11-23T07:29:05.932Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-22T21:44:41.097Z",
+  "probabilityUpdatedAt": "2026-11-23T07:29:05.932Z",
   "probabilityMatchday": 12,
   "probabilityMatches": [
     {
@@ -61,7 +61,7 @@
       "homeCode": "MON",
       "awayCode": "FIO",
       "dateLabel": "lunedì 23 novembre, 20:45",
-      "officialUpdatedLabel": "22/11/2026 - 17:26"
+      "officialUpdatedLabel": "22/11/2026 - 22:59"
     },
     {
       "matchId": "18072",
@@ -88,7 +88,7 @@
       "officialUpdatedLabel": "22/11/2026 - 14:07"
     }
   ],
-  "probabilityPlayerCount": 455,
+  "probabilityPlayerCount": 454,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
   "availabilityUpdatedAt": "2026-11-22T21:44:41.097Z",
@@ -10769,9 +10769,9 @@
       "sourceOrder": 540,
       "slot": 533,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 20,
-      "probabilityMatchId": "18071",
-      "probabilityMatchHash": "MON-FIO",
+      "startingProbability": null,
+      "probabilityMatchId": null,
+      "probabilityMatchHash": null,
       "unavailability": null,
       "unavailabilityNote": null,
       "unavailabilityMatchday": null,
