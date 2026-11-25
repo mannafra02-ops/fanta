@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-24T19:29:04.300Z",
+  "updatedAt": "2026-11-25T14:15:37.437Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-24T19:29:04.300Z",
+  "probabilityUpdatedAt": "2026-11-25T14:15:37.437Z",
   "probabilityMatchday": 13,
   "probabilityMatches": [
     {
@@ -13,7 +13,7 @@
       "homeCode": "CAG",
       "awayCode": "MIL",
       "dateLabel": "lunedì 30 novembre, 20:45",
-      "officialUpdatedLabel": "24/11/2026 - 18:39"
+      "officialUpdatedLabel": "25/11/2026 - 14:41"
     },
     {
       "matchId": "18076",
@@ -21,7 +21,7 @@
       "homeCode": "COM",
       "awayCode": "JUV",
       "dateLabel": "domenica 29 novembre, 20:45",
-      "officialUpdatedLabel": "24/11/2026 - 19:56"
+      "officialUpdatedLabel": "25/11/2026 - 13:26"
     },
     {
       "matchId": "18077",
@@ -29,7 +29,7 @@
       "homeCode": "FRO",
       "awayCode": "PAR",
       "dateLabel": "sabato 28 novembre, 15:00",
-      "officialUpdatedLabel": "24/11/2026 - 11:01"
+      "officialUpdatedLabel": "25/11/2026 - 08:37"
     },
     {
       "matchId": "18078",
@@ -37,7 +37,7 @@
       "homeCode": "INT",
       "awayCode": "GEN",
       "dateLabel": "sabato 28 novembre, 20:45",
-      "officialUpdatedLabel": "24/11/2026 - 15:20"
+      "officialUpdatedLabel": "25/11/2026 - 08:37"
     },
     {
       "matchId": "18079",
@@ -45,7 +45,7 @@
       "homeCode": "LEC",
       "awayCode": "ATA",
       "dateLabel": "lunedì 30 novembre, 18:30",
-      "officialUpdatedLabel": "24/11/2026 - 19:05"
+      "officialUpdatedLabel": "25/11/2026 - 08:37"
     },
     {
       "matchId": "18080",
@@ -53,7 +53,7 @@
       "homeCode": "ROM",
       "awayCode": "MON",
       "dateLabel": "domenica 29 novembre, 18:00",
-      "officialUpdatedLabel": "24/11/2026 - 19:06"
+      "officialUpdatedLabel": "25/11/2026 - 08:37"
     },
     {
       "matchId": "18081",
@@ -61,7 +61,7 @@
       "homeCode": "SAS",
       "awayCode": "NAP",
       "dateLabel": "domenica 29 novembre, 15:00",
-      "officialUpdatedLabel": "24/11/2026 - 15:08"
+      "officialUpdatedLabel": "25/11/2026 - 08:37"
     },
     {
       "matchId": "18082",
@@ -69,7 +69,7 @@
       "homeCode": "TOR",
       "awayCode": "LAZ",
       "dateLabel": "sabato 28 novembre, 18:00",
-      "officialUpdatedLabel": "24/11/2026 - 18:40"
+      "officialUpdatedLabel": "25/11/2026 - 08:37"
     },
     {
       "matchId": "18083",
@@ -77,7 +77,7 @@
       "homeCode": "UDI",
       "awayCode": "FIO",
       "dateLabel": "domenica 29 novembre, 12:30",
-      "officialUpdatedLabel": "24/11/2026 - 11:00"
+      "officialUpdatedLabel": "25/11/2026 - 08:37"
     },
     {
       "matchId": "18084",
@@ -85,17 +85,17 @@
       "homeCode": "VEN",
       "awayCode": "BOL",
       "dateLabel": "venerdì 27 novembre, 20:45",
-      "officialUpdatedLabel": "24/11/2026 - 11:00"
+      "officialUpdatedLabel": "25/11/2026 - 08:37"
     }
   ],
-  "probabilityPlayerCount": 458,
+  "probabilityPlayerCount": 461,
   "injurySource": "https://www.fantacalcio.it/infortunati-serie-a",
   "suspensionSource": "https://www.fantacalcio.it/serie-a/squalificati",
   "availabilityUpdatedAt": "2026-11-24T19:29:04.300Z",
   "injuredCount": 69,
   "suspendedCount": 0,
-  "activeCount": 603,
-  "totalCount": 603,
+  "activeCount": 606,
+  "totalCount": 606,
   "players": [
     {
       "officialId": "5585",
@@ -1949,7 +1949,7 @@
       "sourceOrder": 99,
       "slot": 92,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 20,
+      "startingProbability": 50,
       "probabilityMatchId": "18076",
       "probabilityMatchHash": "COM-JUV",
       "unavailability": null,
@@ -3429,7 +3429,7 @@
       "sourceOrder": 360,
       "slot": 166,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 50,
       "probabilityMatchId": "18075",
       "probabilityMatchHash": "CAG-MIL",
       "unavailability": null,
@@ -5229,7 +5229,7 @@
       "sourceOrder": 245,
       "slot": 256,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 55,
       "probabilityMatchId": "18075",
       "probabilityMatchHash": "CAG-MIL",
       "unavailability": null,
@@ -7369,7 +7369,7 @@
       "sourceOrder": 458,
       "slot": 363,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 35,
+      "startingProbability": 20,
       "probabilityMatchId": "18075",
       "probabilityMatchHash": "CAG-MIL",
       "unavailability": null,
@@ -8429,7 +8429,7 @@
       "sourceOrder": 361,
       "slot": 416,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 55,
+      "startingProbability": 60,
       "probabilityMatchId": "18075",
       "probabilityMatchHash": "CAG-MIL",
       "unavailability": null,
@@ -10669,7 +10669,7 @@
       "sourceOrder": 359,
       "slot": 528,
       "addedAt": "2026-09-08T10:18:54.131Z",
-      "startingProbability": 70,
+      "startingProbability": 60,
       "probabilityMatchId": "18075",
       "probabilityMatchHash": "CAG-MIL",
       "unavailability": null,
@@ -12152,6 +12152,66 @@
       "startingProbability": null,
       "probabilityMatchId": null,
       "probabilityMatchHash": null,
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
+    },
+    {
+      "officialId": "2103",
+      "name": "Pellegri",
+      "role": "A",
+      "teamCode": "TOR",
+      "initialQuotation": 1,
+      "quotation": 1,
+      "fvm": 1,
+      "active": true,
+      "sourceOrder": 603,
+      "slot": 603,
+      "addedAt": "2026-11-25T14:15:37.421Z",
+      "startingProbability": 15,
+      "probabilityMatchId": "18082",
+      "probabilityMatchHash": "TOR-LAZ",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
+    },
+    {
+      "officialId": "7653",
+      "name": "Sonzogni",
+      "role": "P",
+      "teamCode": "ATA",
+      "initialQuotation": 1,
+      "quotation": 1,
+      "fvm": 1,
+      "active": true,
+      "sourceOrder": 604,
+      "slot": 604,
+      "addedAt": "2026-11-25T14:15:37.421Z",
+      "startingProbability": 5,
+      "probabilityMatchId": "18079",
+      "probabilityMatchHash": "LEC-ATA",
+      "unavailability": null,
+      "unavailabilityNote": null,
+      "unavailabilityMatchday": null,
+      "unavailabilityMatchHash": null
+    },
+    {
+      "officialId": "7662",
+      "name": "Grandu",
+      "role": "D",
+      "teamCode": "CAG",
+      "initialQuotation": 1,
+      "quotation": 1,
+      "fvm": 1,
+      "active": true,
+      "sourceOrder": 605,
+      "slot": 605,
+      "addedAt": "2026-11-25T14:15:37.421Z",
+      "startingProbability": 50,
+      "probabilityMatchId": "18075",
+      "probabilityMatchHash": "CAG-MIL",
       "unavailability": null,
       "unavailabilityNote": null,
       "unavailabilityMatchday": null,
