@@ -1,10 +1,10 @@
 {
   "schema": 3,
-  "updatedAt": "2026-11-26T21:26:55.014Z",
+  "updatedAt": "2026-11-27T08:20:12.973Z",
   "source": "https://www.fantacalcio.it/quotazioni-fantacalcio",
   "sourceLabel": "Fantacalcio.it · ruoli Classic, quotazioni, FVM, titolarità e indisponibili",
   "probabilitySource": "https://www.fantacalcio.it/probabili-formazioni-serie-a",
-  "probabilityUpdatedAt": "2026-11-26T21:26:55.014Z",
+  "probabilityUpdatedAt": "2026-11-27T08:20:12.973Z",
   "probabilityMatchday": 13,
   "probabilityMatches": [
     {
@@ -21,7 +21,7 @@
       "homeCode": "COM",
       "awayCode": "JUV",
       "dateLabel": "domenica 29 novembre, 20:45",
-      "officialUpdatedLabel": "26/11/2026 - 16:12"
+      "officialUpdatedLabel": "26/11/2026 - 22:54"
     },
     {
       "matchId": "18077",
@@ -45,7 +45,7 @@
       "homeCode": "LEC",
       "awayCode": "ATA",
       "dateLabel": "lunedì 30 novembre, 18:30",
-      "officialUpdatedLabel": "26/11/2026 - 16:05"
+      "officialUpdatedLabel": "26/11/2026 - 23:01"
     },
     {
       "matchId": "18080",
@@ -1269,7 +1269,7 @@
       "sourceOrder": 148,
       "slot": 58,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 90,
+      "startingProbability": 60,
       "probabilityMatchId": "18079",
       "probabilityMatchHash": "LEC-ATA",
       "unavailability": null,
@@ -1749,7 +1749,7 @@
       "sourceOrder": 127,
       "slot": 82,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 90,
       "probabilityMatchId": "18079",
       "probabilityMatchHash": "LEC-ATA",
       "unavailability": null,
@@ -1789,7 +1789,7 @@
       "sourceOrder": 258,
       "slot": 84,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 85,
+      "startingProbability": 65,
       "probabilityMatchId": "18079",
       "probabilityMatchHash": "LEC-ATA",
       "unavailability": null,
@@ -3849,7 +3849,7 @@
       "sourceOrder": 149,
       "slot": 187,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 50,
+      "startingProbability": 55,
       "probabilityMatchId": "18079",
       "probabilityMatchHash": "LEC-ATA",
       "unavailability": null,
@@ -3869,7 +3869,7 @@
       "sourceOrder": 64,
       "slot": 188,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 60,
+      "startingProbability": 55,
       "probabilityMatchId": "18079",
       "probabilityMatchHash": "LEC-ATA",
       "unavailability": null,
@@ -4589,7 +4589,7 @@
       "sourceOrder": 169,
       "slot": 224,
       "addedAt": "2026-09-08T10:18:54.130Z",
-      "startingProbability": 80,
+      "startingProbability": 85,
       "probabilityMatchId": "18079",
       "probabilityMatchHash": "LEC-ATA",
       "unavailability": null,
